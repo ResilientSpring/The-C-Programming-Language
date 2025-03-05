@@ -24,4 +24,12 @@ int main() {
 
 	printf("String's length is: %d.\n", length);
 
+//	str = "Will he invigilate the invigilators?";
+
+	char str2[] = "Will he invigilate the invigilators?";
+
+	length = strlen(str2);
+
+	printf("String's length is: %d.\n", length);
+
 }
