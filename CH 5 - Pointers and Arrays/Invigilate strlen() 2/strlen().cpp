@@ -4,15 +4,15 @@
 * strlen: return the length of string s
 */
 
-int strlen(char* s) {
+int strlen(char* str) {
 
-	int n;
+	int length;
 
-	for (n = 0; *s != '\0'; s++)
-		n++;
+	for (length = 0; *str != '\0'; str++)
+		length++;
 
 
-	return n;
+	return length;
 
 }
 
