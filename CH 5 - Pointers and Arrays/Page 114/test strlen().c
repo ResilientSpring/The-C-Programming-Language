@@ -15,7 +15,7 @@ int main() {
 
 	int length = strlen("accomodation.");
 
-	printf("The length of the string is %d.\n ", length);
+	printf("The length of the string is %d.\n", length);
 
 	length = strlen("Interface in C/C++.");
 
