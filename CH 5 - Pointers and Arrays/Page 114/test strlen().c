@@ -9,4 +9,9 @@ int strlen(char* str) {
 }
 
 
+int main() {
 
+	int length = strlen("accomodation.");
+
+	
+}
