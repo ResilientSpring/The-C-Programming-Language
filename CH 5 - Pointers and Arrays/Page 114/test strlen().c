@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int strlen(char* str) {
 
 	int length;
@@ -13,5 +15,5 @@ int main() {
 
 	int length = strlen("accomodation.");
 
-	
+	printf("The length of the string is %d.\n ", length);
 }
