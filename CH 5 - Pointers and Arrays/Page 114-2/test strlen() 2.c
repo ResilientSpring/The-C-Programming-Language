@@ -17,7 +17,7 @@ int main() {
 
 	printf("The length of the string is %d.\n", length);
 
-	char array[100] = "stipulate.";   // char array.
+	char array[100] = "stipulate.";   
 
-	length = strlen(array);
+	length = strlen(array);  // char array.
 }
