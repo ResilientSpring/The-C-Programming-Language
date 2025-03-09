@@ -26,4 +26,6 @@ int main() {
 	length = strlen("");
 
 	printf("The length of the string \"\" is %d.\n", length);
+
+	char* ptr;
 }
