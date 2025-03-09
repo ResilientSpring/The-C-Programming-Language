@@ -2,8 +2,12 @@
 
 int strlen(char* str) {
 
+	int length;
 
+	for (length = 0; *str != NULL; str++)
+		length++;
 
+	return length;
 }
 
 
