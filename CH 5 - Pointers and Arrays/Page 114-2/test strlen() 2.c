@@ -19,5 +19,5 @@ int main() {
 
 	char array[100] = "stipulate.";   // char array.
 
-	
+	length = strlen(array);
 }
