@@ -22,4 +22,8 @@ int main() {
 	length = strlen(array);  // char array.
 
 	printf("The length of the array of character excluding \\0 is %d.\n", length);
+
+	length = strlen("");
+
+	printf("The length of the string \"\" is %d.\n", length);
 }
