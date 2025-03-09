@@ -13,11 +13,13 @@ int strlen(char* str) {
 
 int main() {
 
-	int length = strlen("accomodation.");  // string c constant.
+	int length = strlen("accommodation.");  // string c constant.
 
 	printf("The length of the string is %d.\n", length);
 
 	char array[100] = "stipulate.";   
 
 	length = strlen(array);  // char array.
+
+	printf("The length of the array of character is %d.\n", length);
 }
