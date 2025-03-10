@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int strlen(char* str) {
+int strlen(const char* str) {
 
 	int length;
 
@@ -17,9 +17,15 @@ int main() {
 
 	printf("The length of the string is %d.\n", length);
 
-	char array[100] = "stipulate.";   
+	char array[100] = "stipulate.";
 
 	length = strlen(array);  // char array.
 
 	printf("The length of the array of character excluding \\0 is %d.\n", length);
+
+	length = strlen("");
+
+	printf("The length of the string \"\" is %d.\n", length);
+
+	char* ptr;
 }
