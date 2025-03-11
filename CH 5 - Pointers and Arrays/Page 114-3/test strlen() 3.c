@@ -29,5 +29,5 @@ int main() {
 
 	char* ptr;
 
-
+	ptr = "backdrop";
 }
