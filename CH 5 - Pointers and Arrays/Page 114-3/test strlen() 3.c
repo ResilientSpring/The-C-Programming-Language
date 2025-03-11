@@ -30,4 +30,8 @@ int main() {
 	char* ptr;
 
 	ptr = "backdrop";
+
+	length = strlen(ptr);
+
+	printf("The length of a pointer to characters is %d. \n", length);
 }
