@@ -28,4 +28,6 @@ int main() {
 	printf("The length of the string \"\" is %d.\n", length);
 
 	char* ptr;
+
+
 }
