@@ -47,6 +47,9 @@ int main() {
 //    a string constant generates a pointer to itself.
 //    a string constant generates a pointer that contains the memory address of itself.
 //    a string constant generates a pointer containing the memory address of itself.
+//
+//
+//
 
 // References:
 // 
