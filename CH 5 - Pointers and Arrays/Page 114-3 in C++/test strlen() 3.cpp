@@ -29,9 +29,20 @@ int main() {
 
 	const char* ptr;
 
-	ptr = "backdrop";
+	ptr = "backdrop"; // [Note 1]
 
 	length = strlen(ptr);
 
 	printf("The length of a pointer to characters is %d. \n", length);
 }
+
+// Note:
+// 
+// 1. When C++ compiler encounters a string constant, it generates a pointer to the string constant.[1]
+//
+//    Put in in another way, a string constant generates a pointer (pointing) to itself. 
+
+// References:
+// 
+// 1. <C++: a beginner's guide>, page 154.
+// 
