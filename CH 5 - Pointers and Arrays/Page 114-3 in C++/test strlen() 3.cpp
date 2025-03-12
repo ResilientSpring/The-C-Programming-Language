@@ -40,6 +40,7 @@ int main() {
 // 
 // 1. When C++ compiler encounters a string constant, it generates a pointer to the string constant.[1]
 //
+//    Put in in another way, a string constant generates a pointer (pointing) to itself. 
 
 // References:
 // 
