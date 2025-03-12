@@ -43,5 +43,5 @@ int main() {
 
 // References:
 // 
-// 1. 
+// 1. <C++: a beginner's guide>, page 154.
 // 
