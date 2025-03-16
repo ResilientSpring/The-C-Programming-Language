@@ -4,6 +4,17 @@
 // 如果輸入不是合法的整數，結束程式的執行。
 int main() {
 
+	int n;
+
+	if (scanf("%d", &n) == 1)
+		tenBaseTo2_8_16base(n);
+	else
+		printf("Error! Invalid integer input!");
+
+}
+
+char* tenBaseTo2_8_16base(int decimal) {
+
 
 
 }
