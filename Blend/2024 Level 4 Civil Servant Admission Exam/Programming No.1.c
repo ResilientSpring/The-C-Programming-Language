@@ -12,6 +12,12 @@ int main() {
 	else
 		printf("Error! Invalid integer input!");
 
+	for (; scanf("%d", &n) == 1;) {
+
+
+
+	}
+
 }
 
 char* tenBaseTo2_8_16base(int decimal) {
