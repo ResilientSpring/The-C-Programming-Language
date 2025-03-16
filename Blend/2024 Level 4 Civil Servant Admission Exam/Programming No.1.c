@@ -15,9 +15,12 @@ int main() {
 
 char* tenBaseTo2_8_16base(int decimal) {
 
-	for (int i = 255; i > 0; i /= 2) {
+	for (int i = 128; i > 0; i >> 1) {
 
-
+		if (decimal & i)
+			printf("1");
+		else
+			printf("0");
 
 	}
 
