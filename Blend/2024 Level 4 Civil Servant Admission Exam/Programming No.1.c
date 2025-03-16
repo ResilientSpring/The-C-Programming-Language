@@ -14,9 +14,9 @@ int main() {
 	else
 		printf("Error! Invalid integer input!");
 
-	for (; scanf("%d", &n) == 1;) {
+	for (; ;) {
 
-
+		printf("Input an integer: \n");
 
 	}
 
