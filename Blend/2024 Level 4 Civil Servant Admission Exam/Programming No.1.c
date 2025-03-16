@@ -15,7 +15,11 @@ int main() {
 
 char* tenBaseTo2_8_16base(int decimal) {
 
+	for (int i = 255; i > 0; i /= 2) {
 
+
+
+	}
 
 }
 
