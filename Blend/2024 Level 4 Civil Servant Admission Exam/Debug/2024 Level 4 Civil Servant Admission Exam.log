@@ -1,4 +1,4 @@
 ﻿  Programming No.1.c
 D:\Coding Projects\The-C-Programming-Language\Blend\2024 Level 4 Civil Servant Admission Exam\Programming No.1.c(11,22): warning C4013: 'tenBaseTo2_8_16base' undefined; assuming extern returning int
-D:\Coding Projects\The-C-Programming-Language\Blend\2024 Level 4 Civil Servant Admission Exam\Programming No.1.c(17,7): error C2040: 'tenBaseTo2_8_16base': 'char *(int)' differs in levels of indirection from 'int ()'
-D:\Coding Projects\The-C-Programming-Language\Blend\2024 Level 4 Civil Servant Admission Exam\Programming No.1.c(19,29): warning C4552: '>>': result of expression not used
+D:\Coding Projects\The-C-Programming-Language\Blend\2024 Level 4 Civil Servant Admission Exam\Programming No.1.c(23,7): error C2040: 'tenBaseTo2_8_16base': 'char *(int)' differs in levels of indirection from 'int ()'
+D:\Coding Projects\The-C-Programming-Language\Blend\2024 Level 4 Civil Servant Admission Exam\Programming No.1.c(25,29): warning C4552: '>>': result of expression not used
