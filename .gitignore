@@ -2,6 +2,38 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+# but not Directory.Build.rsp, as it configures directory-level build defaults
+!Directory.Build.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
 /.vs
 /Lesson - 5 Pointers and Arrays/.vs
 /CH 5 - Pointers and Arrays/.vs/CH 5 - Pointers and Arrays/v16/Browse.VC.db
@@ -28,3 +60,9 @@
 /Blend/2024 Level 4 Civil Servant Admission Exam/Debug
 /Blend/2024 Level 4 Civil Servant Admission Exam/Release
 /Blend/Release
+/Chapter 1 - A Tutorial Introduction/.vs/Chapter 1 - A Tutorial Introduction/v16
+/Chapter 1 - A Tutorial Introduction/1.4 Symbolic Constants/Debug
+/Chapter 1 - A Tutorial Introduction/1.1 Getting Started/Debug
+/Chapter 1 - A Tutorial Introduction/Debug
+/Chapter 1 - A Tutorial Introduction/Exercise 1-2/Debug
+/Chapter 1 - A Tutorial Introduction/1.2 Variables and Arithmetic Expressions/Debug
