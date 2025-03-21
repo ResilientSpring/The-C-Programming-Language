@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1 Getting Started", "1.1 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 1-2", "Exercise 1-2\Exercise 1-2.vcxproj", "{58CFE544-4DCD-4479-BC1E-83FB43274439}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2 Variables and Arithmetic Expressions", "1.2 Variables and Arithmetic Expressions\1.2 Variables and Arithmetic Expressions.vcxproj", "{13FEEAF1-6A78-4446-A871-0942216C99A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{58CFE544-4DCD-4479-BC1E-83FB43274439}.Release|x64.Build.0 = Release|x64
 		{58CFE544-4DCD-4479-BC1E-83FB43274439}.Release|x86.ActiveCfg = Release|Win32
 		{58CFE544-4DCD-4479-BC1E-83FB43274439}.Release|x86.Build.0 = Release|Win32
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Debug|x64.ActiveCfg = Debug|x64
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Debug|x64.Build.0 = Debug|x64
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Debug|x86.Build.0 = Debug|Win32
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Release|x64.ActiveCfg = Release|x64
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Release|x64.Build.0 = Release|x64
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Release|x86.ActiveCfg = Release|Win32
+		{13FEEAF1-6A78-4446-A871-0942216C99A3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
