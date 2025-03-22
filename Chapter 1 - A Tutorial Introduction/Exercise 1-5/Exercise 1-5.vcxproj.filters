@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="allotted.c">
+    <ClCompile Include="in reverse order.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

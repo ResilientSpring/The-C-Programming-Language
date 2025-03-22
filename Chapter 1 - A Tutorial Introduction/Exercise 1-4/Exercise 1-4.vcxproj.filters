@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="allotted.c">
+    <ClCompile Include="bury.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
