@@ -30,6 +30,8 @@ struct key* binsearch(char* word, struct key* tab, int n) {
 
 		mid = low + (high - low) / 2;
 
+		if((cond = strcmp(word, mid.)) < 0)
+
 	}
 
 }
