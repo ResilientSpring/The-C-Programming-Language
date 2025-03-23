@@ -23,6 +23,13 @@ struct key* binsearch(char* word, struct key* tab, int n) {
 
 	int cond;
 	struct key* low = &tab[0];
-	struct key* hight = &tab[n];
+	struct key* high = &tab[n];
+	struct key* mid;
+
+	while (low < high) {
+
+		mid = low + (high - low) / 2;
+
+	}
 
 }
