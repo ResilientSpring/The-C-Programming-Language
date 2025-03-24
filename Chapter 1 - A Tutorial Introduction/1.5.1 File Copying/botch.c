@@ -4,6 +4,13 @@
 
 int main() {
 
+	char c;
 
+	c = getchar();  // read a chracter.
+
+	while (c != EOF) // while (character is not end-of-file indicator)
+	{  
+
+	}
 
 }
