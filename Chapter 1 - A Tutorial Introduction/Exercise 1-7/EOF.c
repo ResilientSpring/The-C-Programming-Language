@@ -6,4 +6,8 @@ int main() {
 
 	putchar("------------");
 
+	printf("\n\n ==============");
+
+	printf("The value of EOF is %5d.\n", EOF);
+
 }
