@@ -14,7 +14,7 @@ main() {
 
 	fahr = lower;
 
-	printf("%25s\n", heading);
+	printf("%25s\n\n", heading);
 
 	while (fahr <= upper)
 	{
