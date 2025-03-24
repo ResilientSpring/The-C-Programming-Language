@@ -20,7 +20,7 @@ main() {
 	{
 		celsius = 5 * (fahr - 32) / 9;
 
-		printf("%25s\n%d\t%d\n", heading, fahr, celsius);
+		printf("%d\t%d\n", fahr, celsius);
 
 
 		fahr = fahr + step;
