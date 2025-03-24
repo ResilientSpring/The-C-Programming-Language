@@ -11,6 +11,8 @@ int main() {
 	while (c != EOF) // while (character is not end-of-file indicator)
 	{  
 		putchar(c);  // output the character just read.
+
+		c = getchar();  // read a character.
 	}
 
 }
