@@ -4,7 +4,7 @@ int main() {
 
 	char c;
 
-	// getchar() gets a character from a text stream (aka buffer, an array of characters), 
+	// getchar() gets a character from a text stream (aka buffer, an array of characters, etc), 
 	// which is a sequence of characters followed by a newline character '\n'.
 	c = getchar(); // [Note1]
 
