@@ -6,9 +6,13 @@ int main() {
 
 	// getchar() gets a character from a text stream (aka buffer, an array of characters), 
 	// which is a sequence of characters followed by a newline character '\n'.
-	c = getchar();
+	c = getchar(); // [Note1]
 
 }
+
+// Note:
+// 1. 
+
 
 /* References:
 * 
