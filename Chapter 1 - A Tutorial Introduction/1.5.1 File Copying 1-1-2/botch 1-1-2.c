@@ -7,9 +7,11 @@ int main() {
 	//  getchar() gets a character from a text stream (aka buffer, an array of characters, etc).
 	c = getchar(); // [Note1]
 
-	while (c != EOF)
+	while (c != EOF) {
+
 		putchar(c);
 
+	}
 
 }
 
