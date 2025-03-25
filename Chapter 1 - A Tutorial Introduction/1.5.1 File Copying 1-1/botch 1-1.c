@@ -21,7 +21,7 @@ int main() {
 //
 // 3. The library might convert carriage return '\r' to linefeed '\n' on input. [1]:164
 // 
-// 4. Text stream has aliases "standard input" and "standard stream". [1]:164 [2]:403
+// 4. The stream has aliases "standard input", "standard stream", "internal buffer". [1]:164 [2]:403
 
 /* References:
 * 
