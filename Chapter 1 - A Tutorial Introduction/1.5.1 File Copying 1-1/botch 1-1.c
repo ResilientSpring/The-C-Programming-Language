@@ -15,7 +15,7 @@ int main() {
 // Note:
 // 
 // 1. 輸入的字元先被直接return到螢幕上, b/c 系統為了要讓我們知道究竟輸入了哪些字,  同時這些輸入的字元
-//    會被存在 buffer 中，等到使用者打了 Enter 才把 buffer 裡的字元送到程式. [3]:4 [Note2]
+//    會被存在 buffer 中，等到使用者打了 Enter 才把 buffer 裡的字元送到程式. [3]:4 [Note2, 4]
 //
 // 2. A text stream is a sequence of characters followed by a newline character '\n'. [1] [Note3]
 //
