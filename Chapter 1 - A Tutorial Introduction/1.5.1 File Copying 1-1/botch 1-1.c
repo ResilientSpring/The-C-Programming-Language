@@ -2,6 +2,8 @@
 
 int main() {
 
+	char c;
 
+	c = getchar();
 
 }
