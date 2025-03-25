@@ -4,8 +4,7 @@ int main() {
 
 	char c;
 
-	// getchar() gets a character from a text stream (aka buffer, an array of characters, etc), 
-	// which is a sequence of characters followed by a newline character '\n'.
+	// getchar() gets a character from a text stream (aka buffer, an array of characters, etc).
 	c = getchar(); // [Note1]
 
 }
@@ -13,6 +12,10 @@ int main() {
 // Note:
 // 1. 輸入的字元先被直接return到螢幕上, b/c 系統為了要讓我們知道究竟打了哪些字,  同時這些輸入的字元會被存在
 //    buffer 中，等到使用者打了 Enter 才把 buffer 裡的字元送到程式. [3]:4 [Note2]
+//
+// 2. A text stream is a sequence of characters followed by a newline character '\n'. [1] [Note3]
+//
+// 3. The library might convert carriage return '\r' to linefeed '\n' on input. [1]:164
 
 /* References:
 * 
