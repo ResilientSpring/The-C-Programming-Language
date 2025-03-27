@@ -4,7 +4,7 @@ int main() {
 
 	while (getchar() != EOF) {
 
-		
+		putchar(getchar());
 
 	}
 
