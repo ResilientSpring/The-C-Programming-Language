@@ -18,5 +18,8 @@
     <ClCompile Include="admission exam.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="entrance exam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
