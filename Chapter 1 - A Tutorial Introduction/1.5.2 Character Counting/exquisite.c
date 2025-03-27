@@ -10,5 +10,5 @@ int main() {
 	while (getchar() != EOF)
 		++nc;
 
-
+	printf("%ld\n", nc);
 }
