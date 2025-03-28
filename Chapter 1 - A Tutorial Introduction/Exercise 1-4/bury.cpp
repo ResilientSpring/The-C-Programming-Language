@@ -4,7 +4,7 @@
 #define UPPER 300
 #define STEP   20
 
-#define HEADING "Celsius to Farenheit\n\n"
+#define HEADING "Celsius to Fahrenheit\n\n"
 
 int main() {
 
@@ -12,13 +12,13 @@ int main() {
 
 	int Celsius;
 	
-	float Farenheit;
+	float Fahrenheit;
 
-	for (Celsius = LOWER; Celsius <= 300; Celsius = Celsius + 20) {
+	for (Celsius = LOWER; Celsius <= UPPER; Celsius = Celsius + STEP) {
 
-		Farenheit = !((5.0 / 9.0) * (Celsius - 32.0));
+		Fahrenheit = !((5.0 / 9.0) * (Celsius - 32.0));
 
-		printf("%3d%5.2f\n", Celsius, Farenheit);
+		printf("%3d%5.2f\n", Celsius, Fahrenheit);
 
 	}
 
