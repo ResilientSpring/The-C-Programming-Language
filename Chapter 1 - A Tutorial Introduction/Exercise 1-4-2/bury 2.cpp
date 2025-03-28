@@ -4,7 +4,7 @@
 #define UPPER 300
 #define STEP   20
 
-#define HEADING "Celsius to Farenheit\n\n"
+#define HEADING "Celsius to Fahrenheit\n\n"
 
 int main() {
 
