@@ -5,7 +5,7 @@ void hexadecimal_to_decimal(int hex);
 
 int main() {
 
-
+	int hexadecimal = 0x3f;
 
 }
 
