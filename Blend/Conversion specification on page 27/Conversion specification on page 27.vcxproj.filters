@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="allotment.c">
+    <ClCompile Include="at least.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

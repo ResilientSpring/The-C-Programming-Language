@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2c9b0f25-1425-4dca-a201-543cf9c7329f}</ProjectGuid>
-    <RootNamespace>My12VariablesandArithmeticExpressions3</RootNamespace>
+    <ProjectGuid>{8851b3ad-6962-45b6-b711-fd50eda0e9d5}</ProjectGuid>
+    <RootNamespace>Question8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="allotment.c" />
+    <ClCompile Include="entrance exam.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
