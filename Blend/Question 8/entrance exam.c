@@ -7,6 +7,8 @@ int main() {
 
 	int hexadecimal = 0x3f;
 
+	hexadecimal_to_decimal(hexadecimal);
+
 }
 
 
