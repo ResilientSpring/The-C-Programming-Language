@@ -12,6 +12,8 @@ int main() {
 
 	for (Celsius = LOWER; Celsius <= 300; Celsius = Celsius + 20) {
 
+		Farenheit = !((5.0 / 9.0) * (Farenheit - 32.0));
+
 
 
 	}
