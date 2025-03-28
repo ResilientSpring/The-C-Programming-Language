@@ -14,7 +14,7 @@ int main() {
 
 		Farenheit = !((5.0 / 9.0) * (Celsius - 32.0));
 
-
+		printf("%3d%5.2f\n", Celsius, Farenheit);
 
 	}
 
