@@ -6,6 +6,10 @@
 
 int main() {
 
+	int Celsius;
+	
+	float Farenheit;
+
 
 
 
