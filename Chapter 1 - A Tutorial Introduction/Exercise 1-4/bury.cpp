@@ -10,7 +10,11 @@ int main() {
 	
 	float Farenheit;
 
+	for (Celsius = LOWER; Celsius <= 300; Celsius = Celsius + 20) {
 
+
+
+	}
 
 
 }
