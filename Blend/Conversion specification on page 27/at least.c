@@ -16,6 +16,7 @@ main() {
 	{
 		celsius = (5.0 / 9.0) * (fahr - 32.0);
 
+		// %2f says that the number is to be "at least" two characters width, but the how many characters after the decimal point is not constrained. 
 		printf("%2f %6.1f\n", fahr, celsius);
 
 		fahr = fahr + step;
