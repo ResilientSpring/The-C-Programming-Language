@@ -11,14 +11,14 @@ int main() {
 	printf(HEADING);
 
 	int Celsius;
-	
+
 	float Farenheit;
 
 	for (Celsius = LOWER; Celsius <= 300; Celsius = Celsius + 20) {
 
 		Farenheit = !((5.0 / 9.0) * (Celsius - 32.0));
 
-		printf("%3d%5.2f\n", Celsius, Farenheit);
+		printf("%3d%8.2f\n", Celsius, Farenheit);
 
 	}
 
