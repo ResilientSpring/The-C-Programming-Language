@@ -6,9 +6,9 @@ main() {
 
 	int lower, upper, step;
 
-	lower = 0;  // lower limit of temperature table.
-	upper = 300; // upper limit 
-	step = 20; // step size
+	lower = 0;  
+	upper = 300;
+	step = 20; 
 
 	fahr = lower;
 
@@ -20,7 +20,7 @@ main() {
 		// but the number of characters that must follow the decimal point is not constrained. 
 		printf("%2f %6.1f\n", fahr, celsius);
 
-		fahr = fahr + step;
+		fahr = fahr + step;  // fahr will be 3 character wide when reaching 100.
 	}
 
 }
