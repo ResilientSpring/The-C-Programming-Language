@@ -14,7 +14,7 @@ int main() {
 	
 	float Fahrenheit;
 
-	for (Celsius = LOWER; Celsius <= 300; Celsius = Celsius + 20) {
+	for (Celsius = LOWER; Celsius <= UPPER; Celsius = Celsius + STEP) {
 
 		Fahrenheit = !((5.0 / 9.0) * (Celsius - 32.0));
 
