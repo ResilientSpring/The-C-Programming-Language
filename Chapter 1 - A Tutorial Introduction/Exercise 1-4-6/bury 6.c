@@ -31,10 +31,11 @@ int main() {
 // References:
 // 
 // 1. https://chatgpt.com/c/67e6983a-ca14-8008-8593-50c0e229f56a
+// 2. https://copilot.microsoft.com/chats/i2Ae65Mu5eakrJqANa8mh
 // 
 
 // Notes:
 // 
-// 1.
+// 1. 5/9 is treated as integer division, which results in 0 because both operands are integers.[2]
 // 
 // 
