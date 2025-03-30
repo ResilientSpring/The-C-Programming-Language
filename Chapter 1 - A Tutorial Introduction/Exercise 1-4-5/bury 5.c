@@ -19,6 +19,8 @@ int main() {
 		// ~x flips all bits in x, which is fine for integers but undefined for floats. [1]
 		// Fahrenheit = ~((5.0 / 9.0) * (Celsius - 32.0));
 
+		Fahrenheit = ~((5 / 9) * (Celsius - 32));
+
 		printf("%3d%8.2f\n", Celsius, Fahrenheit);
 
 	}
