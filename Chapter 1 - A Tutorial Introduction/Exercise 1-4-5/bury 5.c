@@ -30,5 +30,5 @@ int main() {
 
 // References:
 // 
-// 1. 
+// 1. https://chatgpt.com/c/67e6983a-ca14-8008-8593-50c0e229f56a
 // 
