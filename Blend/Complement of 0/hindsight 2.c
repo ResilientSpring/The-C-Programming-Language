@@ -7,4 +7,6 @@ int main() {
 
 	printf("%u.\n", ~0);
 
+	printf("%d.\n", ~5);
+
 }
