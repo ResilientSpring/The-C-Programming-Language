@@ -28,4 +28,4 @@ int main() {
 
 // References:
 // 1. https://stackoverflow.com/questions/1036141/bitwise-not-operator-in-c-with-regards-to-little-endian-and-big-endian
-// 2. 
+// 2. https://stackoverflow.com/questions/39042893/bitwise-not-in-c
