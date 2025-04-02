@@ -20,8 +20,7 @@ int get_valid_integer() {
 
 // ㄧ计
 int main() {
-    int n, i, num;
-    int max = -2147483648; // 砞﹚﹍程程俱计
+    int n, i, num, max;
 
     printf("叫块计计秖: ");
     scanf("%d", &n);
