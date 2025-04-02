@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <limits.h>
 
 // ㄧ计ノㄓ眔ㄏノ块Τ俱计
 int get_valid_integer() {
@@ -22,7 +21,7 @@ int get_valid_integer() {
 // ㄧ计
 int main() {
     int n, i, num;
-    int max = INT_MIN; // 砞﹚﹍程程俱计
+    int max = -2147483648; // 砞﹚﹍程程俱计
 
     printf("叫块计计秖: ");
     scanf("%d", &n);
@@ -37,6 +36,7 @@ int main() {
     printf("程: %d\n", max);
     return 0;
 }
+
 
 
 // Source: https://chatgpt.com/c/67ecffa3-a518-8008-bd4c-7152bf40e1f1
