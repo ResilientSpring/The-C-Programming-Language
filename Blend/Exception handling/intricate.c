@@ -37,3 +37,6 @@ int main() {
     printf("³Ì¤j­È¬°: %d\n", max);
     return 0;
 }
+
+
+// Source: https://chatgpt.com/c/67ecffa3-a518-8008-bd4c-7152bf40e1f1
