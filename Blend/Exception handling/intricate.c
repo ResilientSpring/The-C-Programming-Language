@@ -6,35 +6,40 @@ int get_valid_integer() {
     int num;
     char ch;
     while (1) {
-        printf("請輸入一個整數: ");
+        printf("請輸入一個整數 (輸入 q 退出): ");
         if (scanf("%d", &num) == 1) {
             while ((ch = getchar()) != '\n' && ch != EOF); // 清除輸入緩衝區
             return num;
         }
         else {
-            printf("輸入錯誤！請輸入有效的整數。\n");
             while ((ch = getchar()) != '\n' && ch != EOF); // 清除錯誤輸入
+            return -2147483648; // 以特殊值表示退出
         }
     }
 }
 
 // 主函數
 int main() {
-    int n, i, num, max;
+    int num;
+    int max = -2147483648; // 設定初始最大值為最小可能的整數
 
-    printf("請輸入數字的數量: ");
-    scanf("%d", &n);
-
-    for (i = 0; i < n; i++) {
+    while (1) {
         num = get_valid_integer();
+        if (num == -2147483648) break; // 若輸入錯誤則退出
         if (num > max) {
             max = num;
         }
     }
 
-    printf("最大值為: %d\n", max);
+    if (max != -2147483648) {
+        printf("最大值為: %d\n", max);
+    }
+    else {
+        printf("未輸入有效數字。\n");
+    }
     return 0;
 }
+
 
 
 
