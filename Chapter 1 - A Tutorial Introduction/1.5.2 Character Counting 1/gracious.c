@@ -2,12 +2,12 @@
 
 int main() {
 
-	int counter;
+	int counter = 0;
 	char character;
 
 	while ((character = getchar()) != EOF) {
 
-
+		counter++;
 
 	}
 
