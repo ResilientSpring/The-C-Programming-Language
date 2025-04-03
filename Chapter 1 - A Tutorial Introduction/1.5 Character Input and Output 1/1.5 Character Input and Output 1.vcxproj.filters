@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exquisitely.c">
+    <ClCompile Include="intricate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
