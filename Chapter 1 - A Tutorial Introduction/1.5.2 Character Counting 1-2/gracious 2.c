@@ -14,8 +14,10 @@ int main() {
 
 		printf("\n");
 
-		c = getchar();
+	//	c = getchar();
 
 	}
+
+	printf("%d\n", counter);
 
 }
