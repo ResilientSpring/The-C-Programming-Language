@@ -4,7 +4,7 @@ int main() {
 
 	int counter;
 
-	for()
+	for (counter = 0; getchar() != EOF; counter++);
 
 
 }
