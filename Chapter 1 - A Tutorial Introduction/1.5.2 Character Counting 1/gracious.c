@@ -13,7 +13,7 @@ int main() {
 
 		putchar("\n");
 
-		character = getchar();
+		// character = getchar();
 
 	}
 
