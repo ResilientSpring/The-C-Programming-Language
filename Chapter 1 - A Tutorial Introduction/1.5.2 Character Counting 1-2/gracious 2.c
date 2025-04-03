@@ -18,4 +18,6 @@ int main() {
 
 	}
 
+	printf("%.0f\n", counter);
+
 }
