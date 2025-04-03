@@ -9,6 +9,12 @@ int main() {
 
 		counter++;
 
+		putchar(character);
+
+		putchar("\n");
+
+		character = getchar();
+
 	}
 
 }
