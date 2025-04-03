@@ -14,7 +14,7 @@ int main() {
 
 		printf("\n");
 
-		c = getchar();
+	//	c = getchar();
 
 	}
 
