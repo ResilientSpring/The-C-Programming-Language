@@ -9,7 +9,8 @@ int main() {
 
 	while ((c = getchar() ) != EOF )
 	{
-
+		if (c == '\n')
+			++nl;
 	}
 
 
