@@ -7,8 +7,8 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
-		if(character == '\t')
-			printf("%c", '')
+		if (character == '\t')
+			printf("%s", "\\tab");
 
 
 	}
