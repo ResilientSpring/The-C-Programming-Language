@@ -4,7 +4,15 @@
 
 int main() {
 
+	int counter = 0;
+	char character;
 
+	while ((character = getchar()) != EOF) {
+
+
+
+
+	}
 
 
 }
