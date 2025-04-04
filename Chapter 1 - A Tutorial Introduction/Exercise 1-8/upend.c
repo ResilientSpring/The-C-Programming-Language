@@ -16,5 +16,5 @@ int main() {
 
 	}
 
-	printf("%3d\n", character);
+	printf("%3d\n", counter);
 }
