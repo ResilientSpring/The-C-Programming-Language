@@ -11,8 +11,8 @@ int main() {
 	// which is the value of the left hand side after the assignment.
 	while ((character = getchar()) != EOF) {
 
-
-
+		if ((character == ' ') || (character == '\t') || (character == '\n'))
+			++counter;
 
 	}
 
