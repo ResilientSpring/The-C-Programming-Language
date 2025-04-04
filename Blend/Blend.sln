@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Complement of 0", "Compleme
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exception handling", "Exception handling\Exception handling.vcxproj", "{5EF2DF77-68C1-485F-8D49-1210FDD3CCFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test the effect of printf(c,, 'newline')", "Test the effect of printf(c,, 'newline')\Test the effect of printf(c,, 'newline').vcxproj", "{486149D8-276E-462A-917D-5AF4B30EAD0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{5EF2DF77-68C1-485F-8D49-1210FDD3CCFF}.Release|x64.Build.0 = Release|x64
 		{5EF2DF77-68C1-485F-8D49-1210FDD3CCFF}.Release|x86.ActiveCfg = Release|Win32
 		{5EF2DF77-68C1-485F-8D49-1210FDD3CCFF}.Release|x86.Build.0 = Release|Win32
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Debug|x64.ActiveCfg = Debug|x64
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Debug|x64.Build.0 = Debug|x64
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Debug|x86.Build.0 = Debug|Win32
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Release|x64.ActiveCfg = Release|x64
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Release|x64.Build.0 = Release|x64
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Release|x86.ActiveCfg = Release|Win32
+		{486149D8-276E-462A-917D-5AF4B30EAD0B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
