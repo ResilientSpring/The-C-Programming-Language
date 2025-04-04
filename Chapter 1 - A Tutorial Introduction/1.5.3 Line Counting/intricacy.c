@@ -13,5 +13,7 @@ int main() {
 			++nl;
 	}
 
+	printf("%d\n", nl);
+
 
 }
