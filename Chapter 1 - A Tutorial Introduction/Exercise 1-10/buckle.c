@@ -9,7 +9,12 @@ int main() {
 
 		if (character == '\t')
 			printf("%s", "\\tab");
-
+		else if (character == '\b')
+			printf("%s", "\\b");
+		else if (character == '\\')
+			printf("%s", "\\");
+		else
+			printf("%c", character);
 
 	}
 
