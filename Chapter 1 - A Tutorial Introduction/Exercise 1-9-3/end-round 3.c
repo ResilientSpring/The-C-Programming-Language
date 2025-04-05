@@ -9,7 +9,7 @@ int main() {
 
 	char character, previous_character;
 //	enum boolean cumulative_blank;
-	boolean consecutive_blank;
+	boolean consecutive_blank = 0;
 
 	while ((character = getchar()) != EOF) {
 
