@@ -9,21 +9,21 @@ int main() {
 
 	char character, previous_character;
 //	enum boolean cumulative_blank;
-	boolean cumulative_blank;
+	boolean consecutive_blank;
 
 	while ((character = getchar()) != EOF) {
 
-		if (character == ' ' && cumulative_blank < 2) {
+		if (character == ' ' && consecutive_blank < 2) {
 
 			printf("%c", character);
 
-			cumulative_blank++;
+			consecutive_blank++;
 
 		}
-		else if (character == ' ' && cumulative_blank == 2)
+		else if (character == ' ' && consecutive_blank == 2)
 		{
 
-			cumulative_blank = 0;
+			consecutive_blank = 0;
 
 		}
 		else {
