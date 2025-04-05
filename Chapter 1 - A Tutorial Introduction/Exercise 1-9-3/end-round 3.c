@@ -13,11 +13,11 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
-		if (character == ' ' && consecutive_blank < 2) {
+		if (character == ' ' && consecutive_blank == false) {
 
 			printf("%c", character);
 
-			consecutive_blank++;
+			consecutive_blank = ;
 
 		}
 		else if (character == ' ' && consecutive_blank == 2)
