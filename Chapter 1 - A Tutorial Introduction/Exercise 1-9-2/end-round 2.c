@@ -8,7 +8,7 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
-		if (character == ' ' && cumulative_blank <2) {
+		if (character == ' ' && cumulative_blank < 2) {
 
 			printf("%c", character);
 
