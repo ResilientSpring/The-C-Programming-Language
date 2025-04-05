@@ -2,11 +2,14 @@
 
 enum boolean {false, true};
 
+typedef enum boolean boolean;
+
 // replace string of blanks with a single blank 
 int main() {
 
 	char character, previous_character;
-	int cumulative_blank = 0;
+//	enum boolean cumulative_blank;
+	boolean cumulative_blank;
 
 	while ((character = getchar()) != EOF) {
 
