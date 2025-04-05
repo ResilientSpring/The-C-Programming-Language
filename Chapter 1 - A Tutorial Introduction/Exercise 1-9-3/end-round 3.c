@@ -20,7 +20,7 @@ int main() {
 			consecutive_blank = ;
 
 		}
-		else if (character == ' ' && consecutive_blank == 2)
+		else if (character == ' ' && consecutive_blank == true)
 		{
 
 			consecutive_blank = 0;
