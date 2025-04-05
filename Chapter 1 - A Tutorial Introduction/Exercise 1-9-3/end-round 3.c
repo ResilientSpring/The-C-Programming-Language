@@ -17,7 +17,7 @@ int main() {
 
 			printf("%c", character);
 
-			consecutive_blank = ;
+			consecutive_blank = true;
 
 		}
 		else if (character == ' ' && consecutive_blank == true)
