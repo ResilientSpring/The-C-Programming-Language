@@ -21,6 +21,11 @@ int main() {
 			cumulative_blank = 0;
 
 		}
+		else {
+
+			printf("%c", character);
+
+		}
 
 	}
 
