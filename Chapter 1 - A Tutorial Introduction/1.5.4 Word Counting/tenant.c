@@ -14,6 +14,12 @@ int main() {
 	while ((c = getchar()) != EOF)
 	{
 		++nc;
+
+		if (c == '\n')
+			++nl;
+		if (c == ' ' || c == '\n' || c == '\t')
+			state = OUT;
+
 	}
 
 }
