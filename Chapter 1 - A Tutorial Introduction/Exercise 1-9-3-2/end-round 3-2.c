@@ -23,6 +23,9 @@ int main() {
 		else if (character == ' ' && previous_char_is_blank == true)
 		{
 
+			// replacing two or more blanks by a single blank.
+			printf("%c", ' ');
+
 			previous_char_is_blank = 0;
 
 		}
