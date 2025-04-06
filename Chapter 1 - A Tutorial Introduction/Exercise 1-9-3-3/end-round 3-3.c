@@ -23,7 +23,7 @@ int main() {
 		else if (character == ' ' && previous_char_is_blank == true)
 		{
 
-			previous_char_is_blank = 0;
+			previous_char_is_blank = 1;
 
 		}
 		else {
