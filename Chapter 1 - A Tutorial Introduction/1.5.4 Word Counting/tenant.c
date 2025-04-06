@@ -21,7 +21,8 @@ int main() {
 			state = OUT;
 		else if (state == OUT) {
 
-
+			state = IN;
+			++nw;
 
 		}
 
