@@ -6,18 +6,18 @@
 /*  count lines, words, and characters in input */
 int main() {
 
-	int c, number_of_new_line, number_of_word, number_of_character, state;
+	int character, number_of_new_line, number_of_word, number_of_character, state;
 
 	state = OUT;
 	number_of_new_line = number_of_word = number_of_character = 0;
 
-	while ((c = getchar()) != EOF)
+	while ((character = getchar()) != EOF)
 	{
 		++number_of_character;
 
-		if (c == '\n')
+		if (character == '\n')
 			++number_of_new_line;
-		if (c == ' ' || c == '\n' || c == '\t')
+		if (character == ' ' || character == '\n' || character == '\t')
 			state = OUT;
 		else if (state == OUT) {
 
