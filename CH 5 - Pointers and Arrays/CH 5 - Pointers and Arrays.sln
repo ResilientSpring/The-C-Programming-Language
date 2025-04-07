@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 Pointers and Addresses 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2 Pointers and Function Arguments", "5.2 Pointers and Function Arguments\5.2 Pointers and Function Arguments.vcxproj", "{90F2307E-05FF-49CC-839E-01E20BEBA079}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer to void", "Pointer to void\Pointer to void.vcxproj", "{7EF2087D-3F45-490E-BCFC-725919A239FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{90F2307E-05FF-49CC-839E-01E20BEBA079}.Release|x64.Build.0 = Release|x64
 		{90F2307E-05FF-49CC-839E-01E20BEBA079}.Release|x86.ActiveCfg = Release|Win32
 		{90F2307E-05FF-49CC-839E-01E20BEBA079}.Release|x86.Build.0 = Release|Win32
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Debug|x64.ActiveCfg = Debug|x64
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Debug|x64.Build.0 = Debug|x64
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Debug|x86.Build.0 = Debug|Win32
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Release|x64.ActiveCfg = Release|x64
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Release|x64.Build.0 = Release|x64
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Release|x86.ActiveCfg = Release|Win32
+		{7EF2087D-3F45-490E-BCFC-725919A239FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
