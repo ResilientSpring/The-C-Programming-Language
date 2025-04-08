@@ -26,7 +26,7 @@ int main() {
 			++number_of_word;
 
 		}
-
+		
 	}
 
 	printf("%d  %d  %d\n", number_of_new_line, number_of_word, number_of_character);
