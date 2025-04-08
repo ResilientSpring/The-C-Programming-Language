@@ -17,6 +17,7 @@ int main() {
 
 		if (character == '\n')
 			++number_of_new_line;
+
 		if (character == ' ' || character == '\n' || character == '\t')
 			state = OUT;
 		else if (state == OUT) {
