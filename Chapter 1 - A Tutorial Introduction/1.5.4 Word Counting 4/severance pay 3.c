@@ -24,6 +24,8 @@ int main() {
 
 		} else if (state == OUT) {
 
+			// The occasion in which the state is turned from OUT to IN is used to indicate a word.
+
 			state = IN;
 			++number_of_word;
 
