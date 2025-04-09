@@ -105,6 +105,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.5.4 Word Counting 3", "1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.5.4 Word Counting 4", "1.5.4 Word Counting 4\1.5.4 Word Counting 4.vcxproj", "{BA851683-D7F5-4981-AE84-D7BC87B3F562}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 1-12", "Exercise 1-12\Exercise 1-12.vcxproj", "{9B2496ED-29FC-44C4-8303-DF55A12ED25B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 1-11", "Exercise 1-11\Exercise 1-11.vcxproj", "{317E5065-F660-443F-B405-1198E9368A4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -521,6 +525,22 @@ Global
 		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x64.Build.0 = Release|x64
 		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x86.ActiveCfg = Release|Win32
 		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x86.Build.0 = Release|Win32
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Debug|x64.ActiveCfg = Debug|x64
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Debug|x64.Build.0 = Debug|x64
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Debug|x86.Build.0 = Debug|Win32
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Release|x64.ActiveCfg = Release|x64
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Release|x64.Build.0 = Release|x64
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Release|x86.ActiveCfg = Release|Win32
+		{9B2496ED-29FC-44C4-8303-DF55A12ED25B}.Release|x86.Build.0 = Release|Win32
+		{317E5065-F660-443F-B405-1198E9368A4E}.Debug|x64.ActiveCfg = Debug|x64
+		{317E5065-F660-443F-B405-1198E9368A4E}.Debug|x64.Build.0 = Debug|x64
+		{317E5065-F660-443F-B405-1198E9368A4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{317E5065-F660-443F-B405-1198E9368A4E}.Debug|x86.Build.0 = Debug|Win32
+		{317E5065-F660-443F-B405-1198E9368A4E}.Release|x64.ActiveCfg = Release|x64
+		{317E5065-F660-443F-B405-1198E9368A4E}.Release|x64.Build.0 = Release|x64
+		{317E5065-F660-443F-B405-1198E9368A4E}.Release|x86.ActiveCfg = Release|Win32
+		{317E5065-F660-443F-B405-1198E9368A4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
