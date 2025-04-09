@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.5.4 Word Counting 2", "1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.5.4 Word Counting 3", "1.5.4 Word Counting 3\1.5.4 Word Counting 3.vcxproj", "{2507A181-D6CE-49C1-B452-F9FA75E949F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.5.4 Word Counting 4", "1.5.4 Word Counting 4\1.5.4 Word Counting 4.vcxproj", "{BA851683-D7F5-4981-AE84-D7BC87B3F562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{2507A181-D6CE-49C1-B452-F9FA75E949F8}.Release|x64.Build.0 = Release|x64
 		{2507A181-D6CE-49C1-B452-F9FA75E949F8}.Release|x86.ActiveCfg = Release|Win32
 		{2507A181-D6CE-49C1-B452-F9FA75E949F8}.Release|x86.Build.0 = Release|Win32
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Debug|x64.ActiveCfg = Debug|x64
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Debug|x64.Build.0 = Debug|x64
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Debug|x86.Build.0 = Debug|Win32
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x64.ActiveCfg = Release|x64
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x64.Build.0 = Release|x64
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x86.ActiveCfg = Release|Win32
+		{BA851683-D7F5-4981-AE84-D7BC87B3F562}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
