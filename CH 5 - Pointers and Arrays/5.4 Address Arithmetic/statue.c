@@ -10,6 +10,8 @@ char* alloc(int n)  // return pointer to n characters.
 
 		allocp += n;
 
+		return allocp - n;
+
 	}
 
 
