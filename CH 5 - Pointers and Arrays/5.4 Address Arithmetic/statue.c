@@ -10,9 +10,15 @@ char* alloc(int n)  // return pointer to n characters.
 
 		allocp += n;
 
-		return allocp - n;
+		return allocp - n;  // old p
 
 	}
+	else
+		return 0;  // not enough roon.
+}
+
+void afree(char* p)  // free storage pointed to by p
+{
 
 
 }
