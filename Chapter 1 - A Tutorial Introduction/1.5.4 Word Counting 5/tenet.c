@@ -11,11 +11,19 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
-		if (character != ' ' && character != '\n' && character != '\t' && status == OUT)
+		// A word is defined as a sequence of characters that does not 
+		// contain a blank, tab, or newline.
+		if (character != ' ' && character != '\t' && character != '\n')
 		{
-			++word_count;
 
-			status = IN;
+			if (status == OUT) {
+
+				++word_count;
+
+				status = IN;
+
+			}
+
 		}
 
 	}
