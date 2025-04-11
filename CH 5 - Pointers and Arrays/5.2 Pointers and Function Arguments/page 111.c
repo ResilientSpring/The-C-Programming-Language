@@ -68,5 +68,10 @@ int main() {
 	for (n = 0; n < SIZE && getint(&arr[n]) != EOF; n++)
 		;
 
-		
+	
+	for (int var : arr)
+	{
+
+	}
+
 }
