@@ -14,9 +14,7 @@ int main() {
 
 		if (character == ' ' || character ==  '\t' || character == '\n') {
 
-
-
-
+			printf("\n");
 		}
 
 
