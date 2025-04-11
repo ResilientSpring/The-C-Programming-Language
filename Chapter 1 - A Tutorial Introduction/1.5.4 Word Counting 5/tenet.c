@@ -27,6 +27,11 @@ int main() {
 			}
 
 		}
+		else if (character == ' ' || character == '\t' || character == '\n') {
+
+			status = OUT;
+
+		}
 
 	}
 }
