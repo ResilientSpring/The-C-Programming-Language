@@ -68,10 +68,10 @@ int main() {
 	for (n = 0; n < SIZE && getint(&arr[n]) != EOF; n++)
 		;
 
-	
-	for (int var : arr)
-	{
 
+	for (int i = 0; i < sizeof(arr) / sizeof(int) ; i++)
+	{
+		printf("%d\n", arr[i]);
 	}
 
 }
