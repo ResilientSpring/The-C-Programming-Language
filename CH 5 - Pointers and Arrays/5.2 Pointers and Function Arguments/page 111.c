@@ -1,4 +1,5 @@
 #define BUFSIZE 100
+#define SIZE    5
 
 #include <stdio.h>
 #include <ctype.h>
@@ -54,4 +55,18 @@ int getint(int* pn) {
 
 	return c;
 
+}
+
+
+int main() {
+
+	int n;
+	int arr[SIZE];
+
+	for (n = 0; n < SIZE && getint(&arr[n]) != EOF; n++) {
+
+
+
+
+	}
 }
