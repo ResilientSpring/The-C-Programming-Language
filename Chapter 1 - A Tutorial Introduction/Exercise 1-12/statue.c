@@ -12,6 +12,14 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
+		if (character == ' ' || character ==  '\t' || character == '\n') {
+
+
+
+
+		}
+
+
 		printf("%c", character);
 
 	}
