@@ -8,7 +8,14 @@
 
 int main() {
 
+	char character;
 
+	while ((character = getchar()) != EOF) {
+
+
+
+
+	}
 
 
 }
