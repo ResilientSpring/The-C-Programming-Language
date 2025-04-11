@@ -13,7 +13,14 @@ int getch(void) {
 
 }
 
-void ungetch(int);
+void ungetch(int c) {  // push character back on input
+
+	if (bufp >= BUFSIZE)
+		printf("ungetch: too many characters\n");
+	else
+		buf[bufp++] = c;
+
+}
 
 /* getint: get next integer from input into *pn */
 int getint(int* pn) {
