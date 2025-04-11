@@ -15,8 +15,9 @@ int getint(int* pn) {
 
 	if (!isdigit(c) && c != EOF && c != '+' && c != '-') {
 
-		ungetch(c);
+		ungetch(c);   /*  it's not a number */
 
+		return 0;
 	}
 
 
