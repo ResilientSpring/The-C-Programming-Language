@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.4 Address Arithmetic", "5
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.4 Address Arithmetic 2", "5.4 Address Arithmetic 2\5.4 Address Arithmetic 2.vcxproj", "{365A9341-7DEB-44D1-B7F5-FD894D51AF6F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Page 114-3 in C++ (2)", "Page 114-3 in C++ (2)\Page 114-3 in C++ (2).vcxproj", "{5817E292-60A8-4DF8-9755-5F25D764E95A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{365A9341-7DEB-44D1-B7F5-FD894D51AF6F}.Release|x64.Build.0 = Release|x64
 		{365A9341-7DEB-44D1-B7F5-FD894D51AF6F}.Release|x86.ActiveCfg = Release|Win32
 		{365A9341-7DEB-44D1-B7F5-FD894D51AF6F}.Release|x86.Build.0 = Release|Win32
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Debug|x64.ActiveCfg = Debug|x64
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Debug|x64.Build.0 = Debug|x64
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Debug|x86.Build.0 = Debug|Win32
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Release|x64.ActiveCfg = Release|x64
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Release|x64.Build.0 = Release|x64
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Release|x86.ActiveCfg = Release|Win32
+		{5817E292-60A8-4DF8-9755-5F25D764E95A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
