@@ -34,4 +34,6 @@ int main() {
 		}
 
 	}
+
+	printf("The number of words in your input are: %d.\n", word_count);
 }
