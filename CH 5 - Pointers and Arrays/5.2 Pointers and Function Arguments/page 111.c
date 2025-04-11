@@ -7,9 +7,10 @@ int getint(int* pn) {
 
 	int c, sign;
 
-	while (isspace(c = getch())) {
+	while (isspace(c = getch()))  /* skip white space */
+		;
 
 
 
-	}
+
 }
