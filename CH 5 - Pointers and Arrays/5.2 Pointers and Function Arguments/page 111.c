@@ -1,8 +1,18 @@
+#define BUFSIZE 100
+
 #include <stdio.h>
 #include <ctype.h>
 
+char buf[BUFSIZE];  // buffer for ungetch
+int bufp = 0;  // next free position in buf
 
-int getch(void);
+// get a (possibly pushed back) character
+int getch(void) {
+
+	return (bufp > 0) ? buf[--bufp] : getchar();
+
+}
+
 void ungetch(int);
 
 /* getint: get next integer from input into *pn */
