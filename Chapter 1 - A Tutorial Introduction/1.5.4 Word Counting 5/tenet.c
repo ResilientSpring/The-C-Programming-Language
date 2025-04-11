@@ -14,6 +14,8 @@ int main() {
 		if (character != ' ' && character != '\n' && character != '\t' && status == OUT)
 		{
 			++word_count;
+
+			status = IN;
 		}
 
 	}
