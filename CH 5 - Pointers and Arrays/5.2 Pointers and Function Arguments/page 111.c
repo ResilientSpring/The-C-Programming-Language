@@ -63,6 +63,8 @@ int main() {
 	int n;
 	int arr[SIZE];
 
+
+	// The following loop fills an array with integers by calls to getint.
 	for (n = 0; n < SIZE && getint(&arr[n]) != EOF; n++)
 		;
 
