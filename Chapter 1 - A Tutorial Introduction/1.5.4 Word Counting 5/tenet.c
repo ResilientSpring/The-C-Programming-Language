@@ -20,6 +20,8 @@ int main() {
 
 				++word_count;
 
+				// The occasion in which the state is turned from OUT to IN 
+				// is used to indicate a word.
 				status = IN;
 
 			}
