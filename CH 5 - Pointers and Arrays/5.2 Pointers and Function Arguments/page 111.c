@@ -63,10 +63,8 @@ int main() {
 	int n;
 	int arr[SIZE];
 
-	for (n = 0; n < SIZE && getint(&arr[n]) != EOF; n++) {
+	for (n = 0; n < SIZE && getint(&arr[n]) != EOF; n++)
+		;
 
-
-
-
-	}
+		
 }
