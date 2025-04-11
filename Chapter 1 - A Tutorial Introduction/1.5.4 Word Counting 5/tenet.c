@@ -6,14 +6,14 @@
 int main() {
 
 	int word_count;
-	char character;
+	char character = '0';
+	int status = OUT;
 
-	do
-	{
+	while ((character = getchar()) != EOF) {
 
 
 
-	} while ((character = getchar()) != EOF);
+	}
 
 
 }
