@@ -12,8 +12,7 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
-
-
+		printf("%c", character);
 
 	}
 
