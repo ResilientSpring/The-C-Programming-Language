@@ -16,9 +16,12 @@ int main() {
 
 			printf("\n");
 		}
+		else {
 
+			printf("%c", character);
 
-		printf("%c", character);
+		}
+
 
 	}
 
