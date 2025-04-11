@@ -30,4 +30,11 @@ int getint(int* pn) {
 		*pn = 10 * *pn + (c - '0');
 	}
 
+	*pn *= sign;
+
+	if (c != EOF)
+		ungetch(c);
+
+	return c;
+
 }
