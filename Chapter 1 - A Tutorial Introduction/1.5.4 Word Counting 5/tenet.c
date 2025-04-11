@@ -12,7 +12,7 @@ int main() {
 	while ((character = getchar()) != EOF) {
 
 		// A word is defined as a sequence of characters that does not 
-		// contain a blank, tab, or newline.
+		// contain a blank, tab, and newline.
 		if (character != ' ' && character != '\t' && character != '\n')
 		{
 
