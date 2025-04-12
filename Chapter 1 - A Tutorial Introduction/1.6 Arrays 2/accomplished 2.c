@@ -1,3 +1,5 @@
+/* Annotated accomplished.c */
+
 #include <stdio.h>
 
 // count digits, white space, others
