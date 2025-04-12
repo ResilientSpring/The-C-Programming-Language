@@ -17,6 +17,13 @@ int main() {
 				++ndigit[c - '0'];
 			else if (c == ' ' || c == '\t')
 				++nwhite;
+			else
+				++nother;
+
+		printf("digits=");
+
+		for (i = 0; i < 10; ++i)
+			printf(" %d", ndigit[i]);
 
 
 	}
