@@ -1,3 +1,5 @@
+/* Based on accomplished 2.c but ndigit[c - '0'] in line 21 is now wrapped in parentheses. */
+
 #include <stdio.h>
 
 // count digits, white space, others
