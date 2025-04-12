@@ -12,6 +12,10 @@ int main() {
 
 		ndigit[i] = 0;
 
+		while ((c = getchar()) != EOF)
+			if (c >= '0' && c <= '9')
+				++ndigit[c - '0'];
+
 	}
 
 }
