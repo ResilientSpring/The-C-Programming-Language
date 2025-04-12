@@ -16,7 +16,7 @@ int main() {
 
 		if (c >= '0' && c <= '9')
 
-			++ndigit[c - '0'];  // Refer to ASCII, for example, '3' (51) - '0' (48) = 3
+			ndigit[c - '0'];  // Refer to ASCII, for example, '3' (51) - '0' (48) = 3
 
 		else if (c == ' ' || c == '\n' || c == '\t')
 
