@@ -1,4 +1,4 @@
-/* Based on accomplished 5.c but */
+/* Based on accomplished 5.c but parentheses around ndigit[c - '0'] in line 21 has been removed. */
 
 #include <stdio.h>
 
