@@ -1,3 +1,5 @@
+/* Based on accomplished 4.c but ++ in line 21 is moved to postfix. */
+
 #include <stdio.h>
 
 // count digits, white space, others
