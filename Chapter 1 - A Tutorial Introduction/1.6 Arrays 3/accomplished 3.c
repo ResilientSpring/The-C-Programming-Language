@@ -1,3 +1,5 @@
+/* Based on accomplished 2.c but removed ++ in front of ndigit[c - '0'] in line 21, as an experiment */
+
 #include <stdio.h>
 
 // count digits, white space, others
