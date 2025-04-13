@@ -1,6 +1,7 @@
 #define ALLOCSIZE 10000  // size of available space
 
-static char   allocbuf[ALLOCSIZE];     // storage for alloc
+// Declared static and thus be invisible outside statue.c
+static char   allocbuf[ALLOCSIZE];
 
 
 // Define allocp to be a character pointer and initialize it to point to the beginning of allocbuf.
