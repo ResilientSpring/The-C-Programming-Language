@@ -1,6 +1,6 @@
 #define ALLOCSIZE 10000  // size of available space
 
-// Declared static and thus be invisible outside statue.c
+// Declared static and thus be invisible outside statute.c
 static char   allocbuf[ALLOCSIZE];
 
 
