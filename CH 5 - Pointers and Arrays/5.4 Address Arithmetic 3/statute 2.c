@@ -14,7 +14,7 @@ static char   allocbuf[ALLOCSIZE];
 static char*  allocp = allocbuf;
 // allocp will be used to point to the first non-occupied element in allocbuf.     
 
-// When alloc is asked for n characters,
+// When alloc is asked for n characters (i.e, an array of n characters.),
 char* alloc(int n) 
 {
 	// it checks to see if there is enough room left in allocbuf
