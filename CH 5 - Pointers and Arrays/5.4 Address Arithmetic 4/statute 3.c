@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #define ALLOCSIZE 10000  // size of available space
 
 // Declared static and thus be invisible outside statute.c
@@ -49,6 +51,12 @@ int main() {
 
 		a_block_of_memory[0] = 'a';
 		*(a_block_of_memory + 1) = 'b';
+		
+	}
+	else {
+
+		printf("Memory didn't have enough space for your request for an array of character that \n");
+		printf("can hold upto n elements.");
 
 	}
 }
