@@ -71,4 +71,20 @@ int main() {
 	}
 
 
+	printf("\nEnter how many characters do you want the returned array to hold? \n");
+
+	int size;
+
+	if ((scanf("%d", &size)) == 1) {
+
+		char* second_block_of_memory = alloc(size);
+
+	}
+	else if ((scanf("%d", &size)) == 0) {
+
+		printf("What you entered was not a number. This program is closing now.\n");
+
+	}
+
+
 }
