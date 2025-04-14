@@ -62,7 +62,11 @@ int main() {
 
 	for (int i = 0; i < sizeof(a_block_of_memory) / sizeof(char); i++) {
 
+		if (a_block_of_memory[i] != NULL) {
 
+			printf("a_block_of_memory[%d] is %c.\n", i, a_block_of_memory[i]);
+
+		}
 
 	}
 
