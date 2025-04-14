@@ -20,6 +20,7 @@ char* alloc(int n)
 	// it checks to see if there is enough room left in allocbuf
 	if (allocbuf + ALLOCSIZE - allocp >= n) {
 
+		// increment allocp by n to point to the next foremost non-occupied element in allocbuf.
 		allocp += n;
 
 		return allocp - n;   // return a pointer to n characters.
