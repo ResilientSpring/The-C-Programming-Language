@@ -60,7 +60,11 @@ int main() {
 
 	}
 
+	for (int i = 0; i < sizeof(a_block_of_memory) / sizeof(char); i++) {
 
+
+
+	}
 
 
 }
