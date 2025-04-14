@@ -30,7 +30,8 @@ char* alloc(int n)
 		return 0;  // If there is no room, alloc returns zero.
 }
 
-void afree(char* p)  // free storage pointed to by p
+// Set allocp to p if p is inside allocbuf.
+void afree(char* p)
 {
 
 	if (p >= allocbuf && p < allocbuf + ALLOCSIZE)
