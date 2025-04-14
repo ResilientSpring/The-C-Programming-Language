@@ -38,3 +38,17 @@ void afree(char* p)
 		allocp = p;
 
 }
+
+int main() {
+
+	char* a_block_of_memory;
+
+	a_block_of_memory = alloc(9000);
+
+	if (a_block_of_memory != 0) {
+
+		a_block_of_memory[0] = 'a';
+		*(a_block_of_memory + 1) = 'b';
+
+	}
+}
