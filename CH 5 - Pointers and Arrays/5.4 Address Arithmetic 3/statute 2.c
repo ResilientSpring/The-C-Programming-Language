@@ -26,7 +26,7 @@ char* alloc(int n)
 
 	}
 	else
-		return 0;  // not enough roon.
+		return 0;  // not enough room.
 }
 
 void afree(char* p)  // free storage pointed to by p
