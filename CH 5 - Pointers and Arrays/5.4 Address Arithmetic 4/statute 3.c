@@ -80,6 +80,8 @@ int main() {
 
 		char* second_block_of_memory = alloc(size);
 
+		printf("%s", "Operation succeeded.\n");
+
 	}
 	else if ((scanf("%d", &size)) == 0) {
 
