@@ -9,9 +9,10 @@ static char   allocbuf[ALLOCSIZE];
 // Define allocp to be a pointer to character.
 // Define allocp to be a pointer that can hold the memory address of a character.
 // Define allocp to be the type "pointer to character".
-// Define allocp to be a variable of type char*
+// Define allocp to be a variable of type char* which can hold the memory address of 
+// a variable of type char.
 
-static char*  allocp = allocbuf;      
+static char*  allocp = allocbuf; // allocp will be used to point to the first non-occupied element in allocbuf.     
 
 char* alloc(int n)  // return a pointer to n characters.
 {
