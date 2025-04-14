@@ -11,24 +11,27 @@ static char   allocbuf[ALLOCSIZE];
 // Define allocp to be the type "pointer to character".
 // Define allocp to be a variable of type char* which can hold the memory address of 
 // a variable of type char.
-static char*  allocp = allocbuf; 
+static char*  allocp = allocbuf;
 // allocp will be used to point to the first non-occupied element in allocbuf.     
 
-char* alloc(int n)  // return a pointer to n characters.
+// When alloc is asked for n characters,
+char* alloc(int n) 
 {
+	// it checks to see if there is enough room left in allocbuf
+	if (allocbuf + ALLOCSIZE - allocp >= n) {
 
-	if (allocbuf + ALLOCSIZE - allocp >= n) {   // it fits
-
+		// increment allocp by n to point to the next foremost non-occupied element in allocbuf.
 		allocp += n;
 
-		return allocp - n;  // old p
+		return allocp - n;   // return a pointer to n characters.
 
 	}
 	else
-		return 0;  // not enough roon.
+		return 0;  // If there is no room, alloc returns zero.
 }
 
-void afree(char* p)  // free storage pointed to by p
+// Set allocp to p if p is inside allocbuf.
+void afree(char* p)
 {
 
 	if (p >= allocbuf && p < allocbuf + ALLOCSIZE)
