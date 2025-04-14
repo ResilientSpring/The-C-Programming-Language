@@ -80,7 +80,17 @@ int main() {
 
 		char* second_block_of_memory = alloc(size);
 
-		printf("%s", "Operation succeeded.\n");
+		if (second_block_of_memory != 0) {
+
+			printf("%s", "Operation succeeded.\n");
+
+		}
+		else if (second_block_of_memory == NULL) {
+
+			printf("%s", "We don't have enough space for your request for an array of character ");
+			printf("that can hold %d elements/characters.\n", size);
+
+		}
 
 	}
 	else if ((scanf("%d", &size)) == 0) {
