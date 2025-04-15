@@ -108,3 +108,6 @@ int main() {
 
 	printf("\na_block_of_memory[9001] = %c.\n", a_block_of_memory[9001]);
 }
+
+// References:
+// 1. https://github.com/ResilientSpring/C-Plus-Plus_homogeneous/blob/master/Assortment/Pointer%20arithmetic%20-%20Pointer%20minus%20Pointer/statue.c
