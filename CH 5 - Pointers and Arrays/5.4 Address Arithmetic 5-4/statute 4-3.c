@@ -22,6 +22,7 @@ char* alloc(int n)
 {
 	// it checks to see if there is enough room left in allocbuf
 	if (allocbuf + ALLOCSIZE - allocp >= n) { // An address minus an address is valid, see [1].
+		// In C, address minus address returns 
 
 		// increment allocp by n to point to the next foremost non-occupied element in allocbuf.
 		allocp += n;
