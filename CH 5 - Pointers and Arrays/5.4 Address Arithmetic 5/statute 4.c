@@ -102,6 +102,6 @@ int main() {
 	}
 
 
-	printf("a_block_of_memory[9000] = %c.\n", a_block_of_memory[9000]);
+	printf("\na_block_of_memory[9000] = %c.\n", a_block_of_memory[9000]);
 
 }
