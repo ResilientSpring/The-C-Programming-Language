@@ -22,7 +22,7 @@ char* alloc(int n)
 {
 	// it checks to see if there is enough room left in allocbuf
 	if (allocbuf + ALLOCSIZE - allocp >= n) { // An address minus an address is valid, see [1].
-		// In C, address minus address returns 
+		// In C, address minus address yields the number of elements between the two memory address, not the byte difference.[2]
 
 		// increment allocp by n to point to the next foremost non-occupied element in allocbuf.
 		allocp += n;
@@ -112,4 +112,5 @@ int main() {
 
 // References:
 // 1. https://github.com/ResilientSpring/C-Plus-Plus_homogeneous/blob/master/Assortment/Address%20Arithmetic%20-%20Address%20minus%20Address/statute.c
-// 
+// 2. https://chatgpt.com/c/67fe1ea4-0204-8008-a12d-e6e6de00d2f4
+// 3. 
