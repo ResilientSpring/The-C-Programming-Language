@@ -110,4 +110,5 @@ int main() {
 }
 
 // References:
-// 1. https://github.com/ResilientSpring/C-Plus-Plus_homogeneous/blob/master/Assortment/Pointer%20arithmetic%20-%20Pointer%20minus%20Pointer/statue.c
+// 1. https://github.com/ResilientSpring/C-Plus-Plus_homogeneous/blob/master/Assortment/Address%20Arithmetic%20-%20Address%20minus%20Address/statute.c
+// 
