@@ -28,8 +28,8 @@ char* alloc(int n)
 		// increment allocp by n to point to the next foremost non-occupied element in allocbuf.
 		allocp += n;
 
-		return allocp - n;   // return a pointer to n characters.
-
+		return allocp - n;    // return a pointer to n characters.
+		                      // return a pointer to a block of storage with a capacity of n elements of characters.
 	}
 	else
 		return 0;  // If there is no room, alloc returns zero.
