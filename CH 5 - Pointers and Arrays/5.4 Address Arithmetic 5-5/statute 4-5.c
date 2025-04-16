@@ -41,7 +41,7 @@ void afree(char* p)
 
 	// allocbuf == &allocbuf[0].  (allocbuf + ALLOCSIZE - 1) == &allocbuf[9999].
 	if ((p >= allocbuf) && (p <= allocbuf + ALLOCSIZE - 1))
-		allocp = p;
+		allocp = p;  // memory addresses in allocbuf starting from p can be rewritten.
 
 }
 
