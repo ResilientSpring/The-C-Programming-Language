@@ -33,4 +33,8 @@ int main() {
 
 	printf("%d.\n", strlen(ptr)); // char* ptr
 
+	char* p = "badge";
+
+	printf("%d.\n", strlen(p)); //  char* ptr
+
 }
