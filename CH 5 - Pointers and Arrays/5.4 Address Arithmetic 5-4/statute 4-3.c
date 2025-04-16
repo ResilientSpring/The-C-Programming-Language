@@ -35,7 +35,7 @@ char* alloc(int n)
 		return 0;  // If there is no room, alloc returns zero.
 }
 
-// Set allocp to p if p is inside allocbuf.
+// afree(p) merely sets allocp to p if p is inside allocbuf.
 void afree(char* p)
 {
 
