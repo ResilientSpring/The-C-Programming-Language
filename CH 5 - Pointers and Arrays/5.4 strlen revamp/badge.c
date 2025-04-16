@@ -17,9 +17,9 @@ int strlen(char* s) {
 
 int main() {
 
-	int number_of_elements;
+	printf("%d.\n", strlen("badge"));  // string constant
 
-	printf("%d.\n", strlen("badge"));
+	int number_of_elements;
 
 	number_of_elements = strlen("badge");
 
@@ -28,7 +28,6 @@ int main() {
 	char arr[100] = "badge";
 
 	printf("%d.\n", strlen(arr));  // char array
-
 
 	char* ptr = "delimiter.";
 
