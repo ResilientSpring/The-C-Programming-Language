@@ -11,3 +11,11 @@ int strlen(char* s) {
 
 	return p - s;
 }
+
+
+int main() {
+
+	int number_of_elements;
+
+	printf("%d.\n", "badge");
+}
