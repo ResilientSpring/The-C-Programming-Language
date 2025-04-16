@@ -24,4 +24,8 @@ int main() {
 	number_of_elements = strlen("badge");
 
 	printf("%d.\n", number_of_elements);
+
+	char arr[100] = "badge";
+
+	printf("%d.\n", strlen(arr));
 }
