@@ -19,5 +19,5 @@ int main() {
 
 	int number_of_elements;
 
-	printf("%d.\n", "badge");
+	printf("%d.\n", strlen("badge"));
 }
