@@ -20,4 +20,8 @@ int main() {
 	int number_of_elements;
 
 	printf("%d.\n", strlen("badge"));
+
+	number_of_elements = strlen("badge");
+
+	printf("%d.\n", number_of_elements);
 }
