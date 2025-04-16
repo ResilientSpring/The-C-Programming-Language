@@ -28,4 +28,5 @@ int main() {
 	char arr[100] = "badge";
 
 	printf("%d.\n", strlen(arr));
+
 }
