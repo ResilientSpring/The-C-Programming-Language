@@ -29,7 +29,7 @@ char* alloc(int n)
 		allocp += n;
 
 		return allocp - n;    // return a pointer to n characters.
-		                      // return a pointer to a block of storage with a capacity of n elements of characters.
+							  // return a pointer to a block of storage with a capacity of n elements of characters.
 	}
 	else
 		return 0;  // If there is no room, alloc returns zero.
@@ -39,8 +39,9 @@ char* alloc(int n)
 void afree(char* p)
 {
 
-	if (p >= allocbuf && p < allocbuf + ALLOCSIZE)
-		allocp = p;
+	// allocbuf == &allocbuf[0].  (allocbuf + ALLOCSIZE - 1) == &allocbuf[9999].
+	if ((p >= allocbuf) && (p <= allocbuf + ALLOCSIZE - 1))
+		allocp = p;  // memory addresses in allocbuf starting from p can be rewritten.
 
 }
 
