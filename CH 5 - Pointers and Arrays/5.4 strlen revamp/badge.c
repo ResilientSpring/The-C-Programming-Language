@@ -27,6 +27,11 @@ int main() {
 
 	char arr[100] = "badge";
 
-	printf("%d.\n", strlen(arr));
+	printf("%d.\n", strlen(arr));  // char array
+
+
+	char* ptr = "delimiter.";
+
+	printf("%d.\n", strlen(ptr)); // char* ptr
 
 }
