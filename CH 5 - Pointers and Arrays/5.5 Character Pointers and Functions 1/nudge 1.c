@@ -14,10 +14,12 @@ int main() {
 // 1. Need not manually add a null terminator to the end of a string constant because C++ compiler
 //    does this for you automatically.[1]
 // 
+// 2. In the internal representation, the array is terminated with the null character '\0' so that
+//    the compiler or OS knows where the end of the array is.
 
 // References:
 // 
 // 1. <C++: A Beginner's Guide, Second Edition>, section on 4.4 Strings, page 132. 
 //
-// 2.
+// 2. 
 // 
