@@ -17,4 +17,7 @@ int main() {
 
 // References:
 // 
-// 1. 
+// 1. <C++: A Beginner's Guide, Second Edition>, section on 4.4 Strings, page 132. 
+//
+// 2.
+// 
