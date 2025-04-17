@@ -12,5 +12,9 @@ int main() {
 // Notes:
 // 
 // 1. Need not manually add a null terminator to the end of a string constant because C++ compiler
-//    does this for you automatically.
+//    does this for you automatically.[1]
 // 
+
+// References:
+// 
+// 1. 
