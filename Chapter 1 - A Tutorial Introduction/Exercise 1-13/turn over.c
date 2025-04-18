@@ -9,6 +9,7 @@ int main() {
 	char character;
 	int row = 1;
 	int status = OUT;
+	char histogram = '-';
 
 	while ((character = getchar()) != EOF)
 	{
@@ -16,7 +17,7 @@ int main() {
 
 			if (status == OUT) {
 
-				printf("%d: %c", row, '-');
+				printf("%d: %c", row, histogram);
 
 			}
 
