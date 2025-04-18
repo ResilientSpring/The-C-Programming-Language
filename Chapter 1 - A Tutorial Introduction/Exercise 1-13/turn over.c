@@ -41,6 +41,11 @@ int main() {
 
 				printf("\n");
 			}
+			else if (status == OUT) {
+
+
+
+			}
 
 		}
 	}
