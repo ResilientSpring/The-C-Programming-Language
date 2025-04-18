@@ -24,6 +24,11 @@ int main() {
 				status = IN;
 
 			}
+			else if (status == IN) {
+
+				printf("%c", histogram);
+
+			}
 
 
 
