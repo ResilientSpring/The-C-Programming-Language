@@ -19,6 +19,8 @@ int main() {
 
 				printf("%d: %c", row, histogram);
 
+				status = IN;
+
 			}
 
 
