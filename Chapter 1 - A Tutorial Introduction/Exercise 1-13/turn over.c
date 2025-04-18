@@ -13,7 +13,9 @@ int main() {
 
 	while ((character = getchar()) != EOF)
 	{
-		if ((character != ' ') && (character != '\n') && (character != '\t')) {
+		// A word is defined as a sequence of characters that does not 
+        // contain a blank, tab, and newline.
+		if ((character != ' ') && (character != '\t') && (character != '\n')) {
 
 			if (status == OUT) {
 
@@ -29,6 +31,9 @@ int main() {
 				printf("%c", histogram);
 
 			}
+
+		}
+		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
 
 
