@@ -2,9 +2,10 @@
 
 char* pmessage;
 
+pmessage = "now is the time";
 
 int main() {
 
-
+	
 
 }
