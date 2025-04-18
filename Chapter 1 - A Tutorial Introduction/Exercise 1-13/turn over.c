@@ -35,7 +35,11 @@ int main() {
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
+			if (status == IN) {
 
+
+
+			}
 
 		}
 	}
