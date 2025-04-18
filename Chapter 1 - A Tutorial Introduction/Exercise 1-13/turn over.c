@@ -37,7 +37,7 @@ int main() {
 
 			if (status == IN) {
 
-				status == OUT;
+				status = OUT;
 
 				printf("\n");
 			}
