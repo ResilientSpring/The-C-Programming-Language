@@ -7,7 +7,7 @@
 int main() {
 
 	char character;
-	int row = 1;
+	int row = 1;  // The first word in the input.
 	int status = OUT;
 	char histogram = '-';
 
