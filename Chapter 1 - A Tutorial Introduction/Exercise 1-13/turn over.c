@@ -17,7 +17,9 @@ int main() {
 
 			if (status == OUT) {
 
-				printf("%d: %c", row, histogram);
+				printf("%d: ", (row)++);
+
+				printf("%c", histogram);
 
 				status = IN;
 
