@@ -8,12 +8,19 @@ int main() {
 
 	char character;
 	int row = 1;
+	int status = OUT;
 
 	while ((character = getchar()) != EOF)
 	{
 		if ((character != ' ') && (character != '\n') && (character != '\t')) {
 
-			printf("%d: %c", row, '-');
+			if (status == OUT) {
+
+				printf("%d: %c", row, '-');
+
+			}
+
+
 
 		}
 	}
