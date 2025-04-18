@@ -1,12 +1,14 @@
 #include <stdio.h>
 
+
+
 int main() {
 
-	char c;
+	char character;
 
-	while ((c = getchar()) != EOF)
+	while ((character = getchar()) != EOF)
 	{
-		if ((c != ' ') && (c != '\n') && (c != '\t')) {
+		if ((character != ' ') && (character != '\n') && (character != '\t')) {
 
 		}
 	}
