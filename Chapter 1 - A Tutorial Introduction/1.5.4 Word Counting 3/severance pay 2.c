@@ -20,13 +20,14 @@ int main() {
 
 		if (character == ' ' || character == '\n' || character == '\t')
 			state = OUT;
-		else if (state == OUT) {
+
+		if (state == OUT) {
 
 			state = IN;
 			++number_of_word;
 
 		}
-		
+
 	}
 
 	printf("%d  %d  %d\n", number_of_new_line, number_of_word, number_of_character);
