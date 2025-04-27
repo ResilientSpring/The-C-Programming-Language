@@ -12,4 +12,6 @@ int main() {
 
 	printf("%c\n", *pmessage);
 
+	printf("\t%c\n", pmessage[0]);
+
 }
