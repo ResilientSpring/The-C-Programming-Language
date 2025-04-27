@@ -10,6 +10,14 @@ int main() {
 	// in the direction you want. [1]
 
 
+	char character;
+	int row = 1;  // 1 means the first word in the input.
+	int status = OUT;
+
+	int counter = 0;
+
+
+
 }
 
 // References:
