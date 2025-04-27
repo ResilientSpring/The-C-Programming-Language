@@ -10,6 +10,51 @@ int main() {
 	// in the direction you want. [1]
 
 
+	char character;
+	int row = 1;  // 1 means the first word in the input.
+	int status = OUT;
+//	char histogram = '-';
+	int counter = 0;
+
+	while ((character = getchar()) != EOF)
+	{
+		// A word is defined as a sequence of characters that does not 
+		// contain a blank, tab, and newline.
+		if ((character != ' ') && (character != '\t') && (character != '\n')) {
+
+			if (status == OUT) {
+
+				printf("%d: ", (row)++);
+
+				// printf("%c", histogram);
+
+				status = IN;
+
+			}
+			else if (status == IN) {
+
+				// printf("%c", histogram);
+
+			}
+
+		}
+		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
+
+			if (status == IN) {
+
+				status = OUT;
+
+				printf("\n");
+			}
+			else if (status == OUT) {
+
+
+
+			}
+
+		}
+	}
+
 }
 
 // References:
