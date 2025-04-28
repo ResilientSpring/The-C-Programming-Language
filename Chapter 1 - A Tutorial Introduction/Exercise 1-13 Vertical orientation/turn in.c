@@ -27,6 +27,7 @@ int main() {
 				printf("%d: ", (row)++);
 
 				// printf("%c", histogram);
+				counter++;
 
 				status = IN;
 
@@ -34,6 +35,7 @@ int main() {
 			else if (status == IN) {
 
 				// printf("%c", histogram);
+				counter++;
 
 			}
 
