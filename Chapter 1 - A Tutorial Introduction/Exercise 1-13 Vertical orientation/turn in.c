@@ -71,7 +71,7 @@ int main() {
 		{
 			if (*(freq_of_each_word + i)) {
 
-
+				printf("%d: ", i);
 
 			}
 		}
