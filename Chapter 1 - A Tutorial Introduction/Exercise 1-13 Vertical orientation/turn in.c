@@ -76,7 +76,9 @@ int main() {
 				
 			//	which_number_in_the_sequence_is_this_word++;
 
-				printf("%d: ", i);
+				printf("|\n", );
+
+				printf("%d ", i);
 
 			}
 			else {
