@@ -44,15 +44,20 @@ int main() {
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
-			freq_of_each_word[++idx] = num_of_characters_in_a_word;
+		//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
 
-			num_of_characters_in_a_word = 0;
+		//	num_of_characters_in_a_word = 0;
 
 			if (status == IN) {
 
 				status = OUT;
 
 			//	printf("\n");
+
+				freq_of_each_word[++idx] = num_of_characters_in_a_word;
+
+				num_of_characters_in_a_word = 0;
+
 			}
 			else if (status == OUT) {
 
