@@ -42,6 +42,8 @@ int main() {
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
+			num_of_characters_in_a_word = 0;
+
 			if (status == IN) {
 
 				status = OUT;
