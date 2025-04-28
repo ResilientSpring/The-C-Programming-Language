@@ -10,6 +10,8 @@ int main() {
 	// in the direction you want. [1]
 	int freq_of_each_word[100] = { 0 };
 
+	int idx = 0;
+
 	char character;
 	int row = 1;  // 1 means the first word in the input.
 	int status = OUT;
@@ -41,6 +43,8 @@ int main() {
 
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
+
+			freq_of_each_word[++idx] = num_of_characters_in_a_word;
 
 			num_of_characters_in_a_word = 0;
 
