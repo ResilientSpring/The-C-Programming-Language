@@ -74,6 +74,9 @@ int main() {
 
 			if (*(freq_of_each_word + i)) {
 
+
+				which_number_in_the_sequence_is_this_word++;
+
 				printf("%d: ", i);
 
 			}
