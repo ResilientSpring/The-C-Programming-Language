@@ -52,7 +52,7 @@ int main() {
 
 				status = OUT;
 
-				printf("\n");
+			//	printf("\n");
 			}
 			else if (status == OUT) {
 
