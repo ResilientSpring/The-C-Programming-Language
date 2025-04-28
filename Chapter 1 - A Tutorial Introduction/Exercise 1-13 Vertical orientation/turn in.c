@@ -3,6 +3,8 @@
 #define IN 1   // inside a word.
 #define OUT 0  // outside a word.
 
+int which_number_in_the_sequence_is_this_word = 0;
+
 
 int main() {
 
@@ -69,6 +71,7 @@ int main() {
 
 		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1 ); i++)
 		{
+
 			if (*(freq_of_each_word + i)) {
 
 				printf("%d: ", i);
