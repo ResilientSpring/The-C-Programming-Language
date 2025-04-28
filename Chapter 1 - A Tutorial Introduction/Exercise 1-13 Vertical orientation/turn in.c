@@ -73,9 +73,8 @@ int main() {
 		{
 			// To detect the last word.
 			if (*(freq_of_each_word + i)) {
-
-
-				which_number_in_the_sequence_is_this_word++;
+				
+			//	which_number_in_the_sequence_is_this_word++;
 
 				printf("%d: ", i);
 
