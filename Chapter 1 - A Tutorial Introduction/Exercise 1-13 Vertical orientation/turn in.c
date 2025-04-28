@@ -69,7 +69,11 @@ int main() {
 
 		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1 ); i++)
 		{
+			if (*(freq_of_each_word + i)) {
 
+
+
+			}
 		}
 
 	}
