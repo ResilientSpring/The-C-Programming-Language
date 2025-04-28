@@ -14,7 +14,7 @@ int main() {
 	int row = 1;  // 1 means the first word in the input.
 	int status = OUT;
 //	char histogram = '-';
-	int counter = 0;
+	int num_of_characters_in_a_word = 0;
 
 	while ((character = getchar()) != EOF)
 	{
@@ -27,7 +27,7 @@ int main() {
 				printf("%d: ", (row)++);
 
 				// printf("%c", histogram);
-				counter++;
+				num_of_characters_in_a_word++;
 
 				status = IN;
 
@@ -35,7 +35,7 @@ int main() {
 			else if (status == IN) {
 
 				// printf("%c", histogram);
-				counter++;
+				num_of_characters_in_a_word++;
 
 			}
 
