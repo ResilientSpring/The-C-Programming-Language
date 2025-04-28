@@ -8,7 +8,7 @@ int main() {
 
 	// Tip: print horizontally into an array and print the array 
 	// in the direction you want. [1]
-
+	int freq_of_each_word[100] = { 0 };
 
 	char character;
 	int row = 1;  // 1 means the first word in the input.
