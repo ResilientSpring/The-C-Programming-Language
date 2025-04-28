@@ -67,7 +67,10 @@ int main() {
 
 		}
 
+		for (int i = 1; i < *(freq_of_each_word + i); i++)
+		{
 
+		}
 
 	}
 
