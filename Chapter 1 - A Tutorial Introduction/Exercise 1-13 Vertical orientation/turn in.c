@@ -8,13 +8,15 @@ int main() {
 
 	// Tip: print horizontally into an array and print the array 
 	// in the direction you want. [1]
+	int freq_of_each_word[100] = { 0 };
 
+	int idx = 0;
 
 	char character;
 	int row = 1;  // 1 means the first word in the input.
 	int status = OUT;
 //	char histogram = '-';
-	int counter = 0;
+	int num_of_characters_in_a_word = 0;
 
 	while ((character = getchar()) != EOF)
 	{
@@ -24,9 +26,10 @@ int main() {
 
 			if (status == OUT) {
 
-				printf("%d: ", (row)++);
+			//	printf("%d: ", (row)++);
 
-				// printf("%c", histogram);
+			//  printf("%c", histogram);
+				num_of_characters_in_a_word++;
 
 				status = IN;
 
@@ -34,17 +37,27 @@ int main() {
 			else if (status == IN) {
 
 				// printf("%c", histogram);
+				num_of_characters_in_a_word++;
 
 			}
 
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
+		//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
+
+		//	num_of_characters_in_a_word = 0;
+
 			if (status == IN) {
 
 				status = OUT;
 
-				printf("\n");
+			//	printf("\n");
+
+				freq_of_each_word[++idx] = num_of_characters_in_a_word;
+
+				num_of_characters_in_a_word = 0;
+
 			}
 			else if (status == OUT) {
 
@@ -53,6 +66,12 @@ int main() {
 			}
 
 		}
+
+		for (int i = 1; i < *(freq_of_each_word + i); i++)
+		{
+
+		}
+
 	}
 
 }
