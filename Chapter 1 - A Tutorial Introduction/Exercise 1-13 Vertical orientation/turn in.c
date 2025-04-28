@@ -26,9 +26,9 @@ int main() {
 
 			if (status == OUT) {
 
-				printf("%d: ", (row)++);
+			//	printf("%d: ", (row)++);
 
-				// printf("%c", histogram);
+			//  printf("%c", histogram);
 				num_of_characters_in_a_word++;
 
 				status = IN;
