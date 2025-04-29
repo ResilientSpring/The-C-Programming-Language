@@ -80,7 +80,7 @@ int main() {
 
 				for (int j = 0; j < multiple; j++) {
 
-
+					printf("|\n");
 
 				}
 
