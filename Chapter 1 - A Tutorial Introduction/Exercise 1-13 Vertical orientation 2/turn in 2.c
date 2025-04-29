@@ -72,7 +72,7 @@ int main() {
 		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1); i++)
 		{
 			// To detect the last word.
-			if (*(freq_of_each_word + i)) {
+			if (*(freq_of_each_word + i) != 0) {
 
 				//	which_number_in_the_sequence_is_this_word++;
 
