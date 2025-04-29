@@ -82,7 +82,7 @@ int main() {
 
 					char vertical_histogram[3] = "|\n";
 
-					printf("|\n");
+					printf("");  // printf has no option for std::string.[2]
 
 				}
 
@@ -101,3 +101,5 @@ int main() {
 
 // References:
 // 1. https://stackoverflow.com/questions/17390074/what-ways-using-stdio-can-i-print-a-vertical-histogram
+// 2. https://stackoverflow.com/questions/10865957/how-to-use-printf-with-stdstring
+// 
