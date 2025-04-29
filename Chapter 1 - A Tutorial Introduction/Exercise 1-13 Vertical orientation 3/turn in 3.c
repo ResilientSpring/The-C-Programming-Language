@@ -80,6 +80,8 @@ int main() {
 
 				for (int j = 0; j < multiple; j++) {
 
+					char vertical_histogram[3] = "|\n";
+
 					printf("|\n");
 
 				}
