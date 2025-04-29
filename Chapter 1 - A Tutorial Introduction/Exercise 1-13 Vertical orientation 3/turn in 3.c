@@ -78,11 +78,13 @@ int main() {
 
 				int multiple = *(freq_of_each_word + i);
 
+				int right_justify_output = 1;
+
 				for (int j = 0; j < multiple; j++) {
 
 					char vertical_histogram[3] = "|\n";
 
-					printf("%*.*s");  // printf has no option for std::string.[2]
+					printf("%*.*s", right_justify_output++, );  // printf has no option for std::string.[2]
 					               // You cannot use printf( ) to display a string object.[3]:465
 
 				}
