@@ -46,7 +46,7 @@ int main() {
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
-			//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
+			//	length_of_each_word[++idx] = num_of_characters_in_a_word;
 
 			//	num_of_characters_in_a_word = 0;
 
