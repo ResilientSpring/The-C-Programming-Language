@@ -6,7 +6,7 @@ int main() {
 
 	do
 	{
-
+		character = getchar();
 
 
 
