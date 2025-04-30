@@ -96,7 +96,7 @@ int main() {
 
 			}
 
-			printf("%*d ", i, i);
+			printf("%*d\n", i, i);
 
 		}
 		else {
