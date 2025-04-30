@@ -85,10 +85,10 @@ int main() {
 
 					char vertical_histogram[3] = "|\n";
 
-					printf("%*s", right_justify_output++, vertical_histogram);  // printf has no option for std::string.[2]
+					printf("%*s ", i, vertical_histogram);  // printf has no option for std::string.[2]
 								   // You cannot use printf( ) to display a string object.[3]:465
 
-					printf("%*d ", right_justify_output, i);
+					printf("%*d ", i, i);
 
 				}
 
