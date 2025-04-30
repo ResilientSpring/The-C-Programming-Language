@@ -18,3 +18,7 @@ int main() {
 	printf("\t%c\n", pmessage[0]);
 
 }
+
+// Reference:
+// 1. https://chatgpt.com/c/68124882-4218-8008-aa17-cdbc54e32542
+//
