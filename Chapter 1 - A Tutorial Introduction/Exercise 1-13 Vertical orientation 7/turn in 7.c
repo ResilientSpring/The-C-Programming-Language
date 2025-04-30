@@ -15,7 +15,7 @@ int main() {
 	int idx = 0;
 
 	char character;
-	int row = 1;  // 1 means the first word in the input.
+	//	int row = 1;   1 means the first word in the input.
 	int status = OUT;
 	//	char histogram = '-';
 	int num_of_characters_in_a_word = 0;
@@ -92,9 +92,11 @@ int main() {
 				printf("%*s ", i, vertical_histogram);  // printf has no option for std::string.[2]
 							   // You cannot use printf( ) to display a string object.[3]:465
 
-				printf("%*d ", i, i);
+			//	printf("%*d ", i, i);
 
 			}
+
+			printf("%*d ", i, i);
 
 		}
 		else {
