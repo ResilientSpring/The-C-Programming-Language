@@ -69,6 +69,7 @@ int main() {
 
 		}
 
+		// Print each element in length_of_each_word
 		for (int i = 1; (length_of_each_word + i) < (&length_of_each_word + 1); i++)
 		{
 			// To detect the last word.
