@@ -10,7 +10,7 @@ int main() {
 
 	// Tip: print horizontally into an array and print the array 
 	// in the direction you want. [1]
-	int freq_of_each_word[100] = { 0 };
+	int length_of_each_word[100] = { 0 };
 
 	int idx = 0;
 
@@ -56,7 +56,7 @@ int main() {
 
 				//	printf("\n");
 
-				freq_of_each_word[++idx] = num_of_characters_in_a_word;
+				length_of_each_word[++idx] = num_of_characters_in_a_word;
 
 				num_of_characters_in_a_word = 0;
 
@@ -69,14 +69,14 @@ int main() {
 
 		}
 
-		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1); i++)
+		for (int i = 1; (length_of_each_word + i) < (&length_of_each_word + 1); i++)
 		{
 			// To detect the last word.
-			if (*(freq_of_each_word + i) != 0) {
+			if (*(length_of_each_word + i) != 0) {
 
 				//	which_number_in_the_sequence_is_this_word++;
 
-				int multiple = *(freq_of_each_word + i);
+				int multiple = *(length_of_each_word + i);
 
 				int right_justify_output = 1;
 
