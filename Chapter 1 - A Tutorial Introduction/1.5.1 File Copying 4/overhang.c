@@ -10,7 +10,7 @@ int main() {
 
 
 
-	} while ( (character = getchar() ) != EOF);
+	} while ( character  != EOF);
 
 
 }
