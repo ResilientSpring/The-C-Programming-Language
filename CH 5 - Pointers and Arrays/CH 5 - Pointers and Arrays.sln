@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Character Pointers and 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Character Pointers and Functions 6-2", "5.5 Character Pointers and Functions 6-2\5.5 Character Pointers and Functions 6-2.vcxproj", "{AF0217B9-C037-4D6C-9409-591E4E496B83}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Character Pointers and Functions 6-3", "5.5 Character Pointers and Functions 6-3\5.5 Character Pointers and Functions 6-3.vcxproj", "{8467160A-884B-4597-A49E-5B338CFB979B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{AF0217B9-C037-4D6C-9409-591E4E496B83}.Release|x64.Build.0 = Release|x64
 		{AF0217B9-C037-4D6C-9409-591E4E496B83}.Release|x86.ActiveCfg = Release|Win32
 		{AF0217B9-C037-4D6C-9409-591E4E496B83}.Release|x86.Build.0 = Release|Win32
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Debug|x64.ActiveCfg = Debug|x64
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Debug|x64.Build.0 = Debug|x64
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Debug|x86.ActiveCfg = Debug|Win32
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Debug|x86.Build.0 = Debug|Win32
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Release|x64.ActiveCfg = Release|x64
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Release|x64.Build.0 = Release|x64
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Release|x86.ActiveCfg = Release|Win32
+		{8467160A-884B-4597-A49E-5B338CFB979B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
