@@ -81,11 +81,11 @@ int main() {
 
 			//	which_number_in_the_sequence_is_this_word++;
 
-			int multiple = *(length_of_each_word + i);
+		//	int multiple = *(length_of_each_word + i);
 
-			int right_justify_output = 1;
+		//	int right_justify_output = 1;
 
-			for (int j = 0; j < multiple; j++) {
+			for (int j = 0; j < *(length_of_each_word + i); j++) {
 
 				char vertical_histogram[3] = "|\n";
 
