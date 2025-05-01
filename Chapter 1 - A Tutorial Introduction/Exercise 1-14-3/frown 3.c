@@ -48,6 +48,12 @@ int main() {
 
 			printf("-");
 
+			if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+
+				printf("\n");
+
+			}
+
 		}
 	}
 
