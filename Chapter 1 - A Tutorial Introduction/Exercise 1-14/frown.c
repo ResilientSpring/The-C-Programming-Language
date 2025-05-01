@@ -13,7 +13,11 @@ int main() {
 
 	while ((character = getchar()) != EOF) {
 
+		if (character >= 65 && character <= 90) {
 
+
+
+		}
 
 
 	}
