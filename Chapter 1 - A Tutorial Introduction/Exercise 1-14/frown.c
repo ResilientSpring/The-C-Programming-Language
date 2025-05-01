@@ -15,7 +15,7 @@ int main() {
 
 		if (character >= 65 && character <= 90) {
 
-
+			++(uppercase[character - 65]);
 
 		}
 
