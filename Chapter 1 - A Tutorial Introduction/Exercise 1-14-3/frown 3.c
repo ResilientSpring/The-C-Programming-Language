@@ -31,10 +31,30 @@ int main() {
 
 	}
 
-	for (char i = 'A', int j = 0; i <= 'Z', j <= 26; i++, j++) {
+//	char i;
+//	int j;
 
+//	for (char i = 'A', j = 0; i <= 'Z', j <= 26; i++, j++) {
 
+//		printf("%c: ", i);
 
+//	}
+
+	for (char i = 'A'; i <= 'Z'; i++) {
+
+		printf("%c: ", i);
+
+		for (int j = 0; (uppercase + j) < (&uppercase + 1) ; j++) {
+
+			printf("-");
+
+			if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+
+				printf("\n");
+
+			}
+
+		}
 	}
 
 }
