@@ -31,14 +31,14 @@ int main() {
 
 	}
 
-	char i;
-	int j;
+//	char i;
+//	int j;
 
-	for (char i = 'A', j = 0; i <= 'Z', j <= 26; i++, j++) {
+//	for (char i = 'A', j = 0; i <= 'Z', j <= 26; i++, j++) {
 
-		printf("%c: ", i);
+//		printf("%c: ", i);
 
-	}
+//	}
 
 	for (char i = 'A'; i <= 'Z'; i++) {
 
