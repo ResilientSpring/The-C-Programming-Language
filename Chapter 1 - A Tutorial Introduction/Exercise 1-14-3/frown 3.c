@@ -44,7 +44,11 @@ int main() {
 
 		printf("%c: ", i);
 
-		for(int j = 0; j <= )
+		for (int j = 0; j <= (uppercase + j); j++) {
+
+			printf("-");
+
+		}
 	}
 
 }
