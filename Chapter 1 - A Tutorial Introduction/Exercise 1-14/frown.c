@@ -9,6 +9,8 @@ int main() {
 
 	int lowercase[26] = { 0 };
 
+	int number_of_other_characters = 0;
+
 	char character;
 
 	while ((character = getchar()) != EOF) {
@@ -23,7 +25,9 @@ int main() {
 			(lowercase[character - 'a'])++;
 
 		}
+		else
 
+			number_of_other_characters++;
 
 	}
 
