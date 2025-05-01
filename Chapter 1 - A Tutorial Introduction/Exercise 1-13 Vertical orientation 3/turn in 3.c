@@ -17,7 +17,7 @@ int main() {
 	char character;
 	int row = 1;  // 1 means the first word in the input.
 	int status = OUT;
-//	char histogram = '-';
+	//	char histogram = '-';
 	int num_of_characters_in_a_word = 0;
 
 	while ((character = getchar()) != EOF)
@@ -28,9 +28,9 @@ int main() {
 
 			if (status == OUT) {
 
-			//	printf("%d: ", (row)++);
+				//	printf("%d: ", (row)++);
 
-			//  printf("%c", histogram);
+				//  printf("%c", histogram);
 				num_of_characters_in_a_word++;
 
 				status = IN;
@@ -46,15 +46,15 @@ int main() {
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
-		//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
+			//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
 
-		//	num_of_characters_in_a_word = 0;
+			//	num_of_characters_in_a_word = 0;
 
 			if (status == IN) {
 
 				status = OUT;
 
-			//	printf("\n");
+				//	printf("\n");
 
 				freq_of_each_word[++idx] = num_of_characters_in_a_word;
 
@@ -69,16 +69,25 @@ int main() {
 
 		}
 
-		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1 ); i++)
+		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1); i++)
 		{
 			// To detect the last word.
-			if (*(freq_of_each_word + i)) {
-				
-			//	which_number_in_the_sequence_is_this_word++;
+			if (*(freq_of_each_word + i) != 0) {
+
+				//	which_number_in_the_sequence_is_this_word++;
 
 				int multiple = *(freq_of_each_word + i);
 
-				printf("|\n" * multiple);
+				int right_justify_output = 1;
+
+				for (int j = 0; j < multiple; j++) {
+
+					char vertical_histogram[3] = "|\n";
+
+					printf("%*.*s", right_justify_output++, );  // printf has no option for std::string.[2]
+					               // You cannot use printf( ) to display a string object.[3]:465
+
+				}
 
 				printf("%d ", i);
 
@@ -95,3 +104,6 @@ int main() {
 
 // References:
 // 1. https://stackoverflow.com/questions/17390074/what-ways-using-stdio-can-i-print-a-vertical-histogram
+// 2. https://stackoverflow.com/questions/10865957/how-to-use-printf-with-stdstring
+// 3. Herb Schildt's C++ Programming Cookbook
+// 

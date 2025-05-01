@@ -17,7 +17,7 @@ int main() {
 	char character;
 	int row = 1;  // 1 means the first word in the input.
 	int status = OUT;
-//	char histogram = '-';
+	//	char histogram = '-';
 	int num_of_characters_in_a_word = 0;
 
 	while ((character = getchar()) != EOF)
@@ -28,9 +28,9 @@ int main() {
 
 			if (status == OUT) {
 
-			//	printf("%d: ", (row)++);
+				//	printf("%d: ", (row)++);
 
-			//  printf("%c", histogram);
+				//  printf("%c", histogram);
 				num_of_characters_in_a_word++;
 
 				status = IN;
@@ -46,15 +46,15 @@ int main() {
 		}
 		else if ((character == ' ') || (character == '\t') || (character == '\n')) {
 
-		//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
+			//	freq_of_each_word[++idx] = num_of_characters_in_a_word;
 
-		//	num_of_characters_in_a_word = 0;
+			//	num_of_characters_in_a_word = 0;
 
 			if (status == IN) {
 
 				status = OUT;
 
-			//	printf("\n");
+				//	printf("\n");
 
 				freq_of_each_word[++idx] = num_of_characters_in_a_word;
 
@@ -69,16 +69,20 @@ int main() {
 
 		}
 
-		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1 ); i++)
+		for (int i = 1; (freq_of_each_word + i) < (&freq_of_each_word + 1); i++)
 		{
 			// To detect the last word.
-			if (*(freq_of_each_word + i)) {
-				
-			//	which_number_in_the_sequence_is_this_word++;
+			if (*(freq_of_each_word + i) != 0) {
+
+				//	which_number_in_the_sequence_is_this_word++;
 
 				int multiple = *(freq_of_each_word + i);
 
-				printf("|\n" * multiple);
+				for (int j = 0; j < multiple; j++) {
+
+					printf("|\n");
+
+				}
 
 				printf("%d ", i);
 
