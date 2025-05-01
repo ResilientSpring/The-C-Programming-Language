@@ -5,7 +5,7 @@
 
 int main() {
 
-
+	int uppercase[26] = { 0 };
 
 
 }
