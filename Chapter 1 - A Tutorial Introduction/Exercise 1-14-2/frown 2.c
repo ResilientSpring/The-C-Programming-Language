@@ -36,7 +36,7 @@ int main() {
 
 	for (char i = 'A', j = 0; i <= 'Z', j <= 26; i++, j++) {
 
-
+		printf("%c: ", i);
 
 	}
 
