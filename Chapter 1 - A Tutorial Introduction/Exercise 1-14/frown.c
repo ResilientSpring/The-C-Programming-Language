@@ -9,5 +9,8 @@ int main() {
 
 	int lowercase[26] = { 0 };
 
+	char character;
+
+
 
 }
