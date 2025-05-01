@@ -18,6 +18,11 @@ int main() {
 			++(uppercase[character - 65]);
 
 		}
+		else if (character >= 'a' && character <= 'z') {
+
+
+
+		}
 
 
 	}
