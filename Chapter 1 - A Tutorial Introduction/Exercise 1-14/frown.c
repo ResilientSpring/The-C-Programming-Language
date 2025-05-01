@@ -31,4 +31,10 @@ int main() {
 
 	}
 
+	for (char i = 'A', int j = 0; i <= 'Z', j <= 26; i++, j++) {
+
+
+
+	}
+
 }
