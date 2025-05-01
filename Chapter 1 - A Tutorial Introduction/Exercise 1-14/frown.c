@@ -20,7 +20,7 @@ int main() {
 		}
 		else if (character >= 'a' && character <= 'z') {
 
-
+			(lowercase[character - 'a'])++;
 
 		}
 
