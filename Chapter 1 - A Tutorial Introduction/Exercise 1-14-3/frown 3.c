@@ -44,7 +44,7 @@ int main() {
 
 		printf("%c: ", i);
 
-
+		for(int j = 0; j <= )
 	}
 
 }
