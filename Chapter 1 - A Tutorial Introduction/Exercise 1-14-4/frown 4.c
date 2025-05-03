@@ -65,13 +65,13 @@ int main() {
 
 		printf("%c: ", i);
 
-		for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
+		for (int j = 0; (lowercase + j) < (&lowercase + 1); j++) {
 
-			for (int k = 0; k < *(uppercase + j); k++) {
+			for (int k = 0; k < *(lowercase + j); k++) {
 
 				printf("-");
 
-				if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+				if ((lowercase + j) == (lowercase + (sizeof(lowercase) / sizeof(lowercase[0])) - 1)) {
 
 					printf("\n");
 
