@@ -46,11 +46,15 @@ int main() {
 
 		for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
 
-			printf("-");
+			for (int k = 0; k < *(uppercase + j); k++) {
 
-			if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+				printf("-");
 
-				printf("\n");
+				if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+
+					printf("\n");
+
+				}
 
 			}
 
