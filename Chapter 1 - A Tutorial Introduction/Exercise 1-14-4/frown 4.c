@@ -70,11 +70,11 @@ int main() {
 
 				printf("-");
 
-				if ((lowercase + j) == (lowercase + (sizeof(lowercase) / sizeof(lowercase[0])) - 1)) {
+			}
 
-					printf("\n");
+			if ((lowercase + j) == (lowercase + (sizeof(lowercase) / sizeof(lowercase[0])) - 1)) {
 
-				}
+				printf("\n");
 
 			}
 
