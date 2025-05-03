@@ -61,4 +61,25 @@ int main() {
 		}
 	}
 
+	for (char i = 'a'; i <= 'z'; i++) {
+
+		printf("%c: ", i);
+
+		for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
+
+			for (int k = 0; k < *(uppercase + j); k++) {
+
+				printf("-");
+
+				if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+
+					printf("\n");
+
+				}
+
+			}
+
+		}
+	}
+
 }
