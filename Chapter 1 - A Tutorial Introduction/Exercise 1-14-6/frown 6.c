@@ -76,6 +76,11 @@ int main() {
 				printf("\n");
 
 			}
+			else if ((*(uppercase + j)) == 0) {
+
+				printf("\n");
+
+			}
 
 		}
 	}
