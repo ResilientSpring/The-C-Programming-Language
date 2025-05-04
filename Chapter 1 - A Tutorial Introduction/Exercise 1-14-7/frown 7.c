@@ -93,23 +93,23 @@ int main() {
 
 	i = 'a';
 
-		for (int j = 0; (lowercase + j) < (&lowercase + 1); j++) {
+	for (int j = 0; (lowercase + j) < (&lowercase + 1); j++) {
 
-			printf("%c: ", i++);
+		printf("%c: ", i++);
 
-			for (int k = 0; k < *(lowercase + j); k++) {
+		for (int k = 0; k < *(lowercase + j); k++) {
 
-				printf("-");
-
-			}
-
-			if ((lowercase + j) == (lowercase + (sizeof(lowercase) / sizeof(lowercase[0])) - 1)) {
-
-				printf("\n");
-
-			}
+			printf("-");
 
 		}
-	
+
+		if ((lowercase + j) == (lowercase + (sizeof(lowercase) / sizeof(lowercase[0])) - 1)) {
+
+			printf("\n");
+
+		}
+
+	}
+
 
 }
