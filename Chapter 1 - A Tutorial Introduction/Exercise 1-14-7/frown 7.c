@@ -107,6 +107,10 @@ int main() {
 
 		}
 
+		if (*(lowercase + j) == 0) {
+			printf("\n");
+		}
+
 	}
 
 
