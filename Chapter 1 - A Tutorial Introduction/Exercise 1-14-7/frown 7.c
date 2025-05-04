@@ -101,11 +101,9 @@ int main() {
 
 			printf("-");
 
-		}
+			if (k == (*(lowercase + j) - 1))
 
-		if ((lowercase + j) == (lowercase + (sizeof(lowercase) / sizeof(lowercase[0])) - 1)) {
-
-			printf("\n");
+				printf("\n");
 
 		}
 
