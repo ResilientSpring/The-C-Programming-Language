@@ -40,11 +40,31 @@ int main() {
 
 	//	}
 
-	for (char i = 'A'; i <= 'Z'; i++) {
+	//for (char i = 'A'; i <= 'Z'; i++) {
 
-		printf("%c: ", i);
+	//	printf("%c: ", i);
+
+	//	for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
+
+	//		for (int k = 0; k < *(uppercase + j); k++) {
+
+	//			printf("-");
+
+	//		}
+
+	//		if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+
+	//			printf("\n");
+
+	//		}
+	//	}
+	//}
+
+	char i = 'A';
 
 		for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
+
+			printf("%c: ", i++);
 
 			for (int k = 0; k < *(uppercase + j); k++) {
 
@@ -58,11 +78,10 @@ int main() {
 
 			}
 		}
-	}
 
 	for (char i = 'a'; i <= 'z'; i++) {
 
-		printf("\n%c: ", i);
+		printf("%c: ", i);
 
 		for (int j = 0; (lowercase + j) < (&lowercase + 1); j++) {
 
