@@ -76,11 +76,17 @@ int main() {
 				printf("\n");
 
 			}
-			else if ((*(uppercase + j)) == 0) {
+			//else if ((*(uppercase + j)) == 0) {
 
-				printf("\n");
+			//	printf("\n");
 
-			}
+			//}
+
+		}
+
+		if ((*(uppercase + j)) == 0) {
+
+			printf("\n");
 
 		}
 	}
