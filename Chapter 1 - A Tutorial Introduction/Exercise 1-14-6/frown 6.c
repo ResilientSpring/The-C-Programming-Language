@@ -62,22 +62,22 @@ int main() {
 
 	char i = 'A';
 
-		for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
+	for (int j = 0; (uppercase + j) < (&uppercase + 1); j++) {
 
-			printf("%c: ", i++);
+		printf("%c: ", i++);
 
-			for (int k = 0; k < *(uppercase + j); k++) {
+		for (int k = 0; k < *(uppercase + j); k++) {
 
-				printf("-");
+			printf("-");
 
-			}
-
-			if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
-
-				printf("\n");
-
-			}
 		}
+
+		if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+
+			printf("\n");
+
+		}
+	}
 
 	for (char i = 'a'; i <= 'z'; i++) {
 
