@@ -70,11 +70,12 @@ int main() {
 
 			printf("-");
 
-		}
 
-		if ((uppercase + j) == (uppercase + (sizeof(uppercase) / sizeof(uppercase[0])) - 1)) {
+			if (k == ( *(uppercase + j) -1 ) ) {
 
-			printf("\n");
+				printf("\n");
+
+			}
 
 		}
 	}
