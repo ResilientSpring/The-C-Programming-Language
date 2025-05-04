@@ -62,9 +62,9 @@ int main() {
 
 	for (char i = 'a'; i <= 'z'; i++) {
 
-		for (int j = 0; (lowercase + j) < (&lowercase + 1); j++) {
+		printf("\n%c: ", i);
 
-			printf("\n%c: ", i);
+		for (int j = 0; (lowercase + j) < (&lowercase + 1); j++) {
 
 			for (int k = 0; k < *(lowercase + j); k++) {
 
