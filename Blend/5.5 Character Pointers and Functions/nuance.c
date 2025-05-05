@@ -1,0 +1,1 @@
+char amessage[] = "now is the time";
