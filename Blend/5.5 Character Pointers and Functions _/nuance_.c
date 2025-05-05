@@ -30,4 +30,5 @@ int main() {
 
 	printf("%s\n", amessage);
 	printf("%s\n", pmessage);
+	printf("%s\n", *pmessage);
 }
