@@ -32,4 +32,6 @@ int main() {
 	printf("%s\n", pmessage);
 	printf("%s\n", *pmessage);
 	printf("%c\n", *pmessage);
+
+	printf("\n");
 }
