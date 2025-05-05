@@ -15,7 +15,8 @@ int main() {
 
 //	char* lastPtr = amessage + (sizeof(amessage) / sizeof(amessage[0])) - 1;
 	char* lastPtr = amessage + (sizeof(amessage) / sizeof(amessage[0])) - 2; // bypass '\0'
-	pmessage = *lastPtr;
+//	pmessage = *lastPtr;
+	pmessage = lastPtr;
 
 	*pmessage = '!';
 	
