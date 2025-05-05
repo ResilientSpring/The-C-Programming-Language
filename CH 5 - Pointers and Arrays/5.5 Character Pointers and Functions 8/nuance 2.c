@@ -7,5 +7,7 @@ char  amessage[] = "now is the time";
 // refer to the same storage.
 
 
-// pmessage is a pointer, initialized to point to a string constant
+// pmessage is a pointer, initialized to point to a string constant.
 char* pmessage = "now is the time";
+// the pointer may subsequently be modified to point elsewhere, 
+// but the result is undefined if you try to modify the string contents.
