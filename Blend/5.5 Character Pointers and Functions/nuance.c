@@ -11,4 +11,12 @@ int main() {
 
 	printf("%s\n", pmessage);
 
+	pmessage = amessage;
+
+	char* lastPtr = amessage + (sizeof(amessage) / sizeof(amessage[0])) - 1;
+	pmessage = *lastPtr;
+
+
+	
+
 }
