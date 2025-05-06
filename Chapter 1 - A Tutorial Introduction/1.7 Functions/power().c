@@ -4,7 +4,7 @@ int power(int m, int n);
 
 /* test power function*/
 
-main() {
+int main() {
 
 	int i;
 
