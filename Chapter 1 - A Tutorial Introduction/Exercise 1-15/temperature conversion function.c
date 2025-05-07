@@ -16,7 +16,7 @@ int main() {
 		printf("Error: Celsius should be a numeric value!\n");
 	
 
-	printf("\n%f degrees in Celsius is equivalent to %f degree in Fahrenheit.", Celsius, Celsius_to_Fahrenheit(Celsius));
+	printf("\n%.2f degrees in Celsius is equivalent to %.2f degree in Fahrenheit.\n", Celsius, Celsius_to_Fahrenheit(Celsius));
 	
 
 }
