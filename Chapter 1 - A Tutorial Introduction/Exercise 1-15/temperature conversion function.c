@@ -8,7 +8,7 @@ float Celsius_to_Fahrenheit(float Celsius);
 
 int main() {
 
-	float Celsius;
+	float Celsius, Fahrenheit;
 
 	printf("Enter a Celsius degree for conversion to Fahrenheit: ");
 	
@@ -18,7 +18,10 @@ int main() {
 
 	printf("\n%.2f degrees in Celsius is equivalent to %.2f degree in Fahrenheit.\n", Celsius, Celsius_to_Fahrenheit(Celsius));
 	
-	
+	printf("Now, enter a Fahrenheit for conversion into a Celsius degree: ");
+
+	if (!scanf("%f", &Fahrenheit))
+		printf("Error: Fahrenheit should be a numeric value!\n");
 }
 
 float Celsius_to_Fahrenheit(float Celsius) {
@@ -34,3 +37,14 @@ float Fahrenheit_to_Celsius(float Fahrenheit) {
 
 	return Celsius;
 }
+
+// Can printf print a double?
+// 
+// Yes, printf can print a double. 
+// The format specifier %f is used to print both float and double values. 
+// 
+// When a float is passed to printf, it's automatically promoted to a double due to the function's 
+// variadic nature. Therefore, using %f works correctly for double values.[1]
+
+// References:
+// 1. https://www.google.com/search?q=can+printf+print+a+double%3F
