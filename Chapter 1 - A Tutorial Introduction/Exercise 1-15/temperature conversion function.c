@@ -18,7 +18,7 @@ int main() {
 
 	printf("\n%.2f degrees in Celsius is equivalent to %.2f degree in Fahrenheit.\n", Celsius, Celsius_to_Fahrenheit(Celsius));
 	
-
+	
 }
 
 float Celsius_to_Fahrenheit(float Celsius) {
@@ -26,4 +26,11 @@ float Celsius_to_Fahrenheit(float Celsius) {
 	float Fahrenheit = Celsius * 9 / 5 + 32;
 
 	return Fahrenheit;
+}
+
+float Fahrenheit_to_Celsius(float Fahrenheit) {
+
+	float Celsius = (Fahrenheit - 32) * 5 / 9;
+
+	return Celsius;
 }
