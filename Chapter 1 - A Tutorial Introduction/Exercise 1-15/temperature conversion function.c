@@ -8,3 +8,10 @@ int main() {
 
 
 }
+
+int Celsius_to_Fahrenheit(float Celsius) {
+
+	float Fahrenheit = Celsius * 9 / 5 + 32;
+
+	return Fahrenheit;
+}
