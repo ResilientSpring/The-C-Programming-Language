@@ -4,7 +4,9 @@
 
 int main() {
 
+	float Celsius;
 
+	scanf("%f", &Celsius);
 
 
 }
