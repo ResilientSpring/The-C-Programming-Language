@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 float Celsius_to_Fahrenheit(float Celsius);
+float Fahrenheit_to_Celsius(float Fahrenheit);
 
 int main() {
 
@@ -22,6 +23,8 @@ int main() {
 
 	if (!scanf("%f", &Fahrenheit))
 		printf("Error: Fahrenheit should be a numeric value!\n");
+
+	printf("\n%.2f degree in Fahrenheit is comparable to %.2f degree in Celsius. \n", Fahrenheit, Fahrenheit_to_Celsius(Fahrenheit));
 }
 
 float Celsius_to_Fahrenheit(float Celsius) {
