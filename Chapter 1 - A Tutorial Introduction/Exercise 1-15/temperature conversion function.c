@@ -9,7 +9,10 @@ int main() {
 	float Celsius;
 
 	printf("Enter a Celsius degree for conversion to Fahrenheit: ");
-	scanf("%f", &Celsius);
+	
+	if (!scanf("%f", &Celsius))
+		printf("Error: Celsius should be a numeric value!\n");
+	
 
 	printf("\n%f degrees in Celsius is equivalent to %f degree in Fahrenheit.", Celsius, Celsius_to_Fahrenheit(Celsius));
 	
