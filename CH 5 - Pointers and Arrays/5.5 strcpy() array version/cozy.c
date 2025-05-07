@@ -1,5 +1,7 @@
 /* strcpy: copy t to s; array subscript version */
 
+#include <stdio.h>
+
 void strcpy(char* s, char* t) {
 
 	int i;
