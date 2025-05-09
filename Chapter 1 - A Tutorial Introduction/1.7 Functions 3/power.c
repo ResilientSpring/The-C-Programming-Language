@@ -7,10 +7,7 @@ int power(int, int);
 
 int main() {
 
-	int i;
-
-	for (i = 0; i < 10; ++i)
-		printf("%d %d %d\n", i, power(2, i), power(-3, i));
+	printf("%d\n", power(10, 3));
 
 	return 0;
 }
