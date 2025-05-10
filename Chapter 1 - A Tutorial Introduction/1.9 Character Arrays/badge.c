@@ -23,4 +23,8 @@ int getline(char s[], int lim) {
 
 	}
 
+	s[i] = '\0';
+
+	return i;
+
 }
