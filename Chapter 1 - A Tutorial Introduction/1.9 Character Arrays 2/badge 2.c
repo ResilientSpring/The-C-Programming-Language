@@ -27,7 +27,7 @@ int main() {
 }
 
 /* getline: read a line into s, return length */
-int getline(char s[MAXLINE], int lim) {
+int getline(char s[], int lim) {
 
 	int c, i;
 
@@ -48,7 +48,9 @@ int getline(char s[MAXLINE], int lim) {
 
 }
 
-int getline_2_(char s[50], int lim) {
+//  The purpose of supplying the size of an array in a declaration is to set aside storage.
+//  The length of the array s is not necessary in getline since its size is set in main.
+int getline_2_(char s[MAXLINE], int lim) {
 
 	int c, i;
 
