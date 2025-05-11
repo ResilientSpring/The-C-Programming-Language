@@ -2,6 +2,7 @@
 #define MAXLINE 1000 /* maximum input line size */
 
 int getline(char s[], int lim);
+int getline_2_(char s[MAXLINE], int lim);
 void copy(char to[], char from[]);
 
 int main() {
