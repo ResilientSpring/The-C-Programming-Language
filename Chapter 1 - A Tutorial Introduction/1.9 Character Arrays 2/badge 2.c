@@ -8,7 +8,7 @@ int main() {
 
 	int len;   // current line length
 	int max;   // maximum length seen so far
-	char line[];  // current input line
+	char line[MAXLINE];  // current input line
 	char longest[MAXLINE];  // longest line saved here.
 
 	max = 0;
@@ -27,7 +27,28 @@ int main() {
 }
 
 /* getline: read a line into s, return length */
-int getline(char s[], int lim) {
+int getline(char s[MAXLINE], int lim) {
+
+	int c, i;
+
+	for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
+		s[i] = c;
+
+	if (c == '\n') {
+
+		s[i] = c;
+
+		++i;
+
+	}
+
+	s[i] = '\0';
+
+	return i;
+
+}
+
+int getline_2_(char s[50], int lim) {
 
 	int c, i;
 
