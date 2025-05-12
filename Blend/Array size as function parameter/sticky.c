@@ -6,7 +6,7 @@ int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
 
 int main() {
 
-
+	// What will happen if I pass an array smaller than MAX_CHARACTERS_PER_LINE to getline_2_?
 
 }
 
