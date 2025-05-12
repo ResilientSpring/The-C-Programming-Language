@@ -2,6 +2,8 @@
 #define MAX_CHARACTERS_PER_LINE 1000 /* maximum input line size */
 #define MAX_ARRAY_SIZE           500
 
+int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
+
 int main() {
 
 
