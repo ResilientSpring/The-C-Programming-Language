@@ -10,8 +10,11 @@ int main() {
 
 	char* sticky = "sticky";
 
+	int i = getline_2_(sticky, 3);
 
+	printf("i = %d.\n", i);
 
+	printf("%s\n", sticky);
 }
 
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim) {
