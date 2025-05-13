@@ -19,7 +19,8 @@ int main() {
 
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim) {
 
-	int c, i;
+	int i;
+	char c;
 
 	for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
 		s[i] = c;

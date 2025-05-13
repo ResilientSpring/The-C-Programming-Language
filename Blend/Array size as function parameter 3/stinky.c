@@ -8,7 +8,7 @@ int main() {
 
 	// What will happen if I pass an array smaller than MAX_CHARACTERS_PER_LINE to getline_2_?
 
-	char* sticky = "sticky";
+	char sticky[] = "sticky";
 
 	int i = getline_2_(sticky, 3);
 
@@ -19,7 +19,8 @@ int main() {
 
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim) {
 
-	int c, i;
+	int i;
+	char c;
 
 	for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
 		s[i] = c;
