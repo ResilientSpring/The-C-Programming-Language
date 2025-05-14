@@ -39,7 +39,7 @@ int getline(char s[], int limit) {
 		s[i] = c;
 
 
-	// Because i starts fromm 0, the length of an input sentence will be one less than 
+	// Because i starts from 0, the length of an input sentence will be one less than 
 	// its actual length, mimicking discounting '\n' as a word.
 	if (c == '\n') {
 
