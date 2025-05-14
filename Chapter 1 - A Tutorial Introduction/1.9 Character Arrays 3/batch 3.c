@@ -8,19 +8,19 @@ void copy(char to[], char from[]);
 int main() {
 
 	int length;   // current line length
-	int max;   // maximum length seen so far
+	int lengthiest;   // maximum length seen so far
 	char line[MAX_CHARACTERS_PER_LINE];  // current input line
 	char longest[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
 
-	max = 0;
+	lengthiest = 0;
 
 	while ((length = getline_2_(line, MAX_CHARACTERS_PER_LINE)) > 0)
-		if (length > max) {
-			max = length;
+		if (length > lengthiest) {
+			lengthiest = length;
 			copy(longest, line);
 		}
 
-	if (max > 0)   // there was a line
+	if (lengthiest > 0)   // there was a line
 		printf("%s", longest);
 
 	return 0;
