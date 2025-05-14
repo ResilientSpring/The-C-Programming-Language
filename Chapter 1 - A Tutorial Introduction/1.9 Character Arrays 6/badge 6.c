@@ -33,7 +33,7 @@ int getline(char s[], int limit) {
 	int i;
 	char c;
 
-	// i is smaller than (limit - 1) 
+	// i is smaller than (limit - 1) indicates that the last two seats of s[] will be reserved.
 	for (i = 0; i < (limit - 1) && (c = getchar()) != EOF && c != '\n'; ++i)
 		s[i] = c;
 
