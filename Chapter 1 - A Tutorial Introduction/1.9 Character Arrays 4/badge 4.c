@@ -20,7 +20,7 @@ int main() {
 			copy(longest, line);
 		}
 
-	if (lengthiest > 0)   // there was a line
+	if (lengthiest > 0)   // if there was a line
 		printf("%s", longest);
 
 	return 0;
