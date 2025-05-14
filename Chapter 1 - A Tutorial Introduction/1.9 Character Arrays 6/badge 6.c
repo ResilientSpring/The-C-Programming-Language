@@ -38,6 +38,9 @@ int getline(char s[], int limit) {
 	for (i = 0; i < (limit - 1) && (c = getchar()) != EOF && c != '\n'; ++i)
 		s[i] = c;
 
+
+	// Because i starts fromm 0, the length of an input sentence will be one less than 
+	// its actual length, mimicking discounting '\n' as a word.
 	if (c == '\n') {
 
 		s[i] = c;
