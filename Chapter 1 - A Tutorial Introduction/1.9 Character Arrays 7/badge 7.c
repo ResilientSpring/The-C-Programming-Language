@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX_CHARACTERS_PER_LINE 1000 /* maximum input line size */
+#define MAX_CHARACTERS_PER_LINE 10 /* maximum input line size */
 
 int getline(char s[], int lim);
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
@@ -33,14 +33,10 @@ int getline(char s[], int limit) {
 	int i;
 	char c;
 
-	// <del> i is smaller than (limit - 1) indicates that the last two seats of s[] will be reserved. </del>
-	// <del> if i is smaller or equal to (limit -1), then only the last seat of s[] will be reserved. </del>
 	for (i = 0; i < (limit - 1) && (c = getchar()) != EOF && c != '\n'; ++i)
 		s[i] = c;
 
 
-	// Because i starts from 0, the length of an input sentence will be one less than 
-	// its actual length, mimicking discounting '\n' as a word.
 	if (c == '\n') {
 
 		s[i] = c;
