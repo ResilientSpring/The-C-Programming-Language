@@ -185,6 +185,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.9 Character Arrays 7", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.9 Character Arrays 8", "1.9 Character Arrays 8\1.9 Character Arrays 8.vcxproj", "{0322CF19-93D6-404A-9406-D9E5382C3E6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.9 Character Arrays 8-1", "1.9 Character Arrays 8-1\1.9 Character Arrays 8-1.vcxproj", "{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -921,6 +923,14 @@ Global
 		{0322CF19-93D6-404A-9406-D9E5382C3E6C}.Release|x64.Build.0 = Release|x64
 		{0322CF19-93D6-404A-9406-D9E5382C3E6C}.Release|x86.ActiveCfg = Release|Win32
 		{0322CF19-93D6-404A-9406-D9E5382C3E6C}.Release|x86.Build.0 = Release|Win32
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Debug|x64.ActiveCfg = Debug|x64
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Debug|x64.Build.0 = Debug|x64
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Debug|x86.ActiveCfg = Debug|Win32
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Debug|x86.Build.0 = Debug|Win32
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Release|x64.ActiveCfg = Release|x64
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Release|x64.Build.0 = Release|x64
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Release|x86.ActiveCfg = Release|Win32
+		{320809D2-4B65-4BFF-88E3-11EE5ABC6A21}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
