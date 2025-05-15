@@ -15,7 +15,7 @@ int main() {
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
 	char longest_line[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
 
-	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
+	while ((length = getline("Does it comply with C standard?", MAX_CHARACTERS_PER_LINE)) > 0) {
 
 		if (length > lengthiest) {
 
