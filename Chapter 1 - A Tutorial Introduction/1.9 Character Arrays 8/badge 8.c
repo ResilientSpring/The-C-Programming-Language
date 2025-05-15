@@ -48,7 +48,7 @@ int getline(char s[], int limit) {
 
 	}
 
-	s[i] = '\0'; // getline puts the character ¡¬\0¡¬ (the null character, whose value is zero) 
+	s[i] = '\0'; // getline puts the character ¡¬\0¡¬ (the null character, whose ASCII value is zero) 
 				 // at the end of the array it is creating, 
 				 // to mark the end of the string of characters.
 
