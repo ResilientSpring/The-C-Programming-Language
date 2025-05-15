@@ -44,7 +44,7 @@ int getline(char s[], int limit) {
 
 		s[i] = c;
 
-		++i;
+		++i;  // a line containing only a newline has length 1.
 
 	}
 
