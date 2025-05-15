@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX_CHARACTERS_PER_LINE 10 /* maximum input line size */
+#define MAX_CHARACTERS_PER_LINE 1000 /* maximum input line size */
 
 int getline(char s[], int lim);
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
@@ -9,20 +9,21 @@ int main() {
 
 	int length;   // current line length
 	int lengthiest = 0;   // maximum length seen so far
-	char line[MAX_CHARACTERS_PER_LINE];  // current input line
-	char longest[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
+	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
+	char longest_line[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
 
-	while ((length = getline(line, MAX_CHARACTERS_PER_LINE)) > 0) {
+	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
 
 		if (length > lengthiest) {
 
 			lengthiest = length;
-			copy(longest, line);
+			copy(longest_line, current_input_line);
 		}
+
 	}
 
 	if (lengthiest > 0)   // if there was a line
-		printf("%s", longest);
+		printf("%s", longest_line);
 
 	return 0;
 
