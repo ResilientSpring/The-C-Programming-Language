@@ -33,6 +33,7 @@ int getline(char s[], int limit) {
 	int i;
 	char c;
 
+	// should be (i < lim - 2). [1] 
 	for (i = 0; i < (limit - 2) && (c = getchar()) != EOF && c != '\n'; ++i)
 		s[i] = c;
 
@@ -87,3 +88,6 @@ void copy(char to[], char from[]) {
 		++i;
 
 }
+
+// Reference:
+// 1. https://chatgpt.com/c/6824cbb8-9854-8008-b016-f171dbe9d741
