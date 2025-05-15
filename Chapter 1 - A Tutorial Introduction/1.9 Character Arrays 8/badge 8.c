@@ -8,11 +8,9 @@ void copy(char to[], char from[]);
 int main() {
 
 	int length;   // current line length
-	int lengthiest;   // maximum length seen so far
+	int lengthiest = 0;   // maximum length seen so far
 	char line[MAX_CHARACTERS_PER_LINE];  // current input line
 	char longest[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
-
-	lengthiest = 0;
 
 	while ((length = getline(line, MAX_CHARACTERS_PER_LINE)) > 0)
 		if (length > lengthiest) {
