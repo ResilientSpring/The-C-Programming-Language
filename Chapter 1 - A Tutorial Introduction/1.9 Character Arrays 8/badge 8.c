@@ -12,11 +12,14 @@ int main() {
 	char line[MAX_CHARACTERS_PER_LINE];  // current input line
 	char longest[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
 
-	while ((length = getline(line, MAX_CHARACTERS_PER_LINE)) > 0)
+	while ((length = getline(line, MAX_CHARACTERS_PER_LINE)) > 0) {
+
 		if (length > lengthiest) {
+
 			lengthiest = length;
 			copy(longest, line);
 		}
+	}
 
 	if (lengthiest > 0)   // if there was a line
 		printf("%s", longest);
