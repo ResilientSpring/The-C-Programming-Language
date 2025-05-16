@@ -3,6 +3,9 @@
 
 // The Answer is yes, see C++:A Beginner's Guide ¡± Passing an Array.
 
+// The reason that this program would throw an exception was because line No.48 sought to modify 
+// the passing-in string constant (a series of characters enclosed in a pair of double quotes.)
+
 #include <stdio.h>
 #define MAX_CHARACTERS_PER_LINE 1000 /* maximum input line size */
 
