@@ -4,8 +4,13 @@ void copy(char to[], char from[]);
 
 int main() {
 
-	char destination[];
+//	char destination[];
 
+	char destination[20];
+
+	copy(destination, "clutter");
+
+	printf("%s\n", destination);
 }
 
 void copy(char to[], char from[]) {
