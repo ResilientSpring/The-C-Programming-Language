@@ -1,8 +1,10 @@
 #include <stdio.h>
 
+void copy(char to[], char from[]);
+
 int main() {
 
-
+	char destination[];
 
 }
 
