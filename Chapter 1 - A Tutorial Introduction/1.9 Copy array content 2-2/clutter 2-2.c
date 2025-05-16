@@ -6,7 +6,7 @@ int main() {
 
 	char destination[50];
 
-	Copy(destination, "visual clutter");
+	Copy(destination, "visual clutter (uncountable)");
 
 	printf("%s\n", destination);
 }
