@@ -12,7 +12,13 @@ void copy(char to[], char from[]) {
 
 	while ( (to[index] = from[index] ) )
 	{
+		if (to[index] == '\0') {
 
+			break;
+
+		}
+
+		index++;
 	}
 
 }
