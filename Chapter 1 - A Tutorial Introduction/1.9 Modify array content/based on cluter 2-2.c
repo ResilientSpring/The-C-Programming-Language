@@ -14,7 +14,7 @@ int main() {
 
 void Modify(char* A, char* B) {
 
-
+	A = "clutter";
 
 }
 
