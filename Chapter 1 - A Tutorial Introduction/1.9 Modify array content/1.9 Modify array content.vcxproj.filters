@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="based on cluter 2-2.c">
+    <ClCompile Include="based on clutter 2-2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
