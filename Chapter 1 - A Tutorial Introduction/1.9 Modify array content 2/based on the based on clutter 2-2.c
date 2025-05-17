@@ -4,7 +4,7 @@ void Modify(char A[], char B[]);
 
 int main() {
 
-	char destination[50];
+	char destination[50] = {' '};
 
 	Modify(destination, "clutter is uncountable.");
 
