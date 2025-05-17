@@ -14,7 +14,9 @@ int main() {
 
 void Modify(char* A, char* B) {
 
-	A = "clutter";
+	A = "clutter";   // The pointer A inside Modify() is changed to point to "clutter".[1]
 
 }
 
+// References:
+// 1. https://chatgpt.com/c/682773cd-51e8-8008-9895-947ea6eb8a53

@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Declaration with initia
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Declaration with initialization 3", "5.5 Declaration with initialization 3\5.5 Declaration with initialization 3.vcxproj", "{BB9123A5-8FD9-4E42-B6FD-F97EE4D157B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Should '＼0' be manually added？", "5.5 Should '＼0' be manually added？\5.5 Should '＼0' be manually added？.vcxproj", "{AEA23003-41E5-4D42-98FA-CA35E919F6A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{BB9123A5-8FD9-4E42-B6FD-F97EE4D157B9}.Release|x64.Build.0 = Release|x64
 		{BB9123A5-8FD9-4E42-B6FD-F97EE4D157B9}.Release|x86.ActiveCfg = Release|Win32
 		{BB9123A5-8FD9-4E42-B6FD-F97EE4D157B9}.Release|x86.Build.0 = Release|Win32
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Debug|x64.ActiveCfg = Debug|x64
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Debug|x64.Build.0 = Debug|x64
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Debug|x86.Build.0 = Debug|Win32
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Release|x64.ActiveCfg = Release|x64
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Release|x64.Build.0 = Release|x64
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Release|x86.ActiveCfg = Release|Win32
+		{AEA23003-41E5-4D42-98FA-CA35E919F6A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
