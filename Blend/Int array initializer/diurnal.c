@@ -8,4 +8,6 @@ int main() {
 
 	printf("%d\n", nocturnal[1]);
 
+	printf("%d\n", nocturnal[2]);
+
 }
