@@ -22,9 +22,11 @@ int main() {
 
 	printf("9:%d\n", cosy[4]);
 
-	printf("10:%c\n", cosy[5]);
+	printf("10:%d\n", cosy[4]);
 
-	printf("11:%d\n", cosy[5]);
+	printf("11:%c\n", cosy[5]);
+
+	printf("12:%d\n", cosy[5]);
 
 }
 
