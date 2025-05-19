@@ -3,7 +3,7 @@
 int main() {
 
 	//  \\ for the backslash itself.[1]:23
-	char cosy[6] = { 'z', '0', 0, '\0', '\\0' };
+	char cosy[6] = { 'z', '0', 0, '\0', '\\0' }; // [Note1][Note2]
 
 	printf("1:%c\n", cosy[0]);
 
@@ -36,3 +36,11 @@ int main() {
 
 // Reference:
 // 1. The C Programming Language, section 1.1
+// 2. https://chatgpt.com/c/682b4943-93c8-8008-bded-424aa36d2f97
+// 3. https://www.onlinegdb.com/online_c_compiler
+
+// Notes:
+// 1. '\\0' is not valid as a character literal (it has two characters), 
+//     so this results in a warning or implementation-defined behavior.[2] 
+// 
+// 2. Run the code in OnlineGDB, and you will see a more clear syntax color.[3]
