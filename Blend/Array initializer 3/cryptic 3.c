@@ -20,4 +20,6 @@ int main() {
 
 	printf("8:%c\n", cosy[3]);
 
+	printf("9:%d\n", cosy[4]);
+
 }
