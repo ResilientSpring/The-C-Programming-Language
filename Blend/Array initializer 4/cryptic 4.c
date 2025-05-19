@@ -2,7 +2,7 @@
 
 int main() {
 
-	//  \\ for the backslash itself.[1]
+	//  \\ for the backslash itself.[1]:23
 	char cosy[6] = { 'z', '0', 0, '\0', '\\0' };
 
 	printf("1:%c\n", cosy[0]);
