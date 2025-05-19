@@ -2,7 +2,7 @@
 
 int main() {
 
-	char cosy[5] = { 'z', '0', 0, '\0', '\\0'};
+	char cosy[6] = { 'z', '0', 0, '\0', '\\0'};
 
 	printf("1:%c\n", cosy[0]);
 
@@ -21,5 +21,9 @@ int main() {
 	printf("8:%c\n", cosy[3]);
 
 	printf("9:%d\n", cosy[4]);
+
+	printf("10:%c\n", cosy[5]);
+
+	printf("11:%d\n", cosy[5]);
 
 }
