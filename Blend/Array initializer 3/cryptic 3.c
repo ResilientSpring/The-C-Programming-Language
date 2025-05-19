@@ -27,3 +27,6 @@ int main() {
 	printf("11:%d\n", cosy[5]);
 
 }
+
+// See also:
+// https://github.com/ResilientSpring/Example/blob/master/Example/src/CharArithDemo.java
