@@ -14,4 +14,6 @@ int main() {
 
 	printf("%d\n", cosy[1]);
 
+	printf("%d\n", cosy[2]);
+
 }
