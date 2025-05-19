@@ -2,7 +2,7 @@
 
 int main() {
 
-	char cosy[5] = { 'z', '0', 0, '\0'};
+	char cosy[5] = { 'z', '0', 0, '\0', '\\0'};
 
 	printf("%c\n", cosy[0]);
 
