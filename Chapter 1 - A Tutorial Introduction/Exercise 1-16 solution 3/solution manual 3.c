@@ -19,8 +19,8 @@ main()
 	max = 0;
 	while ((len = getline(line, MAXLINE)) > 0) {
 
-		// This prints the length of the input line (le n) and as many characters as 
-		// it is possible to save in the array called line.
+		// This prints the length of the input line (len) and as many characters as 
+		// it is possible to save in the array called line. 
 		printf("%d, %s", len, line);  
 
 		if (len > max) {
@@ -70,4 +70,4 @@ void copy(char to[], char from[])
 	i = 0;
 	while ((to[i] = from[i]) != '\0')
 		++i;
-}
+}
