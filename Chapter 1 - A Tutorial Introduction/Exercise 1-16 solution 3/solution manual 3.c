@@ -41,6 +41,7 @@ main()
 int getline(char s[], int lim)
 {
 	char c;
+
 	int i;
 	int j; // j keeps track of the number of characters copied to the string.
 
@@ -56,6 +57,7 @@ int getline(char s[], int lim)
 
 	if (c == '\n') {
 		s[j] = c;
+
 		++j;
 		++i;
 	}
