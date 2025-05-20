@@ -2,8 +2,8 @@
 
 int main() {
 
-	char slash = '\';
+	char slash = '\\';
 
-		printf("%c\n", slash);
+	printf("%c\n", slash);
 
 }
