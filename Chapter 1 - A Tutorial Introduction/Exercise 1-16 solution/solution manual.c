@@ -42,9 +42,11 @@ int getline(char s[], int lim)
 		s[i] = c;
 		++i;
 	}
+
 	s[i] = '\0';
 	return i;
 }
+
 /* copy: copy 'from' into 'to'; assume to is big enough */
 void copy(char to[], char from[])
 {
