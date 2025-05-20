@@ -21,9 +21,9 @@ int main() {
 
 	printf("8:%c\n", cosy[3]);  // '\0' invisible
 
-	printf("9:%d\n", cosy[4]);  // undefined b/c there're two characters '\' & '0' in a single quote.
+	printf("9:%d\n", cosy[4]);  // undefined b/c there're two characters 
 
-	printf("10:%c\n", cosy[4]);  // 
+	printf("10:%c\n", cosy[4]);  // '\' & '0' in a single quote.
 
 	printf("11:%c\n", cosy[5]);
 
