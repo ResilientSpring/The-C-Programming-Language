@@ -23,7 +23,7 @@ int main() {
 
 	printf("9:%d\n", cosy[4]);  // undefine b/c there're two characters '\' & '0' in a single quote.
 
-	printf("10:%c\n", cosy[4]);
+	printf("10:%c\n", cosy[4]);  // 
 
 	printf("11:%c\n", cosy[5]);
 
