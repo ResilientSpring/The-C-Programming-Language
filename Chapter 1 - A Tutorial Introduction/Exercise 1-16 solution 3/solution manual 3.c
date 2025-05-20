@@ -34,9 +34,10 @@ main()
 /* getline: read a line into s, return length */
 int getline(char s[], int lim)
 {
-	int c, i, j;
+	char c;
+	int i;
+	int j; // j keeps track of the number of characters copied to the string.
 
-	// j keeps track of the number of characters copied to the string.
 	j = 0;
 
 	for (i = 0; (c = getchar()) != EOF && c != '\n'; ++i)
