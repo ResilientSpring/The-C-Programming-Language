@@ -37,7 +37,12 @@ int getline(char s[], int lim)
 
 	j = 0;
 	for (i = 0; (c = getchar()) != EOF && c != '\n'; ++i)
-		s[i] = c;
+		if (i < lim - 2) {
+
+			s[j] = c;
+			
+			++j;
+		}
 
 	if (c == '\n') {
 		s[i] = c;
