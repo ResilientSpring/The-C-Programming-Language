@@ -42,6 +42,7 @@ int getline(char s[], int lim)
 {
 	char c;
 
+	// The length of the string is returned in i.
 	int i;
 	int j; // j keeps track of the number of characters copied to the string.;
 
