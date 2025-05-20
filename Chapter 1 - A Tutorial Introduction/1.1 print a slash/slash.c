@@ -8,4 +8,10 @@ int main() {
 
 	printf("\\");
 
+	printf("/");
+
+	char backslash = '/';
+
+	printf("%c\n", backslash);
+
 }
