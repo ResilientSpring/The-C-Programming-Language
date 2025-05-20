@@ -17,9 +17,9 @@ int main() {
 
 	printf("6:%c\n", cosy[2]);  // '\0' invisible
 
-	printf("7:%d\n", cosy[3]);
+	printf("7:%d\n", cosy[3]);  // 0
 
-	printf("8:%c\n", cosy[3]);
+	printf("8:%c\n", cosy[3]);  // '\0' invisible
 
 	printf("9:%d\n", cosy[4]);
 
