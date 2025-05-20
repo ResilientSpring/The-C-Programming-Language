@@ -9,9 +9,9 @@ int main() {
 
 	printf("2:%d\n", cosy[0]);  // 122
 
-	printf("3:%c\n", cosy[1]);
+	printf("3:%c\n", cosy[1]);  // '0'
 
-	printf("4:%d\n", cosy[1]);
+	printf("4:%d\n", cosy[1]);  // 48
 
 	printf("5:%d\n", cosy[2]);
 
