@@ -6,4 +6,6 @@ int main() {
 
 	printf("%c\n", slash);
 
+	printf("\\");
+
 }
