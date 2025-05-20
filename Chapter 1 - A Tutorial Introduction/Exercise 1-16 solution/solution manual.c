@@ -50,7 +50,7 @@ int getline(char s[], int lim)
 		++i;
 	}
 
-	s[i] = '\0';
+	s[j] = '\0';
 	return i;
 }
 
