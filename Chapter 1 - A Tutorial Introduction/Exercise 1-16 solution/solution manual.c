@@ -1,4 +1,4 @@
-/* Revise the main routine of the longest-line program so it will correctly print the
+﻿/* Revise the main routine of the longest-line program so it will correctly print the
 length of arbitrary long input lines, and as much as possible of the text. */
 
 #include <stdio.h>
@@ -39,7 +39,7 @@ int getline(char s[], int lim)
 	for (i = 0; (c = getchar()) != EOF && c != '\n'; ++i)
 		if (i < lim - 2) {
 
-			s[j] = c;
+			s[j] = c; // line still in bounderies 
 			
 			++j;
 		}
