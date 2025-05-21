@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 string array name point
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 strcpy() pithy pointer version", "5.5 strcpy() pithy pointer version\5.5 strcpy() pithy pointer version.vcxproj", "{500B3C4E-7F85-444A-AA27-F4E57A4BEAB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 strcpy() pithy pointer version 2", "5.5 strcpy() pithy pointer version 2\5.5 strcpy() pithy pointer version 2.vcxproj", "{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -571,6 +573,14 @@ Global
 		{500B3C4E-7F85-444A-AA27-F4E57A4BEAB6}.Release|x64.Build.0 = Release|x64
 		{500B3C4E-7F85-444A-AA27-F4E57A4BEAB6}.Release|x86.ActiveCfg = Release|Win32
 		{500B3C4E-7F85-444A-AA27-F4E57A4BEAB6}.Release|x86.Build.0 = Release|Win32
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Debug|x64.ActiveCfg = Debug|x64
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Debug|x64.Build.0 = Debug|x64
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Debug|x86.ActiveCfg = Debug|Win32
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Debug|x86.Build.0 = Debug|Win32
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Release|x64.ActiveCfg = Release|x64
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Release|x64.Build.0 = Release|x64
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Release|x86.ActiveCfg = Release|Win32
+		{73DC4B3B-3B69-4F85-BAC5-0A44406C0850}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
