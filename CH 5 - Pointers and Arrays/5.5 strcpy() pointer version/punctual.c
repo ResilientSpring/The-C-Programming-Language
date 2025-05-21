@@ -4,9 +4,11 @@ void copy(char* to, char* from);
 
 int main() {
 
+	char* comfy = "comfy";
 
+	char cozy[10];
 
-
+	copy(cozy, comfy);
 }
 
 
