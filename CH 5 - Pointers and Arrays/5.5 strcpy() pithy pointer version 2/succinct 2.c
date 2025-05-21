@@ -18,5 +18,7 @@ void string_copy(char* to, char* from) {
 	// increments, or assignments. This improves clarity and helps prevent subtle bugs.[1]
 	while (*to++ = *from++);
 
-
 }
+
+// References:
+// 1. https://chatgpt.com/c/682db353-4404-8008-b15e-1e631bfe9b95
