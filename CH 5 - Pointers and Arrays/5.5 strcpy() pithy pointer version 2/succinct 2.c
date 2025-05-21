@@ -16,7 +16,7 @@ void string_copy(char* to, char* from) {
 
 	// Use parentheses whenever using complex pointer expressions that combine dereferencing, 
 	// increments, or assignments. This improves clarity and helps prevent subtle bugs.[1]
-	while (  *to++ = *from++  );
+	while (  *(to++) = *(from++)  );
 
 }
 
