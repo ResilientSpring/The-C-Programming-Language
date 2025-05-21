@@ -12,9 +12,10 @@ int main() {
 
 void copy(char* to, char* from) {
 
-	while (*to = *from)
+	while ( (*to = *from) != '\0')
 	{
-
+		to++;
+		++from;
 	}
 
 }
