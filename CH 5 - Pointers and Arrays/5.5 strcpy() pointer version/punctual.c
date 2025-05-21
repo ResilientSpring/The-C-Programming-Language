@@ -9,6 +9,8 @@ int main() {
 	char cozy[10];
 
 	copy(cozy, comfy);
+
+	printf("%s\n", cozy);
 }
 
 
