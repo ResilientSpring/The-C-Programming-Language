@@ -14,11 +14,10 @@ void copy(char to[], char from[]);
 main()
 {
 	int length; /* current line length */
-	int lengthiest; /* maximum length seen so far */
+	int lengthiest = 0; /* maximum length seen so far */
 	char current_input_line[MAXLINE]; /* current input line */
 	char longest_line[MAXLINE]; /* longest line saved here */
 
-	lengthiest = 0;
 	while ((length = getline(current_input_line, MAXLINE)) > 0) {
 
 		// This prints the length of the input line (len) and as many characters as 
