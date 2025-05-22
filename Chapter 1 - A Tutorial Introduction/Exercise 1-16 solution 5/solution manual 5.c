@@ -20,7 +20,7 @@ main()
 
 	while ((length = getline(current_input_line, MAXLINE)) > 0) {
 
-		// This prints the length of the input line and as many characters as 
+		// This prints the length of the current input line and as many characters as 
 		// it is possible to save in the array called current_input_line. 
 		printf("%d, %s", length, current_input_line);
 
