@@ -37,7 +37,7 @@ main()
 }
 
 /* getline: read a line into s, return length */
-int getline(char s[], int lim)
+int getline(char s[], int limit)
 {
 	char c;
 
@@ -46,7 +46,7 @@ int getline(char s[], int lim)
 	int j; // j keeps track of the number of characters copied to the string.;
 
 	for (i = 0, j = 0; (c = getchar()) != EOF && c != '\n'; ++i, ++j)
-		if (i < lim - 2) {
+		if (i < limit - 2) {
 
 			s[j] = c; // line still in bounderies 
 
