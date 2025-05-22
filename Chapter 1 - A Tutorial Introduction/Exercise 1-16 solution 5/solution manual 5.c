@@ -36,8 +36,8 @@ main()
 	return 0;
 }
 
-/* getline: read a line into s, return length */
-int getline(char s[], int limit)
+/* getline: read a line into string, return length */
+int getline(char string[], int limit)
 {
 	char character;
 
@@ -48,18 +48,18 @@ int getline(char s[], int limit)
 	for (i = 0, j = 0; (character = getchar()) != EOF && character != '\n'; ++i, ++j)
 		if (i < limit - 2) {
 
-			s[j] = character; // line still in bounderies 
+			string[j] = character; // line still in bounderies 
 
 		}
 
 	if (character == '\n') {
-		s[j] = character;
+		string[j] = character;
 
 		++j;
 		++i;
 	}
 
-	s[j] = '\0';
+	string[j] = '\0';
 
 	return i;
 }
