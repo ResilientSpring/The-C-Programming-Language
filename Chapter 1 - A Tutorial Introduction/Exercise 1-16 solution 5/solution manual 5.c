@@ -43,7 +43,7 @@ int getline(char s[], int limit)
 
 	// The length of the string is returned in i.
 	int i;
-	int j; // j keeps track of the number of characters copied to the string.;
+	int j; // j keeps track of the number of characters copied to the string.
 
 	for (i = 0, j = 0; (character = getchar()) != EOF && character != '\n'; ++i, ++j)
 		if (i < limit - 2) {
