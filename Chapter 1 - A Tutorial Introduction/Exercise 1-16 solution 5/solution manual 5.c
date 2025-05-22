@@ -15,25 +15,25 @@ main()
 {
 	int length; /* current line length */
 	int lengthiest; /* maximum length seen so far */
-	char line[MAXLINE]; /* current input line */
-	char longest[MAXLINE]; /* longest line saved here */
+	char current_input_line[MAXLINE]; /* current input line */
+	char longest_line[MAXLINE]; /* longest line saved here */
 
 	lengthiest = 0;
-	while ((length = getline(line, MAXLINE)) > 0) {
+	while ((length = getline(current_input_line, MAXLINE)) > 0) {
 
 		// This prints the length of the input line (len) and as many characters as 
 		// it is possible to save in the array called line. 
-		printf("%d, %s", length, line);
+		printf("%d, %s", length, current_input_line);
 
 		if (length > lengthiest) {
 			lengthiest = length;
-			copy(longest, line);
+			copy(longest_line, current_input_line);
 		}
 
 	}
 
 	if (lengthiest > 0) /* there was a line */
-		printf("%s", longest);
+		printf("%s", longest_line);
 	return 0;
 }
 
