@@ -39,21 +39,21 @@ main()
 /* getline: read a line into s, return length */
 int getline(char s[], int limit)
 {
-	char c;
+	char character;
 
 	// The length of the string is returned in i.
 	int i;
 	int j; // j keeps track of the number of characters copied to the string.;
 
-	for (i = 0, j = 0; (c = getchar()) != EOF && c != '\n'; ++i, ++j)
+	for (i = 0, j = 0; (character = getchar()) != EOF && character != '\n'; ++i, ++j)
 		if (i < limit - 2) {
 
-			s[j] = c; // line still in bounderies 
+			s[j] = character; // line still in bounderies 
 
 		}
 
-	if (c == '\n') {
-		s[j] = c;
+	if (character == '\n') {
+		s[j] = character;
 
 		++j;
 		++i;
