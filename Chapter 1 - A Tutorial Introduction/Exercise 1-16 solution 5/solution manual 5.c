@@ -21,7 +21,7 @@ main()
 	while ((length = getline(current_input_line, MAXLINE)) > 0) {
 
 		// This prints the length of the input line (len) and as many characters as 
-		// it is possible to save in the array called line. 
+		// it is possible to save in the array called current_input_line. 
 		printf("%d, %s", length, current_input_line);
 
 		if (length > lengthiest) {
