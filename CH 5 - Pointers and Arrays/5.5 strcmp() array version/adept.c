@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int strcmp(char* s, char* t);
+
 int main() {
 
 	
