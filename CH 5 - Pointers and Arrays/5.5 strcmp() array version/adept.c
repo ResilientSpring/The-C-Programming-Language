@@ -4,7 +4,10 @@ int strcmp(char* s, char* t);
 
 int main() {
 
-	
+	int margin = strcmp("allot", "stinky");
+
+	if(margin > 0)
+		printf
 
 
 }
