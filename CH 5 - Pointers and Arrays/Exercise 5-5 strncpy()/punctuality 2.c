@@ -7,10 +7,6 @@ int main() {
 
 	char destination[100];
 
-	strncpy(destination, "punctual", 9);
-
-	printf("%s\n", destination);
-
 	strncpy2(destination, "punctual", 9);
 
 	printf("%s\n", destination);
