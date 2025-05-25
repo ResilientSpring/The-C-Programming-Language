@@ -7,6 +7,8 @@ int main() {
 	int comfy = strcmp("stinky", "sticky");
 
 	printf("%d\n", comfy);
+
+	printf("%d\n", 'n' - 'c');
 }
 
 /* strcmp: return <0 if s < t, 0 if s == t, >0 if s > t */
