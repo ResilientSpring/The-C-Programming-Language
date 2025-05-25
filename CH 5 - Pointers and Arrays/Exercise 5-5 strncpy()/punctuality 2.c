@@ -7,6 +7,10 @@ int main() {
 
 	char destination[100];
 
+	strncpy(destination, "punctual", 9);
+
+	printf("%s\n", destination);
+
 	strncpy2(destination, "punctual", 9);
 
 	printf("%s\n", destination);
@@ -38,5 +42,20 @@ void strncpy2(char* s, char* t, int n) {
 	}
 
 	s[n] = '\0';
+
+}
+
+//  copies at most n characters of t to s.
+void strncpy3(char* s, char* t, int n) {
+
+	int i;
+
+	for (i = 0; i < n - 1; i++) {
+
+		*(s + i) = *(t + i);
+
+	}
+
+	s[n - 1] = '\0';
 
 }
