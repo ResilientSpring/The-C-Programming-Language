@@ -31,7 +31,7 @@ void strncpy2(char* s, char* t, int n) {
 
 	int i;
 
-	for (i = i; i < n ; i++) {
+	for (i = 1; i < n ; i++) {
 
 		*(s + i) = *(t + i);
 
