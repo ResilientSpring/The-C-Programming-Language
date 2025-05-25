@@ -12,11 +12,11 @@ int main() {
 
 	printf("%s\n", destination);
 
-	char destination2[100];
+	char destination_No3[100];
 
-	strncpy(destination2, "punctual", 9);
+	strncpy3(destination_No3, "punctual", 9);
 	
-	printf("%s\n", destination2);
+	printf("%s\n", destination_No3);
 
 }
 
