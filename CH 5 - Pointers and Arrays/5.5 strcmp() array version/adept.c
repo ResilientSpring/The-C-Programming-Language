@@ -6,8 +6,7 @@ int main() {
 
 	int margin = strcmp("allot", "stinky");
 
-	if(margin > 0)
-		printf
+	printf("%d\n", margin);
 
 
 }
