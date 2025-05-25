@@ -8,7 +8,7 @@ int main() {
 
 	printf("%d\n", margin);
 
-
+	printf("%d\n", 'a' - 's');
 }
 
 /* strcmp: return < 0 if s < t, 0 if s == t, >0 if s > t */
