@@ -2,6 +2,7 @@
 
 void strncpy(char* s, char* t, int n);
 void strncpy2(char* s, char* t, int n);
+void strncpy3(char* s, char* t, int n);
 
 int main() {
 
@@ -10,6 +11,12 @@ int main() {
 	strncpy2(destination, "punctual", 9);
 
 	printf("%s\n", destination);
+
+	char destination2[100];
+
+	strncpy(destination2, "punctual", 9);
+	
+	printf("%s\n", destination2);
 
 }
 
