@@ -4,8 +4,9 @@ int strcmp(char* s, char* t);
 
 int main() {
 
+	int comfy = strcmp("stinky", "sticky");
 
-
+	printf("%d\n", comfy);
 }
 
 /* strcmp: return <0 if s < t, 0 if s == t, >0 if s > t */
