@@ -19,7 +19,7 @@ void strncpy(char* s, char* t, int n) {
 
 	for (i = 0; i <= n; i++) {
 
-		*s = *t;
+		*(s+i) = *(t+i);
 
 	}
 
