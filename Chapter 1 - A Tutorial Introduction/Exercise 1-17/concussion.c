@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #define MAX_CHARACTERS_PER_LINE 1000 /* maximum input line size */
+#define ALL_INPUT_LINES_LONGER_THAN_EIGHTY 500
 
 int getline(char s[], int lim);
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
@@ -13,6 +14,8 @@ int main() {
 	int lengthiest = 0;   // maximum length seen so far
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
 	char longest_line[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
+
+	char* more_than_80_characters[ALL_INPUT_LINES_LONGER_THAN_EIGHTY];
 
 	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
 
