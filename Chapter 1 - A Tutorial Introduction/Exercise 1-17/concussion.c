@@ -4,7 +4,13 @@
 
 int main() {
 
-
+	
 
 }
 
+int getline() {
+
+
+
+
+}
