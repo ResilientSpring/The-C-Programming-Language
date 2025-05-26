@@ -39,6 +39,12 @@ int main() {
 	if (lengthiest > 0)   // if there was a line
 		printf("%s", longest_line);
 
+	if (more_than_80_characters[0] != NULL) {
+
+
+
+	}
+
 	return 0;
 
 }
