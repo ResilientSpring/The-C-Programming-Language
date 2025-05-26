@@ -10,6 +10,7 @@ void copy(char to[], char from[]);
 
 int main() {
 
+	int index = 0;
 	int length;   // current line length
 	int lengthiest = 0;   // maximum length seen so far
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
@@ -29,7 +30,7 @@ int main() {
 
 		if (length > 80) {
 
-
+			more_than_80_characters[index++] = current_input_line;
 
 		}
 
