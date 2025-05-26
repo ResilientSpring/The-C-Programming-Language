@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array initializer 5", "Arra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uninitialized array element content", "Uninitialized array element content\Uninitialized array element content.vcxproj", "{F7DC61DC-8A6F-409C-A645-5F064D50C1D2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uninitialized array element's content", "Uninitialized array element's content\Uninitialized array element's content.vcxproj", "{70313023-00D2-4F84-A326-623E29FE20F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{F7DC61DC-8A6F-409C-A645-5F064D50C1D2}.Release|x64.Build.0 = Release|x64
 		{F7DC61DC-8A6F-409C-A645-5F064D50C1D2}.Release|x86.ActiveCfg = Release|Win32
 		{F7DC61DC-8A6F-409C-A645-5F064D50C1D2}.Release|x86.Build.0 = Release|Win32
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Debug|x64.ActiveCfg = Debug|x64
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Debug|x64.Build.0 = Debug|x64
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Debug|x86.Build.0 = Debug|Win32
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Release|x64.ActiveCfg = Release|x64
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Release|x64.Build.0 = Release|x64
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Release|x86.ActiveCfg = Release|Win32
+		{70313023-00D2-4F84-A326-623E29FE20F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
