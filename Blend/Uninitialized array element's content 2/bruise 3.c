@@ -7,7 +7,7 @@ int main() {
 
 	if (more_than_80_characters[0] == 0)
 
-		printf("more_than_80_characters[0] is NULL\n");
+		printf("more_than_80_characters[0] is 0\n");
 
 	else
 
