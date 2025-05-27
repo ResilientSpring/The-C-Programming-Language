@@ -16,5 +16,6 @@ int getline(char s[], int limit) {
 
     char character;
 
+    character = getchar();
 
 }
