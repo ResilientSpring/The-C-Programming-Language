@@ -9,6 +9,7 @@ int main() {
 	else
 		printf("Different!\n");
 
+	printf("%d\n", strncmp("clutter", "clutter", 20));
 }
 
 // strncmp(s, t, n) compares at most n characters of t to s
