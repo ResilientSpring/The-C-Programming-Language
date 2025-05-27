@@ -20,4 +20,6 @@ int strncmp(char* s, char* t, int n) {
 
 	}
 
+	return s[i] - t[i];
+
 }
