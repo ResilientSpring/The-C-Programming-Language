@@ -14,7 +14,7 @@ int main() {
 /* getline: read a line into s, return length */
 int getline(char s[], int limit) {
 
-
+    char character;
 
 
 }
