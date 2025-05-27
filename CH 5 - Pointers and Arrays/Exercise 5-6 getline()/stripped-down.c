@@ -18,4 +18,10 @@ int getline(char s[], int limit) {
 
     character = getchar();
 
+    while ((character = getchar()) != '\n') {
+
+        *(s++) = character;
+
+    }
+
 }
