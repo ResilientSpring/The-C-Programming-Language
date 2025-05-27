@@ -20,7 +20,7 @@ int getline(char s[], int limit) {
 
     while ((character = getchar()) != '\n') {
 
-
+        *(s++) = character;
 
     }
 
