@@ -4,7 +4,7 @@ int strncmp(char* s, char* t, int n);
 
 int main() {
 
-	if (strncmp("clutter", "mess around") == 0)
+	if (strncmp("clutter", "mess around", 10) == 0)
 		printf("Same!\n");
 	else
 		printf("Different!\n");
