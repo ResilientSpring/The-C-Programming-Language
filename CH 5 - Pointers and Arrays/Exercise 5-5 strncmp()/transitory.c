@@ -13,6 +13,8 @@ int strncmp(char* s, char* t, int n) {
 
 	for (int i = 0; s[i] == t[i]; i++) {
 
+		if (s[i] == '\0')
+			return 0;
 
 	}
 
