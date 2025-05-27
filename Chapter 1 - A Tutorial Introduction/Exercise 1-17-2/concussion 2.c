@@ -43,7 +43,11 @@ int main() {
 
 		for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_EIGHTY; i++) {
 
+			if (more_than_80_characters[i] != NULL) {
 
+				printf("%d chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters);
+
+			}
 
 		}
 
