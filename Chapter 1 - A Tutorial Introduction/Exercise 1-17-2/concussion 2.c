@@ -16,7 +16,7 @@ int main() {
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
 	char longest_line[MAX_CHARACTERS_PER_LINE];  // longest line saved here.
 
-	char* more_than_80_characters[ALL_INPUT_LINES_LONGER_THAN_EIGHTY];
+	char* more_than_80_characters[ALL_INPUT_LINES_LONGER_THAN_EIGHTY] = { 0 };
 
 	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
 
@@ -41,7 +41,11 @@ int main() {
 
 	if (more_than_80_characters[0] != NULL) {
 
+		for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_EIGHTY; i++) {
 
+
+
+		}
 
 	}
 
