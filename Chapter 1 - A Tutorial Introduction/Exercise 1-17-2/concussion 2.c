@@ -50,6 +50,8 @@ int main() {
 			}
 			else if (more_than_80_characters[i] == NULL) {
 
+				printf("END\n");
+
 				break;
 
 			}
