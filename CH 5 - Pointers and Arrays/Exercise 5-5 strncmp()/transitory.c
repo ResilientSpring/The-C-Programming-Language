@@ -19,7 +19,7 @@ int strncmp(char* s, char* t, int n) {
 
 	int i;
 
-	for (i = 0; (s[i] == t[i]) && (i <= n); i++) {
+	for (i = 0; (s[i] == t[i]) && (i < n); i++) {
 
 		if (s[i] == '\0')
 			return 0;
