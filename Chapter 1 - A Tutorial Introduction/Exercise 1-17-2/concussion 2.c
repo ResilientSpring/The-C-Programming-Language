@@ -48,6 +48,11 @@ int main() {
 				printf("%d chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters);
 
 			}
+			else if (more_than_80_characters[i] == NULL) {
+
+				break;
+
+			}
 
 		}
 
