@@ -45,7 +45,7 @@ int main() {
 
 			if (more_than_80_characters[i] != NULL) {
 
-				printf("%d chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters);
+				printf("%zu chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters);
 
 			}
 			else if (more_than_80_characters[i] == NULL) {
