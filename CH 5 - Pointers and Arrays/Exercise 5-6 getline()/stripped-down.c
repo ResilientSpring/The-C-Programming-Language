@@ -23,9 +23,11 @@ int getline(char s[], int limit) {
 
     while ((character = getchar()) != '\n') {
 
+        ++index;
+
         *(s++) = character;
 
-        index++;
+       // index++;
     }
 
 }
