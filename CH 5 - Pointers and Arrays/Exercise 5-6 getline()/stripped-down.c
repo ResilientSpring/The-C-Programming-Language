@@ -2,12 +2,13 @@
     instead of array indexing. */
 
 #include <stdio.h>
+#define MAX_CHARACTERS_PER_LINE 1000
 
 int getline(char s[], int limit);
 
 int main() {
 
-
+    char current_input_line[MAX_CHARACTERS_PER_LINE];
 
 }
 
