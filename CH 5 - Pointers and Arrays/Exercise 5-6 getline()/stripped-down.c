@@ -25,6 +25,7 @@ int getline(char s[], int limit) {
 
         *(s++) = character;
 
+        index++;
     }
 
 }
