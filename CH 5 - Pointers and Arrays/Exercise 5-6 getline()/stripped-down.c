@@ -28,6 +28,10 @@ int getline(char s[], int limit) {
         *(s++) = character;
 
        // index++;
+
+        if (index == limit)
+            break;
+
     }
 
     return index;
