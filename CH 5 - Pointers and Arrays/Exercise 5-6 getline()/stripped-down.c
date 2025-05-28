@@ -30,4 +30,5 @@ int getline(char s[], int limit) {
        // index++;
     }
 
+    return index;
 }
