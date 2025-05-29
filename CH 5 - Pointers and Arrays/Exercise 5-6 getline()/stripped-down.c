@@ -10,6 +10,8 @@ int main() {
 
     char current_input_line[MAX_CHARACTERS_PER_LINE];
 
+    int length = 0;
+
 }
 
 /* getline: read a line into s, return length */
