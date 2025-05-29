@@ -32,7 +32,22 @@ char* alloc(int);
 /* readlines: read input lines */
 int readlines(char* lineptr[], int maxlines) {
 
+	int length, n_lines;
+	char* p, line[MAXLEN];
 
+	n_lines = 0;
+
+	while ( (length = getline(line, MAXLEN) ) > 0 )
+	{
+
+	}
 
 }
 
+
+/* writelines: write output lines */
+void writelines(char* lineptr[], int n_lines) {
+
+
+
+}
