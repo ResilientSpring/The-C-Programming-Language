@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <string.h>
+
+#define MAXLINES 5000 /* max # lines to be sorted */
+
+char* lineptr[MAXLINES];  /* pointers to text lines */
+
+int readlines(char* lineptr[], int n_lines);
+
+void writelines(char* lineptr[], int n_lines);
+
+void qsort(char* lineptr[], int left, int right);
+
+/* sort input lines */
+int main() {
+
+	int n_lines;
+
+	/* number of input lines read */
+	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
+
+
+
+	}
+
+}
+
+#define MAXLEN 1000 /* max length of any input line */
+int getline(char*, int);
+char* alloc(int);
+
+/* readlines: read input lines */
+int readlines(char* lineptr[], int maxlines) {
+
+	int length, n_lines;
+	char* p, line[MAXLEN];
+
+	n_lines = 0;
+
+	while ( (length = getline(line, MAXLEN) ) > 0 )
+	{
+
+	}
+
+}
+
+
+/* writelines: write output lines */
+void writelines(char* lineptr[], int n_lines) {
+
+	int i;
+
+	for (i = 0; i < n_lines; i++)
+		printf("%s \n", lineptr[i]);
+
+}
+
+/* qsort: sort v[left]...v[right] into increasing order */
+void qsort(char* v[], int left, int right) {
+
+	int i, last;
+
+	void swap(char* v[], int i, int j);
+
+}
