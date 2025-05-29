@@ -54,3 +54,5 @@ void writelines(char* lineptr[], int n_lines) {
 		printf("%s \n", lineptr[i]);
 
 }
+
+
