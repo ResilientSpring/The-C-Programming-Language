@@ -12,6 +12,10 @@ int main() {
 
     int length = 0;
 
+    length = getline(current_input_line, MAX_CHARACTERS_PER_LINE);
+
+    printf("%d  %s\n", length, current_input_line);
+
 }
 
 /* getline: read a line into s, return length */
