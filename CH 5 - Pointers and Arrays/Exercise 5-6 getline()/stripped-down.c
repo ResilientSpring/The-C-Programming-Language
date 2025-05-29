@@ -25,7 +25,7 @@ int getline(char s[], int limit) {
 
     char character;
 
-    character = getchar();
+//    character = getchar();
 
     while ((character = getchar()) != '\n') {
 
