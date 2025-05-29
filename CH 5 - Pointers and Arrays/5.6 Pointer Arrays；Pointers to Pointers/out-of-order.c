@@ -14,6 +14,13 @@ void qaort(char* lineptr[], int left, int right);
 /* sort input lines */
 int main() {
 
+	int n_lines;
 
+	/* number of input lines read */
+	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
+
+
+
+	}
 
 }
