@@ -40,5 +40,7 @@ int getline(char s[], int limit) {
 
     }
 
+    *s = '\0';
+
     return index;
 }
