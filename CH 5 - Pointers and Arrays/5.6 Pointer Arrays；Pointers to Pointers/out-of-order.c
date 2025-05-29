@@ -48,6 +48,9 @@ int readlines(char* lineptr[], int maxlines) {
 /* writelines: write output lines */
 void writelines(char* lineptr[], int n_lines) {
 
+	int i;
 
+	for (i = 0; i < n_lines; i++)
+		printf("%s \n", lineptr[i]);
 
 }
