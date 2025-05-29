@@ -10,6 +10,12 @@ int main() {
 
     char current_input_line[MAX_CHARACTERS_PER_LINE];
 
+    int length = 0;
+
+    length = getline(current_input_line, MAX_CHARACTERS_PER_LINE);
+
+    printf("%d  %s\n", length, current_input_line);
+
 }
 
 /* getline: read a line into s, return length */
@@ -19,7 +25,7 @@ int getline(char s[], int limit) {
 
     char character;
 
-    character = getchar();
+//    character = getchar();
 
     while ((character = getchar()) != '\n') {
 
@@ -33,6 +39,8 @@ int getline(char s[], int limit) {
             break;
 
     }
+
+    *s = '\0';
 
     return index;
 }
