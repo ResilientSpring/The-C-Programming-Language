@@ -58,6 +58,6 @@ void writelines(char* lineptr[], int n_lines) {
 /* qsort: sort v[left]...v[right] into increasing order */
 void qsort(char* v[], int left, int right) {
 
-
+	int i, last;
 
 }
