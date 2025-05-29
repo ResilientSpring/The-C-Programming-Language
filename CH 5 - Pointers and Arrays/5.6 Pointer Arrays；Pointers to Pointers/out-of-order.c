@@ -9,7 +9,7 @@ int readlines(char* lineptr[], int n_lines);
 
 void writelines(char* lineptr[], int n_lines);
 
-void qaort(char* lineptr[], int left, int right);
+void qsort(char* lineptr[], int left, int right);
 
 /* sort input lines */
 int main() {
@@ -55,4 +55,9 @@ void writelines(char* lineptr[], int n_lines) {
 
 }
 
+/* qsort: sort v[left]...v[right] into increasing order */
+void qsort(char* v[], int left, int right) {
 
+
+
+}
