@@ -39,7 +39,13 @@ int readlines(char* lineptr[], int maxlines) {
 
 	while ( (length = getline(line, MAXLEN) ) > 0 )
 	{
+		if (n_lines >= maxlines || (p = alloc(length)) == NULL)
+			return -1;
+		else {
 
+			line[length - 1] = '\0';  // delete newline
+
+		}
 	}
 
 }
