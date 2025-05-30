@@ -39,7 +39,13 @@ int readlines(char* lineptr[], int maxlines) {
 
 	while ( (length = getline(line, MAXLEN) ) > 0 )
 	{
+		if (n_lines >= maxlines || (p = alloc(length)) == NULL)
+			return -1;
+		else {
 
+			line[length - 1] = '\0';  // delete newline
+
+		}
 	}
 
 }
@@ -62,4 +68,17 @@ void qsort(char* v[], int left, int right) {
 
 	void swap(char* v[], int i, int j);
 
+	if (left >= right)  /* do nothing if array contains */
+		return;         /* fewer than two elements */
+
+	swap(v, left, (left + right) / 2);
+	last = left;
+
+	for (i = left + 1; i <= right; i++)
+		if (strcmp(v[i], v[left]) < 0)
+			swap(v, ++last, i);
+
+	swap(v, left, last);
+	qsort(v, left, last - 1);
+	qsort(v, last + 1, right);
 }
