@@ -30,9 +30,8 @@ int main() {
 
 		if (length > 80) {
 
-			// more_than_80_characters[index++] = current_input_line;
+			more_than_80_characters[index++] = current_input_line;
 
-			copy(more_than_80_characters[index++], current_input_line);
 		}
 
 	}
