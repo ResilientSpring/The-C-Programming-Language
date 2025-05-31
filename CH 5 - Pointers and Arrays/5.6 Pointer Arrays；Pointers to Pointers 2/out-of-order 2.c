@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <string.h>
 
@@ -47,8 +49,8 @@ int readlines(char* lineptr[], int maxlines) {
 
 	n_lines = 0;
 
-	while ( (length = getline(line, MAXLEN) ) > 0 )
-	
+	while ((length = getline(line, MAXLEN)) > 0)
+
 		if (n_lines >= maxlines || (p = alloc(length)) == NULL)
 			return -1;
 		else {
@@ -57,7 +59,7 @@ int readlines(char* lineptr[], int maxlines) {
 			strcpy(p, line);
 			lineptr[n_lines++] = p;
 		}
-	
+
 	return n_lines;
 }
 
@@ -95,17 +97,45 @@ void qsort(char* v[], int left, int right) {
 }
 
 //  parameter names are optional in a function prototype.[2]:41 This is not a function prototype.
-int getline(char*, int) {
+//  int getline(char*, int) {
 
-	/* 
-	
-	   This is a function definition (because it has a body {}), 
-	   but the parameters are unnamed (char*, int) ¡X they only have types, 
+	/*
+
+	   This is a function definition (because it has a body {}),
+	   but the parameters are unnamed (char*, int) ¡X they only have types,
 	   not variable names. [1]
-	   
+
 	 */
 
+//  }
+
+/* getline: read a line into s, return length */
+int getline(char s[], int limit) {
+
+	int i;
+	char c;
+
+	for (i = 0; i < (limit - 2) && (c = getchar()) != EOF && (c != '\n'); ++i)
+		s[i] = c;
+
+
+	if (c == '\n') {
+
+		s[i] = c;
+
+		++i;  // a line containing only a newline has length 1.
+
+	}
+
+	s[i] = '\0'; // getline puts the character ¡¬\0¡¬ (the null character, 
+	             // whose ASCII decimal value is zero) 
+				 // at the end of the array it is creating, 
+				 // to mark the end of the string of characters.
+
+	return i;
+
 }
+
 
 // Reference:
 // 1. https://chatgpt.com/c/683aa6b2-72ac-8008-98a1-2ca6f062281c
