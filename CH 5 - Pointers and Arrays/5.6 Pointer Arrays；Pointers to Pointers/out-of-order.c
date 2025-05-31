@@ -93,3 +93,9 @@ void qsort(char* v[], int left, int right) {
 	qsort(v, left, last - 1);
 	qsort(v, last + 1, right);
 }
+
+int getline(char*, int) {
+
+
+
+}
