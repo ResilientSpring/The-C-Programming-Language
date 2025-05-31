@@ -28,3 +28,9 @@ void swap(char A[], char* B) {
 	
 
 }
+
+void swap2(char C[], char* D, size_t size) {
+
+
+
+}
