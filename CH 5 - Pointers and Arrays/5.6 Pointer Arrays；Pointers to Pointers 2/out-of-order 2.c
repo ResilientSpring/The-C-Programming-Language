@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#define CRT_SECURE_NO_WARNINGS
 
 #define MAXLINES 5000 /* max # lines to be sorted */
 
