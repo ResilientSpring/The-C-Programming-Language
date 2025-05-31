@@ -9,7 +9,7 @@ int main() {
 	   
 	   So from a syntax and standards perspective, this is perfectly valid:
 	   
-	   void swap2(char, char D[], size_t);
+	      void swap2(char, char D[], size_t);
 
 	   However, this is not just a matter of parameter names being present or not ¡X 
 	   the issue in your case is that the types do not match between the prototype and 
