@@ -32,11 +32,17 @@ void swap(char A[], char* B) {
 
 void swap2(char C[], char* D, size_t size) {
 
+	char temporary;
+
 	// size_t is an alias for unsigned int, unsigned long, or unsigned long long, 
 	// depending on the platform. So, i++ behaves as if an increment of integer.[1]
 	for (size_t i = 0; i < size; i++) {
 
+		temporary = C[i];
 
+		C[i] = *(D + i);
+
+		*(D + i) = temporary;
 
 	}
 
