@@ -26,6 +26,8 @@ void swap2(char C[], char* D, size_t size) {
 	}
 
 }
+// OnlineGDB successfully compiled this program.[2]
 
 // References:
 // 1. https://chatgpt.com/c/683b29e3-3038-8008-87f3-49b9909f7028
+// 2. https://www.onlinegdb.com/online_c_compiler
