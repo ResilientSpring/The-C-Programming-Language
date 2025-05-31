@@ -28,7 +28,7 @@ int main() {
 	}
 	else {
 
-
+		printf("error: input too big to sort\n");
 
 	}
 
