@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swap2(char* C, char* D, size_t size);
+void swap2(char , char D[], size_t );
 
 int main() {
 
