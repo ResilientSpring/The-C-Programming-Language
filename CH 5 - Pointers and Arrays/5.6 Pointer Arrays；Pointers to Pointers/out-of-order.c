@@ -94,8 +94,19 @@ void qsort(char* v[], int left, int right) {
 	qsort(v, last + 1, right);
 }
 
+//  parameter names are optional in a function prototype.[2]:41 This is not a function prototype.
 int getline(char*, int) {
 
-
+	/* 
+	
+	   This is a function definition (because it has a body {}), 
+	   but the parameters are unnamed (char*, int) ¡X they only have types, 
+	   not variable names. [1]
+	   
+	 */
 
 }
+
+// Reference:
+// 1. https://chatgpt.com/c/683aa6b2-72ac-8008-98a1-2ca6f062281c
+// 2. The C Programming Language
