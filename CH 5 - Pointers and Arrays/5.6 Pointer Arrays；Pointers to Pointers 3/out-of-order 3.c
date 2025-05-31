@@ -100,7 +100,9 @@ void qsort(char* v[], int left, int right) {
 /* swap: interchange v[i] and v[j] */
 void swap(char* v[], int i, int j) {
 
+	char* temp;
 
+	temp = v[i];
 
 }
 
