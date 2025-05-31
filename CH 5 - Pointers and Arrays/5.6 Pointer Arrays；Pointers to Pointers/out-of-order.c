@@ -38,16 +38,17 @@ int readlines(char* lineptr[], int maxlines) {
 	n_lines = 0;
 
 	while ( (length = getline(line, MAXLEN) ) > 0 )
-	{
+	
 		if (n_lines >= maxlines || (p = alloc(length)) == NULL)
 			return -1;
 		else {
 
 			line[length - 1] = '\0';  // delete newline
 			strcpy(p, line);
+			lineptr[n_lines++] = p;
 		}
-	}
-
+	
+	return n_lines;
 }
 
 
