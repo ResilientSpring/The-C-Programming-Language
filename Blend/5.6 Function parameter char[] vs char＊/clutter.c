@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void swap(char , char B[]);
+
 int main() {
 
 
