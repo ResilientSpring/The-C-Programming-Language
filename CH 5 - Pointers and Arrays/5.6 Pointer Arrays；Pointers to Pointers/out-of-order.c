@@ -19,7 +19,11 @@ int main() {
 	/* number of input lines read */
 	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
 
+		qsort(lineptr, 0, n_lines - 1);
 
+		writelines(lineptr, n_lines);
+
+		return 0;
 
 	}
 
