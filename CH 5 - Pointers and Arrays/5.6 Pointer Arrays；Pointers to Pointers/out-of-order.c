@@ -44,7 +44,7 @@ int readlines(char* lineptr[], int maxlines) {
 		else {
 
 			line[length - 1] = '\0';  // delete newline
-
+			strcpy(p, line);
 		}
 	}
 
