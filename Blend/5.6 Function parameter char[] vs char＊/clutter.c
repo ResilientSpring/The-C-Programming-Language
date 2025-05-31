@@ -29,7 +29,7 @@ void swap(char A[], char* B) {
 
 }
 
-
+// char a[] = "Hello"; So its size, sizeof(a), is 6 bytes (5 characters + 1 null terminator).[1]
 void swap2(char C[], char* D, size_t size) {
 
 	char temporary;
