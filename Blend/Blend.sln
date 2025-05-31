@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uninitialized array element
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Function parameter char[] vs char＊", "5.6 Function parameter char[] vs char＊\5.6 Function parameter char[] vs char＊.vcxproj", "{0A56E126-DD15-4AE5-B77A-FC56D429153E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Function parameter char[] vs char＊2", "5.6 Function parameter char[] vs char＊2\5.6 Function parameter char[] vs char＊2.vcxproj", "{9279A719-37E4-46DC-A10F-B16461F0DFBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{0A56E126-DD15-4AE5-B77A-FC56D429153E}.Release|x64.Build.0 = Release|x64
 		{0A56E126-DD15-4AE5-B77A-FC56D429153E}.Release|x86.ActiveCfg = Release|Win32
 		{0A56E126-DD15-4AE5-B77A-FC56D429153E}.Release|x86.Build.0 = Release|Win32
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Debug|x64.ActiveCfg = Debug|x64
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Debug|x64.Build.0 = Debug|x64
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Debug|x86.Build.0 = Debug|Win32
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Release|x64.ActiveCfg = Release|x64
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Release|x64.Build.0 = Release|x64
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Release|x86.ActiveCfg = Release|Win32
+		{9279A719-37E4-46DC-A10F-B16461F0DFBD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
