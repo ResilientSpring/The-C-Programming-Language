@@ -2,6 +2,8 @@
 
 void swap(char , char B[]);
 
+void swap2(char* , char D[], size_t );
+
 int main() {
 
 	
