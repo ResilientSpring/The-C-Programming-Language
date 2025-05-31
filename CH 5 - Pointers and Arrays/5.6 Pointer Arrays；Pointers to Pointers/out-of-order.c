@@ -30,6 +30,7 @@ int main() {
 
 		printf("error: input too big to sort\n");
 
+		return 1;
 	}
 
 }
