@@ -97,11 +97,7 @@ void qsort(char* v[], int left, int right) {
 }
 
 
-/* swap:  interchange v[i] and v[j] */
-void swap(char *v[], int i, int j) {
-
-
-}
+/* swap: interchange v[i] and v[j] */
 
 //  parameter names are optional in a function prototype.[2]:41 This is not a function prototype.
 //  int getline(char*, int) {
