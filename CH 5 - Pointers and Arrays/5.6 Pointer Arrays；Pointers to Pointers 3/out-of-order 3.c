@@ -104,6 +104,10 @@ void swap(char* v[], int i, int j) {
 
 	temp = v[i];
 
+	v[i] = v[j];
+
+	v[j] = v[i];
+
 }
 
 //  parameter names are optional in a function prototype.[2]:41 This is not a function prototype.
