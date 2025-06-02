@@ -104,6 +104,10 @@ void swap(char* v[], int i, int j) {
 
 	temp = v[i];
 
+	v[i] = v[j];
+
+	v[j] = v[i];
+
 }
 
 //  parameter names are optional in a function prototype.[2]:41 This is not a function prototype.
@@ -144,6 +148,25 @@ int getline(char s[], int limit) {
 
 	return i;
 
+}
+
+#define ALLOCSIZE 10000  // size of available space
+
+char   allocbuf[ALLOCSIZE];     // storage for alloc
+char*  allocp = allocbuf;       // next free position
+
+char* alloc(int n)  // return pointer to n characters.
+{
+
+	if (allocbuf + ALLOCSIZE - allocp >= n) {   // it fits
+
+		allocp += n;
+
+		return allocp - n;  // old p
+
+	}
+	else
+		return 0;  // not enough roon.
 }
 
 
