@@ -150,6 +150,25 @@ int getline(char s[], int limit) {
 
 }
 
+#define ALLOCSIZE 10000  // size of available space
+
+static char   allocbuf[ALLOCSIZE];     // storage for alloc
+static char*  allocp = allocbuf;       // next free position
+
+char* alloc(int n)  // return pointer to n characters.
+{
+
+	if (allocbuf + ALLOCSIZE - allocp >= n) {   // it fits
+
+		allocp += n;
+
+		return allocp - n;  // old p
+
+	}
+	else
+		return 0;  // not enough roon.
+}
+
 
 // Reference:
 // 1. https://chatgpt.com/c/683aa6b2-72ac-8008-98a1-2ca6f062281c
