@@ -77,7 +77,9 @@ int readlines(char* lineptr[], int maxlines) {
 }
 
 
-/* writelines: write output lines */
+/* writelines: output lines */
+/* The output routine only has to print the lines in the order in which they appear in the array 
+    of pointers. */
 void writelines(char* lineptr[], int n_lines) {
 
 	int i;
