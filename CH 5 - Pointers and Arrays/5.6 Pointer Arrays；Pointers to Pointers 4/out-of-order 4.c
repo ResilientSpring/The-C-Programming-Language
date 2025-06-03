@@ -174,7 +174,7 @@ char* alloc(int n)  // return pointer to n characters.
 
 	}
 	else
-		return 0;  // not enough roon.
+		return 0;  // no enough room.
 }
 
 
