@@ -28,6 +28,7 @@ int main() {
 		// Step2: sort them
 		qsort(lineptr, 0, n_lines - 1);
 
+		// Step3: print them in order
 		writelines(lineptr, n_lines);
 
 		return 0;
