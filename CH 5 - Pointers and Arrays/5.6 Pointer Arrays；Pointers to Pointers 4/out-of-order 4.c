@@ -1,4 +1,4 @@
-/* This program sorts each input line of texts by length from short to long. */
+﻿/* This program sorts each input line of texts by length from short to long. */
 
 #define _CRT_SECURE_NO_WARNINGS
 
@@ -20,9 +20,12 @@ int main() {
 
 	int n_lines;
 
-	/* number of input lines read */
+	/* The sorting process has three steps: */
+
+	// Step1: read all the lines of input
 	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
 
+		// Step2: sort them
 		qsort(lineptr, 0, n_lines - 1);
 
 		writelines(lineptr, n_lines);
@@ -118,7 +121,7 @@ void swap(char* v[], int i, int j) {
 	/*
 
 	   This is a function definition (because it has a body {}),
-	   but the parameters are unnamed (char*, int) �X they only have types,
+	   but the parameters are unnamed (char*, int) — they only have types,
 	   not variable names. [1]
 
 	 */
@@ -143,7 +146,7 @@ int getline(char s[], int limit) {
 
 	}
 
-	s[i] = '\0'; // getline puts the character ��\0�� (the null character, 
+	s[i] = '\0'; // getline puts the character ′\0′ (the null character, 
 				 // whose ASCII decimal value is zero) 
 				 // at the end of the array it is creating, 
 				 // to mark the end of the string of characters.
