@@ -106,7 +106,7 @@ void swap(char* v[], int i, int j) {
 
 	v[i] = v[j];
 
-	v[j] = v[i];
+	v[j] = temp;
 
 }
 
