@@ -20,7 +20,7 @@ int main() {
 
 	int n_lines;
 
-	/* The sorting process has three steps: */
+	/* The sorting process has three steps: */  // [2]
 
 	// Step1: read all the lines of input
 	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
@@ -49,11 +49,11 @@ char* alloc(int);
 
 /* readlines: read input lines */
 /* The input routine has to collect and save the characters of each line,
-   and build an array of pointers to the lines.*/
+   and build an array of pointers to the lines. [2] */
 int readlines(char* lineptr[], int maxlines) {
 
 	// The input routine will also have to count the number of input lines, 
-	// since that information is needed for sorting and printing.
+	// since that information is needed for sorting and printing.[2]
 	int the_number_of_input_lines = 0;
 
 	int length; 
@@ -63,7 +63,7 @@ int readlines(char* lineptr[], int maxlines) {
 	while ((length = getline(line, MAXLEN)) > 0)
 
 		//  Since the input function can only cope with a finite number of input lines, 
-		//  it can return some illegal line count like −1 if too much input is presented.
+		//  it can return some illegal line count like −1 if too much input is presented.[2]
 		if (the_number_of_input_lines >= maxlines || (p = alloc(length)) == NULL)
 			return -1;
 		else {
@@ -79,7 +79,7 @@ int readlines(char* lineptr[], int maxlines) {
 
 /* writelines: output lines */
 /* The output routine only has to print the lines in the order in which they appear in the array 
-    of pointers. */
+    of pointers. [2] */
 void writelines(char* lineptr[], int n_lines) {
 
 	int i;
