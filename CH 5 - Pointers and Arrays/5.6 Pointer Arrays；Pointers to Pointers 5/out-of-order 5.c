@@ -53,7 +53,8 @@ char* alloc(int);
 int readlines(char* lineptr[], int maxlines) {
 
 	int length, n_lines;
-	char* p, line[MAXLEN];
+	char* p;
+	char line[MAXLEN];
 
 	n_lines = 0;
 
