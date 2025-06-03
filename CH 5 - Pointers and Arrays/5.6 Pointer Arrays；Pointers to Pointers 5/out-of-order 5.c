@@ -52,24 +52,24 @@ char* alloc(int);
    and build an array of pointers to the lines.*/
 int readlines(char* lineptr[], int maxlines) {
 
-	int length, n_lines;
+	int length, the_number_of_input_lines;
 	char* p;
 	char line[MAXLEN];
 
-	n_lines = 0;
+	the_number_of_input_lines = 0;
 
 	while ((length = getline(line, MAXLEN)) > 0)
 
-		if (n_lines >= maxlines || (p = alloc(length)) == NULL)
+		if (the_number_of_input_lines >= maxlines || (p = alloc(length)) == NULL)
 			return -1;
 		else {
 
 			line[length - 1] = '\0';  // delete newline
 			strcpy(p, line);
-			lineptr[n_lines++] = p;
+			lineptr[the_number_of_input_lines++] = p;
 		}
 
-	return n_lines;
+	return the_number_of_input_lines;
 }
 
 
