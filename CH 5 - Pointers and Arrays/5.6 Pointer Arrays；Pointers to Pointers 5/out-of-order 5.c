@@ -1,4 +1,6 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿/* This program sorts each input line of texts by length from short to long. */
+
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <string.h>
@@ -18,11 +20,15 @@ int main() {
 
 	int n_lines;
 
-	/* number of input lines read */
+	/* The sorting process has three steps: */  // [2]
+
+	// Step1: read all the lines of input
 	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
 
+		// Step2: sort them
 		qsort(lineptr, 0, n_lines - 1);
 
+		// Step3: print them in order
 		writelines(lineptr, n_lines);
 
 		return 0;
@@ -42,29 +48,38 @@ int getline(char*, int);
 char* alloc(int);
 
 /* readlines: read input lines */
+/* The input routine has to collect and save the characters of each line,
+   and build an array of pointers to the lines. [2] */
 int readlines(char* lineptr[], int maxlines) {
 
-	int length, n_lines;
-	char* p, line[MAXLEN];
+	// The input routine will also have to count the number of input lines, 
+	// since that information is needed for sorting and printing.[2]
+	int the_number_of_input_lines = 0;
 
-	n_lines = 0;
+	int length; 
+	char* p;
+	char line[MAXLEN];
 
 	while ((length = getline(line, MAXLEN)) > 0)
 
-		if (n_lines >= maxlines || (p = alloc(length)) == NULL)
+		//  Since the input function can only cope with a finite number of input lines, 
+		//  it can return some illegal line count like −1 if too much input is presented.[2]
+		if (the_number_of_input_lines >= maxlines || (p = alloc(length)) == NULL)
 			return -1;
 		else {
 
 			line[length - 1] = '\0';  // delete newline
 			strcpy(p, line);
-			lineptr[n_lines++] = p;
+			lineptr[the_number_of_input_lines++] = p;
 		}
 
-	return n_lines;
+	return the_number_of_input_lines;
 }
 
 
-/* writelines: write output lines */
+/* writelines: output lines */
+/* The output routine only has to print the lines in the order in which they appear in the array 
+    of pointers. [2] */
 void writelines(char* lineptr[], int n_lines) {
 
 	int i;

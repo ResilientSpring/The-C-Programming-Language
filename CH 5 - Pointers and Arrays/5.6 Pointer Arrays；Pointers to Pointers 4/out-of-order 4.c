@@ -1,4 +1,6 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿/* This program sorts each input line of texts by length from short to long. */
+
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <string.h>
@@ -18,11 +20,15 @@ int main() {
 
 	int n_lines;
 
-	/* number of input lines read */
+	/* The sorting process has three steps: */  // [2]
+
+	// Step1: read all the lines of input
 	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
 
+		// Step2: sort them
 		qsort(lineptr, 0, n_lines - 1);
 
+		// Step3: print them in order
 		writelines(lineptr, n_lines);
 
 		return 0;
@@ -42,6 +48,8 @@ int getline(char*, int);
 char* alloc(int);
 
 /* readlines: read input lines */
+/* The input routine has to collect and save the characters of each line, 
+   and build an array of pointers to the lines. [2] */
 int readlines(char* lineptr[], int maxlines) {
 
 	int length, n_lines;
