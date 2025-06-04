@@ -52,7 +52,7 @@ char* alloc(int);
    and build an array of pointers to these lines. [2] */
 int readlines(char* lineptr[], int maxlines) {
 
-	// The input routine will also have to count the number of input lines, 
+	// Step1 also has to count the number of input lines, 
 	// since that information is needed for sorting and printing.[2]
 	int the_number_of_input_lines = 0;
 
