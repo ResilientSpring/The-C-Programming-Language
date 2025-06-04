@@ -62,8 +62,8 @@ int readlines(char* lineptr[], int maxlines) {
 
 	while ((length = getline(line, MAXLEN)) > 0)
 
-		//  Since the input function can only cope with a finite number of input lines, 
-		//  it can return some illegal line count like −1 if too much input is presented.[2]
+		//  Since Step1 is designed to only cope with a finite number of input lines, 
+		//  it will return illegal line count like −1 if too much input is presented.[2]
 		if (the_number_of_input_lines >= maxlines || (p = alloc(length)) == NULL)
 			return -1;
 		else {
