@@ -48,8 +48,8 @@ int getline(char*, int);
 char* alloc(int);
 
 /* readlines: read input lines */
-/* The input routine has to collect and save the characters of each line,
-   and build an array of pointers to the lines. [2] */
+/* Step1 has to record (namely to get and save each character of) each input line,
+   and build an array of pointers to these lines. [2] */
 int readlines(char* lineptr[], int maxlines) {
 
 	// The input routine will also have to count the number of input lines, 
