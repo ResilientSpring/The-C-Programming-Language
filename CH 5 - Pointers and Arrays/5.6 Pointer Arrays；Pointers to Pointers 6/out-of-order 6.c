@@ -7,7 +7,7 @@
 
 #define MAXLINES 5000 /* max # lines to be sorted */
 
-char* lineptr[MAXLINES];  /* line pointer: pointers to text lines */
+char* lineptr[MAXLINES];  /* line's pointer: pointers to text lines */
 
 int readlines(char* lineptr[], int n_lines);
 
