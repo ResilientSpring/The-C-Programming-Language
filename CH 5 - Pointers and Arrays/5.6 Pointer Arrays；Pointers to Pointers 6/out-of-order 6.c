@@ -36,7 +36,7 @@ int main() {
 	}
 	else {
 
-		printf("error: input too big to sort\n");
+		printf("error: too many lines to sort\n");
 
 		return 1;
 	}
