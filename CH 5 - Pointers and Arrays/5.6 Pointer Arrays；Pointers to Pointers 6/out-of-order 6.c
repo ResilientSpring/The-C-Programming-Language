@@ -138,8 +138,7 @@ void swap(char* v[], int i, int j) {
 
 	 //  }
 
-	 /* getline: read a line into s, limit is the max # characters per line permitted,
-	             return length */
+	 /* getline: read a line into s, limit is the max # characters per line, return length */
 int getline(char s[], int limit) {
 
 	int i;
