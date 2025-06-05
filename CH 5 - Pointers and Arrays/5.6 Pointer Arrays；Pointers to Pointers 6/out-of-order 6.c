@@ -68,7 +68,7 @@ int readlines(char* lineptr[], int maxlines) {
 			return -1;
 		else {
 
-			line[length - 1] = '\0';  // delete newline
+			line[length - 1] = '\0';  // substitute 0 for newline ('\n').
 			strcpy(p, line);
 			lineptr[the_number_of_input_lines++] = p;
 		}
@@ -138,19 +138,19 @@ void swap(char* v[], int i, int j) {
 
 	 //  }
 
-	 /* getline: read a line into s, return length */
+	 /* getline: read a line into s, return length, limit is the max # characters per line */
 int getline(char s[], int limit) {
 
 	int i;
-	char c;
+	char character;
 
-	for (i = 0; i < (limit - 2) && (c = getchar()) != EOF && (c != '\n'); ++i)
-		s[i] = c;
+	for (i = 0; i < (limit - 2) && (character = getchar()) != EOF && (character != '\n'); ++i)
+		s[i] = character;
 
 
-	if (c == '\n') {
+	if (character == '\n') {
 
-		s[i] = c;
+		s[i] = character;
 
 		++i;  // a line containing only a newline has length 1.
 
@@ -182,6 +182,14 @@ char* alloc(int n)  // return pointer to n characters.
 	}
 	else
 		return 0;  // no enough room.
+}
+
+int strcpy(char* destination, char* source) {
+
+	int i;
+
+	destination[i] = source[i];
+
 }
 
 
