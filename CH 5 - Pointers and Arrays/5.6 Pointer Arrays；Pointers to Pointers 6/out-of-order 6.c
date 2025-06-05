@@ -184,6 +184,12 @@ char* alloc(int n)  // return pointer to n characters.
 		return 0;  // no enough room.
 }
 
+int strcpy(char* source, char* destination) {
+
+
+
+}
+
 
 // Reference:
 // 1. https://chatgpt.com/c/683aa6b2-72ac-8008-98a1-2ca6f062281c
