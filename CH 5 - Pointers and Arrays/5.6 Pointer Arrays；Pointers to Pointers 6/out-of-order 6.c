@@ -142,15 +142,15 @@ void swap(char* v[], int i, int j) {
 int getline(char s[], int limit) {
 
 	int i;
-	char c;
+	char character;
 
-	for (i = 0; i < (limit - 2) && (c = getchar()) != EOF && (c != '\n'); ++i)
-		s[i] = c;
+	for (i = 0; i < (limit - 2) && (character = getchar()) != EOF && (character != '\n'); ++i)
+		s[i] = character;
 
 
-	if (c == '\n') {
+	if (character == '\n') {
 
-		s[i] = c;
+		s[i] = character;
 
 		++i;  // a line containing only a newline has length 1.
 
