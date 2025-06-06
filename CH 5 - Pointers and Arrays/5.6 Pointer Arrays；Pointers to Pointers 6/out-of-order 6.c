@@ -187,8 +187,10 @@ char* alloc(int n)  // return pointer to n characters.
 int strcpy(char* destination, char* source) {
 
 	int i;
-
-	destination[i] = source[i];
+	
+	for(i = 0; i != '\0'; i++)
+		destination[i] = source[i];
+	
 
 }
 
