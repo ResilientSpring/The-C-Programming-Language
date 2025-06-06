@@ -186,7 +186,7 @@ char* alloc(int n)  // return pointer to n characters.
 		return 0;  // no enough room.
 }
 
-int strcpy(char* destination, char* source) {
+int self_defined_strcpy(char* destination, char* source) {
 
 	int i;
 	
