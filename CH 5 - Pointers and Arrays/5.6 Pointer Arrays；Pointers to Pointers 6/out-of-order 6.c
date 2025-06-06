@@ -15,7 +15,7 @@ void writelines(char* lineptr[], int n_lines);
 
 void qsort(char* lineptr[], int left, int right);
 
-int strcpy(char* destination, char* source);
+// int strcpy(char* destination, char* source); // <string.h> already defined strcpy.[3]
 
 /* sort input lines */
 int main() {
@@ -200,3 +200,4 @@ int strcpy(char* destination, char* source) {
 // Reference:
 // 1. https://chatgpt.com/c/683aa6b2-72ac-8008-98a1-2ca6f062281c
 // 2. The C Programming Language
+// 3. https://chatgpt.com/c/6842b430-124c-8008-8bf2-2753df41267f
