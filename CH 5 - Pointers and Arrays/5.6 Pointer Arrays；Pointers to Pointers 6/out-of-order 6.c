@@ -191,7 +191,7 @@ int strcpy(char* destination, char* source) {
 	for(i = 0; i != '\0'; i++)
 		destination[i] = source[i];
 	
-
+	destination[i] = 0;
 }
 
 
