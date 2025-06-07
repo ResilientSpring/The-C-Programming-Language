@@ -43,14 +43,14 @@ int main() {
 		// Step3: print them in order
 		writelines(lineptr, n_lines);
 
-		return 0;
+	//	return 0;
 
 	}
 	else {
 
 		printf("error: too many lines to sort\n");
 
-		return 1;
+	//	return 1;
 	}
 
 	printf("allocbuf[9999] is %d.\n", allocbuf[9999]);
