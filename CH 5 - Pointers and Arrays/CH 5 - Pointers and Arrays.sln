@@ -155,6 +155,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 allocbuf[9999] 2", "5.6
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 allocbuf[9999] 2 OnlineGDB", "5.6 allocbuf[9999] 2 OnlineGDB\5.6 allocbuf[9999] 2 OnlineGDB.vcxproj", "{4CE2D17F-389C-41C8-B15D-D10DF466D68E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 allocbuf[9999] 3", "5.6 allocbuf[9999] 3\5.6 allocbuf[9999] 3.vcxproj", "{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -771,6 +773,14 @@ Global
 		{4CE2D17F-389C-41C8-B15D-D10DF466D68E}.Release|x64.Build.0 = Release|x64
 		{4CE2D17F-389C-41C8-B15D-D10DF466D68E}.Release|x86.ActiveCfg = Release|Win32
 		{4CE2D17F-389C-41C8-B15D-D10DF466D68E}.Release|x86.Build.0 = Release|Win32
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Debug|x64.ActiveCfg = Debug|x64
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Debug|x64.Build.0 = Debug|x64
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Debug|x86.Build.0 = Debug|Win32
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Release|x64.ActiveCfg = Release|x64
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Release|x64.Build.0 = Release|x64
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Release|x86.ActiveCfg = Release|Win32
+		{599B768D-5D77-4F03-BE1F-E39BF5CC73B2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
