@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="extern.c">
+    <ClCompile Include="To ask ChatGPT.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

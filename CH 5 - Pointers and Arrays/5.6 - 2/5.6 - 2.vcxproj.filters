@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="extern.c">
+    <ClCompile Include="OnlineGDB.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
