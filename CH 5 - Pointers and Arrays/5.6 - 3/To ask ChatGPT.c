@@ -135,19 +135,6 @@ void swap(char* v[], int i, int j) {
 
 }
 
-//  parameter names are optional in a function prototype.[2]:41 This is not a function prototype.
-//  int getline(char*, int) {
-
-	/*
-
-	   This is a function definition (because it has a body {}),
-	   but the parameters are unnamed (char*, int) — they only have types,
-	   not variable names. [1]
-
-	 */
-
-	 //  }
-
 	 /* getline: read a line into s, return length, limit is the max # characters per line */
 int getlines(char s[], int limit) {
 
