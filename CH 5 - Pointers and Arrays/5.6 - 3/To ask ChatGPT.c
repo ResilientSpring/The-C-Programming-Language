@@ -17,8 +17,6 @@ void writelines(char* lineptr[], int n_lines);
 
 void qsort(char* lineptr[], int left, int right);
 
-// int strcpy(char* destination, char* source); // <string.h> already defined strcpy.[3]
-
 /* sort input lines */
 int main() {
 
