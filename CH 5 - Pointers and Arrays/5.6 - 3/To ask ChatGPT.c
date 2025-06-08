@@ -20,8 +20,6 @@ void qsort(char* lineptr[], int left, int right);
 /* sort input lines */
 int main() {
 
-	//	extern #define ALLOCSIZE 10000
-
 	extern char   allocbuf[ALLOCSIZE];
 
 	int n_lines;
