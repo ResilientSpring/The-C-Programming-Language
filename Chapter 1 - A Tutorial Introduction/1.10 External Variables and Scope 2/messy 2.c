@@ -33,7 +33,7 @@ int getline(void) {
 
 	int c, i;
 
-	extern char line[];
+//	extern char line[];
 
 	for (i = 0; i < MAXLINE - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
 		line[i] = c;
@@ -51,7 +51,7 @@ int getline(void) {
 void copy(void)
 {
 	int i;
-	extern char line[], longest[];
+//	extern char line[], longest[];
 
 	i = 0;
 	while ((longest[i] = line[i]) != '\0')
