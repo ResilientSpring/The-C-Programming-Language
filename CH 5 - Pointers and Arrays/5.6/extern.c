@@ -7,6 +7,8 @@
 
 #define MAXLINES 5000 /* max # lines to be sorted */
 
+#define ALLOCSIZE 10000
+
 char* lineptr[MAXLINES];  /* line's pointer: pointers to text lines */
 
 int readlines(char* lineptr[], int n_lines);
@@ -20,7 +22,7 @@ void qsort(char* lineptr[], int left, int right);
 /* sort input lines */
 int main() {
 
-	extern #define ALLOCSIZE 10000
+//	extern #define ALLOCSIZE 10000
 
 	extern char   allocbuf[ALLOCSIZE];
 
