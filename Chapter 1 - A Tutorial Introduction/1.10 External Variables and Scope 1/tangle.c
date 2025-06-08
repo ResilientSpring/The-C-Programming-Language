@@ -1,6 +1,15 @@
 #include <stdio.h>
 #define MAXLINE 1000 /* maximum input line size */
 
+/* 
+
+The external variables in main, getline, and copy are defined by the first lines of 
+the example, which state their type and cause storage to be allocated for them. 
+
+ External definitions occur outside of functions,
+
+*/
+
 int max; /* maximum length seen so far */
 char line[MAXLINE]; /* current input line */
 char longest[MAXLINE]; /* longest line saved here */
