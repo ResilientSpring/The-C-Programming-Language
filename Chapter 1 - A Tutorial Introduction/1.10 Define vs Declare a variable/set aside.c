@@ -8,6 +8,8 @@ int main() {
 
 	longest[0] = 'c';
 
+	printf("%c\n", longest[0]);
+
 }
 
 #define MAXLINE 1000
