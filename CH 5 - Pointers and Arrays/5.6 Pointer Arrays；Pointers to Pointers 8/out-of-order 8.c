@@ -99,7 +99,7 @@ void writelines(char* lineptr[], int n_lines) {
 void writelines2(char* lineptr[], int n_lines) {
 
 	while (n_lines-- > 0)             // while(n_lines-- > 0) differs from while(--n_lines > 0) [4]
-		printf("%s\n", *lineptr++);   // *(lineptr++) differs from *(++lineptr)  
+		printf("%s\n", *lineptr++);   // *(lineptr++) differs from *(++lineptr)  [4]
 
 }
 
@@ -220,3 +220,4 @@ int self_defined_strcpy(char* destination, char* source) {
 // 1. https://chatgpt.com/c/683aa6b2-72ac-8008-98a1-2ca6f062281c
 // 2. The C Programming Language
 // 3. https://chatgpt.com/c/6842b430-124c-8008-8bf2-2753df41267f
+// 4. https://chatgpt.com/c/68470583-dd08-8008-bc82-7a6a9ef45fa5
