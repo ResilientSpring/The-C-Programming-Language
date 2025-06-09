@@ -6,6 +6,8 @@ int main() {
 	//  this states the type of the variable.
 	extern char longest[];
 
+	longest[0] = 'c';
+
 }
 
 #define MAXLINE 1000
