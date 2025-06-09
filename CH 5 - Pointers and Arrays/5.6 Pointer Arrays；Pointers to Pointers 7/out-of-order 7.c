@@ -93,7 +93,8 @@ void writelines(char* lineptr[], int n_lines) {
 
 void writelines2(char* lineptr[], int n_lines) {
 
-
+	while (n_lines-- > 0)
+		printf("%s\n", *lineptr++);
 
 
 }
