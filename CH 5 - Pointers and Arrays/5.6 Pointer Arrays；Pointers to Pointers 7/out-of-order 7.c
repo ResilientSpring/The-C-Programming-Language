@@ -96,7 +96,6 @@ void writelines2(char* lineptr[], int n_lines) {
 	while (n_lines-- > 0)
 		printf("%s\n", *lineptr++);
 
-
 }
 
 /* qsort: sort v[left]...v[right] into increasing order */
