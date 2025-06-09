@@ -3,7 +3,7 @@
 
 /* 
 
-The external variables in main, getline, and copy are defined by the first lines of 
+The external variables in main, getline, and copy are defined by the first lines (13-17) of 
 the example, which state their type and cause storage to be allocated for them. 
 
  External definitions occur outside of functions,
