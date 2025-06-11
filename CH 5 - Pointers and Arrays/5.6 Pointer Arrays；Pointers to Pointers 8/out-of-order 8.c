@@ -115,7 +115,7 @@ void qsort(char* v[], int left, int right) {
 
 	int i, last;
 
-	void swap(char* v[], int i, int j);
+	void swap(char* v[], int i, int j);  // For explanation, see [5].
 
 	if (left >= right)  /* do nothing if array contains */
 		return;         /* fewer than two elements */
