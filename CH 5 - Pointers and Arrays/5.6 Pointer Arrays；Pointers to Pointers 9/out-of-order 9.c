@@ -19,6 +19,8 @@ void writelines3(char* lineptr[], int n_lines);
 
 void qsort(char* lineptr[], int left, int right);
 
+void swap(char* v[], int i, int j);
+
 
 // int strcpy(char* destination, char* source); // <string.h> already defined strcpy.[3]
 
@@ -115,7 +117,7 @@ void qsort(char* v[], int left, int right) {
 
 	int i, last;
 
-	void swap(char* v[], int i, int j);  // For explanation, see [5].
+//	void swap(char* v[], int i, int j);
 
 	if (left >= right)  /* do nothing if array contains */
 		return;         /* fewer than two elements */
@@ -221,4 +223,3 @@ int self_defined_strcpy(char* destination, char* source) {
 // 2. The C Programming Language
 // 3. https://chatgpt.com/c/6842b430-124c-8008-8bf2-2753df41267f
 // 4. https://chatgpt.com/c/68470583-dd08-8008-bc82-7a6a9ef45fa5
-// 5. https://chatgpt.com/c/6849b342-6ed4-8008-9cf8-881493caedd2
