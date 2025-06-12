@@ -137,9 +137,14 @@ char* p = buffer_of_char;
 
 char* alloc_memory(char n_characters) {
 
-	if (max_characters_total - p - n_characters > 0) {
+//	if (max_characters_total - p - n_characters > 0) {
+//
+//	}
+
+	if (buffer_of_char + max_characters_total - p >= n_characters) {
+
+
 
 	}
-
 
 }
