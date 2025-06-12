@@ -126,3 +126,4 @@ void copy(char to[], char from[]) {
 
 }
 
+char buffer_of_char[10000];
