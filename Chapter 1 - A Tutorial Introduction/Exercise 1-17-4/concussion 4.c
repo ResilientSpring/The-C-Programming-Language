@@ -143,4 +143,6 @@ char* alloc_memory(char n_characters) {
 
 	}
 
+	if(&buffer_of_char[max_total_characters] )
+
 }
