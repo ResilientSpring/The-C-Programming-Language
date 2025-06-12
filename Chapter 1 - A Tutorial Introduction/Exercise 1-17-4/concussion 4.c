@@ -137,6 +137,17 @@ char* p = buffer_of_char;
 
 char* alloc_memory(char n_characters) {
 
+	// max_total_characters is not (the address of) the last element of 
+    // buffer_of_char[max_total_characters].
+//	if (max_total_characters - p - n_characters > 0) {
+
+		// An arbitrary integer being subtracted from an memory address is undefined/meaningless.
+
+		// In C, address minus address yields the number of elements 
+		// between the two memory address.[1]
+//	}
+
+
 	if (buffer_of_char + max_total_characters - p >= n_characters) {
 
 
