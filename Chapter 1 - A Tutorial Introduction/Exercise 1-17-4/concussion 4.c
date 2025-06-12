@@ -137,6 +137,8 @@ char* p = buffer_of_char;
 
 char* alloc_memory(char n_characters) {
 
+	// max_total_characters is not (the address of) the last element of 
+	// buffer_of_char[max_total_characters].
 //	if (max_total_characters - p - n_characters > 0) {
 //
 //	}
