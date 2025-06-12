@@ -130,9 +130,9 @@ void copy(char to[], char from[]) {
 
 char buffer_of_char[max_characters_total];
 
-char* alloc_memory(char n_characters) {
+char* p = buffer_of_char;
 
-	char* p = buffer_of_char;
+char* alloc_memory(char n_characters) {
 
 	if (max_characters_total - n_characters > 0) {
 
