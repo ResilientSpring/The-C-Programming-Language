@@ -137,18 +137,10 @@ char* p = buffer_of_char;
 
 char* alloc_memory(char n_characters) {
 
-	// max_total_characters is not (the address of) the last element of 
-    // buffer_of_char[max_total_characters].
-	if (max_total_characters - p - n_characters > 0) {
+	if (buffer_of_char + max_total_characters - p >= n_characters) {
 
-		// An arbitrary integer being subtracted from an memory address is undefined.
 
-		// In C, address minus address yields the number of elements 
-		// between the two memory address.[1]
+
 	}
 
-
 }
-
-// References:
-// 1. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/CH%205%20-%20Pointers%20and%20Arrays/5.4%20Address%20Arithmetic%205-6/non-static.c
