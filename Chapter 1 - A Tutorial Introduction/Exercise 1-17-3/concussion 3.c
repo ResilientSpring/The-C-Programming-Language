@@ -129,3 +129,19 @@ void copy(char to[], char from[]) {
 
 }
 
+#define max_characters_total 50000
+
+char buffer_of_char[max_characters_total];
+
+char* p = buffer_of_char;
+
+char* alloc_memory(char n_characters) {
+
+	if (max_characters_total - p - n_characters > 0) {
+
+
+
+	}
+
+
+}
