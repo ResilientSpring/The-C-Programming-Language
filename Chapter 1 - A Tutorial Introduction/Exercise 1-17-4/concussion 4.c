@@ -159,7 +159,7 @@ char* alloc_memory(char n_characters) {
 
 		p = p + n_characters;
 
-		return p - n_characters;
+		return p - n_characters;  // The first position of the alloted array.
 	}
 
 }
