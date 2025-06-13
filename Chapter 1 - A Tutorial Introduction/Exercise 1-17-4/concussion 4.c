@@ -157,8 +157,9 @@ char* alloc_memory(char n_characters) {
 	// This is my original solution.
 	if (&buffer_of_char[max_total_characters] - 1 - p - n_characters >= 0) {
 
+		p = p + n_characters;  // The next available position.
 
-
+		return p - n_characters;  // The first position of the alloted array.
 	}
 
 }
