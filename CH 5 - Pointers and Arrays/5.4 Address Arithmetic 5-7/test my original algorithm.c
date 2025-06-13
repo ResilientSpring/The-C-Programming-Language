@@ -85,7 +85,7 @@ int main() {
 
 	char* a_block_of_memory;
 
-	a_block_of_memory = alloc(9000);
+	a_block_of_memory = alloc_memory(9000);
 
 	if (a_block_of_memory != 0) {
 
@@ -121,7 +121,7 @@ int main() {
 
 	if ((scanf("%d", &size)) == 1) {
 
-		char* second_block_of_memory = alloc(size);
+		char* second_block_of_memory = alloc_memory(size);
 
 		if (second_block_of_memory != 0) {
 
