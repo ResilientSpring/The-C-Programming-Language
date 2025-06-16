@@ -81,7 +81,7 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 		return p - n_characters;  // The first position of the alloted array.
 	}
 	else
-		return 0;
+		return 0;          //  0 in pointer means "no address".
 
 }
 
