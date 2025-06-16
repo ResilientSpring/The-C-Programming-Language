@@ -34,7 +34,7 @@ char* alloc(int n)
 	else
 		return 0;  //  C guarantees that zero is never a valid address for data, 
 	               //  so a return value of zero can be used to signal an abnormal event, 
-	               //  in this case, no space.
+	               //  in this case, no space.[3]:116
 }
 
 // afree(p) merely sets allocp to p if p is inside allocbuf.
