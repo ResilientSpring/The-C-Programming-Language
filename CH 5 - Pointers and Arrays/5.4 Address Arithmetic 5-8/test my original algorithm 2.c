@@ -32,7 +32,9 @@ char* alloc(int n)
 							  // return a pointer to a block of storage with a capacity of n elements of characters.
 	}
 	else
-		return 0;  // If there is no room, alloc returns zero.
+		return 0;  //  C guarantees that zero is never a valid address for data, 
+	               //  so a return value of zero can be used to signal an abnormal event, 
+	               //  in this case, no space.
 }
 
 // afree(p) merely sets allocp to p if p is inside allocbuf.
