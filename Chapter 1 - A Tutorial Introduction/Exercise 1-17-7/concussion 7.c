@@ -40,6 +40,8 @@ int main() {
 
 			copy(p, current_input_line);
 
+			more_than_80_characters[index++] = p - length;
+
 		}
 
 	}
