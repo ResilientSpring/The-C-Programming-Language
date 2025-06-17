@@ -36,7 +36,9 @@ int main() {
 
 			// more_than_80_characters[index++] = current_input_line;
 
-			copy(more_than_80_characters[index++], current_input_line);
+			// copy(more_than_80_characters[index++], current_input_line);
+
+			copy(p, current_input_line);
 
 		}
 
