@@ -32,7 +32,7 @@ int main() {
 
 		if (length > 80) {
 
-			p = 
+			p = alloc_memory(length);
 
 			// more_than_80_characters[index++] = current_input_line;
 
