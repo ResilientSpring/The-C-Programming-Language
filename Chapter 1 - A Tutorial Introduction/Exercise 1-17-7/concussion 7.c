@@ -18,6 +18,8 @@ int main() {
 
 	char* more_than_80_characters[ALL_INPUT_LINES_LONGER_THAN_EIGHTY] = { 0 };
 
+	char* p;
+
 	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
 
 		printf("%d, %s", length, current_input_line);
@@ -30,10 +32,15 @@ int main() {
 
 		if (length > 80) {
 
+			p = alloc_memory(length);
 
 			// more_than_80_characters[index++] = current_input_line;
 
-			copy(more_than_80_characters[index++], current_input_line);
+			// copy(more_than_80_characters[index++], current_input_line);
+
+			copy(p, current_input_line);
+
+			more_than_80_characters[index++] = p - length;
 
 		}
 

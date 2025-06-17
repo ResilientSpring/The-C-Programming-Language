@@ -81,7 +81,7 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 		return p - n_characters;  // The first position of the alloted array.
 	}
 	else
-		return 0;          //  0 in pointer means "no address".
+		return 0;          //  0 in pointer means "no address".  See also:[4]
 
 }
 
@@ -162,3 +162,4 @@ int main() {
 // 1. https://github.com/ResilientSpring/C-Plus-Plus_homogeneous/blob/master/Assortment/Address%20Arithmetic%20-%20Address%20minus%20Address/statute.c
 // 2. https://chatgpt.com/c/67fe1ea4-0204-8008-a12d-e6e6de00d2f4
 // 3. <The C Programming Language>:117
+// 4. https://chatgpt.com/c/684c490b-5e64-8008-9104-f11502a55156
