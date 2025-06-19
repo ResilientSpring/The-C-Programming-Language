@@ -6,7 +6,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-#include <string.h>
+// #include <string.h>  Use my own strcpy().
 
 #define MAXLINES 5000 /* max # lines to be sorted */
 
@@ -210,14 +210,10 @@ char* alloc(int n)  // return pointer to n characters.
 		return 0;  // no enough room.
 }
 
-int self_defined_strcpy(char* destination, char* source) {
+void self_defined_strcpy(char* destination, char* source) {
 
-	int i;
-
-	for (i = 0; i != '\0'; i++)
-		destination[i] = source[i];
-
-	destination[i] = 0;
+	while ((*destination++ = *source++) != '\0')
+		;
 }
 
 
