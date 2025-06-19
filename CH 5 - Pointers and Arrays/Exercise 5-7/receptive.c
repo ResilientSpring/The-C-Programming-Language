@@ -8,6 +8,8 @@
 #include <stdio.h>
 // #include <string.h>  Use my own strcpy().
 
+void self_defined_strcpy(char* destination, char* source);
+
 #define MAXLINES 5000 /* max # lines to be sorted */
 
 char* lineptr[MAXLINES];  /* line's pointer: pointers to text lines */
@@ -81,7 +83,7 @@ int readlines(char* lineptr[], int maxlines) {
 		else {
 
 			line[length - 1] = '\0';  // substitute 0 for newline ('\n').
-			strcpy(p, line);
+			self_defined_strcpy(p, line);
 			lineptr[the_number_of_input_lines++] = p;
 		}
 
