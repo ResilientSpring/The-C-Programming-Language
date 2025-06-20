@@ -189,3 +189,5 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 // References:
 // 1. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/CH%205%20-%20Pointers%20and%20Arrays/5.4%20Address%20Arithmetic%205-6/non-static.c
 // 2. https://chatgpt.com/c/684c490b-5e64-8008-9104-f11502a55156
+// 3. https://chatgpt.com/c/685423d4-7e98-8008-8d71-a5e1af8bda31
+// 4. https://chatgpt.com/c/6854384b-82c4-8008-b1c3-dd209a5c2424
