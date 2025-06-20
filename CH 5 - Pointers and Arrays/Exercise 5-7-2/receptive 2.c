@@ -212,6 +212,7 @@ char* alloc(int n)  // return pointer to n characters.
 		return 0;  // no enough room.
 }
 
+// This is how <string.h> implements strcpy().[5]
 char* self_defined_strcpy(char* destination, char* source) {
 
 	char* original = destination;
@@ -228,3 +229,4 @@ char* self_defined_strcpy(char* destination, char* source) {
 // 2. The C Programming Language
 // 3. https://chatgpt.com/c/6842b430-124c-8008-8bf2-2753df41267f
 // 4. https://chatgpt.com/c/68470583-dd08-8008-bc82-7a6a9ef45fa5
+// 5. https://chatgpt.com/c/6854384b-82c4-8008-b1c3-dd209a5c2424
