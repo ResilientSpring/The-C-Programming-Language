@@ -1,9 +1,14 @@
-﻿/* This program sorts each input line of texts by length from short to long. */
+﻿// Rewrite readlines to store lines in an array supplied by main, rather than calling alloc 
+//  to maintain storage.
+
+/* This program sorts each input line of texts by length from short to long. */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-#include <string.h>
+// #include <string.h>  Use my own strcpy().
+
+void self_defined_strcpy(char* destination, char* source);
 
 #define MAXLINES 5000 /* max # lines to be sorted */
 
@@ -78,8 +83,8 @@ int readlines(char* lineptr[], int maxlines) {
 		else {
 
 			line[length - 1] = '\0';  // substitute 0 for newline ('\n').
-			strcpy(p, line);
-			lineptr[the_number_of_input_lines++] = p; // <string.h>'s implementation of strcpy() insures that p points to the beginning of the string.[5]
+			self_defined_strcpy(p, line);
+			lineptr[the_number_of_input_lines++] = p;
 		}
 
 	return the_number_of_input_lines;
@@ -117,7 +122,7 @@ void qsort(char* v[], int left, int right) {
 
 	int i, last;
 
-//	void swap(char* v[], int i, int j);
+	//	void swap(char* v[], int i, int j);
 
 	if (left >= right)  /* do nothing if array contains */
 		return;         /* fewer than two elements */
@@ -207,14 +212,10 @@ char* alloc(int n)  // return pointer to n characters.
 		return 0;  // no enough room.
 }
 
-int self_defined_strcpy(char* destination, char* source) {
+void self_defined_strcpy(char* destination, char* source) {
 
-	int i;
-
-	for (i = 0; i != '\0'; i++)
-		destination[i] = source[i];
-
-	destination[i] = 0;
+	while ((*destination++ = *source++) != '\0')
+		;
 }
 
 
@@ -223,4 +224,3 @@ int self_defined_strcpy(char* destination, char* source) {
 // 2. The C Programming Language
 // 3. https://chatgpt.com/c/6842b430-124c-8008-8bf2-2753df41267f
 // 4. https://chatgpt.com/c/68470583-dd08-8008-bc82-7a6a9ef45fa5
-// 5. https://chatgpt.com/c/6854384b-82c4-8008-b1c3-dd209a5c2424
