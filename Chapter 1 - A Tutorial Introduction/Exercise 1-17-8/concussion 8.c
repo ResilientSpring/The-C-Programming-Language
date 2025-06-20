@@ -139,7 +139,7 @@ void copy(char to[], char from[]) {
 
 char* copy_string(char* to, char* from) {
 
-	char* original = from;
+	char* original = to;
 
 	while (*to++ = *from++)
 		;
