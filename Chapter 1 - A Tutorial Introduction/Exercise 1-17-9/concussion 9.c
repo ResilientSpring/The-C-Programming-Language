@@ -8,6 +8,7 @@ int getline(char s[], int lim);
 int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
 void copy(char to[], char from[]);
 char* copy_string(char* to, char* from);
+void write_text_lines(char* an_array_of_pointers[]);
 
 int main() {
 
@@ -188,7 +189,7 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 
 }
 
-void write_text_lines() {
+void write_text_lines(char* an_array_of_pointers[]) {
 
 
 
