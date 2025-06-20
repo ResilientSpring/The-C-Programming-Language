@@ -39,9 +39,9 @@ int main() {
 
 			// copy(more_than_80_characters[index++], current_input_line);
 
-			copy_string(p, current_input_line);
+			// copy_string(p, current_input_line);
 
-			more_than_80_characters[index++] = p - length;
+			// more_than_80_characters[index++] = p - length;
 
 			more_than_80_characters[index++] = copy_string(p, current_input_line); // [3][4]
 
