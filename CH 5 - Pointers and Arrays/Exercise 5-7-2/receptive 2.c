@@ -84,7 +84,7 @@ int readlines(char* lineptr[], int maxlines) {
 
 			line[length - 1] = '\0';  // substitute 0 for newline ('\n').
 			self_defined_strcpy(p, line);
-			lineptr[the_number_of_input_lines++] = p;
+			lineptr[the_number_of_input_lines++] = p; // p stores pointer to the beginning of the string.[5]
 		}
 
 	return the_number_of_input_lines;
