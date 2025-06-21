@@ -74,3 +74,25 @@ int main() {
 //      }
 //	 s[j] = ′\0′;
 // }
+// 
+// Likewise, 
+//
+// 	  while (array_of_characters[length++])
+//        ;
+// 
+// should have been exactly equivalent to 
+// 
+//    while (array_of_characters[length])
+//        length++;
+//
+// 
+// Don't you think so?
+//
+// ChatGPT then answered that 
+// 
+//    This is an excellent and very insightful question — you're comparing two seemingly equivalent forms and noticing an inconsistency. 
+//    Let's get to the bottom of it.
+// 
+// Note: Because of ChatGPT's glitch, my question above disappeared. 
+// 
+// https://chatgpt.com/c/68568e53-b314-8008-a700-9997e20625a9
