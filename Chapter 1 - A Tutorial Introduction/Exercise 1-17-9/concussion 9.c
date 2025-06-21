@@ -223,6 +223,8 @@ int string_length2(char* array_of_characters) {
 
 	while (array_of_characters[length++])
 		;
+
+	return length;
 }
 
 // References:
