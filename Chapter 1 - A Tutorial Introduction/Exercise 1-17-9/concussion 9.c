@@ -10,9 +10,12 @@ void copy(char to[], char from[]);
 char* copy_string(char* to, char* from);
 void write_text_lines(char* an_array_of_pointers[]);
 
+// Make it a global variable, so that write_text_line()'s for-loop will know the boundary.
+int index = 0;
+
 int main() {
 
-	int index = 0;
+//	int index = 0;  
 	int length;   // current line length
 	int lengthiest = 0;   // maximum length seen so far
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
@@ -191,7 +194,7 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 
 void write_text_lines(char* an_array_of_pointers[]) {
 
-
+	for(int i = 0; )
 
 }
 
