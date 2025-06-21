@@ -82,3 +82,5 @@ int main() {
 	return 0;
 
 }
+
+// Why I wrote this program: https://chatgpt.com/c/6856955b-7e38-8008-afeb-5765a0c8e80d
