@@ -9,6 +9,8 @@ int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
 void copy(char to[], char from[]);
 char* copy_string(char* to, char* from);
 void write_text_lines(char* an_array_of_pointers[]);
+int string_length2(char* array_of_characters);
+int string_length3(char* array_of_characters);
 
 // Make it a global variable, so that write_text_line()'s for-loop will know the boundary.
 int index = 0;
