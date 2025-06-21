@@ -41,8 +41,10 @@ int main() {
 }
 
 // I asked ChatGPT why these outputs are different?
+// 
 // It answered that 
 // "...Let me know if you want a diagram or step-through example of how the values change during the loop."
+// 
 // Then, I asked
 //
 //  In K&R2, it states that 
