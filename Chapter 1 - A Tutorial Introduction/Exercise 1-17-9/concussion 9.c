@@ -205,13 +205,16 @@ void write_text_lines(char* an_array_of_pointers[]) {
 int string_length(char* array_of_characters) {
 
 	int length = 0;
+	char character;
 
 	for (int i = 0; i != '\0'; i++) {
 
-
+		character = array_of_characters[i];
 
 	}
 
+	while ((character = array_of_characters[length]) != '\0')
+		length++;
 }
 
 // References:
