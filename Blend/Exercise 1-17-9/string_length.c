@@ -33,6 +33,8 @@ int string_length3(char* array_of_characters) {
 
 int main() {
 
+	printf("%d\n", string_length("tangle"));
+
 	printf("%d\n", string_length2("tangle"));
 
 	printf("%d\n", string_length3("tangle"));
