@@ -90,7 +90,8 @@ int main() {
 //
 // ChatGPT then answered that 
 // 
-//    This is an excellent and very insightful question — you're comparing two seemingly equivalent forms and noticing an inconsistency. 
+//    This is an excellent and very insightful question — you're comparing two seemingly equivalent 
+//    forms and noticing an inconsistency. 
 //    Let's get to the bottom of it.
 // 
 // Note: Because of ChatGPT's glitch, my question above disappeared. 
