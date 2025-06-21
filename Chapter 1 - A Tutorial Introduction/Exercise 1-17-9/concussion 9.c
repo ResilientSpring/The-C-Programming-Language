@@ -194,7 +194,11 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 
 void write_text_lines(char* an_array_of_pointers[]) {
 
-	for(int i = 0; )
+	for (int i = 0; i < index; i++) {
+
+
+
+	}
 
 }
 
