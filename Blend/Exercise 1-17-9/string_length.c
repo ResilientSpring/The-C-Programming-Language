@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+int string_length(char* array_of_characters) {
+
+	int length = 0;
+
+	while (array_of_characters[length])
+		length++;
+
+	return length;
+}
+
 int string_length2(char* array_of_characters) {
 
 	int length = 0;
