@@ -202,6 +202,18 @@ void write_text_lines(char* an_array_of_pointers[]) {
 
 }
 
+int string_length(char* array_of_characters) {
+
+	int length = 0;
+
+	for (int i = 0; i != '\0'; i++) {
+
+
+
+	}
+
+}
+
 // References:
 // 1. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/CH%205%20-%20Pointers%20and%20Arrays/5.4%20Address%20Arithmetic%205-6/non-static.c
 // 2. https://chatgpt.com/c/684c490b-5e64-8008-9104-f11502a55156
