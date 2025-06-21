@@ -9,10 +9,15 @@ int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
 void copy(char to[], char from[]);
 char* copy_string(char* to, char* from);
 void write_text_lines(char* an_array_of_pointers[]);
+int string_length2(char* array_of_characters);
+int string_length3(char* array_of_characters);
+
+// Make it a global variable, so that write_text_line()'s for-loop will know the boundary.
+int index = 0;
 
 int main() {
 
-	int index = 0;
+//	int index = 0;  
 	int length;   // current line length
 	int lengthiest = 0;   // maximum length seen so far
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
@@ -191,8 +196,48 @@ char* alloc_memory(int n_characters) {  // parameter is logically of int type.
 
 void write_text_lines(char* an_array_of_pointers[]) {
 
+	for (int i = 0; i < index; i++) {
 
 
+
+	}
+
+}
+
+int string_length(char* array_of_characters) {
+
+	int length = 0;
+	char character;
+
+	for (int i = 0; i != '\0'; i++) {
+
+		character = array_of_characters[i];
+
+	}
+
+	while ((character = array_of_characters[length]) != '\0')
+		length++;
+}
+
+int string_length2(char* array_of_characters) {
+
+	int length = 0;
+
+	while (array_of_characters[length++])
+		;
+
+	return length;
+}
+
+int string_length3(char* array_of_characters) {
+
+	int length = 0;
+	char character;
+
+	while ((character = array_of_characters[length]) != '\0')
+		length++;
+
+	return length;
 }
 
 // References:
