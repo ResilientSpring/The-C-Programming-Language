@@ -227,6 +227,17 @@ int string_length2(char* array_of_characters) {
 	return length;
 }
 
+int string_length3(char* array_of_characters) {
+
+	int length = 0;
+	char character;
+
+	while ((character = array_of_characters[length]) != '\0')
+		length++;
+
+	return length;
+}
+
 // References:
 // 1. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/CH%205%20-%20Pointers%20and%20Arrays/5.4%20Address%20Arithmetic%205-6/non-static.c
 // 2. https://chatgpt.com/c/684c490b-5e64-8008-9104-f11502a55156
