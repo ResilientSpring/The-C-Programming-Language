@@ -13,7 +13,7 @@ void strcat(char s[], char t[]) {
 	// Find the null terminator in the concatenated string for the concatenating string 
 	// to overwrite b/c the concatenating string per se has a null terminator as well and each 
 	// string requires only one null terminator.
-
+	while()
 
 
 	while ((s[i++] = t[j++]) != '\0')  /* copy t */
