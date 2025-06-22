@@ -1,5 +1,7 @@
 ﻿#include <stdio.h>
 
+int string_length(char* str);
+
 int i = 0, j = 0;
 
 /* strcat:  concatenate t to end of s; s must be big enough */
