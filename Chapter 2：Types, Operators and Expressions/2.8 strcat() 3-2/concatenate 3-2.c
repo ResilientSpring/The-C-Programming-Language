@@ -32,6 +32,8 @@ int main() {
 
 	char s[200] = "clutter = mess around = messy";
 
+	printf("The length of s before concatenation: %d\n", string_length(s));
+
 	strcat(s, " = tangle = untidy.");
 
 	printf("%s\n", s);
