@@ -3,9 +3,9 @@
 /* strcat:  concatenate t to end of s; s must be big enough */
 void strcat(char s[], char t[]) {
 
-	int i, j;
+	int i = 0, j = 0;
 
-	i = j = 0;
+//	i = j = 0;
 
 	while (s[i] != '\0') /* find the end of s */
 		i++;
