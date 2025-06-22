@@ -34,12 +34,14 @@ int main() {
 	char s[200] = "clutter = mess around = messy";
 
 	printf("The length of s before concatenation: %d\n", string_length(s));
+	printf("The length of s before concatenation: %d\n", string_length_verification(s));
 
 	strcat(s, " = tangle = untidy.");
 
 	printf("%s\n", s);
 
 	printf("The length of s after concatenation: %d\n", string_length(s));
+	printf("The length of s after concatenation: %d\n", string_length_verification(s));
 
 	printf("i now has the value: %d\n", i);
 	printf("j now has the value: %d\n", j);
