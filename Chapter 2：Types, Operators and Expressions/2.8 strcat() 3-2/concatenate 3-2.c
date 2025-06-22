@@ -38,3 +38,14 @@ int main() {
 	printf("j now has the value: %d\n", j);
 
 }
+
+int string_length(char* str) {
+
+	char* beginning = str;
+
+	int i = 0;
+	
+	while (str[i++]);
+
+	return i - 1;
+}
