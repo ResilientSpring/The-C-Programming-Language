@@ -55,3 +55,13 @@ int string_length(char* str) {
 
 	return i - 1;
 }
+
+int string_length_verification(char* s) {
+
+	char* p = s;
+
+	while (*p != '\0')
+		p++;
+
+	return p - s;
+}
