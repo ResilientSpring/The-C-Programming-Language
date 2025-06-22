@@ -34,6 +34,7 @@ int main() {
 
 	printf("%s\n", s);
 
+	printf("i now has the value: %d\n", i);
 	printf("j now has the value: %d\n", j);
 
 }
