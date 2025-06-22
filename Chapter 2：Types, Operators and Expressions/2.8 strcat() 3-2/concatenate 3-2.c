@@ -28,9 +28,9 @@ void strcat(char concatenated_string[], char concatenating_string[]) {
 
 int main() {
 
-	char s[200] = "clutter = mess around = messy = ";
+	char s[200] = "clutter = mess around = messy";
 
-	strcat(s, "tangle = untidy.");
+	strcat(s, " = tangle = untidy.");
 
 	printf("%s\n", s);
 
