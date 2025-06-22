@@ -15,9 +15,10 @@ void strcat(char concatenated_string[], char concatenating_string[]) {
 	// string requires only one null terminator.
 	while (concatenated_string[i++]);
 
-	i--;
+	i--;  // i is now the position of 0 in the character array concatenated_string.
 
-	// Concatenate "concatenating_string" to the end of "concatenated_string".
+	// Concatenate (i.e. copy ) "concatenating_string" to the end of "concatenated_string".
+	while()
 
 //	while ((s[i++] = t[j++]) != '\0')  /* copy t */
 //		;
