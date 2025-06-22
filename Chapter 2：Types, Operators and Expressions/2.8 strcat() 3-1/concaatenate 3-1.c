@@ -31,7 +31,8 @@ int main() {
 
 	strcat(s, "tangle = untidy.");
 
-	printf("%s\n", s);
+	// b/c '\0' in s was not overwritten, so printf() would print till the first '\0'.
+	printf("%s\n", s); 
 
 	//	printf("j now has the value: %d\n", j);
 
