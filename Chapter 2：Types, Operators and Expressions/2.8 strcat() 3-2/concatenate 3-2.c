@@ -1,6 +1,7 @@
 ﻿#include <stdio.h>
 
 int string_length(char* str);
+int string_length_verification(char* s);
 
 int i = 0, j = 0;
 
