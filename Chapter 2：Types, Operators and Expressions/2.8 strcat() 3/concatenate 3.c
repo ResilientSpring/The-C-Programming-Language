@@ -17,6 +17,8 @@ void strcat(char concatenated_string[], char concatenating_string[]) {
 
 	i--;
 
+	// Concatenate "concatenating_string" to the end of "concatenated_string".
+
 //	while ((s[i++] = t[j++]) != '\0')  /* copy t */
 //		;
 
