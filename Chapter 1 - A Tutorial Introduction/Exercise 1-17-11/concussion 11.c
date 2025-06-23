@@ -12,6 +12,7 @@ void write_text_lines(char* an_array_of_pointers[]);
 void write_text_lines2(char* an_array_of_pointers[]);
 int string_length2(char* array_of_characters);
 int string_length3(char* array_of_characters);
+char* alloc_memory(int n_characters);
 
 // Make it a global variable, so that write_text_line()'s for-loop will know the boundary.
 int index = 0;
