@@ -9,6 +9,7 @@ int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
 void copy(char to[], char from[]);
 char* copy_string(char* to, char* from);
 void write_text_lines(char* an_array_of_pointers[]);
+void write_text_lines2(char* an_array_of_pointers[]);
 int string_length2(char* array_of_characters);
 int string_length3(char* array_of_characters);
 
@@ -81,7 +82,7 @@ int main() {
 
 	}
 
-	write_text_lines(more_than_80_characters);
+	write_text_lines2(more_than_80_characters);
 
 	return 0;
 
