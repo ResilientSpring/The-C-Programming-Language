@@ -33,11 +33,11 @@ int main() {
 
 		printf("%d, %s", length, current_input_line);
 
-		if (length > lengthiest) {
+		//if (length > lengthiest) {
 
-			lengthiest = length;
-			copy(longest_line, current_input_line);
-		}
+		//	lengthiest = length;
+		//	copy(longest_line, current_input_line);
+		//}
 
 		if (length > 20) {
 
