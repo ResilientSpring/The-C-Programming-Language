@@ -81,7 +81,7 @@ int readlines(char* lineptr[], int maxlines) {
 		//	strcpy(p, line);
 		//	lineptr[the_number_of_input_lines++] = p; // <string.h>'s implementation of strcpy() insures that p points to the beginning of the string.[5]
 
-			lineptr[the_number_of_input_lines++] = strcpy(p, line);
+			lineptr[the_number_of_input_lines++] = strcpy(p, line);  // "strcpy in the standard library (<string.h>) returns the target string as its function value." [2]
 		}
 
 	return the_number_of_input_lines;
