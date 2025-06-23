@@ -39,7 +39,7 @@ int main() {
 			copy(longest_line, current_input_line);
 		}
 
-		if (length > 80) {
+		if (length > 20) {
 
 			p = alloc_memory(length);
 
