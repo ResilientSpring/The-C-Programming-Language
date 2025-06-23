@@ -210,7 +210,11 @@ void write_text_lines(char* an_array_of_pointers[]) {
 
 void write_text_lines(char* an_array_of_char_pointers[]) {
 
+	for (int i = 0; i < index; i++) {
 
+		printf("%s\n", an_array_of_char_pointers[i]);
+
+	}
 
 }
 
