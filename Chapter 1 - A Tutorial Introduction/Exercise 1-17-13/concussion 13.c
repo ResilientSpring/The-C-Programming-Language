@@ -28,7 +28,7 @@ int main() {
 
 	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
 
-		printf("%d, %s", length, current_input_line);
+		printf("\n%d, %s\n", length, current_input_line);
 
 		if (length > 20) {
 
