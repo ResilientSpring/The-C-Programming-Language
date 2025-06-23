@@ -42,11 +42,9 @@ int main() {
 
 	if (more_than_20_characters[0] != NULL) {
 
-
+		write_text_lines2(more_than_20_characters);
 
 	}
-
-	write_text_lines2(more_than_20_characters);
 
 	return 0;
 
