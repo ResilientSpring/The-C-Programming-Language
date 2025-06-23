@@ -118,24 +118,7 @@ char buffer_of_char[max_total_characters];
 char* p = buffer_of_char;
 
 // When alloc is asked for n characters (i.e, an array of n characters.),
-char* alloc_memory(int n_characters) {  // parameter is logically of int type.
-
-	// max_total_characters is not (the address of) the last element of 
-	// buffer_of_char[max_total_characters].
-//	if (max_total_characters - p - n_characters > 0) {
-
-		// An arbitrary integer being subtracted from an memory address is undefined/meaningless.
-
-		// In C, address minus address yields the number of elements 
-		// between the two memory address.[1]
-//	}
-
-
-//	if (buffer_of_char + max_total_characters - p >= n_characters) {
-
-	   // This is the solution adapted from [1].
-
-//	}
+char* alloc_memory(int n_characters) {
 
 	// This is my original solution.
 	if (&buffer_of_char[max_total_characters] - 1 - p - n_characters >= 0) {
