@@ -208,7 +208,7 @@ void write_text_lines(char* an_array_of_pointers[]) {
 
 }
 
-void write_text_lines(char* an_array_of_char_pointers[]) {
+void write_text_lines2(char* an_array_of_char_pointers[]) {
 
 	for (int i = 0; i < index; i++) {
 
