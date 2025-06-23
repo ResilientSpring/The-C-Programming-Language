@@ -198,7 +198,7 @@ void write_text_lines(char* an_array_of_pointers[]) {
 
 	for (int i = 0; i < index; i++) {
 
-
+		printf("%s\n", an_array_of_pointers[i]);
 
 	}
 
