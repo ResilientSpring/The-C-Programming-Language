@@ -212,6 +212,8 @@ void write_text_lines(char* an_array_of_char_pointers[]) {
 
 	for (int i = 0; i < index; i++) {
 
+		string_length3(an_array_of_char_pointers[i]);
+
 		printf("%s\n", an_array_of_char_pointers[i]);
 
 	}
