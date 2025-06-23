@@ -9,15 +9,17 @@ int getline_2_(char s[MAX_CHARACTERS_PER_LINE], int lim);
 void copy(char to[], char from[]);
 char* copy_string(char* to, char* from);
 void write_text_lines(char* an_array_of_pointers[]);
+void write_text_lines2(char* an_array_of_pointers[]);
 int string_length2(char* array_of_characters);
 int string_length3(char* array_of_characters);
+char* alloc_memory(int n_characters);
 
 // Make it a global variable, so that write_text_line()'s for-loop will know the boundary.
 int index = 0;
 
 int main() {
 
-//	int index = 0;  
+	//	int index = 0;  
 	int length;   // current line length
 	int lengthiest = 0;   // maximum length seen so far
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
@@ -55,29 +57,33 @@ int main() {
 
 	}
 
-	if (lengthiest > 0)   // if there was a line
-		printf("%s", longest_line);
+	//if (lengthiest > 0)   // if there was a line
+	//	printf("%s", longest_line);
 
 	if (more_than_80_characters[0] != NULL) {
 
-		for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_EIGHTY; i++) {
+		//for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_EIGHTY; i++) {
 
-			if (more_than_80_characters[i] != NULL) {
+		//	if (more_than_80_characters[i] != NULL) {
 
-				printf("%zu chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters[i]);
+		//		printf("%zu chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters[i]);
 
-			}
-			else if (more_than_80_characters[i] == NULL) {
+		//	}
+		//	else if (more_than_80_characters[i] == NULL) {
 
-				printf("END\n");
+		//		printf("END\n");
 
-				break;
+		//		break;
 
-			}
+		//	}
 
-		}
+		//}
+
+
 
 	}
+
+	write_text_lines2(more_than_80_characters);
 
 	return 0;
 
@@ -199,6 +205,18 @@ void write_text_lines(char* an_array_of_pointers[]) {
 	for (int i = 0; i < index; i++) {
 
 		printf("%s\n", an_array_of_pointers[i]);
+
+	}
+
+}
+
+void write_text_lines2(char* an_array_of_char_pointers[]) {
+
+	for (int i = 0; i < index; i++) {
+
+		printf("%d: ", string_length3(an_array_of_char_pointers[i]));
+
+		printf("%s\n", an_array_of_char_pointers[i]);
 
 	}
 

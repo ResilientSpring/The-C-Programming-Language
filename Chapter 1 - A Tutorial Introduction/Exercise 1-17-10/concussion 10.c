@@ -17,7 +17,7 @@ int index = 0;
 
 int main() {
 
-//	int index = 0;  
+	//	int index = 0;  
 	int length;   // current line length
 	int lengthiest = 0;   // maximum length seen so far
 	char current_input_line[MAX_CHARACTERS_PER_LINE];  // current input line
@@ -55,29 +55,33 @@ int main() {
 
 	}
 
-	if (lengthiest > 0)   // if there was a line
-		printf("%s", longest_line);
+	//if (lengthiest > 0)   // if there was a line
+	//	printf("%s", longest_line);
 
 	if (more_than_80_characters[0] != NULL) {
 
-		for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_EIGHTY; i++) {
+		//for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_EIGHTY; i++) {
 
-			if (more_than_80_characters[i] != NULL) {
+		//	if (more_than_80_characters[i] != NULL) {
 
-				printf("%zu chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters[i]);
+		//		printf("%zu chars: %s\n", sizeof(more_than_80_characters[i]) / sizeof(char), more_than_80_characters[i]);
 
-			}
-			else if (more_than_80_characters[i] == NULL) {
+		//	}
+		//	else if (more_than_80_characters[i] == NULL) {
 
-				printf("END\n");
+		//		printf("END\n");
 
-				break;
+		//		break;
 
-			}
+		//	}
 
-		}
+		//}
+
+
 
 	}
+
+	write_text_lines(more_than_80_characters);
 
 	return 0;
 
