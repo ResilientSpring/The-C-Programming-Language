@@ -42,23 +42,6 @@ int main() {
 
 	if (more_than_20_characters[0] != NULL) {
 
-		//for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_TWENTY; i++) {
-
-		//	if (more_than_20_characters[i] != NULL) {
-
-		//		printf("%zu chars: %s\n", sizeof(more_than_20_characters[i]) / sizeof(char), more_than_20_characters[i]);
-
-		//	}
-		//	else if (more_than_20_characters[i] == NULL) {
-
-		//		printf("END\n");
-
-		//		break;
-
-		//	}
-
-		//}
-
 
 
 	}
