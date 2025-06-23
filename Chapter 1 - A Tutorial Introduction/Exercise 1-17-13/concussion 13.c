@@ -40,9 +40,6 @@ int main() {
 
 	}
 
-	//if (lengthiest > 0)   // if there was a line
-	//	printf("%s", longest_line);
-
 	if (more_than_20_characters[0] != NULL) {
 
 		//for (int i = 0; i < ALL_INPUT_LINES_LONGER_THAN_TWENTY; i++) {
