@@ -81,6 +81,8 @@ int main() {
 
 	}
 
+	write_text_lines(more_than_80_characters);
+
 	return 0;
 
 }
