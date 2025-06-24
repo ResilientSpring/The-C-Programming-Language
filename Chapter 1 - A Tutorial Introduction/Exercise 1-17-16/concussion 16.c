@@ -198,3 +198,4 @@ int string_length3(char* array_of_characters) {
 // 2. https://chatgpt.com/c/684c490b-5e64-8008-9104-f11502a55156
 // 3. https://chatgpt.com/c/685423d4-7e98-8008-8d71-a5e1af8bda31
 // 4. https://chatgpt.com/c/6854384b-82c4-8008-b1c3-dd209a5c2424
+// 5. https://chatgpt.com/c/685aaa2a-0a2c-8008-bcc7-5c0729e465f2
