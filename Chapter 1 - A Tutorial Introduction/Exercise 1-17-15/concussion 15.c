@@ -33,7 +33,7 @@ int main() {
 
 		if (length > 20) {
 
-			p = alloc_memory(length);
+			p = alloc_memory(length);  // p now allots room for '\0'.
 
 			more_than_20_characters[index++] = copy_string(p, current_input_line); // [3][4]
 
