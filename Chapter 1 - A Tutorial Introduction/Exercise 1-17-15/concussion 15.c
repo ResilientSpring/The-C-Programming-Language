@@ -73,6 +73,7 @@ int getline(char s[], int limit) {
 				 // at the end of the array it is creating, 
 				 // to mark the end of the string of characters.
 
+	// Because i starts at 0, so i is plus 1 to include the seat for '\0'.
 	return i + 1;
 
 }
