@@ -26,6 +26,7 @@ int main() {
 
 	char* p;
 
+	// Because getline() now returns 
 	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 1) {
 
 		printf("\n%d, %s\n", length, current_input_line);
@@ -65,7 +66,7 @@ int getline(char s[], int limit) {
 
 		s[i] = c;
 
-		++i;  // a line containing only a newline has length 1.
+		++i;  // a line containing only a newline has length 1 plus 1, i.e., '\0'.
 
 	}
 
