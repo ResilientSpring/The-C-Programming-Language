@@ -26,7 +26,7 @@ int main() {
 
 	char* p;
 
-	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 0) {
+	while ((length = getline(current_input_line, MAX_CHARACTERS_PER_LINE)) > 1) {
 
 		printf("\n%d, %s\n", length, current_input_line);
 
