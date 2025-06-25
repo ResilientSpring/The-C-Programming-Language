@@ -192,7 +192,7 @@ int getline(char s[], int limit) {
 				 // at the end of the array it is creating, 
 				 // to mark the end of the string of characters.
 
-	return i;
+	return i + 1;  // [6]
 
 }
 
@@ -233,3 +233,4 @@ char* self_defined_strcpy(char* destination, char* source) {
 // 3. https://chatgpt.com/c/6842b430-124c-8008-8bf2-2753df41267f
 // 4. https://chatgpt.com/c/68470583-dd08-8008-bc82-7a6a9ef45fa5
 // 5. https://chatgpt.com/c/6854384b-82c4-8008-b1c3-dd209a5c2424
+// 6. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/Chapter%201%20-%20A%20Tutorial%20Introduction/Exercise%201-17-16/concussion%2016.c
