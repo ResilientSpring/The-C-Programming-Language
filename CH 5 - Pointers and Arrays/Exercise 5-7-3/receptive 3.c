@@ -35,7 +35,9 @@ int main() {
 	int n_lines;
 
 	// Rewrite readlines to store lines in an array supplied by main, rather than calling alloc 
-    //  to maintain storage.
+    // to maintain storage.
+
+	char blend[50000];
 
 	/* The sorting process has three steps: */  // [2]
 
