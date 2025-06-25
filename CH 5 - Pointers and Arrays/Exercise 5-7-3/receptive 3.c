@@ -77,6 +77,9 @@ int readlines(char* lineptr[], int maxlines) {
 	char* p;
 	char line[MAXLEN];
 
+	// Rewrite readlines to store lines in an array supplied by main, rather than calling alloc 
+    //  to maintain storage.
+
 	while ((length = getline(line, MAXLEN)) > 0)
 
 		//  Since Step1 is designed to only cope with a finite number of input lines, 
