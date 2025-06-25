@@ -14,7 +14,7 @@ char* self_defined_strcpy(char* destination, char* source);
 
 char* lineptr[MAXLINES];  /* line's pointer: pointers to text lines */
 
-int readlines(char* lineptr[], int n_lines);
+int readlines(char* lineptr[], int maxlines, char storage[]);
 
 void writelines(char* lineptr[], int n_lines);
 
@@ -67,7 +67,7 @@ char* alloc(int);
 /* readlines: read input lines */
 /* Step1 has to record (namely to get and save each character of) each input line,
    and build an array of pointers to these lines. [2] */
-int readlines(char* lineptr[], int maxlines) {
+int readlines(char* lineptr[], int maxlines, char storage[]) {
 
 	// Step1 also has to count the number of input lines, 
 	// since that information is needed for sorting and printing.[2]
