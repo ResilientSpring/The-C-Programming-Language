@@ -86,7 +86,7 @@ int readlines(char* lineptr[], int maxlines, char storage[]) {
 
 		//  Since Step1 is designed to only cope with a finite number of input lines, 
 		//  it will return illegal line count like −1 if too much input lines are present.[2]
-		if (the_number_of_input_lines >= maxlines || p == NULL)
+		if (the_number_of_input_lines >= maxlines || p == NULL || p > (storage + 50000) )
 			return -1;
 		else {
 
