@@ -76,7 +76,7 @@ int readlines(char* lineptr[], int maxlines, char storage[]) {
 	int the_number_of_input_lines = 0;
 
 	int length;
-	char* p;
+	char* p = storage;
 	char line[MAXLEN];
 
 	// Rewrite readlines to store lines in an array supplied by main, rather than calling alloc 
