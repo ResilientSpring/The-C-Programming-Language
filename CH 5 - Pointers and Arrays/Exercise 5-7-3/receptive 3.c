@@ -76,7 +76,7 @@ int readlines(char* lineptr[], int maxlines, char storage[]) {
 	int the_number_of_input_lines = 0;
 
 	int length;
-	char* p = storage;
+	char* p;
 	char line[MAXLEN];
 
 	// Rewrite readlines to store lines in an array supplied by main, rather than calling alloc 
@@ -86,7 +86,7 @@ int readlines(char* lineptr[], int maxlines, char storage[]) {
 
 		//  Since Step1 is designed to only cope with a finite number of input lines, 
 		//  it will return illegal line count like −1 if too much input lines are present.[2]
-		if (the_number_of_input_lines >= maxlines || (p = alloc(length)) == NULL)
+		if (the_number_of_input_lines >= maxlines || (p = storage) == NULL)
 			return -1;
 		else {
 
