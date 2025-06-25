@@ -42,7 +42,7 @@ int main() {
 	/* The sorting process has three steps: */  // [2]
 
 	// Step1: read all the lines of input
-	if ((n_lines = readlines(lineptr, MAXLINES)) >= 0) {
+	if ((n_lines = readlines(lineptr, MAXLINES, blend)) >= 0) {
 
 		// Step2: sort them
 		qsort(lineptr, 0, n_lines - 1);
