@@ -82,7 +82,7 @@ int readlines(char* lineptr[], int maxlines, char storage[]) {
 	// Rewrite readlines to store lines in an array supplied by main, rather than calling alloc 
 	// to maintain storage.
 
-	while ((length = getline(line, MAXLEN)) > 0)
+	while ((length = getline(line, MAXLEN)) > 0) // From > 0 to > 1.[6]
 
 		//  Since Step1 is designed to only cope with a finite number of input lines, 
 		//  it will return illegal line count like −1 if too much input lines are present.[2]
