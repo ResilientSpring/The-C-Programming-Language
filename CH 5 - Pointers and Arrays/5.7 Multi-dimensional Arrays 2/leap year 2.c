@@ -54,5 +54,5 @@ char* month_name(int n)
 
 // References:
 // 
-// 1. 
+// 1. The C Programming Language
 // 
