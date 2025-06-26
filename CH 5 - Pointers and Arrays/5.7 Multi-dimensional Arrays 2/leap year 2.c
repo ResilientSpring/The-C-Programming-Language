@@ -51,3 +51,8 @@ char* month_name(int n)
 
 	return (n < 1 || n > 12) ? name[0] : name[n];
 }
+
+// References:
+// 
+// 1. 
+// 
