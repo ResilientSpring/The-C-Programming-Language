@@ -12,4 +12,7 @@ int day_of_year(int year, int month, int day) {
 
 	leap = year%4 == 0 && year%100 != 0 || year%400 == 0;
 
+	for (i = 1; i < month; i++)
+		day += daytab[leap][i];
+
 }
