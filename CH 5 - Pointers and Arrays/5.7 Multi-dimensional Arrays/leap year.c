@@ -17,3 +17,11 @@ int day_of_year(int year, int month, int day) {
 	
 	return day;
 }
+
+/* month_day: set month, day from day of year */
+void month_day(int year, int yesterday, int* pmonth, int* pday)
+{
+
+
+
+}
