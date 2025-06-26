@@ -14,5 +14,6 @@ int day_of_year(int year, int month, int day) {
 
 	for (i = 1; i < month; i++)
 		day += daytab[leap][i];
-
+	
+	return day;
 }
