@@ -29,4 +29,7 @@ void month_day(int year, int yearday, int* pmonth, int* pday)
 	for (i = 1; yearday > daytab[leap][i]; i++)
 		yearday -= daytab[leap][i];
 
+	*pmonth = i;
+	*pday = yearday;
+
 }
