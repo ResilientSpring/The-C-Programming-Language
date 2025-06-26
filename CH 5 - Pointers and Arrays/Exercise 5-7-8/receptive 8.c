@@ -86,7 +86,7 @@ int readlines(char* lineptr[], int maxlines, char storage[]) {
 
 		//  Since Step1 is designed to only cope with a finite number of input lines, 
 		//  it will return illegal line count like −1 if too much input lines are present.[2]
-		if (the_number_of_input_lines >= maxlines || p == NULL || p > (storage + 50000))
+		if (the_number_of_input_lines >= maxlines || p == NULL || p > (storage + 10000)) // [8]
 			return -1;
 		else {
 
@@ -241,3 +241,4 @@ char* self_defined_strcpy(char* destination, char* source) {
 // 5. https://chatgpt.com/c/6854384b-82c4-8008-b1c3-dd209a5c2424
 // 6. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/Chapter%201%20-%20A%20Tutorial%20Introduction/Exercise%201-17-16/concussion%2016.c
 // 7. https://chatgpt.com/c/685c063b-8ddc-8008-98df-7436231226fe
+// 8. https://chatgpt.com/c/684af2e3-e85c-8008-98bd-6b2ac75832d5
