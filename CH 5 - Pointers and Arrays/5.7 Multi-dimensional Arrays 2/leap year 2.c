@@ -10,8 +10,11 @@ int day_of_year(int year, int month, int day) {
 
 	int i, leap;
 
+	// Recall that the arithmetic value of a logical expression, such as the one for leap, 
+	// is either zero(false) or one(true), 
 	leap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 
+	// so it can be used as a subscript of the array daytab.
 	for (i = 1; i < month; i++)
 		day += daytab[leap][i];
 
