@@ -7,7 +7,7 @@ char daytab[2][13] = {
 };
 
 
-void swallow() {
+void f(int daytab[2][13]) {
 
 
 
