@@ -1,4 +1,4 @@
-static char daytab[2][13] = {
+char daytab[2][13] = {
 
 	{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
 	{0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
@@ -8,7 +8,11 @@ static char daytab[2][13] = {
 /* day_of_year: set day of year from month & day  */
 int day_of_year(int year, int month, int day) {
 
-	int i, leap;
+	int i;
+
+	// leap year is a year, happening once every four years, that has 366 days 
+	// and has February 29th as the extra day.[2]
+	int leap;
 
 	// "Recall that the arithmetic value of a logical expression, such as the one for leap, 
 	// is either zero(false) or one(true), " [1]
@@ -55,3 +59,5 @@ char* month_name(int n)
 // 
 // 1. The C Programming Language
 // 
+// 2. https://dictionary.cambridge.org/dictionary/english/leap-year
+//
