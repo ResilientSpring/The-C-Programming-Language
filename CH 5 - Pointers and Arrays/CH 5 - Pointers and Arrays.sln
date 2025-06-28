@@ -217,6 +217,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Multi-dimensional Array
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Multi-dimensional Arrays 3", "5.7 Multi-dimensional Arrays 3\5.7 Multi-dimensional Arrays 3.vcxproj", "{85BA36E0-D44C-42DE-B358-E5C17A8450CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Pass a multi-dimensional array to function", "5.7 Pass a multi-dimensional array to function\5.7 Pass a multi-dimensional array to function.vcxproj", "{6FF0960D-17D8-4AD5-9426-CB61A76881D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1081,6 +1083,14 @@ Global
 		{85BA36E0-D44C-42DE-B358-E5C17A8450CE}.Release|x64.Build.0 = Release|x64
 		{85BA36E0-D44C-42DE-B358-E5C17A8450CE}.Release|x86.ActiveCfg = Release|Win32
 		{85BA36E0-D44C-42DE-B358-E5C17A8450CE}.Release|x86.Build.0 = Release|Win32
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Debug|x64.ActiveCfg = Debug|x64
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Debug|x64.Build.0 = Debug|x64
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Debug|x86.Build.0 = Debug|Win32
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Release|x64.ActiveCfg = Release|x64
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Release|x64.Build.0 = Release|x64
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Release|x86.ActiveCfg = Release|Win32
+		{6FF0960D-17D8-4AD5-9426-CB61A76881D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
