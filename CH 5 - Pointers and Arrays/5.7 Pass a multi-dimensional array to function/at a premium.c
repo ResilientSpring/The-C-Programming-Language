@@ -17,7 +17,7 @@ int f2(int daytab[][13]) {
 }
 
 char* f3(int(*daytab)[13]) {
-	return 'Get';
+	return "Get";
 }
 
 int main() {
