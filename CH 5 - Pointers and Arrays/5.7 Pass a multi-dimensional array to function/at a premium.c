@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 char daytab[2][13] = {
 	// We started the array daytab with a column of zero so that month numbers can run from the
 	// natural 1 to 12 instead of 0 to 11.[1]
@@ -8,9 +10,11 @@ char daytab[2][13] = {
 
 
 void f(int daytab[2][13]) {
+	printf("f(int daytab[2][13]) successfully got the 2-dimensional array called daytab.\n");
+}
 
-
-
+int f2(int daytab[][13]) {
+	return 1;
 }
 
 int main() {
