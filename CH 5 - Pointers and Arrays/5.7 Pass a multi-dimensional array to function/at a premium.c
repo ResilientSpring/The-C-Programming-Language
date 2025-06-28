@@ -22,6 +22,7 @@ char* f3(int(*daytab)[13]) {
 
 int main() {
 
-
-
+	f(daytab);
+	printf("%d\n", f2(daytab));
+	printf("%s\n", f3(daytab));
 }
