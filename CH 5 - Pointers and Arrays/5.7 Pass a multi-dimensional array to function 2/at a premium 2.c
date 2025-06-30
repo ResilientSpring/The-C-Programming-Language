@@ -8,15 +8,15 @@ char daytab[2][13] = {
 
 };
 
-void f(int daytab[2][13]) {
+void f(int twoD[2][13]) {
 	printf("f(int daytab[2][13]) successfully got the 2-dimensional array called daytab.\n");
 }
 
-int f2(int daytab[][13]) {
+int f2(int twoD[][13]) {
 	return 1;
 }
 
-char* f3(int(*daytab)[13]) {
+char* f3(int(*twoD)[13]) {
 	return "Get";
 }
 
