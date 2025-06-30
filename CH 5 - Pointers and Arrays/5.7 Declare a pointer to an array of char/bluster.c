@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char func(char* arr);
+void func(char* arr);
 
 int main() {
 
@@ -10,7 +10,7 @@ int main() {
 
 }
 
-char func(char* arr) {
+void func(char* arr) {
 
 	return *(arr + 2);
 
