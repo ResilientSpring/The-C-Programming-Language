@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void func(int* arr);
+char func(char* arr);
 
 int main() {
 
-	int arr[10] = { 0, 2, 4, 6, 8, 9, 10 };
+    char arr[10] = { 'a', 'c', 'f', 'h', 'k', 'l', 'v'};
 
 	printf("%d\n", func(arr));
 
 }
 
-void func(int* arr) {
+char func(char* arr) {
 
 	return *(arr + 2);
 
