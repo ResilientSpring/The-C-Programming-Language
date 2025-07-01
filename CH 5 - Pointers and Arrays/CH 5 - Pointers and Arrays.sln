@@ -225,6 +225,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 2", "5.7 Declare a pointer to an array of char 2\5.7 Declare a pointer to an array of char 2.vcxproj", "{81B133AE-87AB-48A6-B6F4-271B70E90552}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Prefix decrement in while loop condition", "5.6 Prefix decrement in while loop condition\5.6 Prefix decrement in while loop condition.vcxproj", "{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Prefix decrement in while loop condition 2", "5.6 Prefix decrement in while loop condition 2\5.6 Prefix decrement in while loop condition 2.vcxproj", "{48897D3C-9DA6-4210-9C1C-032781487EC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1121,6 +1125,22 @@ Global
 		{81B133AE-87AB-48A6-B6F4-271B70E90552}.Release|x64.Build.0 = Release|x64
 		{81B133AE-87AB-48A6-B6F4-271B70E90552}.Release|x86.ActiveCfg = Release|Win32
 		{81B133AE-87AB-48A6-B6F4-271B70E90552}.Release|x86.Build.0 = Release|Win32
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Debug|x64.ActiveCfg = Debug|x64
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Debug|x64.Build.0 = Debug|x64
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Debug|x86.Build.0 = Debug|Win32
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Release|x64.ActiveCfg = Release|x64
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Release|x64.Build.0 = Release|x64
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Release|x86.ActiveCfg = Release|Win32
+		{8D17AD80-72F9-4BE8-9AE4-D095958AFEEB}.Release|x86.Build.0 = Release|Win32
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Debug|x64.ActiveCfg = Debug|x64
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Debug|x64.Build.0 = Debug|x64
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Debug|x86.ActiveCfg = Debug|Win32
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Debug|x86.Build.0 = Debug|Win32
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Release|x64.ActiveCfg = Release|x64
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Release|x64.Build.0 = Release|x64
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Release|x86.ActiveCfg = Release|Win32
+		{48897D3C-9DA6-4210-9C1C-032781487EC5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
