@@ -231,6 +231,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Prefix decrement in whi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of 13 integers", "5.7 Declare a pointer to an array of 13 integers\5.7 Declare a pointer to an array of 13 integers.vcxproj", "{497F023F-B07E-40E1-B6C1-E2A31E9298A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 3", "5.7 Declare a pointer to an array of char 3\5.7 Declare a pointer to an array of char 3.vcxproj", "{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 4", "5.7 Declare a pointer to an array of char 4\5.7 Declare a pointer to an array of char 4.vcxproj", "{E47FDC35-F846-4485-B7FC-91A9BFF9A023}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 5", "5.7 Declare a pointer to an array of char 5\5.7 Declare a pointer to an array of char 5.vcxproj", "{B11AE5D2-9140-455F-A743-AA8291CB2D50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 6", "5.7 Declare a pointer to an array of char 6\5.7 Declare a pointer to an array of char 6.vcxproj", "{31926A19-670B-48AD-862D-3B075E27ABE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1151,6 +1159,38 @@ Global
 		{497F023F-B07E-40E1-B6C1-E2A31E9298A0}.Release|x64.Build.0 = Release|x64
 		{497F023F-B07E-40E1-B6C1-E2A31E9298A0}.Release|x86.ActiveCfg = Release|Win32
 		{497F023F-B07E-40E1-B6C1-E2A31E9298A0}.Release|x86.Build.0 = Release|Win32
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Debug|x64.ActiveCfg = Debug|x64
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Debug|x64.Build.0 = Debug|x64
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Debug|x86.Build.0 = Debug|Win32
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x64.ActiveCfg = Release|x64
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x64.Build.0 = Release|x64
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x86.ActiveCfg = Release|Win32
+		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x86.Build.0 = Release|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x64.ActiveCfg = Debug|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x64.Build.0 = Debug|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x86.ActiveCfg = Debug|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x86.Build.0 = Debug|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x64.ActiveCfg = Release|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x64.Build.0 = Release|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x86.ActiveCfg = Release|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x86.Build.0 = Release|Win32
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Debug|x64.ActiveCfg = Debug|x64
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Debug|x64.Build.0 = Debug|x64
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Debug|x86.ActiveCfg = Debug|Win32
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Debug|x86.Build.0 = Debug|Win32
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Release|x64.ActiveCfg = Release|x64
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Release|x64.Build.0 = Release|x64
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Release|x86.ActiveCfg = Release|Win32
+		{B11AE5D2-9140-455F-A743-AA8291CB2D50}.Release|x86.Build.0 = Release|Win32
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Debug|x64.ActiveCfg = Debug|x64
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Debug|x64.Build.0 = Debug|x64
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Debug|x86.Build.0 = Debug|Win32
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Release|x64.ActiveCfg = Release|x64
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Release|x64.Build.0 = Release|x64
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Release|x86.ActiveCfg = Release|Win32
+		{31926A19-670B-48AD-862D-3B075E27ABE8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
