@@ -7,4 +7,6 @@ int main() {
 	// It is a declaration of a pointer, not an array; thus, need not consider array name.
 
 	char arr[10] = "bluster.";
+
+	ptr_name = arr;
 }
