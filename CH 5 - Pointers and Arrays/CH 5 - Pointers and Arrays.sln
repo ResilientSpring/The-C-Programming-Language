@@ -233,6 +233,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 3", "5.7 Declare a pointer to an array of char 3\5.7 Declare a pointer to an array of char 3.vcxproj", "{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Declare a pointer to an array of char 4", "5.7 Declare a pointer to an array of char 4\5.7 Declare a pointer to an array of char 4.vcxproj", "{E47FDC35-F846-4485-B7FC-91A9BFF9A023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1161,6 +1163,14 @@ Global
 		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x64.Build.0 = Release|x64
 		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x86.ActiveCfg = Release|Win32
 		{0DD7ED9C-D5ED-4CC8-A65A-DD4D9DBFD22C}.Release|x86.Build.0 = Release|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x64.ActiveCfg = Debug|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x64.Build.0 = Debug|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x86.ActiveCfg = Debug|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Debug|x86.Build.0 = Debug|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x64.ActiveCfg = Release|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x64.Build.0 = Release|x64
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x86.ActiveCfg = Release|Win32
+		{E47FDC35-F846-4485-B7FC-91A9BFF9A023}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
