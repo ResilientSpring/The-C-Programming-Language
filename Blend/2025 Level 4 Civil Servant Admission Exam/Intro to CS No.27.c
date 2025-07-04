@@ -19,6 +19,7 @@ int main() {
 
 	int i = 5;
 
-	f(a, b, 5);
+	int result = f(a, b, 5);
 
+	printf("%d\n", result);
 }
