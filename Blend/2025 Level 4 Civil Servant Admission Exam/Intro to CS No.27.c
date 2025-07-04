@@ -2,7 +2,7 @@
 
 int a = 1, b = 1, c = 0;
 
-int f(int a, int b, int i = 5) {
+int f(int a, int b, int i) {
 
 	if (i == 0)
 		return a;
@@ -17,5 +17,8 @@ int f(int a, int b, int i = 5) {
 
 int main() {
 
+	int i = 5;
+
+	f(a, b, 5);
 
 }
