@@ -9,6 +9,9 @@ char daytab[2][13] = {
 
 };
 
+// The implicit conversion of an array name to a pointer to the initial element of the array 
+// is extensively used in function calls in C - style code.
+
 int main() {
 
 
