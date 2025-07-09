@@ -11,7 +11,7 @@ char daytab[2][13] = {
 
 // The implicit conversion of an array name to a pointer to the initial element of the array 
 // is extensively used in function calls in C - style code.[2]
-char (*a_pointer_to_a_one_dimensional_array_of_char)[13];
+char (*a_pointer_to_a_one_dimensional_array_of_char)[13];       // syntax [3]
 
 a_pointer_to_a_one_dimensional_array_of_char = daytab;
 
@@ -26,4 +26,6 @@ int main() {
 // 1. The C Programming Language
 // 
 // 2. The C++ Programming Language (4th edition)
+// 
+// 3. https://chatgpt.com/c/6861195b-bc90-8008-8b9c-d1c500d03caf
 //
