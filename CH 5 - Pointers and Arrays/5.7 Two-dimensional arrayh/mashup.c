@@ -18,6 +18,8 @@ int main() {
 
 	a_pointer_to_a_one_dimensional_array_of_char = daytab;
 
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char[0][0]);
+
 }
 
 // References:
