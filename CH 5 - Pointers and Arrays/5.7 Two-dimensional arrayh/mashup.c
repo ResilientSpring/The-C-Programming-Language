@@ -22,6 +22,8 @@ int main() {
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char[0][1]);
 
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char[1][0]);
+
 }
 
 // References:
