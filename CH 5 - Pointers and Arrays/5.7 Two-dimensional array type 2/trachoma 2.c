@@ -7,7 +7,7 @@ int main() {
 
 	int (*p)[3][4] = arr;
 
-	int (*p)[4] = &arr;
+	int (*pp)[4] = &arr;
 }
 
 // Reference:
