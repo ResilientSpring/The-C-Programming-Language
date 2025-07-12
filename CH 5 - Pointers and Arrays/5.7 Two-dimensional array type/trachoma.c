@@ -8,3 +8,6 @@ int main() {
 	int(*p)[3][4] = &arr;
 
 }
+
+// Reference:
+// 1. https://chatgpt.com/c/6861195b-bc90-8008-8b9c-d1c500d03caf
