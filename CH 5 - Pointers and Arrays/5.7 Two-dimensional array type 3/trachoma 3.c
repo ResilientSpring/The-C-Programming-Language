@@ -8,7 +8,8 @@ int main() {
 
 	int (*pp)[4] = arr;
 
-	// Rationale: Per [1], if int arr[3][4]'s type is int [3][4], then the type should 
+	// Rationale: Per [1], if int arr[3][4]'s type is int [3][4], then the type should accept 
+	//            arr, regardless 
 	int (*ppp)[3][4] = arr;
 }
 
