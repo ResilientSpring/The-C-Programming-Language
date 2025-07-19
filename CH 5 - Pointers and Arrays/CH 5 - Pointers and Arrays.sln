@@ -255,6 +255,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Two-dimensional array t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Two-dimensional array type 6", "5.7 Two-dimensional array type 6\5.7 Two-dimensional array type 6.vcxproj", "{6A8F9EB1-799E-44BE-8A71-1185BE836461}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Two-dimensional array type 7", "5.7 Two-dimensional array type 7\5.7 Two-dimensional array type 7.vcxproj", "{B2E74DB7-53FD-427A-B188-CB35DE070922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1271,6 +1273,14 @@ Global
 		{6A8F9EB1-799E-44BE-8A71-1185BE836461}.Release|x64.Build.0 = Release|x64
 		{6A8F9EB1-799E-44BE-8A71-1185BE836461}.Release|x86.ActiveCfg = Release|Win32
 		{6A8F9EB1-799E-44BE-8A71-1185BE836461}.Release|x86.Build.0 = Release|Win32
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Debug|x64.ActiveCfg = Debug|x64
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Debug|x64.Build.0 = Debug|x64
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Debug|x86.Build.0 = Debug|Win32
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Release|x64.ActiveCfg = Release|x64
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Release|x64.Build.0 = Release|x64
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Release|x86.ActiveCfg = Release|Win32
+		{B2E74DB7-53FD-427A-B188-CB35DE070922}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
