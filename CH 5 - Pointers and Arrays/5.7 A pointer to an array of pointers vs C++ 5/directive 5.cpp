@@ -23,3 +23,6 @@ int main() {
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_chars[1][11]);
 
 }
+
+// Explanation:
+// 1. https://chatgpt.com/c/687d2152-4864-8008-a2b4-ea965a6e7a00
