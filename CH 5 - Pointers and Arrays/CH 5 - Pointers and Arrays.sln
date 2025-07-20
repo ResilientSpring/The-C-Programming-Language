@@ -259,6 +259,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Two-dimensional array t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Two-dimensional array type 8", "5.7 Two-dimensional array type 8\5.7 Two-dimensional array type 8.vcxproj", "{ACB58F3C-3D30-4E41-960E-291EDCA415EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.8 An array of pointers", "5.8 An array of pointers\5.8 An array of pointers.vcxproj", "{B8C23FD8-F404-4794-AC05-041E336AD452}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 A pointer to an array of pointers", "5.7 A pointer to an array of pointers\5.7 A pointer to an array of pointers.vcxproj", "{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1291,6 +1295,22 @@ Global
 		{ACB58F3C-3D30-4E41-960E-291EDCA415EC}.Release|x64.Build.0 = Release|x64
 		{ACB58F3C-3D30-4E41-960E-291EDCA415EC}.Release|x86.ActiveCfg = Release|Win32
 		{ACB58F3C-3D30-4E41-960E-291EDCA415EC}.Release|x86.Build.0 = Release|Win32
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Debug|x64.ActiveCfg = Debug|x64
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Debug|x64.Build.0 = Debug|x64
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Debug|x86.Build.0 = Debug|Win32
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Release|x64.ActiveCfg = Release|x64
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Release|x64.Build.0 = Release|x64
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Release|x86.ActiveCfg = Release|Win32
+		{B8C23FD8-F404-4794-AC05-041E336AD452}.Release|x86.Build.0 = Release|Win32
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Debug|x64.ActiveCfg = Debug|x64
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Debug|x64.Build.0 = Debug|x64
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Debug|x86.Build.0 = Debug|Win32
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Release|x64.ActiveCfg = Release|x64
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Release|x64.Build.0 = Release|x64
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Release|x86.ActiveCfg = Release|Win32
+		{BF33B382-BEFC-4E4F-AFB4-842B091D33A7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
