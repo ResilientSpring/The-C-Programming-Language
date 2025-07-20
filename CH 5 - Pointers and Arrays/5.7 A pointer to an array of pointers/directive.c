@@ -10,7 +10,7 @@ char daytab[3][13] = {
 
 int main() {
 
-	char (*a_pointer_to_a_one_dimensional_array_of_char)[13];      
+	char* (*a_pointer_to_a_one_dimensional_array_of_char_pointers)[13];      
 
 	a_pointer_to_a_one_dimensional_array_of_char = daytab;
 
