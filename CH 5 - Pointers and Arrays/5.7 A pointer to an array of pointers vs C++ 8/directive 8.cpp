@@ -15,5 +15,5 @@ int main() {
 	char* stipulate = daytab[2];           // When a character string like printf("hello, world\n");
 	                                       // appears, printf receives a pointer to the beginning of 
 	                                       // the character array. That is, a string constant is accessed 
-	                                       // by a pointer to its first element. K&RII:118
+	                                       // by a pointer to its first element. (K&RII:118)
 }
