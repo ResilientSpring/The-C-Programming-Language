@@ -10,6 +10,8 @@ char daytab[3][13] = {
 
 int main() {
 
-	char (*directive)[13] = daytab[2];
+	char (*directive)[13] = &daytab[2];
+
+	char* stipulate = daytab[2];
 
 }
