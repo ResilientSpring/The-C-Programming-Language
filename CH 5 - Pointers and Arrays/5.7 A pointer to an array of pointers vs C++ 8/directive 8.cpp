@@ -12,8 +12,8 @@ int main() {
 
 	char (*directive)[13] = &daytab[2];
 
-	char* stipulate = daytab[2];           // When a character string like printf("hello, world\n");
-	                                       // appears, printf receives a pointer to the beginning of 
-	                                       // the character array. That is, a string constant is accessed 
-	                                       // by a pointer to its first element. (K&RII:118)
+	char* stipulate = daytab[2];          // printf("hello, world\n");
+	                                      // printf receives a pointer to the beginning of the character array.
+	                                      // That is, a string constant is accessed 
+	                                      // by a pointer to its first element. (K&RII:118)
 }
