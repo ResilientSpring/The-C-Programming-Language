@@ -10,17 +10,17 @@ char daytab[3][13] = {
 
 int main() {
 
-	char* (*a_pointer_to_a_one_dimensional_array_of_chars)[13];
+	char* (*a_pointer_to_a_one_dimensional_array_of_char_pointers)[13];
 
-	a_pointer_to_a_one_dimensional_array_of_chars = daytab[2];
+	a_pointer_to_a_one_dimensional_array_of_char_pointers = daytab[2];
 
-	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_chars[0][0]);
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char_pointers[0][0]);
 
-	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_chars[0][1]);
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char_pointers[0][1]);
 
-	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_chars[1][0]);
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char_pointers[1][0]);
 
-	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_chars[1][11]);
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_char_pointers[1][11]);
 
 }
 
