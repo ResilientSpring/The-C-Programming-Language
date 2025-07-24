@@ -3,6 +3,7 @@
 char* name[] = {
 
 	"Invalid",
+
 	"Huaei Gii",
 	"Agao",
 	"Meiren"
