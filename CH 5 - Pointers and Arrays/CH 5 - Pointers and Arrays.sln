@@ -291,6 +291,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.8 Initialization of Point
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.8 An array of pointers 2", "5.8 An array of pointers 2\5.8 An array of pointers 2.vcxproj", "{D35F3E39-0653-4F19-AFED-DBA1E31E4457}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Sort an array of pointers to arrays of characters", "5.6 Sort an array of pointers to arrays of characters\5.6 Sort an array of pointers to arrays of characters.vcxproj", "{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1451,6 +1453,14 @@ Global
 		{D35F3E39-0653-4F19-AFED-DBA1E31E4457}.Release|x64.Build.0 = Release|x64
 		{D35F3E39-0653-4F19-AFED-DBA1E31E4457}.Release|x86.ActiveCfg = Release|Win32
 		{D35F3E39-0653-4F19-AFED-DBA1E31E4457}.Release|x86.Build.0 = Release|Win32
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Debug|x64.ActiveCfg = Debug|x64
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Debug|x64.Build.0 = Debug|x64
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Debug|x86.Build.0 = Debug|Win32
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Release|x64.ActiveCfg = Release|x64
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Release|x64.Build.0 = Release|x64
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Release|x86.ActiveCfg = Release|Win32
+		{FAC4F5B3-F48F-4578-AF35-561A06C76FAE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
