@@ -13,7 +13,6 @@ int main() {
 
 char* children_name(int n) {
 
-
 	char* name[] = {
 
 		"Invalid"
@@ -26,7 +25,6 @@ char* children_name(int n) {
 }
 
 char* children_name2(int n) {
-
 
 	char* name[] = {
 
