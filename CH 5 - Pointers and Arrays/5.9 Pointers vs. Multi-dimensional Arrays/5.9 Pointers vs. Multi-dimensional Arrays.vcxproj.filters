@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c">
+    <ClCompile Include="en-tangle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
