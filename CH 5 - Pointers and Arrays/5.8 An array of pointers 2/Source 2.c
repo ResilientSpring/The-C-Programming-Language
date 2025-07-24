@@ -5,8 +5,8 @@ char* children_name2(int n);
 
 int main() {
 
-	printf("%s \n", children_name(1));
-	printf("%s \n", children_name2(1));
+	printf("%s \n", children_name(4));
+	printf("%s \n", children_name2(4));
 
 
 }
