@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+char* children_name(int n);
+char* children_name2(int n);
+
 int main() {
 
-
+	printf("%s", children_name(1));
+	printf("%s", children_name2(1));
 
 
 }
