@@ -15,7 +15,7 @@ char* children_name(int n) {
 
 	char* name[] = {
 
-		"Invalid"
+		"Invalid",
 		"Huaei Gii",
 		"Agao",
 		"Meiren"
@@ -28,7 +28,7 @@ char* children_name2(int n) {
 
 	char* name[] = {
 
-		"Invalid"
+		"Invalid",
 		"Huaei Gii",
 		"Agao",
 		"Meiren"
