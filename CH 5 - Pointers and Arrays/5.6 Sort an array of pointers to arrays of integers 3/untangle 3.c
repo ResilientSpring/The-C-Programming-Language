@@ -12,5 +12,5 @@ int main() {
 
 	int(* another_pointer_to_an_array_of_integers)[13];
 
-	int another_array_of_13_integers[13];
+	int another_array_of_13_integers[13] = {1, 1, 2, 3, 5, };
 }
