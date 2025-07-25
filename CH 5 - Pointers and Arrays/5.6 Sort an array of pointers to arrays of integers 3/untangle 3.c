@@ -11,4 +11,6 @@ int main() {
 	an_array_of_pointers[0] = a_pointer_to_an_array_of_13_integers;
 
 	int(* another_pointer_to_an_array_of_integers)[13];
+
+	int another_array_of_13_integers[13];
 }
