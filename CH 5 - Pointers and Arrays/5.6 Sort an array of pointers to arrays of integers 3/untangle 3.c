@@ -19,5 +19,6 @@ int main() {
 	int* decay = third_array_of_13_integers;
 
 	// another_pointer_to_an_array_of_integers is a pointer, not an array, so it won't decay.
+	// Need not precede another_pointer_to_an_array_of_integers with &.
 	an_array_of_pointers[1] = another_pointer_to_an_array_of_integers;
 }
