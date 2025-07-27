@@ -23,4 +23,6 @@ int main() {
 	// another_pointer_to_an_array_of_integers is a pointer, not an array, so it won't decay.
 	// Need not precede another_pointer_to_an_array_of_integers with &.
 	an_array_of_pointers[1] = another_pointer_to_an_array_of_integers;
+
+	int a_pointer_to_a_one_dimensional_array_of_integers;
 }
