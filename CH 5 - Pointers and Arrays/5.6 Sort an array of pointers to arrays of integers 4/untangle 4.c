@@ -28,7 +28,7 @@ int main() {
 
 	a_pointer_to_a_one_dimensional_array_of_integers = &third_array_of_13_integers;
 
-	int* another_array_of_pointers[] = {
+	int* another_array_of_pointers_to_integers[] = {
 		a_pointer_to_a_one_dimensional_array_of_integers,
 		a_pointer_to_an_array_of_13_integers
 	};
