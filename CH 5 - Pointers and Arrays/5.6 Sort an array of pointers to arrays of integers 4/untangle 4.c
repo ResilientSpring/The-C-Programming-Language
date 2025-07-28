@@ -2,13 +2,13 @@
 
 int main() {
 
-	int* an_array_of_pointers[10];
+	int* an_array_of_pointers_to_integers[10];
 
 	int an_array_of_13_integers[13] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
 
 	int(*a_pointer_to_an_array_of_13_integers)[13] = &an_array_of_13_integers;
 
-	an_array_of_pointers[0] = a_pointer_to_an_array_of_13_integers;
+	an_array_of_pointers_to_integers[0] = a_pointer_to_an_array_of_13_integers;
 
 	int(*another_pointer_to_an_array_of_integers)[13];
 
@@ -22,7 +22,7 @@ int main() {
 
 	// another_pointer_to_an_array_of_integers is a pointer, not an array, so it won't decay.
 	// Need not precede another_pointer_to_an_array_of_integers with &.
-	an_array_of_pointers[1] = another_pointer_to_an_array_of_integers;
+	an_array_of_pointers_to_integers[1] = another_pointer_to_an_array_of_integers;
 
 	int(*a_pointer_to_a_one_dimensional_array_of_integers)[13];
 
