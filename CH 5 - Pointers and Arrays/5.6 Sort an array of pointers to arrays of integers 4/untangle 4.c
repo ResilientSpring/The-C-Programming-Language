@@ -33,5 +33,5 @@ int main() {
 		a_pointer_to_an_array_of_13_integers
 	};
 
-	int an_array_of_pointers_to_an_array_of_integers;
+	int (*an_array_of_pointers_to_an_array_of_integers)[][13];
 }
