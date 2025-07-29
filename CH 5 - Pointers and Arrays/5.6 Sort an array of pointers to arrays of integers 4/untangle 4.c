@@ -34,4 +34,6 @@ int main() {
 	};
 
 	int (*an_array_of_pointers_to_an_array_of_integers)[][13];
+
+	int (*[])
 }
