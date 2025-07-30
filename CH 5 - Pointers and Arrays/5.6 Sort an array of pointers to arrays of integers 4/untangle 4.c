@@ -35,5 +35,7 @@ int main() {
 
 	int (*an_array_of_pointers_to_an_array_of_integers)[][13];
 
-	int (*an_array_of_pointers_to_arrays_of_integers[])
+//	int(*an_array_of_pointers_to_arrays_of_integers[]);
+
+	int (*an_array_of_10_pointers_to_arrays_of_integers[10])[10];
 }
