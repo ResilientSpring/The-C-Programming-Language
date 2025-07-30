@@ -35,5 +35,11 @@ int main() {
 
 	int (*an_array_of_pointers_to_an_array_of_integers)[][13];
 
-	int (*[])
+//	int(*an_array_of_pointers_to_arrays_of_integers[]);
+
+	int (*an_array_of_10_pointers_to_10_arrays_of_integers[10])[10];
+
+	an_array_of_10_pointers_to_10_arrays_of_integers[0] = &an_array_of_13_integers;
+
+	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0]);
 }
