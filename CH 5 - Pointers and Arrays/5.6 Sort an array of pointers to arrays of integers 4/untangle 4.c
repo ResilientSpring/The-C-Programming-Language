@@ -42,4 +42,6 @@ int main() {
 	an_array_of_10_pointers_to_10_arrays_of_integers[0] = &an_array_of_13_integers;
 
 	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0]);
+
+	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0][0]);
 }
