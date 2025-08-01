@@ -59,6 +59,6 @@ int main() {
 
 	int(*an_array_of_7_pointers_to_an_array_of_6_integers[7])[6];
 
-	an_array_of_7_pointers_to_an_array_of_6_integers = &third_array_of_13_integers;
+	an_array_of_7_pointers_to_an_array_of_6_integers[0] = &third_array_of_13_integers;
 
 }
