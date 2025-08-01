@@ -25,6 +25,11 @@ int main() {
 										  // first element. (K&RII:118)
 
 	print_type(directive[0]);
+
+	int arr[2][13];
+	print_type(arr);          // prints type of int[2][13]
+	print_type(&arr[0]);      // prints type of int(*)[13]
+
 }
 
 // References:
