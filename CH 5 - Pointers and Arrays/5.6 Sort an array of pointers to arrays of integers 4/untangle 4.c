@@ -61,4 +61,6 @@ int main() {
 
 	an_array_of_7_pointers_to_an_array_of_6_integers[0] = &third_array_of_13_integers;
 
+	printf("%p\n", an_array_of_7_pointers_to_an_array_of_6_integers[0]);
+
 }
