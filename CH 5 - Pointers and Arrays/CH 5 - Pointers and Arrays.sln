@@ -305,6 +305,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 A pointer to an array o
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Sort an array of pointers to arrays of integers 5", "5.6 Sort an array of pointers to arrays of integers 5\5.6 Sort an array of pointers to arrays of integers 5.vcxproj", "{FE58A5BF-8EC2-4E32-A7CC-B08D281867E2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.8 Initialize a pointer", "5.8 Initialize a pointer\5.8 Initialize a pointer.vcxproj", "{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1521,6 +1523,14 @@ Global
 		{FE58A5BF-8EC2-4E32-A7CC-B08D281867E2}.Release|x64.Build.0 = Release|x64
 		{FE58A5BF-8EC2-4E32-A7CC-B08D281867E2}.Release|x86.ActiveCfg = Release|Win32
 		{FE58A5BF-8EC2-4E32-A7CC-B08D281867E2}.Release|x86.Build.0 = Release|Win32
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Debug|x64.ActiveCfg = Debug|x64
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Debug|x64.Build.0 = Debug|x64
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Debug|x86.Build.0 = Debug|Win32
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Release|x64.ActiveCfg = Release|x64
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Release|x64.Build.0 = Release|x64
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Release|x86.ActiveCfg = Release|Win32
+		{7B962EC8-84BD-49AD-B36C-59BF04BABBA8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
