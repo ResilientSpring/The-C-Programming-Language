@@ -23,10 +23,10 @@ int main() {
 
 	directive[1] = &daytab[2];  // [2]
 
-	char* stipulate = daytab[2];          // printf("hello, world\n");
-										  // printf receives a pointer to the beginning of the character array.
-										  // That is, a string constant is accessed by a pointer to its 
-										  // first element. (K&RII:118)
+	char* stipulate = daytab[2];      // printf("hello, world\n");
+								      // printf receives a pointer to the beginning of the character array.
+									  // That is, a string constant is accessed by a pointer to its 
+									  // first element. (K&RII:118)
 
 	print_type(directive[0]);
 
