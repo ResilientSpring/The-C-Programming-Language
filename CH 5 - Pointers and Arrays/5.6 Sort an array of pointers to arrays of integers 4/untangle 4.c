@@ -48,4 +48,6 @@ int main() {
 	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0][1]);
 
 	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0][2]);
+
+	int (*an_array_of_9_pointers_to_9_arrays_of_integers[9])[9];
 }
