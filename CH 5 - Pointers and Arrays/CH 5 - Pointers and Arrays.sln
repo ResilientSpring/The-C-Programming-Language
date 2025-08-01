@@ -301,6 +301,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Sort an array of pointe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 Sort an array of pointers to arrays of integers 4", "5.6 Sort an array of pointers to arrays of integers 4\5.6 Sort an array of pointers to arrays of integers 4.vcxproj", "{8DA4E7DE-09C5-4C08-ACED-4417AE271FA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 A pointer to an array of pointers vs C++ 9", "5.7 A pointer to an array of pointers vs C++ 9\5.7 A pointer to an array of pointers vs C++ 9.vcxproj", "{6FA6F240-6B75-429A-8365-F3212E66372E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1501,6 +1503,14 @@ Global
 		{8DA4E7DE-09C5-4C08-ACED-4417AE271FA9}.Release|x64.Build.0 = Release|x64
 		{8DA4E7DE-09C5-4C08-ACED-4417AE271FA9}.Release|x86.ActiveCfg = Release|Win32
 		{8DA4E7DE-09C5-4C08-ACED-4417AE271FA9}.Release|x86.Build.0 = Release|Win32
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Debug|x64.ActiveCfg = Debug|x64
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Debug|x64.Build.0 = Debug|x64
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Debug|x86.Build.0 = Debug|Win32
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Release|x64.ActiveCfg = Release|x64
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Release|x64.Build.0 = Release|x64
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Release|x86.ActiveCfg = Release|Win32
+		{6FA6F240-6B75-429A-8365-F3212E66372E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
