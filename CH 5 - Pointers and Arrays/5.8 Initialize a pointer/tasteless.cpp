@@ -8,4 +8,6 @@ int main() {
 
 	p2 = "tasteful";
 
+	printf("%s\n", p2);
+
 }
