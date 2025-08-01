@@ -3,7 +3,7 @@
 #include <iostream>
 
 template<typename T>
-void print_type(T x) {
+void print_type(T x) {  // [1]
 	std::cout << "Type is: " << typeid(x).name() << '\n';
 }
 
@@ -26,3 +26,6 @@ int main() {
 
 	print_type(directive[0]);
 }
+
+// References:
+// 1. https://chatgpt.com/c/68602239-8750-8008-8ebd-93abbd1f14b9
