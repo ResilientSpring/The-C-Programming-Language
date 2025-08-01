@@ -46,4 +46,6 @@ int main() {
 	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0][0]);
 
 	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0][1]);
+
+	printf("%d\n", an_array_of_10_pointers_to_10_arrays_of_integers[0][0][2]);
 }
