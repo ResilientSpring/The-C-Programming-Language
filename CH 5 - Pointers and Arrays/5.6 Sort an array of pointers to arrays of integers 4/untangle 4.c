@@ -55,6 +55,8 @@ int main() {
 
 	printf("%d\n", an_array_of_9_pointers_to_9_arrays_of_integers[0][6]);
 
+	printf("%d\n", an_array_of_9_pointers_to_9_arrays_of_integers[0][0][6]);
+
 	int(*an_array_of_7_pointers_to_an_array_of_6_integers[7])[6];
 
 }
