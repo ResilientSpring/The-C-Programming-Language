@@ -21,7 +21,7 @@ int main() {
 
 	directive = &daytab[2];      // [2]
 
-	directive[1] = &daytab[2];  // [2]
+	directive[1] = &daytab[2];   // [2]
 
 	char* stipulate = daytab[2];      // printf("hello, world\n");
 								      // printf receives a pointer to the beginning of the character array.
