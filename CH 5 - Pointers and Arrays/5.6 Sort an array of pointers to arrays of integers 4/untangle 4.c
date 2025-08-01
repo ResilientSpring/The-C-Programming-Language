@@ -53,6 +53,8 @@ int main() {
 
 	an_array_of_9_pointers_to_9_arrays_of_integers[0] = &another_array_of_13_integers;
 
+	printf("%d\n", an_array_of_9_pointers_to_9_arrays_of_integers[0][6]);
+
 	int(*an_array_of_7_pointers_to_an_array_of_6_integers[7])[6];
 
 }
