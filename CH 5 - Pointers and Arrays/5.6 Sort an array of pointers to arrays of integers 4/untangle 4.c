@@ -63,4 +63,6 @@ int main() {
 
 	printf("%p\n", an_array_of_7_pointers_to_an_array_of_6_integers[0]);
 
+	printf("%d\n", an_array_of_7_pointers_to_an_array_of_6_integers[0][0]);
+
 }
