@@ -9,4 +9,7 @@ int main() {
 	
 	};
 
+	int(*a_pointer_to_a_two_dimensional_array_of_integers)[2][3];
+
 }
+
