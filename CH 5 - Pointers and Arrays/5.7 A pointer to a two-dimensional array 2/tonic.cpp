@@ -11,7 +11,7 @@ int main() {
 
 	int(*a_pointer_to_a_two_dimensional_array_of_integers)[2][3];
 
-	a_pointer_to_a_two_dimensional_array_of_integers = &a_pointer_to_a_two_dimensional_array_of_integers;
+	a_pointer_to_a_two_dimensional_array_of_integers = &tonic;
 
 	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1][2]);
 
