@@ -18,6 +18,8 @@ int main() {
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0]);
 
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][0]);
+
 
 	int tonic[2][3] = {
 
