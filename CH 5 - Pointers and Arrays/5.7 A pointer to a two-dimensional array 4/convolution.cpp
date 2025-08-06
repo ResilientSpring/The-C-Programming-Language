@@ -14,6 +14,8 @@ int main() {
 
 	printf("%d\n", *a_pointer_to_an_integer);
 
+	printf("%d\n", a_pointer_to_an_integer[0]);
+
 	printf("%d\n", a_pointer_to_an_integer[2]);
 
 	printf("%d\n", *(a_pointer_to_an_integer + 2));
