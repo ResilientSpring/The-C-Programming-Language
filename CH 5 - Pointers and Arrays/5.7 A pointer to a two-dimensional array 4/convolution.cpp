@@ -12,7 +12,7 @@ int main() {
 
 	printf("%d\n", tone[0]);
 
-	int(*a_pointer_to_a_one_dimensional_array_of_integers)[];
+	int(*a_pointer_to_a_one_dimensional_array_of_integers)[3];
 
 	a_pointer_to_a_one_dimensional_array_of_integers = &tone;
 
