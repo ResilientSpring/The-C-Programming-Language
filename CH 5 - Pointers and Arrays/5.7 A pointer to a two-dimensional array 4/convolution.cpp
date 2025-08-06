@@ -14,6 +14,10 @@ int main() {
 
 	printf("%d\n", *a_pointer_to_an_integer);
 
+	printf("%d\n", a_pointer_to_an_integer[0]);
+
+	printf("%d\n", a_pointer_to_an_integer[2]);
+
 	printf("%d\n", *(a_pointer_to_an_integer + 2));
 
 	int(*a_pointer_to_a_one_dimensional_array_of_three_integers)[3];
