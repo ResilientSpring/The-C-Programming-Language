@@ -12,6 +12,8 @@ int main() {
 
 	printf("%d\n", tone[0]);
 
+	int(*a_pointer_to_a_one_dimensional_array_of_integers)[];
+
 
 	int tonic[2][3] = {
 
