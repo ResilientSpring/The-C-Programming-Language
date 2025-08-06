@@ -10,6 +10,8 @@ int main() {
 
 	printf("%d\n", *tone);
 
+	printf("%d\n", tone[0]);
+
 
 	int tonic[2][3] = {
 
