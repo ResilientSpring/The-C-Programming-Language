@@ -12,6 +12,8 @@ int main() {
 
 	printf("%d\n", tone[0]);
 
+	printf("%d\n", *a_pointer_to_an_integer);
+
 	int(*a_pointer_to_a_one_dimensional_array_of_three_integers)[3];
 
 	a_pointer_to_a_one_dimensional_array_of_three_integers = &tone;
