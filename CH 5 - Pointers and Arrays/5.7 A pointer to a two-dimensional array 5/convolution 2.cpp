@@ -8,6 +8,8 @@ int main() {
 
 	printf("%d\n", tone[0]);
 
+	printf("%d\n", *(tone + 0));
+
 	int* a_pointer_to_an_integer;
 
 	a_pointer_to_an_integer = tone;
