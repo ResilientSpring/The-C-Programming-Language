@@ -55,3 +55,7 @@ int main() {
 
 }
 
+
+
+// See also:
+// 1. https://chatgpt.com/c/689337b4-3da8-832c-874d-a9dab38346ab
