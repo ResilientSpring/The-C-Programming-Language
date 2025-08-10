@@ -28,10 +28,17 @@ int main() {
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0]);
 
-	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][0]);
-
 	printf("%d\n", *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0));
 
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][0]);
+
+	printf("Section break:\n%d\n", *(*(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 0));
+
+	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][1]);
+
+	a_pointer_to_an_integer = tone + 1;
+
+	printf("%d\n", a_pointer_to_an_integer[0]);
 
 	int tonic[2][3] = {
 
@@ -50,3 +57,7 @@ int main() {
 
 }
 
+
+
+// See also:
+// 1. https://chatgpt.com/c/689337b4-3da8-832c-874d-a9dab38346ab
