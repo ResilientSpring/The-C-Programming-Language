@@ -77,6 +77,10 @@ int main() {
 
 	a_pointer_to_a_two_dimensional_array_of_integers = &tonic;
 
+	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1]);
+
+	printf("%d\n", *(a_pointer_to_a_two_dimensional_array_of_integers + 1));
+
 	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1][2]);
 
 	printf("%d\n", *(a_pointer_to_a_two_dimensional_array_of_integers + 1));
