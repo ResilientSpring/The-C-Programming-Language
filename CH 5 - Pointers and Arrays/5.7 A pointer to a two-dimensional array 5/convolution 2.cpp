@@ -87,6 +87,9 @@ int main() {
 
 	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1][2][0]);
 
+	printf("%p\n", *(a_pointer_to_a_two_dimensional_array_of_integers + 0) + 1);
+
+	printf("%p\n", &a_pointer_to_a_two_dimensional_array_of_integers[1]);
 }
 
 
