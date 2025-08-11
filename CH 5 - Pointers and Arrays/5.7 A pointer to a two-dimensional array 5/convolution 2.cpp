@@ -48,7 +48,7 @@ int main() {
 
 	printf("%p\n", *(&tone + 1));
 
-	printf("%p\n", ((&tone + 0) + 1));
+	printf("%p\n", ( (&tone + 0) + 1) );
 
 	printf("%p\n", (&tone + 1));
 
