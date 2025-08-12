@@ -30,11 +30,37 @@ int main() {
 
 	printf("%d\n", *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0));
 
+	printf("%d\n", (&tone + 0) );
+
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][0]);
 
-	printf("Section break:\n%d\n", *(*(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 0));
+	printf("Section break: %d\n", *(*(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 0));
+
+	printf("%d\n", *( (&tone + 0) + 1 ) );
+
+	printf("%d\n", *(&tone + 1) );
+
+	printf("%d\n", ( (&tone + 0) + 1) );
+
+	printf("%d\n", (&tone + 1) );
+
+	printf("%p\n", *( (&tone + 0) + 1 ) );
+
+	printf("%p\n", *(&tone + 1));
+
+	printf("%p\n", ( (&tone + 0) + 1) );
+
+	printf("%p\n", (&tone + 1));
+
+	printf("%p\n", a_pointer_to_a_one_dimensional_array_of_three_integers + 1);
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][1]);
+
+	printf("%d\n", ( *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 1 ) );
+
+	printf("%p\n", ( *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 1) );
+
+	printf("%p\n", &a_pointer_to_a_one_dimensional_array_of_three_integers[0][1]);
 
 	a_pointer_to_an_integer = tone + 1;
 
@@ -51,10 +77,19 @@ int main() {
 
 	a_pointer_to_a_two_dimensional_array_of_integers = &tonic;
 
+	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1]);
+
+	printf("%d\n", *(a_pointer_to_a_two_dimensional_array_of_integers + 1));
+
 	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1][2]);
+
+	printf("%d\n", *(a_pointer_to_a_two_dimensional_array_of_integers + 1));
 
 	printf("%d\n", a_pointer_to_a_two_dimensional_array_of_integers[1][2][0]);
 
+	printf("%p\n", *(a_pointer_to_a_two_dimensional_array_of_integers + 0) + 1);
+
+	printf("%p\n", &a_pointer_to_a_two_dimensional_array_of_integers[1]);
 }
 
 
