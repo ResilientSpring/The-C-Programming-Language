@@ -38,6 +38,8 @@ int main() {
 
 	printf("Section break: %d\n", *(*(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 0));
 
+	printf("%d\n", *a_pointer_to_a_one_dimensional_array_of_three_integers[0]);
+
 	printf("%d\n", *( (&tone + 0) + 1 ) );
 
 	printf("%d\n", *(&tone + 1) );
