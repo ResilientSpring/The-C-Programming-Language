@@ -31,10 +31,20 @@ int main() {
 	printf("%d\n", *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0));
 
 	printf("%d\n", (&tone + 0) );
+	
+	printf("%d\n", *(&tone + 0) );
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][0]);
 
 	printf("Section break: %d\n", *(*(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) + 0));
+
+	printf("%d\n", *a_pointer_to_a_one_dimensional_array_of_three_integers[0]);
+
+	printf("%d\n",  *( *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0) ) );
+
+	printf("%d\n", *(&tone)[0] );
+
+	printf("%d\n", (*a_pointer_to_a_one_dimensional_array_of_three_integers)[0]);
 
 	printf("%d\n", *( (&tone + 0) + 1 ) );
 
@@ -53,6 +63,8 @@ int main() {
 	printf("Section breakII: %p\n", (&tone + 1));
 
 	printf("%p\n", a_pointer_to_a_one_dimensional_array_of_three_integers + 1);
+
+	printf("%p\n", a_pointer_to_a_one_dimensional_array_of_three_integers[1]);
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0][1]);
 
