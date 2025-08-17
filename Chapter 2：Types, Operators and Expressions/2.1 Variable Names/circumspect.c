@@ -7,4 +7,6 @@ int main() {
 	int A = 2;
 
 	printf("%d\n", a);
+
+	printf("%d\n", A);
 }
