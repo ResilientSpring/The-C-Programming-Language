@@ -78,7 +78,7 @@ int main() {
 
 	a_pointer_to_an_integer = tone + 1;
 
-	printf("%d\n", a_pointer_to_an_integer[0]);
+	printf("a_pointer_to_an_integer[0] is %d\n", a_pointer_to_an_integer[0]);
 
 	int tonic[2][3] = {
 
