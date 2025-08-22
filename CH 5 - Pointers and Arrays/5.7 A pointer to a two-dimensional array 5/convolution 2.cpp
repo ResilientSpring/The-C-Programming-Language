@@ -84,6 +84,12 @@ int main() {
 	printf("%p\n", &(*(a_pointer_to_a_one_dimensional_array_of_three_integers + 0)) );
 	printf("%p\n", a_pointer_to_a_one_dimensional_array_of_three_integers);
 
+	int(**a_pointer_to_a_pointer_to_a_one_dimensional_array_of_three_integers)[3];
+
+	a_pointer_to_a_pointer_to_a_one_dimensional_array_of_three_integers = &a_pointer_to_a_one_dimensional_array_of_three_integers;
+
+	printf("%p\n", )
+
 	a_pointer_to_an_integer = tone + 1;
 
 	printf("a_pointer_to_an_integer[0] is %d\n", a_pointer_to_an_integer[0]);
