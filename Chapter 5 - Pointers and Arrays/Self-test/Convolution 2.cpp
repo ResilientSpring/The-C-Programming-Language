@@ -8,13 +8,13 @@ int main() {
 
 	printf("%d\n", tone[0]);  // 1
 
-	printf("%d\n", *(tone + 0));  
+	printf("%d\n", *(tone + 0));  // 1
 
 	int* a_pointer_to_an_integer;
 
 	a_pointer_to_an_integer = tone;
 
-	printf("%d\n", *a_pointer_to_an_integer);
+	printf("%d\n", *a_pointer_to_an_integer);  // 1
 
 	printf("%d\n", a_pointer_to_an_integer[0]);
 
