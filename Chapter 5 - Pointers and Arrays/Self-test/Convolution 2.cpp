@@ -16,11 +16,11 @@ int main() {
 
 	printf("%d\n", *a_pointer_to_an_integer);  // 1
 
-	printf("%d\n", a_pointer_to_an_integer[0]);
+	printf("%d\n", a_pointer_to_an_integer[0]); // 1
 
-	printf("%d\n", a_pointer_to_an_integer[2]);
+	printf("%d\n", a_pointer_to_an_integer[2]);  // 3
 
-	printf("%d\n", *(a_pointer_to_an_integer + 2));
+	printf("%d\n", *(a_pointer_to_an_integer + 2)); // 3
 
 	int(*a_pointer_to_a_one_dimensional_array_of_three_integers)[3];
 
