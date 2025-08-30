@@ -6,6 +6,10 @@ int main() {
 
     int* p = get_arr();
 
+    p[0] = 1;
+    *(p + 1) = 2;
+
+    printf("%d\n", p[1]);
 }
 
 
