@@ -2,7 +2,9 @@
 
 struct deference {
 
-	int a = 1;
+//	int a = 1;
+
+	int a;
 
 };
 
