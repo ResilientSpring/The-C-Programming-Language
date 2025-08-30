@@ -10,13 +10,15 @@ struct deference {
 
 struct pulsatile {
 
-	deference ob;  // [1]
+//	deference ob;  // [1]
 
-};
+	struct deference ob;
+
+} x, y, z;
 
 int main() {
 
-
+	printf("%zu\n", sizeof y);
 
 }
 
