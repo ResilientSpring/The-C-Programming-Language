@@ -28,7 +28,7 @@ int main() {
 
 	printf("%d\n", a_pointer_to_a_one_dimensional_array_of_three_integers[0]); 
 
-	printf("%d\n", *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0));  // Dereferencing a pointer to a one-dimensional array of three integers yields an arbitrary value.
+	printf("%d\n", *(a_pointer_to_a_one_dimensional_array_of_three_integers + 0));  // Dereferencing a pointer to a one-dimensional array of three integers yields an arbitrary value is a misconception. [3]
 
 	printf("%d\n", (&tone + 0));
 
@@ -135,3 +135,4 @@ int main() {
 // See also:
 // 1. https://chatgpt.com/c/689337b4-3da8-832c-874d-a9dab38346ab
 // 2. https://chatgpt.com/c/68a84721-b8fc-832d-ba23-dfcd78132205
+// 3. https://chatgpt.com/c/68ad93ce-74dc-8323-838c-3527c0ce6d36
