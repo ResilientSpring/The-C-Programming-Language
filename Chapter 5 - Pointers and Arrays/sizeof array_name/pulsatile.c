@@ -10,7 +10,7 @@ struct deference {
 
 struct pulsatile {
 
-	deference ob;
+	deference ob;  // [1]
 
 };
 
@@ -19,3 +19,6 @@ int main() {
 
 
 }
+
+// Reference:
+// 1. https://chatgpt.com/c/68b2b07b-2724-8333-aadc-71bd7b20e540
