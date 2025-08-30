@@ -10,6 +10,7 @@ int main() {
     *(p + 1) = 2;
 
     printf("%d\n", p[1]);
+    printf("%d\n", *(p + 0));
 }
 
 
