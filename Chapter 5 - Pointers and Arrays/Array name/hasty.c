@@ -4,7 +4,7 @@ int* get_arr();
 
 int main() {
 
-
+    int* p = get_arr();
 
 }
 
