@@ -20,3 +20,5 @@ int* get_arr() {
 
     return arr; // decay occurs here
 }
+
+// Reference: https://chatgpt.com/c/687112f9-ef78-8008-a091-2e0b8963a49f
