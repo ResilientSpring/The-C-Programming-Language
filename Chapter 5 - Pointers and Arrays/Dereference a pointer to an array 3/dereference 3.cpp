@@ -20,6 +20,8 @@ int main() {
 	printf("%d\n", *(&arr));
 
 	printf("%d\n", arr);
+
+	printf("%d\n", *(&arr)[2]);
 }
 
 // Reference: https://chatgpt.com/c/68ad93ce-74dc-8323-838c-3527c0ce6d36
