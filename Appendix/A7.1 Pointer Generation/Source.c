@@ -18,5 +18,7 @@ int main()
 
     printf("%d\n", s.arr[4]);
 
+    printf("%d\n", s.arr[1]);
+
     return 0;
 }
