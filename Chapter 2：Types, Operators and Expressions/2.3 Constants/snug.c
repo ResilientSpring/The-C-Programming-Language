@@ -3,3 +3,7 @@
 
 #define VTAB2 ′\xb′     /* ASCII vertical tab */
 #define BELL2 ′\x7′     /* ASCII bell character */
+
+#define MAXLINE 1000
+
+char line[MAXLINE + 1];
