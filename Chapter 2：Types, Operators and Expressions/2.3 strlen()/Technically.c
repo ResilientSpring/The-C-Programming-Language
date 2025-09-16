@@ -1,8 +1,10 @@
 #include <stdio.h>
 
+int strlen(char str[]);
+
 int main() {
 
-
+	printf("%d\n", strlen("snug"));
 
 }
 
