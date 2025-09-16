@@ -12,6 +12,12 @@ int strlen(char str[]) {
 
 	int counter = 0;
 
-	while
+	while (str[i] != '\0') {
 
+		i++;
+		counter++;
+
+	}
+
+	return counter;
 }
