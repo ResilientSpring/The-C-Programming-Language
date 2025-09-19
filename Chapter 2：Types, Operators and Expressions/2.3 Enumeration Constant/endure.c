@@ -10,7 +10,10 @@ enum months {JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC};
 
 int main() {
 
+    enum escapes scarf = BELL;
 
+
+    printf(BELL);
 
 
 }
