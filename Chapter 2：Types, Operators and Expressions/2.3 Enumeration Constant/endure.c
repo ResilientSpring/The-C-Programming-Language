@@ -13,7 +13,9 @@ int main() {
     enum escapes scarf = BELL;
 
 
-    printf(BELL);
+ //   printf(BELL);
+
+    printf("%d\n", scarf);
 
 
 }
