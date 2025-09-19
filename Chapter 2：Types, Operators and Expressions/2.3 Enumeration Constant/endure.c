@@ -16,6 +16,7 @@ int main() {
  //   printf(BELL);
 
     printf("%d\n", scarf);
+    printf("%c\n", scarf);
 
 
 }
