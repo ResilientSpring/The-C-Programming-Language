@@ -24,5 +24,5 @@ int main() {
 
     scout = SEP;
 
-    printf("%s\n", scout);
+//    printf("%s\n", scout);
 }
