@@ -18,5 +18,9 @@ int main() {
     printf("%d\n", scarf);
     printf("%c\n", scarf);
 
+    enum months scout;
 
+    scout = SEP;
+
+    printf("%s\n", )
 }
