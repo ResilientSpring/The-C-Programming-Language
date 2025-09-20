@@ -14,12 +14,12 @@ int main() {
 
     /* After printf("%c\n", scarf); is commentted out, no sound is played after compilation.*/
 
-    //enum escapes scarf = BELL;
+    enum escapes scarf = BELL;
 
 
     ////   printf(BELL);
 
-    //printf("%d\n", scarf);
+    printf("%d\n", scarf);
     //printf("%c\n", scarf);
 
     enum months scout;
