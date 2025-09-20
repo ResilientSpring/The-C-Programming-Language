@@ -12,6 +12,8 @@ enum months { JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC };
 
 int main() {
 
+    /* After printf("%c\n", scarf); is commentted out, no sound is played after compilation.*/
+
     //enum escapes scarf = BELL;
 
 
