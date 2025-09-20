@@ -25,4 +25,9 @@ int main() {
     scout = SEP;
 
 //    printf("%s\n", scout);
+
+    enum booleans sweater = Yes;
+
+    printf("%c\n", sweater);
+    printf("%d\n", sweater);
 }
