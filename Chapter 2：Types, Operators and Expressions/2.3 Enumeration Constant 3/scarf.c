@@ -16,7 +16,7 @@ int main() {
 
     printf("%d\n", scarf);
 
-    /* After printf("%c\n", scarf); is commentted out, no sound is played after compilation.*/
+    /* After printf("%c\n", scarf); is commented out, no sound is played after compilation.*/
 
     // printf("%c\n", scarf);
 
