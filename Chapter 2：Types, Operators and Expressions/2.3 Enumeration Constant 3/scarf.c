@@ -31,4 +31,9 @@ int main() {
 
     printf("%c\n", sweater);
     printf("%d\n", sweater);
+
+    enum boolean sweat = YES;
+
+    printf("%d\n", sweat);
+    printf("%c\n", sweat);
 }
