@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 strlen()", "2.3 strlen(
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 Enumeration Constant", "2.3 Enumeration Constant\2.3 Enumeration Constant.vcxproj", "{88204A7A-5EC9-4C04-9EC1-B7EE20CAB28A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 Enumeration Constant 2", "2.3 Enumeration Constant 2\2.3 Enumeration Constant 2.vcxproj", "{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{88204A7A-5EC9-4C04-9EC1-B7EE20CAB28A}.Release|x64.Build.0 = Release|x64
 		{88204A7A-5EC9-4C04-9EC1-B7EE20CAB28A}.Release|x86.ActiveCfg = Release|Win32
 		{88204A7A-5EC9-4C04-9EC1-B7EE20CAB28A}.Release|x86.Build.0 = Release|Win32
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Debug|x64.ActiveCfg = Debug|x64
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Debug|x64.Build.0 = Debug|x64
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Debug|x86.Build.0 = Debug|Win32
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Release|x64.ActiveCfg = Release|x64
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Release|x64.Build.0 = Release|x64
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Release|x86.ActiveCfg = Release|Win32
+		{CDAEAD77-98F7-4A81-8E63-62ACC17A8CB1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
