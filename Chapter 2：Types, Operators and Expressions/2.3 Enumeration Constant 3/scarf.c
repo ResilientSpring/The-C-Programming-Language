@@ -35,5 +35,8 @@ int main() {
     enum boolean sweat = YES;
 
     printf("%d\n", sweat);
-    printf("%c\n", sweat);
+    printf("%c\n", sweat);     // %c interprets the integer 1 as a character with ASCII decimal code 1.
 }
+
+// Reference:
+// 1. https://chatgpt.com/c/68ce70f5-5854-8328-806c-c760a731d765
