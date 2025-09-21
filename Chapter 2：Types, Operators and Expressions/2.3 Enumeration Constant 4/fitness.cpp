@@ -2,7 +2,7 @@
 
 int main() {
 
-
+	enum colors appearance = GREEN;
 
 
 }
