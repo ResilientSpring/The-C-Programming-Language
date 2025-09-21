@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-enum colors { RED, GREEN};
+// enum colors { RED, GREEN};
 enum traffic { STOP, GO, CAUTION };
 enum traffic_lights { RED, YELLOW, GREEN };
 
