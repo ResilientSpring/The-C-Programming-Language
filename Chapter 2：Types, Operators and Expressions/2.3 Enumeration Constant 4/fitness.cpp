@@ -10,3 +10,14 @@ int main() {
 enum colors { RED, GREEN, BLUE };
 enum traffic { STOP, GO, CAUTION };
 enum traffic_lights { RED, YELLOW, GREEN };
+
+enum escape {
+    BELL = '\a',     // ASCII 7
+    BACKSPACE = '\b',// ASCII 8
+    TAB = '\t',      // ASCII 9
+    NEWLINE = '\n',  // ASCII 10
+    VTAB = '\v',     // ASCII 11
+    RETURN = '\r',   // ASCII 13
+    CR = '\r'        // same as RETURN, value 13
+};
+
