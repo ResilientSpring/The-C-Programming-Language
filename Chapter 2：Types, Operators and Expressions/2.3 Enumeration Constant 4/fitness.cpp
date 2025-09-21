@@ -4,7 +4,7 @@ int main() {
 
 	enum colors appearance = GREEN;
 
-
+    enum colorful exterior = BLUE;
 }
 
 enum colors { RED, GREEN, BLUE };
