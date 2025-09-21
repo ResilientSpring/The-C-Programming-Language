@@ -21,4 +21,8 @@ enum escape {
     CR = '\r'        // same as RETURN, value 13
 };
 
-enum colorful { RED, GREEN, BLUE, BLUE };
+enum colorful { RED, GREEN, BLUE, BLUE }; // Within the same enumeration, names must also be distinct.
+
+
+// Reference: https://chatgpt.com/c/68cfbaf9-03f0-8325-a1a5-92efdcc617fc
+
