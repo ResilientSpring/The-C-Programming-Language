@@ -22,3 +22,5 @@ int main() {
 
     enum colorful exterior = BLUE;
 }
+
+// Reference: https://chatgpt.com/c/68cfbaf9-03f0-8325-a1a5-92efdcc617fc
