@@ -21,3 +21,4 @@ enum escape {
     CR = '\r'        // same as RETURN, value 13
 };
 
+enum colorful { RED, GREEN, BLUE, BLUE };
