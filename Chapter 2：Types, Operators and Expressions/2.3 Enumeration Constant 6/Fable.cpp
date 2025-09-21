@@ -19,6 +19,8 @@ enum colorful { RED, GREEN, BLUE, BLUE }; // Within the same enumeration, names 
 int main() {
 
     enum colorful exterior = BLUE;
+
+    printf("%d\n", exterior);
 }
 
 // Reference: https://chatgpt.com/c/68cfbaf9-03f0-8325-a1a5-92efdcc617fc
