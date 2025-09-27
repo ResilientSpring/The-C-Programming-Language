@@ -13,4 +13,4 @@ int main() {
 }
 
 enum color { RED, GREEN, BLUE };
-enum color c;
+enum color d;
