@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 Enumeration Constant 7"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 Enumeration Constant 8", "2.3 Enumeration Constant 8\2.3 Enumeration Constant 8.vcxproj", "{0F4F82DF-95A5-46C0-8EAE-2FE87446DF98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3 Enumeration Constant 9", "2.3 Enumeration Constant 9\2.3 Enumeration Constant 9.vcxproj", "{4B5703ED-3688-47DC-B2C8-38C93C965569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{0F4F82DF-95A5-46C0-8EAE-2FE87446DF98}.Release|x64.Build.0 = Release|x64
 		{0F4F82DF-95A5-46C0-8EAE-2FE87446DF98}.Release|x86.ActiveCfg = Release|Win32
 		{0F4F82DF-95A5-46C0-8EAE-2FE87446DF98}.Release|x86.Build.0 = Release|Win32
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Debug|x64.ActiveCfg = Debug|x64
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Debug|x64.Build.0 = Debug|x64
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Debug|x86.Build.0 = Debug|Win32
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Release|x64.ActiveCfg = Release|x64
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Release|x64.Build.0 = Release|x64
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Release|x86.ActiveCfg = Release|Win32
+		{4B5703ED-3688-47DC-B2C8-38C93C965569}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
