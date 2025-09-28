@@ -9,6 +9,7 @@ int main() {
 
 	c = RED;
 
+	printf("%d\n", c);
 }
 
 enum color { RED, GREEN, BLUE };
