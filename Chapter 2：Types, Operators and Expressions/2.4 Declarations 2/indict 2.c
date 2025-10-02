@@ -7,4 +7,5 @@ int main() {
 
 	printf("%d\n", dread);
 
+	printf("%c\n", dread);
 }
