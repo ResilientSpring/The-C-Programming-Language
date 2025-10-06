@@ -6,4 +6,6 @@ int main() {
 
 	const char msg[] = "warning: ";
 
+	msg[0] = 'W';
+
 }
