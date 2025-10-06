@@ -6,7 +6,7 @@ int string_length_3_(char parameter[]);
 
 int main() {
 
-	printf("%d\n", string_length("pedal"));
+	printf("%d\n", string_length("pedal"));      printf("%d\n", string_length_2_("atrophy"));
 }
 
 int string_length(const char parameter[]) {
