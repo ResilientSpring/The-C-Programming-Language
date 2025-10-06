@@ -37,3 +37,21 @@ int string_length_2_(const char parameter[]) {
 
 	return counter;
 }
+
+int string_length_3_(const char parameter[]) {
+
+	//	char* character = parameter;
+
+	const char* character = parameter;
+
+	//	parameter[0] = 0;
+
+	//	character[0] = '\0';
+
+	int counter = 0;
+
+	while (*(character++) != '\0')
+		counter++;
+
+	return counter;
+}
