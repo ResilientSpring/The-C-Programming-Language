@@ -8,8 +8,10 @@ int main() {
 
 int string_length(const char parameter[]) {
 
-	char* character = parameter;
+//	char* character = parameter;
 
-	while
+	const char* character = parameter;
+
+	while()
 
 }
