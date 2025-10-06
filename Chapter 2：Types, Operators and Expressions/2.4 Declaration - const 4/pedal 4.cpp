@@ -12,6 +12,10 @@ int string_length(const char parameter[]) {
 
 	const char* character = parameter;
 
-	while()
+	int counter = 0;
 
+	while (*(character++) != '\0')
+		counter++;
+
+	return counter;
 }
