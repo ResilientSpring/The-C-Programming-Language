@@ -26,7 +26,9 @@ int string_length_2_(const char parameter[]) {
 
 	const char* character = parameter;
 
-	parameter[0] = 0;
+//	parameter[0] = 0;
+
+	character[0] = '\0';
 
 	int counter = 0;
 
