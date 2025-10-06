@@ -28,7 +28,7 @@ int string_length_2_(const char parameter[]) {
 
 //	parameter[0] = 0;
 
-	character[0] = '\0';
+//	character[0] = '\0';
 
 	int counter = 0;
 
