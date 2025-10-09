@@ -17,7 +17,7 @@ int main() {
 	};
 
 	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
-	printf("%d\n", string_length_3_(argument));  printf("%s\n", argument);
+	printf("%d\n", string_length_3_(argument));   printf("%s\n", argument);
 }
 
 int string_length(const char* parameter) {
