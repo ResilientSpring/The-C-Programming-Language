@@ -8,6 +8,14 @@ int main() {
 	
 //	char argument[][5] = { "foam", "limb", "limp", "cripple"};
 
+	char argument[][5] = { 
+
+		{'f', 'o', 'a', 'm'},
+
+	
+	
+	};
+
 	printf("%d\n", string_length("pedal"));      printf("%d\n", string_length_2_("atrophy"));
 	printf("%d\n", string_length_3_(argument));  printf("%s\n", argument);
 }
