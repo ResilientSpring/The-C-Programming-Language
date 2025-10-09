@@ -5,7 +5,9 @@ int string_length_2_(const char parameter[]);
 int string_length_3_(char parameter[]);
 
 int main() {
-	char argument[] = "foam";
+	
+	char argument[][5] = { "foam", "limb", "limp", "cripple"};
+
 	printf("%d\n", string_length("pedal"));      printf("%d\n", string_length_2_("atrophy"));
 	printf("%d\n", string_length_3_(argument));  printf("%s\n", argument);
 }
