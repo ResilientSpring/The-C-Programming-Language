@@ -6,7 +6,7 @@ int string_length_3_(char parameter[]);
 
 int main() {
 	char argument[] = "foam";
-	printf("%d\n", string_length("pedal"));      printf("%d\n", string_length_2_(argument));
+	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
 	printf("%d\n", string_length_3_(argument));  printf("%s\n", argument);
 }
 
