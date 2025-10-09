@@ -5,10 +5,10 @@ int string_length_2_(const char parameter[]);
 int string_length_3_(char parameter[]);
 
 int main() {
-	
-//	char argument[][5] = { "foam", "limb", "limp", "cripple"};
 
-	char argument[][5] = { 
+	//	char argument[][5] = { "foam", "limb", "limp", "cripple"};
+
+	char argument[][5] = {
 
 		{'f', 'o', 'a', 'm'},
 		{'l', 'i', 'm', 'b'},
@@ -52,7 +52,7 @@ int string_length_2_(const char parameter[]) {
 	return counter;
 }
 
-int string_length_3_(char* parameter) {
+int string_length_3_(char parameter[]) {
 
 	char* character = parameter;
 
