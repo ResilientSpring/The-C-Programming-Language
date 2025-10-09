@@ -11,9 +11,9 @@ int main() {
 	char argument[][5] = { 
 
 		{'f', 'o', 'a', 'm'},
-
-	
-	
+		{'l', 'i', 'm', 'b'},
+		{'l', 'i', 'm', 'p'},
+		{'c', 'r', 'i', 'p'}
 	};
 
 	printf("%d\n", string_length("pedal"));      printf("%d\n", string_length_2_("atrophy"));
