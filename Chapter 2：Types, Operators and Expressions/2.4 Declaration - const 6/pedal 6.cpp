@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int string_length(const char parameter[]);
+// int string_length(const char parameter[]);
 int string_length(const char(*parameter)[])
 int string_length_2_(const char parameter[]);
 int string_length_3_(char parameter[]);
