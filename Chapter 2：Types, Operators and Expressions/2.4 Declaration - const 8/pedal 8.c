@@ -21,7 +21,7 @@ int main() {
 	printf("%d\n", string_length_3_(argument));   printf("%s\n", argument);
 }
 
-int string_length(const char(*parameter)[]) {
+int string_length(const char (*parameter)[]) {
 
 	//	char* character = parameter;
 
