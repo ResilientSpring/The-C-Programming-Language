@@ -54,7 +54,7 @@ int string_length_2_(const char(*parameter)[]) {
 
 		counter++;
 
-		*character
+		**character
 	}
 
 	return counter;
