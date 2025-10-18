@@ -47,7 +47,7 @@ int string_length_2_(const char (*parameter)[]) {
 
 	int counter = 0;
 
-	while ( (**character++) != '\0')
+	while ( (**character++) != '\0')  // character++ means the next one-dimensional array.
 		counter++;
 
 	return counter;
