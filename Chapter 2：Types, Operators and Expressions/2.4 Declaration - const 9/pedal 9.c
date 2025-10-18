@@ -18,7 +18,7 @@ int main() {
 	};
 
 	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
-	printf("%d\n", string_length_3_(argument));   printf("%s\n", argument);
+	printf("%d\n", string_length_3_(argument));   printf("%s\n", argument[1]);
 }
 
 int string_length(const char(*parameter)[]) {
@@ -35,11 +35,11 @@ int string_length(const char(*parameter)[]) {
 	return counter;
 }
 
-int string_length_2_(const char parameter[]) {
+int string_length_2_(const char(*parameter)[]) {
 
 	//	char* character = parameter;
 
-	const char* character = parameter;
+	const char(*character)[] = parameter;
 
 	//	parameter[0] = 0;
 
@@ -47,8 +47,15 @@ int string_length_2_(const char parameter[]) {
 
 	int counter = 0;
 
-	while ( (**character) != '\0')
+//	while ((**character++) != '\0')  // character++ means the next one-dimensional array.
+//		counter++;
+
+	while ( (**character) != 0) {
+
 		counter++;
+
+
+	}
 
 	return counter;
 }
