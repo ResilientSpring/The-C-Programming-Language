@@ -47,7 +47,7 @@ int string_length_2_(const char (*parameter)[]) {
 
 	int counter = 0;
 
-	while ((**character)++ != '\0')
+	while ( (**character) != '\0')
 		counter++;
 
 	return counter;
