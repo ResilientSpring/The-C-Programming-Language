@@ -39,7 +39,7 @@ int string_length_2_(const char (*parameter)[]) {
 
 	//	char* character = parameter;
 
-	const char* character = parameter;
+	const char (*character)[] = parameter;
 
 	//	parameter[0] = 0;
 
