@@ -78,15 +78,11 @@ int string_length_2_(const char parameter[][5]) {
 
 	for (int i = 0; i < 5; i++) {
 
-		for (int j = 0; j < 5; j++) {
+		while (character[i] != 0) {
 
-			while (character[i][j] != 0) {
+			counter++;
 
-				counter++;
-
-				**character;
-			}
-
+			**character;
 		}
 	}
 
