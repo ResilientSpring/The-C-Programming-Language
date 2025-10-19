@@ -50,7 +50,7 @@ int string_length_2_(const char parameter[][5]) {
 	//	while ((**character++) != '\0')  // character++ means the next one-dimensional array.
 	//		counter++;
 
-	while ((**character) != 0) {
+	while ( (**character) != 0) {
 
 		counter++;
 
