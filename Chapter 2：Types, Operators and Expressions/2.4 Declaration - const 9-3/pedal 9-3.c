@@ -78,7 +78,7 @@ int string_length_2_(const char parameter[][5]) {
 
 	for (int i = 0; i < 5; i++) {
 
-		while (character[i] != 0) {
+		while (character[i] != 0) {   //     *(character + i)
 
 			counter++;
 
