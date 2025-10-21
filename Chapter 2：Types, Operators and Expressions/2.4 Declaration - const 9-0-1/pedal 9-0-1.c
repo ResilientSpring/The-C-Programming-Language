@@ -52,7 +52,7 @@ int string_length_2_(const char(*parameter)[5]) {
 
 	char* letter = 1; // same as char* letter = 
 
-	while ((**character) != 0) {
+	while ((**character) != 0 && letter != 0) {
 
 		counter++;
 
