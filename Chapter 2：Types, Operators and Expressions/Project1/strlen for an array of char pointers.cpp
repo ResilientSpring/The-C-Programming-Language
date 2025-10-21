@@ -13,7 +13,7 @@ void string_length(char* (*parameter)[]) {
 
 }
 
-void string_lengths(char* sentences[]) {
+void string_lengths(const char* sentences[]) {
 
     int i = 0;
     
