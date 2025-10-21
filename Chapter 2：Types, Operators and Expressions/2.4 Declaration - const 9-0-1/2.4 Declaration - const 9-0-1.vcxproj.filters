@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="strlen for an array of char pointers.cpp">
+    <ClCompile Include="pedal 9-0-1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // int string_length(const char parameter[]);
-int string_length(const char(*parameter)[]);
+int string_length(const char(*parameter)[5]);
 int string_length_2_(const char parameter[][5]);
 int string_length_3_(char parameter[]);
 
@@ -14,14 +14,16 @@ int main() {
 		{'f', 'o', 'a', 'm'},
 		{'l', 'i', 'm', 'b'},
 		{'l', 'i', 'm', 'p'},
-		{'c', 'r', 'i', 'p'}
+		{'c', 'r', 'i', 'p'},
+		"set",
+		"Acer"
 	};
 
 	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
 	printf("%d\n", string_length_3_(argument));   printf("%s\n", argument[1]);
 }
 
-int string_length(const char(*parameter)[]) {
+int string_length(const char(*parameter)[5]) {
 
 	//	char* character = parameter;
 
@@ -35,7 +37,7 @@ int string_length(const char(*parameter)[]) {
 	return counter;
 }
 
-int string_length_2_(const char parameter[][5]) {
+int string_length_2_(const char(*parameter)[5]) {
 
 	//	char* character = parameter;
 
@@ -50,11 +52,22 @@ int string_length_2_(const char parameter[][5]) {
 	//	while ((**character++) != '\0')  // character++ means the next one-dimensional array.
 	//		counter++;
 
-	while ( (**character) != 0) {
+	char* letter = 1; // same as char* letter = 
+
+	while ((**character) != 0 && letter != 0) {
 
 		counter++;
 
-		**character;
+		letter = &(**character) + 1;
+
+		while (*letter != '\0') {
+
+			counter++;
+			letter++;
+		}
+
+		break;
+
 	}
 
 	return counter;
