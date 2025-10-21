@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="strlen for an array of char pointers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="strlen for an array of char pointers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
