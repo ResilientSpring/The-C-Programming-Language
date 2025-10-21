@@ -23,5 +23,4 @@ void string_lengths(char* sentences[]) {
 
         i++;
     }
-
 }
