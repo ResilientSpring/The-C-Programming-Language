@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include <string.h>
+void string_lengths(char* sentences[]);
 
 int main() {
 
 	const char* sentences[] = { "fleet", "draining the swamp", "volitional" };
 
+    string_lengths(sentences);
 }
 
 void string_length(char* (*parameter)[]) {
 
 }
 
-void string_length(char* sentences[]) {
+void string_lengths(char* sentences[]) {
 
     int i = 0;
     
