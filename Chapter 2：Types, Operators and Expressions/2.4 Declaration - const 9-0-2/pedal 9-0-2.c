@@ -54,21 +54,25 @@ int string_length_2_(const char(*parameter)[5]) {
 	//	while ((**character++) != '\0')  // character++ means the next one-dimensional array.
 	//		counter++;
 
-	char* letter = 1; // same as char* letter = 
+	char* letter = 1;
 
-	while ((**character) != 0 && letter != 0) {
+	for (int i = 1; i <= 5; i++) {
 
-		counter++;
-
-		letter = &(**character) + 1;
-
-		while (*letter != '\0') {
+		while ((**character) != 0 && letter != 0) {
 
 			counter++;
-			letter++;
-		}
 
-		break;
+			letter = &(**character) + 1;
+
+			while (*letter != '\0') {
+
+				counter++;
+				letter++;
+			}
+
+			break;
+
+		}
 
 	}
 
