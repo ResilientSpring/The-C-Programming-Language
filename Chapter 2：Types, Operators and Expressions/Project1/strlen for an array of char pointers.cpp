@@ -6,8 +6,8 @@ int main() {
 
 }
 
-void string_length() {
+void string_length(char* (*parameter)[]) {
 
-
+	
 
 }
