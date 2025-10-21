@@ -60,7 +60,11 @@ int string_length_2_(const char(*parameter)[5]) {
 
 		letter = &(**character) + 1;
 
-		while()
+		while (*letter != '\0') {
+
+			counter++;
+			letter++;
+		}
 	}
 
 	return counter;
