@@ -37,6 +37,8 @@ int string_length(const char(*parameter)[5]) {
 	return counter;
 }
 
+
+// Print out the length of each line in the two-dimensional array.
 int string_length_2_(const char(*parameter)[5]) {
 
 	//	char* character = parameter;
