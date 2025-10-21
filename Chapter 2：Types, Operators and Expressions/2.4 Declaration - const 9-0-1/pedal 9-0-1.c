@@ -65,6 +65,9 @@ int string_length_2_(const char(*parameter)[5]) {
 			counter++;
 			letter++;
 		}
+
+		break;
+
 	}
 
 	return counter;
