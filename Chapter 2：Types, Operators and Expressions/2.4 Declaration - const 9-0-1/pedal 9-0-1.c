@@ -14,7 +14,9 @@ int main() {
 		{'f', 'o', 'a', 'm'},
 		{'l', 'i', 'm', 'b'},
 		{'l', 'i', 'm', 'p'},
-		{'c', 'r', 'i', 'p'}
+		{'c', 'r', 'i', 'p'},
+		"set",
+		"Acer"
 	};
 
 	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
@@ -57,6 +59,8 @@ int string_length_2_(const char(*parameter)[5]) {
 		counter++;
 
 		letter = &(**character) + 1;
+
+		while()
 	}
 
 	return counter;
