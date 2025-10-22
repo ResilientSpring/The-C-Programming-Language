@@ -5,6 +5,8 @@ void leap_year(int year) {
     //  a year is a leap year if it is divisible by 4 but not by 100, 
     //  except that years divisible by 400 are leap years.
 
+    // Except that years divisible by 400 are leap years, 
+    // a year is a leap year if it is divisible by 4 but not by 100.
 
     // If 
     if (
