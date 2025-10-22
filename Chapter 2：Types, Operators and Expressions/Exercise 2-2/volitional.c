@@ -9,7 +9,7 @@ int main() {
 	for (i = 0; i < lim - 1 && (c = getchar()) != '\n' && c != EOF; ++i)
 		s[i] = c;
 
-
+	//  Write a loop equivalent to the for loop above without using && or ¦¦.
 	for ( i = 0; i < lim - 1; i++)
 	{
 		while ((c = getchar()) != '\n') {
