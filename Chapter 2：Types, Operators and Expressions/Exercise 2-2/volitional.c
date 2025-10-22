@@ -24,3 +24,5 @@ int main() {
 
 	}
 }
+
+// Assessement: https://chatgpt.com/c/68f8f0ef-ec00-8322-a9ab-be41856ff5c3
