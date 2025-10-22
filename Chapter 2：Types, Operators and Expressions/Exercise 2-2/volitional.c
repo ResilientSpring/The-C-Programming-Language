@@ -4,6 +4,10 @@
 
 int main() {
 
+	int i, lim = 10, c, s[100];
+
+	for (i = 0; i < lim - 1 && (c = getchar()) != '\n' && c != EOF; ++i)
+		s[i] = c;
 
 
 }
