@@ -47,3 +47,5 @@ int main() {
     leap_year(2030);
 
 }
+
+// ChatGPT verified. https://chatgpt.com/c/68f887f5-1388-8323-a4c1-25155e6b1010
