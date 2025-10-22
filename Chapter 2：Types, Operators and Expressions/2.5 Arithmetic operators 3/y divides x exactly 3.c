@@ -40,5 +40,10 @@ void leap_year(int year) {
 int main() {
 
     leap_year(2025);
+    leap_year(2026);
+    leap_year(2027);
+    leap_year(2028);
+    leap_year(2029);
+    leap_year(2030);
 
 }
