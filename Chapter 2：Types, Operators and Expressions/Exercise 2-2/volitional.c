@@ -10,4 +10,16 @@ int main() {
 		s[i] = c;
 
 
+	for ( i = 0; i < lim - 1; i++)
+	{
+		while ((c = getchar()) != '\n') {
+
+			while (c != EOF) {
+
+
+			}
+
+		}
+
+	}
 }
