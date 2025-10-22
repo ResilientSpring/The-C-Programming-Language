@@ -16,6 +16,7 @@ int main() {
 
 			while (c != EOF) {
 
+				s[i] = c;
 
 			}
 
