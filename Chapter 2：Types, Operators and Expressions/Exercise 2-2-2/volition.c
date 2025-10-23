@@ -14,7 +14,7 @@ int main() {
 	{
 		while ((c = getchar()) != '\n' && c != EOF) {
 
-				s[i] = c;			
+			s[i] = c;			
 
 		}
 
