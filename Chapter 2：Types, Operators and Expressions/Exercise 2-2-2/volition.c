@@ -12,10 +12,11 @@ int main() {
 	//  Write a loop equivalent to the for loop above without using && or ¦¦.
 	for (i = 0; i < lim - 1; i++)
 	{
-		while ( (c = getchar()) != '\n' && c != EOF) {
+		if ( (c = getchar()) != '\n' && c != EOF) {
 
 			s[i] = c;			
 
+			break;
 		}
 
 	}
