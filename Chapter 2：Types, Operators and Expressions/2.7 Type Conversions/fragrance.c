@@ -2,8 +2,9 @@
 
 int main() {
 
-	double sum;
-	double operand = 3.14;
-	int flatulance = 7;
+	float f = 3.14;
+	int i = 7;
+
+	printf("%.3f\n", f + i);
 
 }
