@@ -4,7 +4,9 @@ int atoi(char s[]);
 
 int main() {
 
-	printf("%d\n", atoi(18));
+//	printf("%d\n", atoi(18));
+
+	printf("%d\n", atoi("18"));
 
 }
 
