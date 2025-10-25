@@ -4,8 +4,9 @@ int atoi(char s[]);
 
 int main() {
 
+//	printf("%d\n", atoi(18));
 
-
+	printf("%d\n", atoi("18"));
 
 }
 
@@ -16,7 +17,7 @@ int atoi(char s[]) {
 
 	n = 0;
 
-	for (i = 0; s[i] >= '0' && s[i] <= 9; ++i) 
+	for (i = 0; s[i] >= '0' && s[i] <= '9'; ++i) 
 
 		n = 10 * n + (s[i] - '0');
 
