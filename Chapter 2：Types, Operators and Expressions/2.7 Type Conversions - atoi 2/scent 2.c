@@ -19,7 +19,7 @@ int atoi(char s[]) {
 
 	for (i = 0; s[i] >= '0' && s[i] <= '9'; ++i)
 
-		n = 10 * n + (s[i] - '0');
+		n = 10 * n + (s[i] - '0');  // Logic: https://chatgpt.com/c/68fdb490-2680-8323-b7c5-e5f45cb1f6b8
 
 	return n;
 }
