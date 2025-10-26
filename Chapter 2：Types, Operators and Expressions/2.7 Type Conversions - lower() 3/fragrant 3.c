@@ -13,5 +13,6 @@ int lower(int c) {
 int main() {
 
 	printf("%c\n", lower('B'));
+	printf("%c\n", lower('J'));
 
 }
