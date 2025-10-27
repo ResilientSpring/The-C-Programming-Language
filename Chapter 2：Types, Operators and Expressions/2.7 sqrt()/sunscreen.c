@@ -8,4 +8,8 @@ int main() {
 	int n = 16;
 
 	printf("%.2f\n", sqrt(n));
+
+	n = 9;
+
+	printf("%.2f\n", sqrt( (double) n ) );
 }
