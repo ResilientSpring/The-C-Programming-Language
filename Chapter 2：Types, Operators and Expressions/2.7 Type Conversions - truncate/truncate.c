@@ -14,4 +14,10 @@ int main() {
 	c = i;
 
 	printf("%d\n", c);
+
+	i = 231;
+
+	c = i;
+
+	printf("%d\n", c);
 }
