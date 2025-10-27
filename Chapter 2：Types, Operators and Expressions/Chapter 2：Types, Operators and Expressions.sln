@@ -141,6 +141,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7 Type Conversions - trun
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7 sqrt()", "2.7 sqrt()\2.7 sqrt().vcxproj", "{253BD387-316E-4764-9AC5-E9CC814B0758}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7 pseudo-random number generator", "2.7 pseudo-random number generator\2.7 pseudo-random number generator.vcxproj", "{7A8B0B4C-33B9-4167-B482-209387255FD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -701,6 +703,14 @@ Global
 		{253BD387-316E-4764-9AC5-E9CC814B0758}.Release|x64.Build.0 = Release|x64
 		{253BD387-316E-4764-9AC5-E9CC814B0758}.Release|x86.ActiveCfg = Release|Win32
 		{253BD387-316E-4764-9AC5-E9CC814B0758}.Release|x86.Build.0 = Release|Win32
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Debug|x64.ActiveCfg = Debug|x64
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Debug|x64.Build.0 = Debug|x64
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Debug|x86.Build.0 = Debug|Win32
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Release|x64.ActiveCfg = Release|x64
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Release|x64.Build.0 = Release|x64
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Release|x86.ActiveCfg = Release|Win32
+		{7A8B0B4C-33B9-4167-B482-209387255FD7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
