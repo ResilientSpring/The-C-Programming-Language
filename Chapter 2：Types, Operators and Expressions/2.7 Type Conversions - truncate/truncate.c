@@ -8,4 +8,10 @@ int main() {
 	i = c;
 
 	printf("%d\n", i);
+
+	i = 5;
+
+	c = i;
+
+	printf("%d\n", c);
 }
