@@ -6,4 +6,16 @@ int rand(void) {
 
 	next = next * 110351545 + 1234;
 
+	return (unsigned int)(next / 65536) % 32768;
+
 }
+
+
+/* srand: set seed for rand() */
+void srand(unsigned int seed)
+{
+
+	next = seed;
+
+}
+
