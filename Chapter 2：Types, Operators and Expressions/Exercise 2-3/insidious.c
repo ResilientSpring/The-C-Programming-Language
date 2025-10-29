@@ -23,6 +23,13 @@ int htoi(char* parameter) {
 		else if (parameter[i] >= '0' && parameter[i] <= '9') {
 
 			n = 16 * n + (parameter[i] - '0');
+
+		}
+		else if (parameter[i] >= 'a' && parameter[i] <= 'f') {
+
+		}
+		else if (parameter[i] >= 'A' && parameter[i] <= 'F'; i++) {
+
 		}
 
 	}
