@@ -34,6 +34,7 @@ int htoi(char* parameter) {
 
 	}
 
+	return n;
 }
 
 int main() {
