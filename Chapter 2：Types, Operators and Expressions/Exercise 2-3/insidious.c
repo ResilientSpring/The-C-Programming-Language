@@ -28,7 +28,7 @@ int htoi(char* parameter) {
 		else if (parameter[i] >= 'a' && parameter[i] <= 'f') {
 
 		}
-		else if (parameter[i] >= 'A' && parameter[i] <= 'F'; i++) {
+		else if (parameter[i] >= 'A' && parameter[i] <= 'F') {
 
 		}
 
