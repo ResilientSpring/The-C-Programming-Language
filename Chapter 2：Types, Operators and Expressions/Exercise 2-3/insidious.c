@@ -6,7 +6,7 @@
 
 int htoi(char* parameter) {
 
-	int i, n;
+	int i, n = 0;
 
 	for (i = 0; parameter[i] >= '0' && parameter[i] <= '9' ||
 		parameter[i] >= 'a' && parameter[i] <= 'f' || parameter[i] >= 'A' && parameter[i] <= 'F'; i++) {
