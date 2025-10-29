@@ -22,7 +22,7 @@ int htoi(char* parameter) {
 		}
 		else if (parameter[i] >= '0' && parameter[i] <= '9') {
 
-
+			n = 16 * n + (parameter[i] - '0');
 		}
 
 	}
