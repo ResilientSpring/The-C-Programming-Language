@@ -19,6 +19,9 @@ int htoi(char* parameter) {
 		}
 		else if (parameter[i] == 'x') {
 
+		}
+		else if (parameter[i] >= '0' && parameter[i] <= '9') {
+
 
 		}
 
