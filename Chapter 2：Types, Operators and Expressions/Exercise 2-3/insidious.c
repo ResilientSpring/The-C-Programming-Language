@@ -11,7 +11,7 @@ int htoi(char* parameter) {
 	for (i = 0; parameter[i] >= '0' && parameter[i] <= '9' ||
 		parameter[i] >= 'a' && parameter[i] <= 'f' || parameter[i] >= 'A' && parameter[i] <= 'F'; i++) {
 
-
+		
 
 	}
 
