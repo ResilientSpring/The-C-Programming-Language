@@ -147,6 +147,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 2-3", "Exercise 2-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7 Type Conversions - atoi 3", "2.7 Type Conversions - atoi 3\2.7 Type Conversions - atoi 3.vcxproj", "{B5441A32-FB95-4D08-830F-6FE3150CACE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.8 Increment and Decrement Operators", "2.8 Increment and Decrement Operators\2.8 Increment and Decrement Operators.vcxproj", "{981E3120-9D30-4608-8C68-A32F1CFD5B30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -731,6 +733,14 @@ Global
 		{B5441A32-FB95-4D08-830F-6FE3150CACE2}.Release|x64.Build.0 = Release|x64
 		{B5441A32-FB95-4D08-830F-6FE3150CACE2}.Release|x86.ActiveCfg = Release|Win32
 		{B5441A32-FB95-4D08-830F-6FE3150CACE2}.Release|x86.Build.0 = Release|Win32
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Debug|x64.ActiveCfg = Debug|x64
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Debug|x64.Build.0 = Debug|x64
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Debug|x86.ActiveCfg = Debug|Win32
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Debug|x86.Build.0 = Debug|Win32
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Release|x64.ActiveCfg = Release|x64
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Release|x64.Build.0 = Release|x64
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Release|x86.ActiveCfg = Release|Win32
+		{981E3120-9D30-4608-8C68-A32F1CFD5B30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
