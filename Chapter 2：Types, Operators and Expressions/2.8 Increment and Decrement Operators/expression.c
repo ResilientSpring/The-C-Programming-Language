@@ -8,4 +8,5 @@ void squeeze(char s[], int c) {
 		if (s[i] != c)
 			s[j++] = s[i];
 
+	s[j] = '\0';
 }
