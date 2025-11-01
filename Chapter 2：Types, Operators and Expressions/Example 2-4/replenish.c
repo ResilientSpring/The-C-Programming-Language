@@ -5,7 +5,9 @@
 
 void squeeze(char* s1, char* s2) {
 
+	int i, j;
 
+	for(i = j = 0; )
 
 }
 
