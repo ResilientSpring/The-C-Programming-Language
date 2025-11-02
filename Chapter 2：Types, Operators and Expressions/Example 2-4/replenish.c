@@ -17,7 +17,6 @@ void squeeze(char* s1, char* s2) {
 
 			}
 
-
 		}
 
 	}
@@ -26,6 +25,9 @@ void squeeze(char* s1, char* s2) {
 
 int main() {
 
+	char s1[] = "ABCDE";
+	char s2[] = "ABC";
 
+	squeeze(s1, s2);
 
 }
