@@ -1,7 +1,3 @@
-// Write the function htoi(s), which converts a string of hexadecimal digits 
-// (including an optional 0x or 0X) into its equivalent integer value.
-// The allowable digits are 0 through 
-
 #include <stdio.h>
 
 int htoi(char* parameter) {
@@ -42,3 +38,5 @@ int main() {
 
 
 }
+
+// Follow-up: https://chatgpt.com/c/69021d8e-a380-8322-b6c1-71b57263abf2
