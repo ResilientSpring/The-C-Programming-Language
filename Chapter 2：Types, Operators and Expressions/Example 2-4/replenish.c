@@ -30,4 +30,5 @@ int main() {
 
 	squeeze(s1, s2);
 
+	printf("%s\n", s1);
 }
