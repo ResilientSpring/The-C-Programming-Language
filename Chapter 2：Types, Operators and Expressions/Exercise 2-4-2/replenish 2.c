@@ -22,6 +22,9 @@ void squeeze(char* s1, char* s2) {
 
 int main() {
 
-	squeeze("ABCDE", "ABC");
+	squeeze("ABCDE", "ABC"); // "ABCDE" isn't modifiable.[1]
 
 }
+
+// References:
+// 1. https://chatgpt.com/c/69075cb1-1c3c-8322-bc57-d0421da5c052
