@@ -80,6 +80,9 @@ int string_length_2_(const char(*parameter)[5]) {
 	return counter;
 }
 
+//  "When an array name is passed to a function, the function can at its convenience believe that 
+//  it has been handed either an array or a pointer, and manipulate it accordingly. 
+//  It can even use both notations if it seems appropriate and clear."[1]
 int string_length_3_(char parameter[][5]) {
 
 	char* character = parameter;
@@ -97,3 +100,7 @@ int string_length_3_(char parameter[][5]) {
 
 	return counter;
 }
+
+
+// References:
+// 1. K&RII
