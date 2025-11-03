@@ -80,7 +80,7 @@ int string_length_2_(const char(*parameter)[5]) {
 	return counter;
 }
 
-int string_length_3_(char parameter[]) {
+int string_length_3_(char parameter[][5]) {
 
 	char* character = parameter;
 
