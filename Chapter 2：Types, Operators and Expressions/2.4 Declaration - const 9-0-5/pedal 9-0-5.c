@@ -127,6 +127,7 @@ int* count_lengths(char(*arr)[COLS], int rows) {
 }
 
 int main(void) {
+
 	char argument[][5] = {
 		{'f', 'o', 'a', 'm', '\0'},
 		{'l', 'i', 'm', 'b', '\0'},
@@ -136,7 +137,11 @@ int main(void) {
 		"Acer"
 	};
 
+	// C reserves space for 5 characters regardless of actual number of characters in each row.
+	// because "the purpose of supplying the size of an array in a declaration is to set aside storage."
+	// [1][2][3]
 	int rows = sizeof(argument) / sizeof(argument[0]);
+
 	int* lengths = count_lengths(argument, rows);
 
 	printf("[");
