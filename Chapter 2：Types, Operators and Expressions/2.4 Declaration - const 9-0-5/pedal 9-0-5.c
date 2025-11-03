@@ -102,5 +102,55 @@ int string_length_3_(char parameter[][5]) {
 }
 
 
+#include <stdio.h>
+#include <stdlib.h>
+
+#define COLS 5
+
+int* count_lengths(char(*arr)[COLS], int rows) {
+	int* result = malloc(rows * sizeof(int));
+	if (!result) {
+		perror("malloc failed");
+		exit(1);
+	}
+
+	for (int i = 0; i < rows; i++) {
+		int len = 0;
+		for (int j = 0; j < COLS && arr[i][j] != '\0'; j++) {
+			len++;
+		}
+		result[i] = len;
+	}
+	return result;
+}
+
+int main(void) {
+	char argument[][5] = {
+		{'f', 'o', 'a', 'm', '\0'},
+		{'l', 'i', 'm', 'b', '\0'},
+		{'l', 'i', 'm', 'p', '\0'},
+		{'c', 'r', 'i', 'p', '\0'},
+		"set",
+		"Acer"
+	};
+
+	int rows = sizeof(argument) / sizeof(argument[0]);
+	int* lengths = count_lengths(argument, rows);
+
+	printf("[");
+	for (int i = 0; i < rows; i++) {
+		printf("%d", lengths[i]);
+		if (i < rows - 1) printf(", ");
+	}
+	printf("]\n");
+
+	free(lengths);
+	return 0;
+}
+
+
+
 // References:
 // 1. K&RII
+// 2. https://chatgpt.com/c/69076ad5-da9c-8323-a59c-5f74c747945f
+// 
