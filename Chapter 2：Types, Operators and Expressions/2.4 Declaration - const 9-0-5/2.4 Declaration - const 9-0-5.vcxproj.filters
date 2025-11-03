@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pedal 9-0-4.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pedal 9-0-4.c">
+    <ClCompile Include="pedal 9-0-5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
