@@ -80,9 +80,7 @@ int string_length_2_(const char(*parameter)[5]) {
 	return counter;
 }
 
-//  "When an array name is passed to a function, the function can at its convenience believe that 
-//  it has been handed either an array or a pointer, and manipulate it accordingly. 
-//  It can even use both notations if it seems appropriate and clear."[1]:114
+
 int string_length_3_(char parameter[][5]) {
 
 	char* character = parameter;
@@ -116,6 +114,10 @@ int* count_lengths(char(*arr)[COLS], int rows) {
 
 	for (int i = 0; i < rows; i++) {
 		int len = 0;
+
+		//  "When an array name is passed to a function, the function can at its convenience believe that 
+        //  it has been handed either an array or a pointer, and manipulate it accordingly. 
+        //  It can even use both notations if it seems appropriate and clear."[1]:114
 		for (int j = 0; j < COLS && arr[i][j] != '\0'; j++) {
 			len++;
 		}
