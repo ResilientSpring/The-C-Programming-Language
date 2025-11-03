@@ -153,4 +153,5 @@ int main(void) {
 // References:
 // 1. K&RII
 // 2. https://chatgpt.com/c/69076ad5-da9c-8323-a59c-5f74c747945f
+// 3. https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/Chapter%201%20-%20A%20Tutorial%20Introduction/1.9%20Character%20Arrays%202/badge%202.c
 // 
