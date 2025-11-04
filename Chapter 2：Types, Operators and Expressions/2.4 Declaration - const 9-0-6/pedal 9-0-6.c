@@ -91,11 +91,15 @@ int string_length_3_(const char parameter[][5]) {
 
 	for (int i = 0; i < length; i++)
 	{
+		for (int j = 0; j < 5; j++)
+		{
+			if (character[i][j] != 0) {
 
+				counter++;
+
+			}
+		}
 	}
-
-	while (*(character++) != '\0')
-		counter++;
 
 	return counter;
 }
