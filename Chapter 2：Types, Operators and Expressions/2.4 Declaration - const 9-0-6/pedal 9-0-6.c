@@ -19,7 +19,7 @@ int main() {
 		"Acer"
 	};
 
-	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
+//	printf("%d\n", string_length(argument));      printf("%d\n", string_length_2_(argument));
 	printf("%d\n", string_length_3_(argument));   printf("%s\n", argument[1]);
 }
 
