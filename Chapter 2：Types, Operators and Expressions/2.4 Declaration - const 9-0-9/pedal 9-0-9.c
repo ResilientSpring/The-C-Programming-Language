@@ -89,6 +89,7 @@ int string_length_3_(const char parameter[][5]) {  // char (*parameter)[5]
 	int counter = 0;
 
 	int the_number_of_rows = sizeof(parameter) / sizeof(parameter[0][5]);
+
 	int the_number_of_rows_2 = sizeof(*parameter) / sizeof(parameter[0][5]);
 
 	for (int i = 0; i < the_number_of_rows; i++)
