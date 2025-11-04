@@ -81,7 +81,7 @@ int string_length_2_(const char(*parameter)[5]) {
 }
 
 
-int string_length_3_(const char parameter[][5]) {
+int string_length_3_(const char parameter[][5]) {  // char (*parameter)[5]
 
 	char(*character)[5] = parameter;
 
