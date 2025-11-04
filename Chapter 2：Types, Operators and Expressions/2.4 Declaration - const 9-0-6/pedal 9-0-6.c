@@ -87,6 +87,13 @@ int string_length_3_(const char parameter[][5]) {
 
 	int counter = 0;
 
+	int length = sizeof(parameter) / sizeof(parameter[0][5]);
+
+	for (int i = 0; i < length; i++)
+	{
+
+	}
+
 	while (*(character++) != '\0')
 		counter++;
 
