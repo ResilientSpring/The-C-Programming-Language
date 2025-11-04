@@ -131,7 +131,7 @@ int* count_lengths(char(*arr)[COLS], int rows) {
 	return result;
 }
 
-int main(void) {
+int main2(void) {
 
 	char argument[][5] = {
 		{'f', 'o', 'a', 'm', '\0'},
