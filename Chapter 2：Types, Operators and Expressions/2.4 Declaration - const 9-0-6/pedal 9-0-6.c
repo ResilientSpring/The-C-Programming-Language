@@ -3,7 +3,7 @@
 // int string_length(const char parameter[]);
 int string_length(const char(*parameter)[5]);
 int string_length_2_(const char parameter[][5]);
-int string_length_3_(char parameter[]);
+int string_length_3_(const char parameter[][5]);
 
 int main() {
 
