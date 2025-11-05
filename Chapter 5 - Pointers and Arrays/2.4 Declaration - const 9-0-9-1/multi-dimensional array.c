@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* count_lengths(char(*arr)[6][5]) {
+int* count_lengths(char(*arr)[][5]) {
 
     int rows = sizeof(*arr) / sizeof((*arr)[0]);         // total rows
     int cols = sizeof((*arr)[0]) / sizeof((*arr)[0][0]); // total columns
