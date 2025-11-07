@@ -8,10 +8,14 @@ int* count_lengths(char(*arr)[][5]) {
     static int lengths[6];  // static so it persists after return
 
     for (int i = 0; i < rows; i++) {
+
         int len = 0;
+        
         for (int j = 0; j < cols && (*arr)[i][j] != '\0'; j++)
             len++;
+        
         lengths[i] = len;
+
     }
 
     return lengths;
