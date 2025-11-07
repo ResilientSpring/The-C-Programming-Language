@@ -2,16 +2,20 @@
 
 int* count_lengths(char(*arr)[][5]) {
 
-    int rows = sizeof(*arr) / sizeof((*arr)[0]);         // total rows
-    int cols = sizeof((*arr)[0]) / sizeof((*arr)[0][0]); // total columns
+    int rows = sizeof( *arr ) / sizeof( (*arr)[0] );         // total rows
+    int cols = sizeof( (*arr)[0] ) / sizeof( (*arr)[0][0] ); // total columns
 
     static int lengths[6];  // static so it persists after return
 
     for (int i = 0; i < rows; i++) {
+
         int len = 0;
+        
         for (int j = 0; j < cols && (*arr)[i][j] != '\0'; j++)
             len++;
+        
         lengths[i] = len;
+
     }
 
     return lengths;
