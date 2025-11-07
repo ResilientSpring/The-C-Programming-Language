@@ -114,6 +114,7 @@ int string_length_3_2_(const char (*parameter)[5]) {  // char parameter[][5]
 
 	int counter = 0;
 
+	                      // size of a pointer to an array of 5 characters.
 	int the_number_of_rows = sizeof(parameter) / sizeof(parameter[0][5]);
 
 	int the_number_of_rows_2 = sizeof(*parameter) / sizeof(parameter[0][5]);
