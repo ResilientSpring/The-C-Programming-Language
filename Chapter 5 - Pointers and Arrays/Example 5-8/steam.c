@@ -12,25 +12,7 @@ int main() {
 
 	};
 
-	/* day_of_year: set day of year from month & day  */
-	int day_of_year(int year, int month, int day) {
 
-		int i;
-
-		// leap year is a year, happening once every four years, that has 366 days 
-		// and has February 29th as the extra day.[2]
-		int leap;
-
-		// "Recall that the arithmetic value of a logical expression, such as the one for leap, 
-		// is either zero(false) or one(true), " [1]
-		leap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
-
-		// " so it can be used as a subscript of the array daytab." [1]
-		for (i = 1; i < month; i++)
-			day += daytab[leap][i];
-
-		return day;
-	}
 
 	/* month_day: set month, day from day of year */
 	void month_day(int year, int yearday, int* pmonth, int* pday)
@@ -70,3 +52,5 @@ int main() {
 	//
 
 }
+
+// Code review: https://chatgpt.com/c/6915fd71-41b8-8322-ac61-b7f039493337
