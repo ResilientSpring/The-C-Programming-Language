@@ -10,8 +10,6 @@ char daytab[2][13] = {
 
 };
 
-
-
 /* month_day: set month, day from day of year */
 void month_day(int year, int yearday, int* pmonth, int* pday)
 {
