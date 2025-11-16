@@ -17,7 +17,8 @@ void month_day(int year, int yearday, int* pmonth, int* pday)
 
 	leap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 
-	if (yearday < 1 || yearday >(leap ? 366 : 365)) {
+	// If leap is non-zero ¡÷ 366; If leap is zero ¡÷ 365. [3]
+	if (yearday < 1 || yearday > (leap ? 366 : 365) ) {
 		*pmonth = *pday = -1;
 		return;
 	}
@@ -63,4 +64,6 @@ int main() {
 	// 1. The C Programming Language
 	// 
 	// 2. https://dictionary.cambridge.org/dictionary/english/leap-year
+	// 
+	// 3. https://chatgpt.com/c/6915fd71-41b8-8322-ac61-b7f039493337
 	//
