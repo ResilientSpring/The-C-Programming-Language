@@ -49,9 +49,10 @@ char* month_name(int n)
 int main() {
 
 	int month, day;
-	month_day(2024, 60, &month, &day);
-	printf("Month: %s, Day: %d\n", month_name(month), day);
 
+	month_day(2024, 60, &month, &day);
+
+	printf("Month: %s, Day: %d\n", month_name(month), day);
 
 }
 
