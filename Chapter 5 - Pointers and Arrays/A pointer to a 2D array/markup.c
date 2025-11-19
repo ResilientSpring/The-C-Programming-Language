@@ -6,5 +6,5 @@ int main() {
 	char(*parameter)[][5] = &arr;
 
 	char arr2[][5] = { {'p','e','d','a','l'} };
-	char(*parameter)[][5] = &arr2;
+	parameter[1] = &arr2;
 }
