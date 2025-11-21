@@ -14,9 +14,12 @@ int main() {
 	int row0[20], row1[20], row2[20];
 	int *b[10] = { row0, row1, row2 };   // remaining pointers = NULL
 
-	for (int i = 3; i < 10; i++) 
+	for (int i = 3; i < 7; i++) 
 		b[i] = malloc(20 * sizeof(int)); // now all remaining pointers are initialized. 
 	
+	b[7] = malloc(50 * sizeof(int));   // row 7: 50 ints
+	b[8] = NULL;                       // row 8: no ints
+	b[9] = malloc(10 * sizeof(int));   // row 9: 10 ints
 
 
 }
