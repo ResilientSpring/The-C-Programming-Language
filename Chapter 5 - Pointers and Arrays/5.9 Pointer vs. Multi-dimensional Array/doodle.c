@@ -12,7 +12,7 @@ int main() {
 
 
 	int row0[20], row1[20], row2[20];
-	int *b[10] = { row0, row1, row2 };   // remaining pointers = NULL
+	int *b[10] = { row0, row1, row2 }; 
 
 	for (int i = 3; i < 7; i++) 
 		b[i] = malloc(20 * sizeof(int)); 
