@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Character Pointers and 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Character Pointers and Functions 3", "5.5 Character Pointers and Functions 3\5.5 Character Pointers and Functions 3.vcxproj", "{D1CE4A35-A084-4CBD-9E24-0D8383C8A258}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.9 Pointers vs. Multi-dimensional Array", "5.9 Pointers vs. Multi-dimensional Array\5.9 Pointers vs. Multi-dimensional Array.vcxproj", "{5383ED23-A666-4C3C-BD19-5EF738B3901E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{D1CE4A35-A084-4CBD-9E24-0D8383C8A258}.Release|x64.Build.0 = Release|x64
 		{D1CE4A35-A084-4CBD-9E24-0D8383C8A258}.Release|x86.ActiveCfg = Release|Win32
 		{D1CE4A35-A084-4CBD-9E24-0D8383C8A258}.Release|x86.Build.0 = Release|Win32
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Debug|x64.ActiveCfg = Debug|x64
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Debug|x64.Build.0 = Debug|x64
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Debug|x86.Build.0 = Debug|Win32
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Release|x64.ActiveCfg = Release|x64
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Release|x64.Build.0 = Release|x64
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Release|x86.ActiveCfg = Release|Win32
+		{5383ED23-A666-4C3C-BD19-5EF738B3901E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
