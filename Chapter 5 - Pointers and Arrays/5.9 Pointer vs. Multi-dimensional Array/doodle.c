@@ -23,3 +23,6 @@ int main() {
 
 	printf("%d\n", b[9][1]);
 }
+
+
+// Source: https://chatgpt.com/g/g-p-691dcce5908c81919567d2a41dfe787d/c/69203576-2004-8321-ba49-e6d1bff741ee
