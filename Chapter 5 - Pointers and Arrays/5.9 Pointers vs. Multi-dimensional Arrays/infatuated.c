@@ -28,4 +28,9 @@ int main() {
 		"November",
 		"December"
 	};
+
+
+	printf("%c\n", numbers[3][4]);
+	printf("%c\n", name[3][4]);
+
 }
