@@ -14,7 +14,7 @@ int main() {
 //  5.8 Initialization of Pointer Arrays from The C Programming Language
 	char* name[] = {
 
-		"Illegal mmonth",
+		"Illegal month",
 		"January",
 		"February",
 		"March",
