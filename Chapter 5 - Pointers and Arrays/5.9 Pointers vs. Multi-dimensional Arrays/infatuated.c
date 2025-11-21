@@ -30,6 +30,6 @@ int main() {
 	};
 
 
-	printf("%c\n", numbers[10][20]);
+	printf("%c\n", numbers[1][2]);
 
 }
