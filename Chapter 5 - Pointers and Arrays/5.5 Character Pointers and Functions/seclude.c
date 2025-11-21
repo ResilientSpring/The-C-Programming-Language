@@ -6,4 +6,8 @@ int main() {
 
 	char* pmessage[] = "I am a string";
 
+	printf("%c\n", pmessage[0]);
+
+	printf("%c\n", pmessage[5]);
+
 }
