@@ -2,7 +2,7 @@
 
 int main() {
 
-	char* name[] = {
+	const char* name[] = {
 
 		"Illegal mmonth",
 		"January",
