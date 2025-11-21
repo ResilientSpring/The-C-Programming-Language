@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.4 Declaration - const 9-0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A pointer to a 2D array", "A pointer to a 2D array\A pointer to a 2D array.vcxproj", "{B8AB6355-5EA9-4F65-9374-426277A93173}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.8 Initialization of Pointer Arrays", "5.8 Initialization of Pointer Arrays\5.8 Initialization of Pointer Arrays.vcxproj", "{A4734189-A221-4EFC-8901-827775632A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{B8AB6355-5EA9-4F65-9374-426277A93173}.Release|x64.Build.0 = Release|x64
 		{B8AB6355-5EA9-4F65-9374-426277A93173}.Release|x86.ActiveCfg = Release|Win32
 		{B8AB6355-5EA9-4F65-9374-426277A93173}.Release|x86.Build.0 = Release|Win32
+		{A4734189-A221-4EFC-8901-827775632A8B}.Debug|x64.ActiveCfg = Debug|x64
+		{A4734189-A221-4EFC-8901-827775632A8B}.Debug|x64.Build.0 = Debug|x64
+		{A4734189-A221-4EFC-8901-827775632A8B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4734189-A221-4EFC-8901-827775632A8B}.Debug|x86.Build.0 = Debug|Win32
+		{A4734189-A221-4EFC-8901-827775632A8B}.Release|x64.ActiveCfg = Release|x64
+		{A4734189-A221-4EFC-8901-827775632A8B}.Release|x64.Build.0 = Release|x64
+		{A4734189-A221-4EFC-8901-827775632A8B}.Release|x86.ActiveCfg = Release|Win32
+		{A4734189-A221-4EFC-8901-827775632A8B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
