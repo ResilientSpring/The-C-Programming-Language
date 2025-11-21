@@ -14,4 +14,8 @@ int main() {
 
 	printf("%s\n", an_array_of_pointers[2]);
 
+	an_array_of_pointers[2] = pmessage;
+
+	printf("%s\n", an_array_of_pointers[2]);
+
 }
