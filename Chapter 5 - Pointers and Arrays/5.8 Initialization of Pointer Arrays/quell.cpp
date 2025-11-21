@@ -4,7 +4,7 @@ int main() {
 
 	const char* name[] = {
 
-		"Illegal mmonth",
+		"Illegal month",
 		"January",
 		"February",
 		"March",
