@@ -21,5 +21,5 @@ int main() {
 	b[8] = NULL;                       // row 8: no ints
 	b[9] = malloc(10 * sizeof(int));   // row 9: 10 ints
 
-
+	printf("%d\n", b[9][1]);
 }
