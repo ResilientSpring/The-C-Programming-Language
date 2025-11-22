@@ -41,7 +41,7 @@ int main() {
 }
 
 
-int row() {
+int row(char (*p)[80]) {
 
 
 
