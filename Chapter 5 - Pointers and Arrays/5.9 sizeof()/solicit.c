@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int row(char(*p)[80]);
+int row2(char** p);
 
 int main() {
 
