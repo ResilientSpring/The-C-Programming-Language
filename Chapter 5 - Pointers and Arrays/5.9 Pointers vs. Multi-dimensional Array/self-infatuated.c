@@ -6,6 +6,6 @@ int main() {
 
 	char aname[][15] = { "legal month", "April", "May", "June" };
 
-
+	char
 
 }
