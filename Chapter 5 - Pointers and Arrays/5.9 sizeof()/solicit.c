@@ -49,4 +49,8 @@ int row(char (*p)[80]) {
 
 }
 
-int 
+int row2(char** p) {
+
+	int the_number_of_rows;
+
+}
