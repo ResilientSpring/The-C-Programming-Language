@@ -4,11 +4,16 @@ int main() {
 
 	//	4.7 Arrays of Strings from C++: A Beginner's Guide
 	char numbers[][80] = {
-		"Tom", "555-3322",
-		"Mary", "555-8976",
-		"Jon", "555-1037",
-		"Rachel", "555-1400",
-		"Sherry", "555-8873"
+		"Tom", 
+		"555-3322",
+		"Mary", 
+		"555-8976",
+		"Jon", 
+		"555-1037",
+		"Rachel", 
+		"555-1400",
+		"Sherry", 
+		"555-8873"
 	};
 
 	//  5.8 Initialization of Pointer Arrays from The C Programming Language
