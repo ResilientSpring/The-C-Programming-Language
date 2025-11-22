@@ -59,6 +59,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.9 Pointers vs. Multi-dime
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.9 Pointer vs. Multi-dimensional Array", "5.9 Pointer vs. Multi-dimensional Array\5.9 Pointer vs. Multi-dimensional Array.vcxproj", "{4B15B217-8B9F-4867-B71B-ED1012329209}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.9 Pointers vs. Multi-dimensional Arrays_", "5.9 Pointers vs. Multi-dimensional Arrays_\5.9 Pointers vs. Multi-dimensional Arrays_.vcxproj", "{C4906632-9C89-417E-9A10-3BAA5CEA70B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.9 sizeof()", "5.9 sizeof()\5.9 sizeof().vcxproj", "{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +295,22 @@ Global
 		{4B15B217-8B9F-4867-B71B-ED1012329209}.Release|x64.Build.0 = Release|x64
 		{4B15B217-8B9F-4867-B71B-ED1012329209}.Release|x86.ActiveCfg = Release|Win32
 		{4B15B217-8B9F-4867-B71B-ED1012329209}.Release|x86.Build.0 = Release|Win32
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Debug|x64.ActiveCfg = Debug|x64
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Debug|x64.Build.0 = Debug|x64
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Debug|x86.Build.0 = Debug|Win32
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Release|x64.ActiveCfg = Release|x64
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Release|x64.Build.0 = Release|x64
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Release|x86.ActiveCfg = Release|Win32
+		{C4906632-9C89-417E-9A10-3BAA5CEA70B4}.Release|x86.Build.0 = Release|Win32
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Debug|x64.ActiveCfg = Debug|x64
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Debug|x64.Build.0 = Debug|x64
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Debug|x86.ActiveCfg = Debug|Win32
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Debug|x86.Build.0 = Debug|Win32
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Release|x64.ActiveCfg = Release|x64
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Release|x64.Build.0 = Release|x64
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Release|x86.ActiveCfg = Release|Win32
+		{61B0E19C-7C3C-4536-AB3A-73E7A37BEF41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
