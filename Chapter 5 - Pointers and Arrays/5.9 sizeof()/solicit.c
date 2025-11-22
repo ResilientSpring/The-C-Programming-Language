@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int row(char(*p)[80]);
+
 int main() {
 
 	//	4.7 Arrays of Strings from C++: A Beginner's Guide
@@ -43,6 +45,8 @@ int main() {
 
 int row(char (*p)[80]) {
 
-
+	int the_number_of_rows;
 
 }
+
+int 
