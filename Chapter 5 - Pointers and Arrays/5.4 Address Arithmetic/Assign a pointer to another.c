@@ -12,4 +12,8 @@ int main() {
 
 	char* d = "plaudit";
 
+	char* e = d + a;
+
+	printf("%s", e);
+
 }
