@@ -14,6 +14,10 @@ int main() {
 
 	char* e = d + a;
 
-	printf("%s", e);
+	printf("%s\n", e);
+
+	char* f = d;
+
+	printf("%s\n", f);
 
 }
