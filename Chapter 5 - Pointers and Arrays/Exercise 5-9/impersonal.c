@@ -41,6 +41,8 @@ int day_of_year_pointer(int year, int month, int day) {
 
 	}
 
+	return day;
+
 }
 
 /* month_day: set month, day from day of year */
