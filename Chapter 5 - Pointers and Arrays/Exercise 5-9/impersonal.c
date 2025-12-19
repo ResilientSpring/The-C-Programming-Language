@@ -28,6 +28,13 @@ int day_of_year(int year, int month, int day) {
 	return day;
 }
 
+// Rewrite the routines day_of_year and month_day with pointers instead of indexing.
+int day_of_year_pointer(int year, int month, int day) {
+
+
+
+}
+
 /* month_day: set month, day from day of year */
 void month_day(int year, int yearday, int* pmonth, int* pday)
 {
