@@ -61,6 +61,13 @@ void month_day(int year, int yearday, int* pmonth, int* pday)
 
 }
 
+// Rewrite the routines day_of_year and month_day with pointers instead of indexing.
+void month_day(int year, int yearday, int* pmonth, int* pday) {
+
+
+
+}
+
 /* month_name: return name of n-th month */
 char* month_name(int n)
 {
