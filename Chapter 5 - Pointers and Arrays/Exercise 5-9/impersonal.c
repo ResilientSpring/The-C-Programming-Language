@@ -64,7 +64,15 @@ void month_day(int year, int yearday, int* pmonth, int* pday)
 // Rewrite the routines day_of_year and month_day with pointers instead of indexing.
 void month_day_pointer(int year, int yearday, int* pmonth, int* pday) {
 
+	int i, leap;
 
+	leap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+
+	for (i = 1; yearday > *(*(daytab + leap) + i); i++) {
+
+
+
+	}
 
 }
 
