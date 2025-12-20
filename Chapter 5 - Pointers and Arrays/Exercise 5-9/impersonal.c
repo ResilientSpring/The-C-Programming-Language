@@ -70,7 +70,7 @@ void month_day_pointer(int year, int yearday, int* pmonth, int* pday) {
 
 	for (i = 1; yearday > *(*(daytab + leap) + i); i++) {
 
-
+		yearday = yearday - *(*(daytab + leap) + i);
 
 	}
 
