@@ -37,7 +37,7 @@ int day_of_year_pointer(int year, int month, int day) {
 
 	leap = (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0);
 
-	p = *(daytab + leap);
+	p = *(daytab + leap);  // So, C++ does not outlaw this.
 
 	for (i = 1; i < month; i++) {
 
