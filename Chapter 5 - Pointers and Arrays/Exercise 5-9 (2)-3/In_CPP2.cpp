@@ -83,9 +83,9 @@ void month_day_pointer(int year, int yearday, int* pmonth, int* pday) {
 }
 
 /* month_name: return name of n-th month */
-const char* month_name(int n)
+char* month_name(int n)
 {
-	static char* name[] = {
+	const char* name[] = {
 
 		"Illegal month",
 		"January", "February", "March",
