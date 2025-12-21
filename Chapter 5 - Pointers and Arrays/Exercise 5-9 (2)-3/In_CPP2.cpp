@@ -33,15 +33,15 @@ int day_of_year_pointer(int year, int month, int day) {
 
 	int i, leap;
 
-	int *p;
+	char *p;
 
 	leap = (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0);
 
-	p = *(daytab + leap);
+	p = *(daytab + leap);  // So, C++ does not outlaw this.
 
 	for (i = 1; i < month; i++) {
 
-		day = day + *( *(daytab + leap) + i );
+		day = day + *(*(daytab + leap) + i);
 
 	}
 
@@ -83,9 +83,9 @@ void month_day_pointer(int year, int yearday, int* pmonth, int* pday) {
 }
 
 /* month_name: return name of n-th month */
-char* month_name(int n)
+const char* month_name(int n)
 {
-	static char* name[] = {
+	const char* name[] = {
 
 		"Illegal month",
 		"January", "February", "March",

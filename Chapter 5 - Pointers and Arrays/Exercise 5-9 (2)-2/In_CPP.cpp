@@ -41,7 +41,7 @@ int day_of_year_pointer(int year, int month, int day) {
 
 	for (i = 1; i < month; i++) {
 
-		day = day + *( *(daytab + leap) + i );
+		day = day + *(*(daytab + leap) + i);
 
 	}
 
