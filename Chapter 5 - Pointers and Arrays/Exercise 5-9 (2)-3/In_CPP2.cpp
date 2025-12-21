@@ -33,7 +33,7 @@ int day_of_year_pointer(int year, int month, int day) {
 
 	int i, leap;
 
-	int *p;
+	char *p;
 
 	leap = (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0);
 
