@@ -43,6 +43,8 @@ int day_of_year_pointer(int year, int month, int day) {
 
 	printf("%d\n", *(daytab + leap));
 
+	printf("%c\n", *(daytab + leap));
+
 	return day;
 
 }
