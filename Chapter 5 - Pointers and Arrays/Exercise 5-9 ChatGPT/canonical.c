@@ -11,4 +11,6 @@ int main() {
 
 	printf("%p\n", daytab[1]);
 
+	printf("%p\n", &daytab[1]);
+
 }
