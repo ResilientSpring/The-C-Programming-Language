@@ -8,4 +8,8 @@ int main(int argc, char* argv[]) {
 	for (i = 1; i < argc; i++)
 		printf("%s%s", argv[i], (i < argv - 1) ? " " : "");
 
+	printf("\n");
+
+	return 0;
+
 }
