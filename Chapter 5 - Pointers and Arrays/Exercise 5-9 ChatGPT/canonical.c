@@ -21,4 +21,6 @@ int main() {
 
 	printf("%d\n", *(*(daytab + 1) + 2) );
 
+	printf("%d\n", *(daytab) );
+
 }
