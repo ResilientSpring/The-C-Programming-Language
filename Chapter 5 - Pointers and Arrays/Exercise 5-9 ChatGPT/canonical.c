@@ -23,4 +23,6 @@ int main() {
 
 	printf("%d\n", *(daytab) );
 
+	printf("%d\n", *(daytab + 0) );
+
 }
