@@ -32,4 +32,6 @@ int main() {
 	printf("%d\n", sizeof(char) );
 
 	printf("%d\n", sizeof(int) );
+
+	char *p = *(daytab + 0);
 }
