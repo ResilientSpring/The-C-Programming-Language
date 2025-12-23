@@ -21,8 +21,11 @@ int main() {
 
 	printf("%d\n", *(*(daytab + 1) + 2) );
 
-	printf("%d\n", sizeof *(daytab)  );
+	printf("%d\n", sizeof( *(daytab) ) );
 
-	printf("%d\n", sizeof *(daytab + 0)  );
+	printf("%d\n", sizeof( *(daytab + 0) ) );
 
+	printf("%d\n", sizeof *(daytab) );
+
+	printf("%d\n", sizeof *(daytab + 0) );
 }
