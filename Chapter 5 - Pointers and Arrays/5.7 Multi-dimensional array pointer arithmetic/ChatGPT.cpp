@@ -24,3 +24,5 @@ int main()
 {
 	test();
 }
+
+// Reference: https://chatgpt.com/c/694be184-9434-8321-a4b9-757512615314
