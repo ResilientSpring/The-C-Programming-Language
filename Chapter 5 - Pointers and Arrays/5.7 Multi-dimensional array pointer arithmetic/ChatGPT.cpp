@@ -10,19 +10,19 @@ int test() {
 	
 	};
 
-	int(*p)[4] = a;
+	int (*p)[4] = a;
 
-	p + 1;        // moves by sizeof(int[4])
-	*(p + 1);     // the 2nd row
-	(*p)[2];      // element access
+	p += 1;  // moves by sizeof(int[4])
+
+	*(p + 1);     // the 3rd row
+
+	printf("%d\n", (*p)[2]);      // element access
 
 }
 
-
-
 int main()
 {
-
+	test();
 
 
 }
