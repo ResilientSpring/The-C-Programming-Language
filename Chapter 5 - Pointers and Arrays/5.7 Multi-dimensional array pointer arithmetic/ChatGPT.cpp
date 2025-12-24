@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int test() {
+void test() {
 
 	int a[3][4] = {  
 
