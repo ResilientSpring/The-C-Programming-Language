@@ -59,5 +59,6 @@ int main()
 
 	month_day(1988, 60, &month, &day);
 
-
+	printf("month: %d\n", month);
+	printf("day: %d\n", day);
 }
