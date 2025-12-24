@@ -17,12 +17,10 @@ void test() {
 	*(p + 1);     // the 3rd row
 
 	printf("%d\n", (*p)[2]);      // element access
-
+	printf("%d\n", p[2]);
 }
 
 int main()
 {
 	test();
-
-
 }
