@@ -1,5 +1,9 @@
 ﻿int main() {
 
+	// static doesn’t change whether the type of daytab is complete or incomplete. 
+	// It only changes storage duration / linkage, 
+	// not the type system rule about “is the array bound known?”.
+
 	static char daytab[][13] = {
 
 	{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
