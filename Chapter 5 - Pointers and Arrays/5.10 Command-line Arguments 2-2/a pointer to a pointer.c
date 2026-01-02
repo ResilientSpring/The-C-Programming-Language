@@ -8,4 +8,6 @@ int main() {
 
 	char* an_array_of_pointers_to_char[] = { "vector of argument", "argument count" };
 
+	char **a_pointer_to_a_pointer_to_char = { "argv", "argument vector" };
+
 }
