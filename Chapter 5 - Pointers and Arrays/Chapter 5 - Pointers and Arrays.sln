@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Command-line Arguments
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Command-line Arguments 2-2", "5.10 Command-line Arguments 2-2\5.10 Command-line Arguments 2-2.vcxproj", "{A46EAA31-2E64-4C91-8C8D-D25B94239094}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 Multi-dimensional array (Incomplete type？)", "5.7 Multi-dimensional array (Incomplete type？)\5.7 Multi-dimensional array (Incomplete type？).vcxproj", "{9C9300E4-D764-469F-9145-81FA739EDF51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{A46EAA31-2E64-4C91-8C8D-D25B94239094}.Release|x64.Build.0 = Release|x64
 		{A46EAA31-2E64-4C91-8C8D-D25B94239094}.Release|x86.ActiveCfg = Release|Win32
 		{A46EAA31-2E64-4C91-8C8D-D25B94239094}.Release|x86.Build.0 = Release|Win32
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Debug|x64.ActiveCfg = Debug|x64
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Debug|x64.Build.0 = Debug|x64
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Debug|x86.Build.0 = Debug|Win32
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Release|x64.ActiveCfg = Release|x64
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Release|x64.Build.0 = Release|x64
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Release|x86.ActiveCfg = Release|Win32
+		{9C9300E4-D764-469F-9145-81FA739EDF51}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
