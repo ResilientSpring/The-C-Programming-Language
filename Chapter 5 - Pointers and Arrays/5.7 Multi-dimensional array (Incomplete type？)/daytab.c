@@ -22,4 +22,6 @@
 
 //  sizeof(daytab[0]) is 13 * sizeof(char) (usually 13) "
 
+// In sizeof, "daytab is an actual array, not a pointer".
+
 // Ref: https://chatgpt.com/c/695779c8-0cd4-8324-9522-a77e6c41bac4
