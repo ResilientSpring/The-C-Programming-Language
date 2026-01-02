@@ -8,3 +8,6 @@ int main() {
 
 
 }
+
+// Explanation: 
+// https://chatgpt.com/c/69576de0-a44c-8322-b8dc-5237d574eb9e
