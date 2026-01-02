@@ -7,3 +7,11 @@
 
 	};
 }
+
+// Without static, will daytab be visible to other .c files?
+// 
+// No. 🙂 Because it’s declared inside main, it has block scope.
+// Block - scope names are never visible from other.c files — 
+// regardless of whether you write static or not.
+
+// Ref: https://chatgpt.com/c/695779c8-0cd4-8324-9522-a77e6c41bac4
