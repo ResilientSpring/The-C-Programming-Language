@@ -18,4 +18,6 @@ int main() {
 
 	printf("%s", *a_pointer_to_an_array_of_char_strings);
 
+	printf("%s", &an_array_of_char_strings[0]);
+
 }
