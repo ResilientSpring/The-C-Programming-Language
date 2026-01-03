@@ -12,6 +12,8 @@ int main() {
 
 	printf("%p\n", *p);
 
+	printf("%p\n", **p);
+
 	printf("%p\n", &arr[0]);
 
 	printf("%s\n", arr[0]);
