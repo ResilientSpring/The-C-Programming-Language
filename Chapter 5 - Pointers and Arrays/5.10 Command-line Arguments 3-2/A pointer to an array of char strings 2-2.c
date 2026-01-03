@@ -14,4 +14,6 @@ int main() {
 
 	a_pointer_to_a_one_dimensional_array_of_characters = an_array_of_char_strings;
 
+	printf("%c\n", ***a_pointer_to_an_array_of_char_strings);
+
 }
