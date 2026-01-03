@@ -2,8 +2,9 @@
 
 int main() {
 
-	const char *arr[] = { "argv", "argument vector" };
-	const char *(*p)[] = &arr;   // p points to the *whole array* arr
+	char *arr[] = { "argv", "argument vector" };
 
+	char *(*p)[] = &arr;   // p points to the *whole array* arr
 
+	printf("%c\n", *arr[0]);
 }
