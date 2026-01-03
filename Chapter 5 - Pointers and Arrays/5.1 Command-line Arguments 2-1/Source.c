@@ -9,4 +9,6 @@ int main() {
 	printf("%c\n", (*p)[0]);
 
 	printf("%s\n", *p);
+
+	printf("%s\n", arr[0]);
 }
