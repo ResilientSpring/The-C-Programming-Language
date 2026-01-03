@@ -24,6 +24,7 @@ int main() {
     // so-called "the address of a string". [1]
 	printf("%s", &an_array_of_char_strings[0]);
 
+	printf("%d\n", sizeof (*a_pointer_to_an_array_of_char_strings) );
 }
 
 // References:
