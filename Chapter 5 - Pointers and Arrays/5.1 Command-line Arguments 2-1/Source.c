@@ -7,4 +7,6 @@ int main() {
 	char *(*p)[] = &arr;   // p points to the *whole array* arr
 
 	printf("%c\n", *arr[0]);
+
+	printf("%s\n", *arr[0]);
 }
