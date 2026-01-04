@@ -2,13 +2,25 @@
 
 int main() {
 
-//	char* (*a_pointer_to_an_array_of_char_strings)[] = { "argv", "argument vector" };
+	//	char* (*a_pointer_to_an_array_of_char_strings)[] = { "argv", "argument vector" };
 
 	char* an_array_of_char_strings[] = { "argv", "argument vector" };
 
 	char* (*a_pointer_to_an_array_of_char_strings)[];
 
 	a_pointer_to_an_array_of_char_strings = &an_array_of_char_strings; // [Note 1]
+
+	if (*a_pointer_to_an_array_of_char_strings == an_array_of_char_strings)
+		printf("True");
+
+	if ( (*a_pointer_to_an_array_of_char_strings)[0] == an_array_of_char_strings[0])
+		printf("\n\nTrue\n\n");
+
+	if ((*a_pointer_to_an_array_of_char_strings) == &an_array_of_char_strings[0])
+		printf("\n\nTrue absolutely.\n\n");
+
+	if ((**a_pointer_to_an_array_of_char_strings) == an_array_of_char_strings[0])
+		printf("\n\nTrue\n\n");
 
 	char(*a_pointer_to_a_one_dimensional_array_of_characters)[];
 
