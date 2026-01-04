@@ -10,6 +10,9 @@ int main() {
 
 	a_pointer_to_an_array_of_char_strings = &an_array_of_char_strings; // [Note 1]
 
+	if (*a_pointer_to_an_array_of_char_strings == an_array_of_char_strings)
+		printf("True");
+
 	char(*a_pointer_to_a_one_dimensional_array_of_characters)[];
 
 	a_pointer_to_a_one_dimensional_array_of_characters = an_array_of_char_strings;
