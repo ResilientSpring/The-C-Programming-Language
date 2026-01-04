@@ -20,6 +20,8 @@ int main() {
 //
 // 1. "In C, an array type with unspecified bound (T[]) is compatible with T[N] (same element type), 
 //     so the pointer assignment is allowed." [1]
+//     
+//     "C++ does not have C¡¦s ¡§compatible types¡¨ rule for T[] vs T[N]". [1]
 //
 
 
