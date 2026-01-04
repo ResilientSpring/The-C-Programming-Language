@@ -22,6 +22,15 @@ int main() {
 	if ((**a_pointer_to_an_array_of_char_strings) == an_array_of_char_strings[0])
 		printf("\n\nTrue\n\n");
 
+	if ((*a_pointer_to_an_array_of_char_strings)[0] == *(an_array_of_char_strings + 0) )
+		printf("\n\nThis is True!\n\n");
+
+	if ( *( (*a_pointer_to_an_array_of_char_strings) + 0) == *(an_array_of_char_strings + 0))
+		printf("\n\nAgain, This is True!\n\n");
+
+	if ( *(*a_pointer_to_an_array_of_char_strings) == *(an_array_of_char_strings + 0))
+		printf("\n\nAgain, This is True!\n\n");
+
 	char(*a_pointer_to_a_one_dimensional_array_of_characters)[];
 
 	a_pointer_to_a_one_dimensional_array_of_characters = an_array_of_char_strings;
