@@ -36,10 +36,15 @@ int main() {
 //    you cannot do sizeof *p (because " p must have no knowledge of the size of what it points to. "), 
 //    and you cannot do pointer arithmetic like p + 1 (because the compiler doesn’t know the stride). 
 //    
-//    But (*p)[0], (*p)[1] is fine if you know the real array object has enough elements.
+//    But (*p)[0], (*p)[1] is fine if you know the real array object has enough elements. [Note 2]
 //   
 //    [5]
 // 
+
+// 2. 
+//     (*p)[0] is the same as arr[0].
+//     (*p)[1] is the same as arr[1].
+//     
 
 // References:
 // 1. https://chatgpt.com/c/69552691-0368-8321-929b-f6c03a2987c1
