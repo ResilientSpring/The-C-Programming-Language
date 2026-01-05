@@ -49,7 +49,7 @@ int main() {
 // 
 //     E1[E2] means *(E1 + E2)
 // 
-//    
+//    [6]
 //     
 
 // References:
@@ -59,3 +59,7 @@ int main() {
 // 4. https://chatgpt.com/c/695b8836-9c84-8322-bcf8-f2a60b3f0f83
 // 5. https://chatgpt.com/c/69552691-0368-8321-929b-f6c03a2987c1
 // 6. https://chatgpt.com/c/695b9748-c898-8320-9e2d-db903928b5b5
+
+// Optional further readings:
+// 1. https://chatgpt.com/c/6958e546-f038-8320-bfe0-466a97215356
+// 
