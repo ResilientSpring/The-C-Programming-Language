@@ -1,10 +1,10 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main() {
 
 	char* arr[] = { "argv", "argument vector" };
 
-	// p is a pointer to an array (of unknown size) of pointers to char. [4]
+	// p is a pointer to an array (of unknown size) of pointers to char. [4] [Note 1]
 	char *(*p)[] = &arr;
 
 	printf("%c\n", (*p)[0]);
@@ -27,6 +27,18 @@ int main() {
 
 	printf("%c\n", (*p)[0]);
 }
+
+// Notes:
+// 
+// 1. ⚠️ Caveat in C: 
+//    
+//    since *p is a pointer to an incomplete array type, 
+//    you cannot do sizeof *p, 
+//    and you cannot do pointer arithmetic like p + 1 (because the compiler doesn’t know the stride). 
+//    
+//    But (*p)[0], (*p)[1] is fine if you know the real object has enough elements.
+// 
+// 
 
 // References:
 // 1. https://chatgpt.com/c/69552691-0368-8321-929b-f6c03a2987c1
