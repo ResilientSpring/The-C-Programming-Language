@@ -44,6 +44,12 @@ int main() {
 // 2. 
 //     (*p)[0] is the same as arr[0].
 //     (*p)[1] is the same as arr[1].
+// 
+//     (*p)[0] and (*p)[1] parts are computed via the subscript rule:
+// 
+//     E1[E2] means *(E1 + E2)
+// 
+//    
 //     
 
 // References:
@@ -52,3 +58,4 @@ int main() {
 // 3. https://chatgpt.com/c/WEB:19c933ef-3d0b-4eec-8cf9-cfb7a61780d9
 // 4. https://chatgpt.com/c/695b8836-9c84-8322-bcf8-f2a60b3f0f83
 // 5. https://chatgpt.com/c/69552691-0368-8321-929b-f6c03a2987c1
+// 6. https://chatgpt.com/c/695b9748-c898-8320-9e2d-db903928b5b5
