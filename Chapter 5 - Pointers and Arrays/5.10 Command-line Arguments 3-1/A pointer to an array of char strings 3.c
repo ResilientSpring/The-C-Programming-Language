@@ -49,4 +49,6 @@ int main() {
 // References:
 // 
 // 1. https://chatgpt.com/c/69552691-0368-8321-929b-f6c03a2987c1
+// 2. https://chatgpt.com/c/69553aec-8278-8320-be80-687e6c70eef7
+// 3. https://chatgpt.com/c/69553a10-8078-8323-b838-1d205e2f1848
 // 
