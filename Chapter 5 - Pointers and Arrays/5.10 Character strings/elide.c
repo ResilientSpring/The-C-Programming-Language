@@ -6,5 +6,5 @@ int main() {
 
 //	char[] an_array_of_character_strings[] = { "elide", "aggregate" };
 
-	char an_array_of_character_strings[][] = { "elide", "aggregate" };
+	char an_array_of_character_strings[][100] = { "elide", "aggregate" };
 }
