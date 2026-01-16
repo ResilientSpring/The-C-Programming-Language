@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="A862 Array Declarators/A862 Array Declarators.vcxproj" />
+</Solution>
