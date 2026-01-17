@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 Command-line Arguments 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Character strings", "5.10 Character strings\5.10 Character strings.vcxproj", "{909A1C0C-102D-42B6-92FE-DBE3B883664B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 an array of char strings", "5.10 an array of char strings\5.10 an array of char strings.vcxproj", "{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -601,6 +603,14 @@ Global
 		{909A1C0C-102D-42B6-92FE-DBE3B883664B}.Release|x64.Build.0 = Release|x64
 		{909A1C0C-102D-42B6-92FE-DBE3B883664B}.Release|x86.ActiveCfg = Release|Win32
 		{909A1C0C-102D-42B6-92FE-DBE3B883664B}.Release|x86.Build.0 = Release|Win32
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Debug|x64.ActiveCfg = Debug|x64
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Debug|x64.Build.0 = Debug|x64
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Debug|x86.Build.0 = Debug|Win32
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Release|x64.ActiveCfg = Release|x64
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Release|x64.Build.0 = Release|x64
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Release|x86.ActiveCfg = Release|Win32
+		{8E030CC6-AAEC-4B68-AD5B-27BFB5672776}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
