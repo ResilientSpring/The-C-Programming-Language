@@ -17,7 +17,10 @@ int main() {
 
 	 Per K&RII A7.7 Additive Operators, 
 	 "A pointer to an object in an array and a value of any integral type may be added."
+	 " The sum is a pointer of the same type as the original pointer,"
+	 " the expression P+1 is a pointer to the next object in the array."
 
+	 So, (an_array_of_char_strings + 0) is a pointer.
 
 
 */
