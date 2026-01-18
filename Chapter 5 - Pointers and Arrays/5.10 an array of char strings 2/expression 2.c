@@ -15,7 +15,10 @@ int main() {
 
      So, here, the operand of sizeof is the expression (an_array_of_char_strings + 0).
 
-	 
+	 Per K&RII A7.7 Additive Operators, 
+	 "A pointer to an object in an array and a value of any integral type may be added."
+
+
 
 */
 
