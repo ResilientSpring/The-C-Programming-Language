@@ -22,8 +22,11 @@ int main() {
 
 	 So, (an_array_of_char_strings + 0) is a pointer.
 
+	 Per K&RII A7.1 Pointer Generation,
+	 "This conversion does not take place if the expression is the operand of the unary & operator, 
+	  or of ++, --, sizeof, or as the left operand of an assignment operator or the . operator."
 
-
+	  Since the binary + operator is 
 
 */
 
