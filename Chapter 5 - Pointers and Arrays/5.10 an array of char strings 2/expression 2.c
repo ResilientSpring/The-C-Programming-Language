@@ -10,11 +10,10 @@ int main() {
 }
 
 /*   Why does sizeof(an_array_of_char_strings + 0) become pointer-sized?
-
      
 	 sizeof is a unary operator. 
 
-     Here, the operand of sizeof is NOT an_array_of_char_strings.
+     So, here, the operand of sizeof is NOT an_array_of_char_strings.
 
      The operand is the result of the + expression: (an_array_of_char_strings + 0)
 
