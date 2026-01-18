@@ -23,6 +23,8 @@ int main() {
 	 So, (an_array_of_char_strings + 0) is a pointer.
 
 
+
+
 */
 
 
