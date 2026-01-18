@@ -24,8 +24,5 @@ int main() {
 
 */
 
-
-
-
 // Reference:
 // 1. https://chatgpt.com/c/695538fa-95d4-8323-8f11-86b096fe4c82
