@@ -13,7 +13,7 @@ int main() {
      
 	 sizeof is a unary operator. 
 
-     So, here, the operand of sizeof is the expression (an_array_of_char_strings + 0)
+     So, here, the operand of sizeof is the expression (an_array_of_char_strings + 0).
 
 	 
 
