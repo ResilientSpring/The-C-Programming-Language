@@ -26,7 +26,7 @@ int main() {
 	 "This conversion does not take place if the expression is the operand of the unary & operator, 
 	  or of ++, --, sizeof, or as the left operand of an assignment operator or the . operator."
 
-	  Since the binary + operator is 
+	  Since A7.1 does not preclude the binary + operator, 
 
 */
 
