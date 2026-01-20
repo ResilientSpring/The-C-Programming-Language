@@ -10,4 +10,8 @@ int main() {
 
 	printf("%s\n", (*p)[1]);
 
+	printf("%s\n", (1)[*p]);
+
+	printf("%s\n", (1)[(*p)]);
+
 }
