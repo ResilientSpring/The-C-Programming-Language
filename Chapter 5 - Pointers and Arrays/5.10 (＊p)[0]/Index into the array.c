@@ -4,6 +4,6 @@ int main() {
 
 	char * arr[2] = { "argv", "argument vector" };
 
-
+	char*(*p)[2];
 
 }
