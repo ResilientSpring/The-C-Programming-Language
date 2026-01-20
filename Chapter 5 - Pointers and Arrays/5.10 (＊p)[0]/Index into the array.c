@@ -8,4 +8,6 @@ int main() {
 
 	p = &arr;
 
+	printf("%s\n", (*p)[1]);
+
 }
