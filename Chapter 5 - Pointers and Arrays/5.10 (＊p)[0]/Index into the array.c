@@ -6,4 +6,6 @@ int main() {
 
 	char*(*p)[2];
 
+	p = &arr;
+
 }
