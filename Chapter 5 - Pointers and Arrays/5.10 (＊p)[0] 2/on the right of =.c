@@ -35,4 +35,6 @@ int main() {
 
 	// ( a pointer to a pointer to a char + 0 ) is still a pointer to a pointer to char.
 
+	// Dereferencing "a pointer to a pointer to a char" yields
+
 }
