@@ -26,5 +26,9 @@ int main() {
 	// p is holding the memory address of argv - the address of an array of pointer to char.
 	// Dereferencing p yields the array object argv - an array of pointer to char.
 
-	// According to K&RII A7.1 Pointer Generation, 
+	// According to K&RII A7.1 Pointer Generation, this array object is decayed 
+	// to a pointer to the first element of that array.
+
+	// argv is an array of pointer to char. So, each element of the array is a pointer to a char.
+
 }
