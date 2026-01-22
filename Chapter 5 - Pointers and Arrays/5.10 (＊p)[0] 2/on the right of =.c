@@ -12,4 +12,6 @@ int main() {
 	void * p2;
 
 	p2 = (void *)'a';
+
+	p2 = (*p)[0];
 }
