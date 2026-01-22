@@ -21,5 +21,5 @@ int main() {
 	// meaning expression1[expression2] == expression2[expression1], 
 	// *(expression1 + expression2) == *(expression2 + expression1).
 
-
+	// (*p1)[0] == *( (*p1) + 0  ).
 }
