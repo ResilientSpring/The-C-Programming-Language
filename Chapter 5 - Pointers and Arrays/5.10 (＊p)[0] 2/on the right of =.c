@@ -31,4 +31,6 @@ int main() {
 
 	// argv is an array of pointer to char. So, each element of the array is a pointer to a char.
 
+	// So, (*p) is a pointer to a pointer to a char.
+
 }
