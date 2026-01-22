@@ -37,4 +37,6 @@ int main() {
 
 	// Dereferencing "a pointer to a pointer to a char" yields the value of the pointer to a char.
 
+	// The value of "the pointer to a char" is the memory address of the char.   
+
 }
