@@ -21,5 +21,8 @@ int main() {
 	// meaning expression1[expression2] == expression2[expression1], 
 	// *(expression1 + expression2) == *(expression2 + expression1).
 
-	// (*p1)[0] == *( (*p1) + 0  ).
+	// (*p)[0] == *( (*p) + 0  ).
+
+	// p is holding the memory address of argv - the address of an array of pointer to char.
+	// Dereferencing p yields the array object argv - an array of pointer to char.
 }
