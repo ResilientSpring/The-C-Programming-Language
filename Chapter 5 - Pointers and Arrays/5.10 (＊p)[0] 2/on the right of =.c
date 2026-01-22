@@ -33,4 +33,6 @@ int main() {
 
 	// So, (*p) is a pointer to a pointer to a char.
 
+	// ( a pointer to a pointer to a char + 0 ) is still a pointer to a pointer to char.
+
 }
