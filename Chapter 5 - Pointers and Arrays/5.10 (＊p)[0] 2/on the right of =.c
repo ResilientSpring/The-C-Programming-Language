@@ -6,4 +6,8 @@ int main() {
 	char*argv[] = { "argv", "argument vector" };
 
 	char*(*p)[] = &argv;
+
+	p = &argv;
+
+
 }
