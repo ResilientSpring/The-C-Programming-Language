@@ -9,5 +9,7 @@ int main() {
 
 	p = &argv;
 
+	void * p2;
 
+	p2 = (void *)'a';
 }
