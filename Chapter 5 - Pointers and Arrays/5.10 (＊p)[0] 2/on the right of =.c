@@ -14,4 +14,9 @@ int main() {
 	p2 = (void *)'a';
 
 	p2 = (*p)[0];
+
+	// expression1[expression2] == *(expression1 + expression2).
+	// One of expression1 and expression2 must be of pointer type and the other be of integral type.
+
+
 }
