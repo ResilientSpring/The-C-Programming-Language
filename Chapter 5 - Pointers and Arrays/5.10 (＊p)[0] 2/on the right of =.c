@@ -39,4 +39,6 @@ int main() {
 
 	// The value of "the pointer to a char" is the memory address of the char.   
 
+	// *( a pointer to a pointer to a char ) yields the memory address of the char. 
+
 }
