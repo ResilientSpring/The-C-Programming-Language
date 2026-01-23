@@ -4,7 +4,7 @@ int main() {
 
 	char character = 'a';
 
-	char*pointer1 = argv;
+	char*pointer1 = character;
 
 	char**pointer2 = &pointer1;
 
