@@ -8,6 +8,8 @@ int main() {
 
 	char**pointer2 = &pointer1;
 
+	printf("Value of char variable: %c  \n", character);
+	printf("Memory address of char variable: %p \n", &character);
 	printf("Memory address of pointer1: %p \n", &pointer1);
 	printf("Value of pointer1: %p \n", pointer1);
 	printf("Memory address of pointer1: %p \n", &pointer1);
