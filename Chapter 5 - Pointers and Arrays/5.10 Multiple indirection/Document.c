@@ -2,7 +2,6 @@
 
 int main() {
 
-
-
+	char*argv[] = { "arg", "argument vector" };
 
 }
