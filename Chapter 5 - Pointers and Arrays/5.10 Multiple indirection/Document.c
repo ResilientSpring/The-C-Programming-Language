@@ -8,4 +8,5 @@ int main() {
 
 	char**pointer2 = &pointer1;
 
+
 }
