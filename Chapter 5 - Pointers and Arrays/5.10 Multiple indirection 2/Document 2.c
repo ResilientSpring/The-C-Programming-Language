@@ -2,7 +2,7 @@
 
 int main() {
 
-	char*argv[] = { "arg", "argument vector" };
+	char character = 'a';
 
 	char*pointer1 = argv;
 
