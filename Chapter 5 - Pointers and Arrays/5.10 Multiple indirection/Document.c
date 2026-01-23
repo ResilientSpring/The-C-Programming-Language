@@ -8,5 +8,5 @@ int main() {
 
 	char**pointer2 = &pointer1;
 
-
+	printf("Memory address of pointer1: %p \n", &pointer1);
 }
