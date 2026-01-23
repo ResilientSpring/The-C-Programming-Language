@@ -10,4 +10,5 @@ int main() {
 
 	printf("Memory address of pointer1: %p \n", &pointer1);
 	printf("Value of pointer2: %p \n", pointer2);
+	printf("Memory address of pointer2: %p \n", &pointer2);
 }
