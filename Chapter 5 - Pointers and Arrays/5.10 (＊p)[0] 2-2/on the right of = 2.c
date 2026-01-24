@@ -5,15 +5,17 @@ int main() {
 	// argv is an array of pointer to char.
 	char*argv[] = { "argv", "argument vector" };
 
-	char*(*p)[] = &argv;
+	// pointer1 is a pointer to an array of pointer to char.
+	char*(*pointer1)[] = &argv;
 
-	p = &argv;
+	pointer1 = &argv;
 
-	void * p2;
+	// pointer2 is a pointer to a void.
+	void * pointer2;
 
-	p2 = (void *)'a';
+	pointer2 = (void *)'a';
 
-	p2 = (*p)[0];
+	pointer2 = (*pointer1)[0];
 
 	// expression1[expression2] == *(expression1 + expression2).
 	// One of expression1 and expression2 must be of pointer type and the other be of integral type.
