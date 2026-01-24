@@ -9,7 +9,7 @@ int main() {
 
 	pointer1 = &argv;
 
-	void * p2;
+	void * pointer2;
 
 	p2 = (void *)'a';
 
