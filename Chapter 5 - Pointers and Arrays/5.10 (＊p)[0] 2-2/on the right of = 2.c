@@ -10,6 +10,7 @@ int main() {
 
 	pointer1 = &argv;
 
+	// pointer2 is a pointer to a void.
 	void * pointer2;
 
 	pointer2 = (void *)'a';
