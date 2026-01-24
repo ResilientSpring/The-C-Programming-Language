@@ -5,6 +5,7 @@ int main() {
 	// argv is an array of pointer to char.
 	char*argv[] = { "argv", "argument vector" };
 
+	// pointer1 is a pointer to an array of pointer to char.
 	char*(*pointer1)[] = &argv;
 
 	pointer1 = &argv;
