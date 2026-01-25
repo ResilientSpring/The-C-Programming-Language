@@ -15,7 +15,7 @@ int main() {
 
 //	pointer2 = (void *)'a';
 
-	pointer2 = (void*) (*pointer1)[0];
+	pointer2 = (void * ) (*pointer1)[0];
 
 	// expression1[expression2] == *(expression1 + expression2).
 	// One of expression1 and expression2 must be of pointer type and the other be of integral type.
