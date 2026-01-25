@@ -15,6 +15,7 @@ int main() {
 
 //	pointer2 = (void *)'a';
 
+	// I am not sure the type of (*pointer1)[0].
 	pointer2 = (void * ) (*pointer1)[0];
 
 	// expression1[expression2] == *(expression1 + expression2).
