@@ -30,7 +30,7 @@ int main() {
 	spot_on[2] = arrOfchar2;
 
 
-	// The type of &spot_on[0] is the memory address of the array's first element.    
+	// The type of &spot_on[0] is the memory address of the array's first element.   [1] 
 	// The type of &arrOfchar1 is char(*)[].
 	if (&spot_on[0] == &arrOfchar1)
 		printf("&spot_on[0] == &arrOfchar1   \n");
@@ -42,3 +42,6 @@ int main() {
 
 
 }
+
+// References:
+// 1. https://chatgpt.com/c/697a2632-4a3c-8321-b72a-d8662adf57ab
