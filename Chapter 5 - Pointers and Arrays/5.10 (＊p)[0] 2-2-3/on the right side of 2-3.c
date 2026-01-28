@@ -29,6 +29,8 @@ int main() {
 
 	spot_on[2] = arrOfchar2;
 
+
+	//                 The type of &arrOfchar1 is char(*)[].
 	if (&spot_on[0] == &arrOfchar1)
 		printf("&spot_on[0] == &arrOfchar1   \n");
 	else
