@@ -27,4 +27,6 @@ int main() {
 
 	spot_on[1] = arrOfchar3;
 
+	spot_on[2] = arrOfchar2;
+
 }
