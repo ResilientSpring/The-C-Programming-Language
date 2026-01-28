@@ -12,4 +12,17 @@ int main() {
 
 	printf("%p\n", &argv[0]);
 
+	char devour[][123] = { {'a', 'b', 'i', 'l', 'i', 'f', 'y'} , };
+
+
+	char * spot_on[10];
+
+	char arrOfchar1[] = {'a', 'r', 'g', 'v', '\0'};
+
+	char arrOfchar2[] = "argument vectors";
+
+	char arrOfchar3[] = "Fidelity";
+
+	spot_on[0] = arrOfchar1;
+
 }
