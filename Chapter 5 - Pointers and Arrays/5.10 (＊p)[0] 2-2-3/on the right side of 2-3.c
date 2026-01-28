@@ -30,7 +30,8 @@ int main() {
 	spot_on[2] = arrOfchar2;
 
 
-	// The type of &spot_on[0] is                 The type of &arrOfchar1 is char(*)[].
+	// The type of &spot_on[0] is the memory address of the array's first element.    
+	// The type of &arrOfchar1 is char(*)[].
 	if (&spot_on[0] == &arrOfchar1)
 		printf("&spot_on[0] == &arrOfchar1   \n");
 	else
