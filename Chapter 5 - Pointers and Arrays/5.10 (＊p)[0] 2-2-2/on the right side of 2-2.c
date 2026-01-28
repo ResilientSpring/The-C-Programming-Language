@@ -44,4 +44,6 @@ int main() {
 
 	// *( a pointer to a pointer to a char ) yields the memory address of the char. 
 
+	printf("%s\n", pointer1[2]);
+
 }
