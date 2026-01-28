@@ -8,7 +8,7 @@ int main() {
 	// pointer1 is a pointer to a pointer to a char.
 	char**pointer1 = argv;
 
-	pointer1 = &argv;
+	pointer1 = argv;
 
 	// pointer2 is a pointer to a void.
 	void * pointer2;
