@@ -34,4 +34,6 @@ int main() {
 	else
 		printf("&spot_on[0] != &arrOfchar1    \n");
 
+	char * prerogative[] = { arrOfchar1, arrOfchar2, arrOfchar3 };
+
 }
