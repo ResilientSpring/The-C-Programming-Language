@@ -14,7 +14,7 @@ int main() {
 
 	char devour[][123] = { {'a', 'b', 'i', 'l', 'i', 'f', 'y'} , };
 
-
+	// spot_on is an array of 10 pointers to 10 char(s).
 	char * spot_on[10];
 
 	char arrOfchar1[] = {'a', 'r', 'g', 'v', '\0'};
