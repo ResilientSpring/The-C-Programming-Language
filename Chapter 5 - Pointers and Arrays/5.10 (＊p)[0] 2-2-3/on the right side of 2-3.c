@@ -29,7 +29,7 @@ int main() {
 
 	spot_on[2] = arrOfchar2;
 
-	if (&spot_on[0] == arrOfchar1)
+	if (&spot_on[0] == &arrOfchar1)
 		printf("&spot_on[0] == &arrOfchar1   \n");
 	else
 		printf("&spot_on[0] != &arrOfchar1    \n");
