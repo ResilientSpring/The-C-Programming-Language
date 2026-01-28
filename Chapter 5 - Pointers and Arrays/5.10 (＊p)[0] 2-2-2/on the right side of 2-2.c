@@ -26,7 +26,7 @@ int main() {
 
 	// (*p)[0] == *( (*p) + 0  ).
 
-	// p is holding the memory address of argv - the address of an array of pointer to char.
+	// p is holding the memory address of argv[0] - the address of an array of pointer to char.
 	// Dereferencing p yields the array object argv - an array of pointer to char.
 
 	// According to K&RII A7.1 Pointer Generation, this array object is decayed 
