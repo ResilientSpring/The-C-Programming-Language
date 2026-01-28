@@ -36,4 +36,6 @@ int main() {
 
 	char * prerogative[] = { arrOfchar1, arrOfchar2, arrOfchar3 };
 
+
+
 }
