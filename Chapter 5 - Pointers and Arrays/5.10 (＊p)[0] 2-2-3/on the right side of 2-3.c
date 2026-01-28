@@ -8,8 +8,8 @@ int main() {
 	// pointer1 is a pointer to a pointer to a char.
 	char**pointer1 = argv;
 
-	printf("%s\n", pointer1[2]);
+	printf("%p\n", pointer1);
 
-	// pointer1[2] == *(pointer1 + 2)
+	printf("%p\n", &argv[0]);
 
 }
