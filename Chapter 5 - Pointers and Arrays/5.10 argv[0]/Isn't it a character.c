@@ -6,4 +6,6 @@ int main() {
 
 	printf("%c\n", argv[0]);
 
+	printf("%s\n", argv[0]);
+
 }
