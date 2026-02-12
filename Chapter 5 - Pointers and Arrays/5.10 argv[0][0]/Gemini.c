@@ -4,8 +4,9 @@ int main() {
 
 	char * argv[] = { "argv", "argument vector" };
 
-	printf("%c\n", *argv[0]);
+	printf("%c\n", *argv[0]);  // argv[0] is a pointer to a character. 
 	printf("%c\n", *argv[1]);
+	printf("%c\n", **(argv + 1) );
 
 	printf("%s\n", argv[0]);
 
