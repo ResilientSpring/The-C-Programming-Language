@@ -9,8 +9,8 @@ int main() {
 	printf("%s\n", argv[0]);
 
 	// Grab 'v' from "argv".
-	printf("%s\n", argv[1][1]);
+//	printf("%s\n", argv[1][1]);
 
-	printf("%c\n", argv[1][0]);
+	printf("%c\n", argv[1][9]);
 
 }
