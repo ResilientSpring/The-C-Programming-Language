@@ -6,8 +6,8 @@ int main() {
 
 	printf("%c\n", *argv[0]);  // argv[0] is a pointer to a character. 
 	printf("%c\n", *argv[1]);
-	printf("%c\n", **(argv + 1) );
-
+	printf("%c\n", **(argv + 1) );  // argv decays from "an array of two pointers to char" to a pointer  
+	                                // to the first element of that array of two pointers to char. 
 	printf("%s\n", argv[0]);
 
 	// Grab 'v' from "argv".
