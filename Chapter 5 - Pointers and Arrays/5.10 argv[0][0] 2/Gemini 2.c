@@ -9,5 +9,12 @@ int main(void) {
 
 	p1 = argv;
 
+
+
+
+
+
 	printf("%s\n", *(p1 + 1)  );
+
+	printf("%s\n", *(p1 + 0)  );
 }
