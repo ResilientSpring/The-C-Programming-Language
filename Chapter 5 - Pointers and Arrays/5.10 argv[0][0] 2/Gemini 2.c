@@ -17,4 +17,9 @@ int main(void) {
 	printf("%s\n", *(p1 + 1)  );
 
 	printf("%s\n", *(p1 + 0)  );
+
+	printf("%s\n", p1[0]  );
+
+	printf("%s\n", 0[p1]  );
+
 }
