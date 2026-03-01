@@ -7,6 +7,7 @@ int main(void) {
 
 	char * * p1;
 
+	p1 = argv;
 
-
+	printf("%s\n", *(p1 + 1)  );
 }
