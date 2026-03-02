@@ -7,6 +7,6 @@ int main(void) {
 
 	char * * pointer1 = argv;
 
-	printf("%c\n", *(argv + 1));
+	printf("%c\n", *(argv + 1) );
 
 }
