@@ -4,7 +4,17 @@ typedef struct MyStruct {
 
 	int x;
 
-};
+} MyClass;
+
+void set_x(MyClass * self, int i) {
+
+	self->x = i;
+
+}
+
+int get_x(MyClass * self) {
+	return self->x;
+}
 
 
 
