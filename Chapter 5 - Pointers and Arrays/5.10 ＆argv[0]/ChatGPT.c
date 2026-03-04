@@ -8,7 +8,7 @@ int main()
 
 	char k[] = "An array of characters.";
 
-	char * arr[] = { i, j };
+	char * arr[] = { i, j, k};
 
 
 }
