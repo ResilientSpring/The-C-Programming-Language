@@ -19,17 +19,7 @@ int get_x(MyClass * self) {
 
 int main()
 {
-	MyClass a;
-
-	set_x(&a, 0);
-
-	MyClass b, c, d;
-
-	set_x(&b, 1);
-	set_x(&c, 2);
-	set_x(&d, 3);
-
-	MyClass obs[4] = {a, b, c, d};
+	MyClass obs[4];
 
 	int i;
 
