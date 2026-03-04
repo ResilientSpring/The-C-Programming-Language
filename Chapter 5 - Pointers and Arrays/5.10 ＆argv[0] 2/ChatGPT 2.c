@@ -17,16 +17,22 @@ int get_x(MyClass * self) {
 }
 
 
-
 int main()
 {
-	char * i = "Hello";
+	MyClass obs[4];
 
-	char * j = "What is this?";
+	int i;
 
-	char k[] = "An array of characters.";
+	for (i = 0; i < 4; i++) {
 
-	char * arr[] = { i, j, k };
+		set_x(&obs[i], i);
+
+	}
 
 
+	for (i = 0; i < 4; i++) {
+
+		printf("obs[%d].get_x(): %d \n", i, obs[i]->get_x() );
+
+	}
 }
