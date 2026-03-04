@@ -6,43 +6,20 @@ typedef struct MyStruct {
 
 } MyClass;
 
-void set_x(MyClass * self, int i) {
-
-	self->x = i;
-
-}
-
-int get_x(MyClass * self) {
-	return self->x;
-}
-
 
 int main()
 {
 	MyClass a;
-
-	set_x(&a, 0);
-
 	MyClass b, c, d;
 
-	set_x(&b, 1);
-	set_x(&c, 2);
-	set_x(&d, 3);
+	a.x = 0;
+	b.x = 1;
+	c.x = 2;
+	d.x = 3;
 
 	MyClass obs[4] = { a, b, c, d };
 
-	int i;
+	printf("a.x = %d\n", obs[0].x);
 
-	for (i = 0; i < 4; i++) {
-
-		set_x(&obs[i], i);
-
-	}
-
-
-	for (i = 0; i < 4; i++) {
-
-		printf("obs[%d].get_x(): %d \n", i, get_x(&obs[i]));
-
-	}
+	printf("b.x = %d\n", obs[1].x);
 }
