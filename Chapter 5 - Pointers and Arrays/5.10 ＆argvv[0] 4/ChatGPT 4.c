@@ -22,4 +22,8 @@ int main()
 	printf("a.x = %d\n", obs[0].x);
 
 	printf("b.x = %d\n", obs[1].x);
+
+	printf("c.x = %d\n", &obs[2].x);
+
+	printf("d.x = %d\n", &obs[3].x);
 }
