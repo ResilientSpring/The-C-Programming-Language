@@ -32,7 +32,7 @@ int main()
 
 	for (i = 0; i < 4; i++) {
 
-		printf("obs[%d].get_x(): %d \n", i, obs[i]->get_x() );
+		printf("obs[%d].get_x(): %d \n", i, obs[i].get_x() );
 
 	}
 }
