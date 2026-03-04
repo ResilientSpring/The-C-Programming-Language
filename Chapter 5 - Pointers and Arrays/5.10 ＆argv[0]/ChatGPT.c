@@ -6,7 +6,9 @@ int main()
 
 	char * j = "What is this?";
 
-	char * k[] = { i, j };
+	char k[] = "An array of characters.";
+
+	char * arr[] = { i, j };
 
 
 }
