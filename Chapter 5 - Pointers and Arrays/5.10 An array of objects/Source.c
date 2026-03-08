@@ -32,3 +32,5 @@ int main(void)
 
     return 0;
 }
+
+// Src: https://chatgpt.com/c/69a68288-1074-8322-9450-188fbc936ec0
