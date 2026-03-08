@@ -4,7 +4,7 @@ int main(void)
 {
     char *i = "Hello";
     char *j = "World";
-    char *k = "C language";
+    char k[] = "C language";
 
     char *arr[] = { i, j, k };
 
