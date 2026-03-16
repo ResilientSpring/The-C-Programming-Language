@@ -9,4 +9,17 @@ int main() {
 	argv[0] = "World";
 
 	printf("%s\n", argv[0]);
+
+
+
+
+
+
+	char* comparison = "reassignment";
+
+	printf("%s\n", comparison);
+
+
+
+
 }
