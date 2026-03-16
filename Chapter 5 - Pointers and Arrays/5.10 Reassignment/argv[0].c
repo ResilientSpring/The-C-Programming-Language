@@ -19,7 +19,7 @@ int main() {
 
 	printf("%s\n", comparison);
 
-
+	comparison = "new one";
 
 
 }
