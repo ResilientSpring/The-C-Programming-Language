@@ -10,3 +10,6 @@ int main()
     // *spot_on == spot_on[0]
     char a = (*spot_on)[10];
 }
+
+
+// Reference: https://gemini.google.com/app/183ee2a9d9e514c7
