@@ -11,7 +11,9 @@ int main()
     char a = (*spot_on)[10];
 
     // "If you wanted the first letter of the 10th string:"
-    a = *(spot_on + 9) + ;
+    a = *(*(spot_on + 9) + 0);
+
+    printf("%c\n", a);
 
     a = *(spot_on[9] + 0 );
 
