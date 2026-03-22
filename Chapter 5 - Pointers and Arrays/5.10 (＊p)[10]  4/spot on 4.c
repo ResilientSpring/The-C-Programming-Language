@@ -6,6 +6,8 @@ int main()
 
     // spot_on will choose the right hand side first because [] has higher precedence than *.
     char a = *(spot_on)[0];
+
+    printf("%c\n", a);
 }
 
 
