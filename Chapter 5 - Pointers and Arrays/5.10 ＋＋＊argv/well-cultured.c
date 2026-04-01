@@ -6,5 +6,5 @@ int main() {
 
 	printf("%s\n", *argv);
 
-
+	printf("%s\n", ++ * argv);
 }
