@@ -12,4 +12,5 @@ int main() {
 //  constructions like a=pa and a++ are illegal. 
 //  
 //  When an array name is passed to a function, what is passed is the location of the initial element.
-//  Within the called function, this argument is a local variable, and so an array name parameter is a pointer"
+//  Within the called function, this argument is a local variable, 
+//  and so an array name parameter is a pointer"-K&RII 5.3 Pointers and Arrrays
