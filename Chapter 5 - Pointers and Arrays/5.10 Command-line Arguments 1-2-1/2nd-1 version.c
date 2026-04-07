@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* echo command-line arguments; 2nd version */
+/* echo command-line arguments*/
 int main(int argc, char* argv[]) {
 
 	while (--argc > 0)
