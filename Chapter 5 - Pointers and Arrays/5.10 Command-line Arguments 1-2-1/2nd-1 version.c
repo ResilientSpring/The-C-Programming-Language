@@ -4,7 +4,7 @@
 int main(int argc, char* argv[]) {
 
 	while (--argc > 0)
-		printf("%s%s", *(*++argv + 1), (argc > 1) ? " " : "");
+		printf("%c%s", *(*++argv + 1), (argc > 1) ? " " : "");
 
 	printf("\n");
 
