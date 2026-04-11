@@ -13,7 +13,7 @@ int numcmp(char *, char *);
 /* sort input lines */
 int main(int argc, char * argv[]) {
 
-
+	int nlines;    // number of input lines read.
 
 
 }
