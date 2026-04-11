@@ -17,4 +17,13 @@ int main(int argc, char * argv[]) {
 
 	int numeric = 0;  // 1 if numeric sort.
 
+	if (argc > 1 && strcmp(argv[1], "-n") == 0)
+		numeric = 1;
+
+	if ( (nlines = readlines(lineptr, MAXLINES) ) >= 0)  {
+
+
+
+	}
+
 }
