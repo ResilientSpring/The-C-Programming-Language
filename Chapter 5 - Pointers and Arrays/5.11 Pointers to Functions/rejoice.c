@@ -10,7 +10,7 @@ void qsort(void *lineptr[], int left, int right, int (*comp)(void*, void*));
 
 int numcmp(char *, char *);
 
-int main() {
+int main(int argc, char * argv[]) {
 
 
 
