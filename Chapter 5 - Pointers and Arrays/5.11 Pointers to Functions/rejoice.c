@@ -15,5 +15,6 @@ int main(int argc, char * argv[]) {
 
 	int nlines;    // number of input lines read.
 
+	int numeric = 0;  // 1 if numeric sort.
 
 }
