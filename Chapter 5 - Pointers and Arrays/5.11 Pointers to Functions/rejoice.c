@@ -8,6 +8,8 @@ void writelines(char *lineptr[], int nlines);
 
 void qsort(void *lineptr[], int left, int right, int (*comp)(void*, void*));
 
+
+
 int main() {
 
 
