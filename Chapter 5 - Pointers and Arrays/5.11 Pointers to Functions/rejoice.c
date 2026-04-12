@@ -22,7 +22,7 @@ int main(int argc, char * argv[]) {
 
 	if ( (nlines = readlines(lineptr, MAXLINES) ) >= 0)  {
 
-
+		qsort( (void**) lineptr, 0, nlines-1, )
 
 	}
 
