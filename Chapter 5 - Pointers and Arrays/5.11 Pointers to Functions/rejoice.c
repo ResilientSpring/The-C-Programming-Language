@@ -32,6 +32,7 @@ int main(int argc, char * argv[]) {
 
 		printf("input too big to sort\n");
 
+		return 1;
 	}
 
 }
