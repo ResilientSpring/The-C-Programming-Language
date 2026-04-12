@@ -28,5 +28,10 @@ int main(int argc, char * argv[]) {
 
 		return 0;
 	}
+	else {
+
+		printf("input too big to sort\n");
+
+	}
 
 }
