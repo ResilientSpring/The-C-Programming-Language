@@ -13,6 +13,9 @@ double atof(char s[])
 
 	sign = (s[i] == '-') ? -1 : 1;
 
+	if (s[i] == '+' || s[i] == '-')
+		i++;
+
 }
 
 
