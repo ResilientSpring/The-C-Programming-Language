@@ -30,7 +30,17 @@ int main()
 // getline: get line into s, return length
 int getline(char s[], int lim)
 {
+	int c, i;
 
+	i = 0;
 
+	while (--lim > 0 && (c = gethar() != EOF) && c != '\n')
+		s[i++] = c;
 
+	if (c == '\n')
+		s[i++] = c;
+
+	s[i] = '\n';
+	
+	return i;
 }
