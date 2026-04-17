@@ -23,4 +23,14 @@ int main()
 			found++;
 
 		}
+
+	return found;
+}
+
+// getline: get line into s, return length
+int getline(char s[], int lim)
+{
+
+
+
 }
