@@ -45,7 +45,8 @@ int getline(char s[], int lim)
 	return i;
 }
 
-// Write a function strindex(s, t) that returns 
+// strindex(s, t) returns the position or index in the string s where the string t begins, or -1 if 
+// s doesn't contain t.
 int strindex(char s[], char t[])
 {
 
