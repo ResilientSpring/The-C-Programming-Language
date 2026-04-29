@@ -39,8 +39,10 @@ int main(int argc, char * argv[])
 
 				if (number)
 					printf("%ld:", lineno);
+				
 				printf("%s", line);
 				found++;
 			}
 		}
+	return found;
 }
