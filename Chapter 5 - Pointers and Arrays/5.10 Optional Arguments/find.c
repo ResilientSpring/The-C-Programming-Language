@@ -35,6 +35,8 @@ int main(int argc, char * argv[])
 	else 
 		while (getline(line, MAXLINE) > 0) {
 			lineno++;
-			if( (strstr(line, *argv) != NULL ) != except)
+			if ((strstr(line, *argv) != NULL) != except) {
+
+			}
 		}
 }
