@@ -25,8 +25,17 @@ int main(int argc, char * argv[])
 				break;
 
 			default:
+				printf("find: illegal option %c\n", c);
+				argc = 0;
+				found = -1;
 				break;
 			}
+	if (argc != 1)
+		printf("Usage: find -x -n pattern \n");
+	else 
+		while (getline(line, MAXLINE) > 0) {
 
+			lineno++;
 
+		}
 }
