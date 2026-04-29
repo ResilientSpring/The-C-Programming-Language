@@ -37,6 +37,9 @@ int main(int argc, char * argv[])
 			lineno++;
 			if ((strstr(line, *argv) != NULL) != except) {
 
+				if (number)
+					printf("%ld:", lineno);
+
 			}
 		}
 }
