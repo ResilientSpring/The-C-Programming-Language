@@ -34,8 +34,7 @@ int main(int argc, char * argv[])
 		printf("Usage: find -x -n pattern \n");
 	else 
 		while (getline(line, MAXLINE) > 0) {
-
 			lineno++;
-
+			if( (strstr(line, *argv) != NULL ) != except)
 		}
 }
