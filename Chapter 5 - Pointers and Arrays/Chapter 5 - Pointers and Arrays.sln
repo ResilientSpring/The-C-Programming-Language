@@ -199,7 +199,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Optional arguments deb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Optional Arguments test", "5.10 Optional Arguments test\5.10 Optional Arguments test.vcxproj", "{9D657671-7E9D-4FE1-B130-EB5E119B7AB6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Function parameter", "5.10 Function parameter\5.10 Function parameter.vcxproj", "{C79C51E5-C70A-48D4-A250-01F64090BB35}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Increment function parameter", "5.10 Function parameter\5.10 Function parameter.vcxproj", "{C79C51E5-C70A-48D4-A250-01F64090BB35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Increment function parameter", "5.10 Increment function parameter\5.10 Increment function parameter.vcxproj", "{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1001,6 +1003,14 @@ Global
 		{C79C51E5-C70A-48D4-A250-01F64090BB35}.Release|x64.Build.0 = Release|x64
 		{C79C51E5-C70A-48D4-A250-01F64090BB35}.Release|x86.ActiveCfg = Release|Win32
 		{C79C51E5-C70A-48D4-A250-01F64090BB35}.Release|x86.Build.0 = Release|Win32
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Debug|x64.ActiveCfg = Debug|x64
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Debug|x64.Build.0 = Debug|x64
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Debug|x86.Build.0 = Debug|Win32
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Release|x64.ActiveCfg = Release|x64
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Release|x64.Build.0 = Release|x64
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Release|x86.ActiveCfg = Release|Win32
+		{E90E195A-0581-45A2-9DDF-1DBCDBE42EF2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
