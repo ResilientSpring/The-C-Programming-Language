@@ -8,6 +8,8 @@ int getline(char * line, int max);
 int main(int argc, char * argv[])
 {
 
+	int i = argc;
+
 	char * p[] = argv;
 
 	char line[MAXLINE];
