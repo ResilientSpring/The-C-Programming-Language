@@ -18,8 +18,8 @@ int main(int argc, char * argv[])
 
 	int c, except = 0, number = 0, found = 0;
 
-	while (--argc > 0 && (*++argv)[0] == '-')
-		while (c = *++argv[0])
+	while (--argc > 0 && (*++p)[0] == '-')
+		while (c = *++p[0])
 			switch (c)
 			{
 			case 'x':
@@ -40,7 +40,7 @@ int main(int argc, char * argv[])
 	else
 		while (getline(line, MAXLINE) > 0) {
 			lineno++;
-			if ((strstr(line, *argv) != NULL) != except) {
+			if ((strstr(line, *p) != NULL) != except) {
 
 				if (number)
 					printf("%ld:", lineno);
