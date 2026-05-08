@@ -9,7 +9,14 @@ int main(int argc, char *argv[]) {
 
 		if( (c = *argv[i]) == '-')
 
+			switch (c)
+			{
 
+
+
+			default:
+				break;
+			}
 	}
 
 
