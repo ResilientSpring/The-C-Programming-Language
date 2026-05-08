@@ -18,7 +18,7 @@ int main(int argc, char * argv[])
 
 	int c, except = 0, number = 0, found = 0;
 
-	while (--argc > 0 && (*++p)[0] == '-')
+	while (--i > 0 && (*++p)[0] == '-')
 		while (c = *++p[0])
 			switch (c)
 			{
@@ -31,11 +31,11 @@ int main(int argc, char * argv[])
 
 			default:
 				printf("find: illegal option %c\n", c);
-				argc = 0;
+				i = 0;
 				found = -1;
 				break;
 			}
-	if (argc != 1)
+	if (i != 1)
 		printf("Usage: find -x -n pattern \n");
 	else
 		while (getline(line, MAXLINE) > 0) {
