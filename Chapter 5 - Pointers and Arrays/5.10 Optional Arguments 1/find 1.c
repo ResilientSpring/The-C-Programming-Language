@@ -24,10 +24,10 @@ int main(int argc, char * argv[])
 			switch (c)
 			{
 			case 'x':
-				except = 1;
+				except = true;
 				break;
 			case 'n':
-				number = 1;
+				number = true;
 				break;
 
 			default:
