@@ -209,6 +209,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Optional arguments 3",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Detect flag", "5.10 Detect flag\5.10 Detect flag.vcxproj", "{92F964F4-912F-481D-B5EB-73A86F75F98A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 Optional Arguments 1", "5.10 Optional Arguments 1\5.10 Optional Arguments 1.vcxproj", "{3AA73C4A-631E-4B81-8344-03F456580ABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1041,6 +1043,14 @@ Global
 		{92F964F4-912F-481D-B5EB-73A86F75F98A}.Release|x64.Build.0 = Release|x64
 		{92F964F4-912F-481D-B5EB-73A86F75F98A}.Release|x86.ActiveCfg = Release|Win32
 		{92F964F4-912F-481D-B5EB-73A86F75F98A}.Release|x86.Build.0 = Release|Win32
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Debug|x64.ActiveCfg = Debug|x64
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Debug|x64.Build.0 = Debug|x64
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Debug|x86.ActiveCfg = Debug|Win32
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Debug|x86.Build.0 = Debug|Win32
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Release|x64.ActiveCfg = Release|x64
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Release|x64.Build.0 = Release|x64
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Release|x86.ActiveCfg = Release|Win32
+		{3AA73C4A-631E-4B81-8344-03F456580ABB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
