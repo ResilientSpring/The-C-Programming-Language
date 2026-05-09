@@ -6,6 +6,8 @@ int getline(char * line, int max);
 
 enum bool{ false = 0, true = 1 };
 
+typedef enum bool bool;
+
 /* find: print lines that match pattern from 1st arg */
 int main(int argc, char * argv[])
 {
