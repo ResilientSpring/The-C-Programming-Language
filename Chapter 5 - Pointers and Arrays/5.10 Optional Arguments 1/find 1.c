@@ -4,7 +4,7 @@
 
 int getline(char * line, int max);
 
-enum bool{ false = 0, true = 1 };
+enum bool{ FALSE = 0, TRUE = 1 };
 
 typedef enum bool bool;
 
@@ -24,10 +24,10 @@ int main(int argc, char * argv[])
 			switch (c)
 			{
 			case 'x':
-				except = true;
+				except = TRUE;
 				break;
 			case 'n':
-				number = true;
+				number = TRUE;
 				break;
 
 			default:
