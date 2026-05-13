@@ -4,6 +4,10 @@
 
 int getline(char * line, int max);
 
+enum bool{ FALSE = 0, TRUE = 1 };
+
+typedef enum bool bool;
+
 /* find: print lines that match pattern from 1st arg */
 int main(int argc, char * argv[])
 {
@@ -11,17 +15,19 @@ int main(int argc, char * argv[])
 
 	long lineno = 0;
 
-	int c, except = 0, number = 0, found = 0;
+	char c;
+	
+	bool except, number, found;
 
 	while (--argc > 0 && (*++argv)[0] == '-')
-		while(c = *++argv[0])
+		while (c = *++argv[0])
 			switch (c)
 			{
 			case 'x':
-				except = 1;
+				except = TRUE;
 				break;
 			case 'n':
-				number = 1;
+				number = TRUE;
 				break;
 
 			default:
@@ -32,34 +38,17 @@ int main(int argc, char * argv[])
 			}
 	if (argc != 1)
 		printf("Usage: find -x -n pattern \n");
-	else 
+	else
 		while (getline(line, MAXLINE) > 0) {
 			lineno++;
 			if ((strstr(line, *argv) != NULL) != except) {
 
 				if (number)
 					printf("%ld:", lineno);
-				
+
 				printf("%s", line);
 				found++;
 			}
 		}
 	return found;
-}
-
-
-
-int getline(char *s, int lim) {
-	int c, i;
-
-	for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
-		s[i] = c;
-
-	if (c == '\n') {
-		s[i] = c;
-		++i;
-	}
-
-	s[i] = '\0';
-	return i;
 }
