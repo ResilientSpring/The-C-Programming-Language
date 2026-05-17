@@ -28,6 +28,13 @@ int main()
 			push(pop() + pop());
 			break;
 
+		case '*':
+			push(pop() * pop());
+			break;
+
+		case '-':
+			op2 = pop();
+
 		default:
 			break;
 		}
