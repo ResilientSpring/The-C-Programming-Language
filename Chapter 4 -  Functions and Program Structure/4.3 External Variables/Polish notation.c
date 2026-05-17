@@ -24,6 +24,10 @@ int main()
 			push(atof(s));
 			break;
 
+		case '+':
+			push(pop() + pop());
+			break;
+
 		default:
 			break;
 		}
