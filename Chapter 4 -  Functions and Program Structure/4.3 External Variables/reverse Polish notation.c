@@ -34,6 +34,15 @@ int main()
 
 		case '-':
 			op2 = pop();
+			push(pop() - op2);
+			break;
+
+		case '/':
+			op2 = pop();
+			if (op2 != 0)
+				push(pop() / op2);
+			else
+				printf("error: zero divisor\n");
 
 		default:
 			break;
