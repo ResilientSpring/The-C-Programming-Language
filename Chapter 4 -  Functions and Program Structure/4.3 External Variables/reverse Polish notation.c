@@ -85,3 +85,20 @@ double pop(void)
 		return 0.0;
 	}
 }
+
+#include <ctype.h>
+int getch(void);
+void ungetch(int);
+
+// getop: get next operator or numeric operand
+int getop(char s[])
+{
+
+	int i, c;
+
+	while ( (s[0] = c = getch() ) == ' ' || c == '\t')
+	{
+
+	}
+
+}
