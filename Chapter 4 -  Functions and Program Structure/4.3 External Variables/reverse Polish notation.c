@@ -99,7 +99,7 @@ int getop(char s[])
 	while ((s[0] = c = getch()) == ' ' || c == '\t')
 		;
 
-	s[i] = '\0';
+	s[1] = '\0';
 
 	if (!isdigit(c) && c != '.')
 		return c;  // not a number
