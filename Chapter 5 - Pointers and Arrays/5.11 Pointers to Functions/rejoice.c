@@ -41,8 +41,10 @@ int main(int argc, char * argv[]) {
 void qsort(void* v[], int left, int right, int (*comp)(void*, void*))
 {
 	int i, last;
+	void swap(void *v[], int, int);
 
 
-
+	if (left >= right)
+		return;
 }
 
