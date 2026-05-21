@@ -36,3 +36,13 @@ int main(int argc, char * argv[]) {
 	}
 
 }
+
+/* qsort: sort v[left]...v[right] into increasing order */
+void qsort(void* v[], int left, int right, int (*comp)(void*, void*))
+{
+	int i, last;
+
+
+
+}
+
