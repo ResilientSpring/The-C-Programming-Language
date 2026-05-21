@@ -7,7 +7,7 @@ int readlines(char * lineptr[], int nlines);
 void writelines(char *lineptr[], int nlines);
 
 // qsort expects an array of pointers, two integers, and a function with two pointer arguments.
-void qsort(void *lineptr[], int left, int right, int (*comp)(void*, void*));
+void qsort(void *lineptr[], int left, int right, int (*comparison)(void*, void*));
 
 int numcmp(char *, char *);
 
