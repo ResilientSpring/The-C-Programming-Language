@@ -44,7 +44,7 @@ void qsort(void* v[], int left, int right, int (*comp)(void*, void*))
 	void swap(void *v[], int, int);
 
 
-	if (left >= right)
-		return;
+	if (left >= right)   // do nothing if array contains 
+		return;          // fewer than two elements.
 }
 
