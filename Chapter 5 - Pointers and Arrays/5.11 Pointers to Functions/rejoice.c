@@ -86,11 +86,11 @@ void swap(void *v[], int i, int j)
 }
 
 /* strcmp: return < 0 if s < t, 0 if s == t, > 0 if s > t */
-int strcmp(char * s, char * t)
-{
-
-	if (*s == '\0')
-		return 0;
-
-
-}
+//int strcmp(char * s, char * t)
+//{
+//
+//	if (*s == '\0')
+//		return 0;
+//
+//
+//}
