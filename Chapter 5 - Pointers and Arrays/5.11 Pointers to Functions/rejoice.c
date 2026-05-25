@@ -84,3 +84,13 @@ void swap(void *v[], int i, int j)
 	v[i] = v[j];
 	v[j] = temp;
 }
+
+/* strcmp: return < 0 if s < t, 0 if s == t, > 0 if s > t */
+int strcmp(char * s, char * t)
+{
+
+	if (*s == '\0')
+		return 0;
+
+
+}
