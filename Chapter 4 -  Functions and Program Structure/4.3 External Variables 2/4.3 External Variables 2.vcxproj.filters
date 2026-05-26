@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="reverse Polish notation.c">
+    <ClCompile Include="reverse Polish notation 2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
