@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+#define SIZE 10
+
 int main(void)
 {
-    int x = 10;
-    int y = 0;
+    int arr[SIZE];
 
-    printf("%d\n", x / y);
+    printf("%d\n", arr[20]);
 }
