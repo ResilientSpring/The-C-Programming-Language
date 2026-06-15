@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.3 External Variables 2", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.11 The C Preprocessor (ChatGPT)", "4.11 The C Preprocessor (ChatGPT)\4.11 The C Preprocessor (ChatGPT).vcxproj", "{8572A71A-CC50-4293-A9A4-CECA5D0D3B6B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.5 Header Files", "4.5 Header Files\4.5 Header Files.vcxproj", "{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{8572A71A-CC50-4293-A9A4-CECA5D0D3B6B}.Release|x64.Build.0 = Release|x64
 		{8572A71A-CC50-4293-A9A4-CECA5D0D3B6B}.Release|x86.ActiveCfg = Release|Win32
 		{8572A71A-CC50-4293-A9A4-CECA5D0D3B6B}.Release|x86.Build.0 = Release|Win32
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Debug|x64.ActiveCfg = Debug|x64
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Debug|x64.Build.0 = Debug|x64
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Debug|x86.Build.0 = Debug|Win32
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Release|x64.ActiveCfg = Release|x64
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Release|x64.Build.0 = Release|x64
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Release|x86.ActiveCfg = Release|Win32
+		{9B9CDEBD-E579-45FD-9A98-BE3362AD5C7D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
