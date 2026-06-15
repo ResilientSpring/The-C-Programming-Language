@@ -21,6 +21,9 @@
     <ClCompile Include="getop.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc.h">
