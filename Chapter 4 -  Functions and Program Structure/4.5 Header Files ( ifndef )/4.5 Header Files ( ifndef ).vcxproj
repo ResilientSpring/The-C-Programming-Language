@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9b9cdebd-e579-45fd-9a98-be3362ad5c7d}</ProjectGuid>
-    <RootNamespace>My45HeaderFiles</RootNamespace>
+    <ProjectGuid>{07e9f3b8-9c14-4f4b-818c-9da098097648}</ProjectGuid>
+    <RootNamespace>My45HeaderFilesifndef</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
