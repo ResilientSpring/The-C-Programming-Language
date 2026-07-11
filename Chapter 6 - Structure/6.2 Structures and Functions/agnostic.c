@@ -7,7 +7,6 @@ struct point {
 
 
 /* makepoint: make a point from x and y components */
-
 struct point makepoint(int x, int y) {
 
 	struct point temp;
