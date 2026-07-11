@@ -15,3 +15,7 @@ struct Rectangle {
 	struct Point pt2;
 
 };
+
+struct Rectangle screen;
+
+
