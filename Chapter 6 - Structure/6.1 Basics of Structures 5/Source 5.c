@@ -18,4 +18,4 @@ struct Rectangle {
 
 struct Rectangle screen;
 
-
+screen.pt2.x = 1;
