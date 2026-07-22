@@ -24,9 +24,14 @@ struct point makepoint(int x, int y)
 
 }
 
+enum MyEnum
+{
+	XMAX = 1024,
+	YMAX = 768
+};
+
 struct rect screen;
 struct point middle;
-// struct point makepoint(int, int);
 
 int main() {
 
