@@ -28,4 +28,10 @@ struct rect screen;
 struct point middle;
 // struct point makepoint(int, int);
 
-screen.pt1 = makepoint(0, 0);
+int main() {
+
+
+	screen.pt1 = makepoint(0, 0);
+	screen.pt2 = makepoint(XMAX, YMAX);
+
+}
