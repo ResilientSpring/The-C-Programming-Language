@@ -21,4 +21,11 @@ struct point makepoint(int x, int y)
 	temp.y = y;
 
 	return temp;
+
 }
+
+struct rect screen;
+struct point middle;
+// struct point makepoint(int, int);
+
+screen.pt1 = makepoint(0, 0);
