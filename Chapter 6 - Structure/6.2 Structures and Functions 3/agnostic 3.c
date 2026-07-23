@@ -54,3 +54,12 @@ struct point addpoint(struct point p1, struct point p2)
 
 	return p1;
 }
+
+
+// ptinrect: return 1 if p in r, 0 if not
+int ptinrect(struct point p, struct rect r)
+{
+
+
+
+}
