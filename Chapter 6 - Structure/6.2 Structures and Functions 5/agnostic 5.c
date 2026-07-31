@@ -39,9 +39,6 @@ int main() {
 	screen.pt2 = makepoint(XMAX, YMAX);
 	middle = makepoint((screen.pt1.x + screen.pt2.y) / 2, (screen.pt1.y + screen.pt2.y) / 2);
 
-
-
-
 }
 
 
