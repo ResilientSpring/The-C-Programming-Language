@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.2 Structures and Function
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.2 Structures and Functions 4", "6.2 Structures and Functions 4\6.2 Structures and Functions 4.vcxproj", "{71D39B7C-7364-4F8B-B0E3-0AB0E1373E4D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.2 Structures and Functions 5", "6.2 Structures and Functions 5\6.2 Structures and Functions 5.vcxproj", "{F4967739-B70A-4D74-80D0-204464526BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{71D39B7C-7364-4F8B-B0E3-0AB0E1373E4D}.Release|x64.Build.0 = Release|x64
 		{71D39B7C-7364-4F8B-B0E3-0AB0E1373E4D}.Release|x86.ActiveCfg = Release|Win32
 		{71D39B7C-7364-4F8B-B0E3-0AB0E1373E4D}.Release|x86.Build.0 = Release|Win32
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Debug|x64.ActiveCfg = Debug|x64
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Debug|x64.Build.0 = Debug|x64
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Debug|x86.Build.0 = Debug|Win32
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Release|x64.ActiveCfg = Release|x64
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Release|x64.Build.0 = Release|x64
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Release|x86.ActiveCfg = Release|Win32
+		{F4967739-B70A-4D74-80D0-204464526BD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
