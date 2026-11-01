@@ -79,3 +79,12 @@ struct rect canonrect(struct rect r)
 	return temp;
 
 }
+
+int main() {
+
+	struct point origin, *pp;
+
+	pp = &origin;
+
+
+}
