@@ -12,6 +12,10 @@ int main() {
 
 	my_alert();
 
+	show_feature4 = my_alert;
 
+	show_feature4();
+
+	return 0;
 
 }
