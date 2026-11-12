@@ -19,3 +19,6 @@ int main() {
 	return 0;
 
 }
+
+
+// Reference: https://chatgpt.com/c/6af496f5-8c8c-83ee-8a62-8ae1613e1fa5
